@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "Large Language Models (LLMs) & Quantization (Q4_K_M, Q6_K)",
+    "file": "markgitup-html-large-language-models-llms-and-quantization-q4_k_m-q6_k-20260730-1040.html",
+    "timestamp": "20260730-1040",
+    "full_timestamp": "2026-07-30 10:40:19"
+  },
+  {
+    "topic": "Local AI Proxies & Privacy-Focused Inference (llama.cpp, vLLM)",
+    "file": "html/markgitup-html-local-ai-proxies-and-privacy-focused-inference-llama.cpp-vll-20260730-1059.html",
+    "timestamp": "20260730-1059",
+    "full_timestamp": "2026-07-30 10:59:33"
+  },
+  {
+    "topic": "AI in Healthcare: Diagnostics & Predictive Models",
+    "file": "html/markgitup-html-ai-in-healthcare--diagnostics-and-predictive-models-20260730-1131.html",
+    "timestamp": "20260730-1131",
+    "full_timestamp": "2026-07-30 11:31:09"
+  },
+  {
+    "topic": "AI & Creative Arts: Music, Art, and Authorship",
+    "file": "html/markgitup-html-ai-and-creative-arts--music-art-and-authorship-20260730-1202.html",
+    "timestamp": "20260730-1202",
+    "full_timestamp": "2026-07-30 12:02:08"
+  }
+]
