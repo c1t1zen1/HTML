@@ -53,6 +53,12 @@
             font-size: 0.9em;
             color: #8b949e;
         }
+        .entry .summary {
+            font-size: 0.95em;
+            color: #c9d1d9;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -73,9 +79,11 @@
                     const div = document.createElement('div');
                     div.className = 'entry';
                     const fileUrl = entry.file.startsWith('html/') ? entry.file : 'html/' + entry.file;
+                    const summary = entry.summary ? `<div class="summary">${entry.summary}</div>` : '';
                     div.innerHTML = `
                         <a href="${fileUrl}">${entry.topic}</a>
                         <div class="timestamp">${entry.full_timestamp}</div>
+                        ${summary}
                     `;
                     container.appendChild(div);
                 });
