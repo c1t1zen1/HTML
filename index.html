@@ -170,7 +170,7 @@
 <body>
     <div class="container">
         <header>
-            <button class="theme-toggle" onclick="toggleTheme()">🌙 Night Mode</button>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
             <h1>Markgitup HTML Portal</h1>
             <div class="meta">Dynamic Research Synthesis Pages | AI-Powered Trend Analysis</div>
         </header>
@@ -209,14 +209,14 @@
             const currentTheme = body.getAttribute('data-theme');
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
             body.setAttribute('data-theme', newTheme);
-            document.querySelector('.theme-toggle').textContent = newTheme === 'light' ? '🌙 Night Mode' : '☀️ Day Mode';
+            document.querySelector('.theme-toggle').textContent = newTheme === 'light' ? '🌙' : '☀️';
             localStorage.setItem('theme', newTheme);
         }
         
         // Load saved theme or default to dark
         const savedTheme = localStorage.getItem('theme') || 'dark';
         document.body.setAttribute('data-theme', savedTheme);
-        document.querySelector('.theme-toggle').textContent = savedTheme === 'light' ? '🌙 Night Mode' : '☀️ Day Mode';
+        document.querySelector('.theme-toggle').textContent = savedTheme === 'light' ? '🌙' : '☀️';
         
         // Fetch and render manifest
         fetch('manifest.json')
