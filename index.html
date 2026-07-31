@@ -11,69 +11,226 @@
             --accent-color: #58a6ff;
             --card-bg: #161b22;
             --border-color: #30363d;
+            --header-bg: #161b22;
+            --hover-bg: #21262d;
         }
+        
+        [data-theme="light"] {
+            --bg-color: #f6f8fa;
+            --text-color: #24292e;
+            --accent-color: #0366d6;
+            --card-bg: #ffffff;
+            --border-color: #d0d7de;
+            --header-bg: #ffffff;
+            --hover-bg: #f3f4f6;
+        }
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
+            padding: 20px;
         }
         header {
             text-align: center;
             border-bottom: 1px solid var(--border-color);
-            padding-bottom: 20px;
+            padding: 30px 20px;
             margin-bottom: 30px;
+            background-color: var(--header-bg);
+            position: relative;
         }
         h1 {
             color: var(--accent-color);
-            font-size: 2.2em;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .meta {
+            font-size: 1em;
+            color: var(--text-color);
+            opacity: 0.8;
+        }
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        .theme-toggle:hover {
+            background-color: var(--hover-bg);
+            transform: scale(1.05);
+        }
+        .overview-section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .overview-section h2 {
+            color: var(--accent-color);
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        .overview-section p {
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+        .entries-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
         }
         .entry {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 15px;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .entry:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
         }
         .entry a {
             color: var(--accent-color);
             text-decoration: none;
-            font-size: 1.1em;
+            font-size: 1.15em;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 10px;
+            line-height: 1.4;
         }
         .entry a:hover {
             text-decoration: underline;
         }
         .entry .timestamp {
-            font-size: 0.9em;
-            color: #8b949e;
+            font-size: 0.85em;
+            color: var(--text-color);
+            opacity: 0.7;
+            margin-bottom: 12px;
         }
         .entry .summary {
             font-size: 0.95em;
-            color: #c9d1d9;
-            margin-top: 8px;
-            line-height: 1.4;
+            color: var(--text-color);
+            line-height: 1.5;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-color);
+        }
+        .stats-bar {
+            display: flex;
+            justify-content: space-around;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 30px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: var(--accent-color);
+            display: block;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: var(--text-color);
+            opacity: 0.7;
+            border-top: 1px solid var(--border-color);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙 Night Mode</button>
             <h1>Markgitup HTML Portal</h1>
-            <div class="meta">Dynamic Research Synthesis Pages</div>
+            <div class="meta">Dynamic Research Synthesis Pages | AI-Powered Trend Analysis</div>
         </header>
-        <div id="portal-entries"></div>
+        
+        <div class="overview-section">
+            <h2>🚀 About This Portal</h2>
+            <p>This dynamic webpage synthesizes research of cutting-edge technology, AI trends, and emerging innovations. Each page represents a unique synthesis of current developments, generated through advanced AI models and real-time search data. Explore the latest insights across diverse topics from edge computing to quantum cryptography, political AI, and sustainable technology.</p>
+        </div>
+        
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-number" id="total-pages">0</span>
+                <span class="stat-label">Research Pages</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="latest-update">--</span>
+                <span class="stat-label">Latest Update</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">AI</span>
+                <span class="stat-label">Powered Synthesis</span>
+            </div>
+        </div>
+        
+        <div id="portal-entries" class="entries-container"></div>
     </div>
+    
+    <footer>
+        <p>Markgitup HTML Portal | Generated by Hermes Agent | &copy; 2026 | AI Research Synthesis Platform</p>
+    </footer>
+    
     <script>
+        // Theme toggle functionality
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            body.setAttribute('data-theme', newTheme);
+            document.querySelector('.theme-toggle').textContent = newTheme === 'light' ? '🌙 Night Mode' : '☀️ Day Mode';
+            localStorage.setItem('theme', newTheme);
+        }
+        
+        // Load saved theme or default to dark
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.body.setAttribute('data-theme', savedTheme);
+        document.querySelector('.theme-toggle').textContent = savedTheme === 'light' ? '🌙 Night Mode' : '☀️ Day Mode';
+        
+        // Fetch and render manifest
         fetch('manifest.json')
             .then(response => response.json())
             .then(data => {
+                // Sort by full_timestamp descending (newest first)
                 data.sort((a, b) => new Date(b.full_timestamp) - new Date(a.full_timestamp));
+                
+                // Update stats
+                document.getElementById('total-pages').textContent = data.length;
+                if (data.length > 0) {
+                    document.getElementById('latest-update').textContent = data[0].timestamp.split('-')[1].substring(0,2) + ':' + data[0].timestamp.split('-')[1].substring(2,4);
+                }
+                
                 const container = document.getElementById('portal-entries');
                 data.forEach(entry => {
                     const div = document.createElement('div');
@@ -82,14 +239,14 @@
                     const summary = entry.summary ? `<div class="summary">${entry.summary}</div>` : '';
                     div.innerHTML = `
                         <a href="${fileUrl}">${entry.topic}</a>
-                        <div class="timestamp">${entry.full_timestamp}</div>
+                        <div class="timestamp">📅 ${entry.full_timestamp}</div>
                         ${summary}
                     `;
                     container.appendChild(div);
                 });
             })
             .catch(err => {
-                document.getElementById('portal-entries').innerHTML = '<p>Error loading manifest.</p>';
+                document.getElementById('portal-entries').innerHTML = '<p style="text-align:center; color:red;">Error loading manifest. Please try again later.</p>';
             });
     </script>
 </body>
