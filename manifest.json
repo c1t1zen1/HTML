@@ -501,5 +501,12 @@
     "timestamp": "20260801-1226",
     "full_timestamp": "2026-08-01 12:26:20",
     "summary": "By 2026, a wave of high-stakes lawsuits\u2014including New York Times v OpenAI, Authors Guild v AI firms, Universal Music v Anthropic, and Getty v Stability AI\u2014has forced courts to confront whether AI training on copyrighted works constitutes fair use, with rulings splitting across jurisdictions and undermining the industry\u2019s \u201ctrain first, ask later\u201d model. As legal outcomes emerge, artists and creators are unionizing to demand licensing frameworks and compensation, reshaping copyright norms around generative AI in music, visual art, and authorship. These developments signal a pivotal shift where legal precedent, collective action, and emerging licensing deals are redefining the boundaries of AI training data and creative ownership."
+  },
+  {
+    "topic": "2026 Open-Source AI Models Surpass Closed-Source in Enterprise Adoption",
+    "file": "html/markgitup-html-2026-open-source-ai-models-surpass-closed-source-in-enterpri-72e1f310-20260801-1331.html",
+    "timestamp": "20260801-1331",
+    "full_timestamp": "2026-08-01 13:31:21",
+    "summary": "By 2026, open-source AI models have narrowed the performance gap with closed-source alternatives to just 1.7% on Chatbot Arena, enabling enterprises to achieve 85-90% of proprietary model performance while cutting costs by 60-80% in high-volume applications. Despite this technical parity, enterprise adoption of open-weight models has declined to 11% from 19% due to governance complexities, shifting the focus from model origin to licensing, security, and operational risk management. Organizations now prioritize a four-gate framework for model selection, recognizing that closed models remain preferable for rapid prototyping and low-volume use cases where optimization trade-offs are less critical."
   }
 ]
