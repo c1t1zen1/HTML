@@ -431,5 +431,12 @@
     "timestamp": "20260801-0046",
     "full_timestamp": "2026-08-01 00:46:19",
     "summary": "NIST's 2026 acceleration in post-quantum cryptography standardization reflects the urgent need to counter escalating quantum computing threats, with FIPS 203, 204, and 205 now finalized and ready for enterprise deployment to mitigate harvest-now-decrypt-later risks. The ongoing international PQC standardization process, including hash-based signatures and multi-party threshold cryptography, continues to evolve as organizations transition from research to production-grade quantum-resistant security. This shift underscores a critical inflection point where cryptographic agility is no longer optional but essential for safeguarding digital infrastructure against imminent quantum-enabled decryption capabilities."
+  },
+  {
+    "topic": "2026: Neural Nets Craft Infinite Game Worlds in Real Time",
+    "file": "html/markgitup-html-2026--neural-nets-craft-infinite-game-worlds-in-real-time-7bc47712-20260801-0147.html",
+    "timestamp": "20260801-0147",
+    "full_timestamp": "2026-08-01 01:47:09",
+    "summary": "In 2026, neural networks are enabling real-time, AI-driven procedural generation of infinite game worlds that adapt dynamically to player behavior, skill patterns, and progression history, moving beyond traditional noise and tilemap methods. Studios are integrating these systems into full development pipelines\u2014leveraging tools like Nvidia ACE, LLM-driven NPCs, and Unreal Engine\u2019s neural inference plugins\u2014to generate quests, level layouts, and environments on the fly, reducing production costs by an average of $10M per AAA title. This shift allows developers to translate creative goals into intelligent, responsive systems where AI not only builds worlds but continuously tailors them to individual players through plain-language design inputs and adaptive gameplay mechanics."
   }
 ]
