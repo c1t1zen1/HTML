@@ -452,5 +452,12 @@
     "timestamp": "20260801-0504",
     "full_timestamp": "2026-08-01 05:04:20",
     "summary": "The EU AI Act's full enforcement on August 2, 2026, has triggered immediate shifts in real-time content moderation, particularly around transparency obligations under Article 50 and prohibitions on AI-generated realistic depictions of identifiable individuals effective December 2026. Platforms are restructuring automated moderation systems to comply with stringent disclosure requirements for emotion recognition, political imagery, and generative AI use, while navigating the extraterritorial reach of the Brussels Effect. This enforcement wave is compelling global tech firms to overhaul AI governance frameworks or risk losing access to the EU market, with penalties reaching up to \u20ac35 million or 7% of global turnover."
+  },
+  {
+    "topic": "EU AI Act Enforcement Triggers Global Platform Moderation Shifts in 2026",
+    "file": "html/markgitup-html-eu-ai-act-enforcement-triggers-global-platform-moderation-sh-4ee6e7f1-20260801-0607.html",
+    "timestamp": "20260801-0607",
+    "full_timestamp": "2026-08-01 06:07:12",
+    "summary": "The EU AI Act\u2019s enforcement on August 2, 2026, has triggered a global recalibration of platform moderation policies, compelling social media and content-sharing services to implement watermarking for synthetic media, ban AI-generated non-consensual intimate imagery, and overhaul training data compliance by December 2. As platforms scramble to adapt guardrails before the deadline\u2014addressing bias-testing mandates, prohibited AI categories, and copyright obligations under the Digital Omnibus update\u2014many are discovering that existing moderation systems fail under rapid policy shifts, prompting urgent technical fixes to avoid penalties and align with the Act\u2019s risk-based framework. This regulatory wave is setting a de facto global standard, pushing even non-EU platforms to adopt similar safeguards to maintain access to European markets and avoid fragmented compliance burdens."
   }
 ]
