@@ -410,5 +410,12 @@
     "timestamp": "20260801-0024",
     "full_timestamp": "2026-08-01 00:24:17",
     "summary": "2026: AI-Powered Emulators Revive 8-bit/16-bit Gaming in Cloud Platforms  \nIn 2026, AI-driven emulation platforms like Antstream and Afterplay.io are transforming retro gaming by enabling natural language creation of new 8-bit and 16-bit-style games and challenges, hosted on cloud infrastructure such as Google Cloud. These systems leverage generative AI to autonomously design levels, balance gameplay, and generate leaderboards, while web-based emulation overcomes iOS Safari limitations to deliver seamless access to classic titles. As services like Evercade adjust pricing due to AI integration costs, the fusion of legacy hardware preservation with intelligent cloud tools is redefining how retro gaming is experienced, created, and sustained for both nostalgic players and new audiences."
+  },
+  {
+    "topic": "Open-Source AI Models Surpass Closed-Source in Enterprise Adoption 2026",
+    "file": "html/markgitup-html-open-source-ai-models-surpass-closed-source-in-enterprise-ad-ae6ed559-20260801-0042.html",
+    "timestamp": "20260801-0042",
+    "full_timestamp": "2026-08-01 00:42:01",
+    "summary": "Open-source AI models have surpassed closed-source alternatives in enterprise adoption by 2026, driven by superior cost efficiency, customization flexibility, and compliance control through self-hosting options for leading models like GLM-4.7, Mistral Large 3, and Qwen 3. Enterprise leaders now prioritize open models due to transparent pricing, real-time benchmarking access, and proven performance in production environments, as validated by independent benchmarks tracking 297 models. This shift reflects a strategic pivot where organizations leverage open ecosystems\u2014such as the Gemma 4, Llama 4, and Qwen 3.6 families\u2014to avoid vendor lock-in while meeting stringent data governance and scalability demands."
   }
 ]
