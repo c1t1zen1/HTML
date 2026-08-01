@@ -445,5 +445,12 @@
     "timestamp": "20260801-0256",
     "full_timestamp": "2026-08-01 02:56:58",
     "summary": "Raspberry Pi 5 enables offline LLM inference using tools like Ollama to run open-source models such as Llama 3 8B and Phi-3 Mini, supporting privacy-first edge AI applications in 2026. This advancement allows developers and hobbyists to build local smart home assistants that process language models on-device, control GPIO-connected hardware, and operate without internet or cloud dependency. Performance evaluations highlight the Raspberry Pi 5 as a viable, cost-effective platform for localized, privacy-preserving LLM inference amid growing interest in edge-based AI solutions."
+  },
+  {
+    "topic": "EU AI Act Enforcement Triggers Real-Time Moderation Shifts in 2026",
+    "file": "html/markgitup-html-eu-ai-act-enforcement-triggers-real-time-moderation-shifts-i-2858f656-20260801-0504.html",
+    "timestamp": "20260801-0504",
+    "full_timestamp": "2026-08-01 05:04:20",
+    "summary": "The EU AI Act's full enforcement on August 2, 2026, has triggered immediate shifts in real-time content moderation, particularly around transparency obligations under Article 50 and prohibitions on AI-generated realistic depictions of identifiable individuals effective December 2026. Platforms are restructuring automated moderation systems to comply with stringent disclosure requirements for emotion recognition, political imagery, and generative AI use, while navigating the extraterritorial reach of the Brussels Effect. This enforcement wave is compelling global tech firms to overhaul AI governance frameworks or risk losing access to the EU market, with penalties reaching up to \u20ac35 million or 7% of global turnover."
   }
 ]
