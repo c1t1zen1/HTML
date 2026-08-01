@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europe AI Landscape 2026: EU Act, Mistral, Sovereign Compute</title>
+    <style>
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #121212;
+            --bg-tertiary: #1e1e1e;
+            --text-primary: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            --border: #2d2d2d;
+            --radius: 8px;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        h1, h2, h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            color: var(--accent);
+            margin-top: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background-color: var(--bg-secondary);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+
+        .search-results {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .result-card {
+            background-color: var(--bg-tertiary);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            border-left: 3px solid var(--accent);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .result-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .result-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+            font-size: 1.2rem;
+        }
+
+        .result-card p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 0;
+        }
+
+        .result-card a {
+            display: inline-block;
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .result-card a:hover {
+            text-decoration: underline;
+        }
+
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .insight-card {
+            background-color: var(--bg-tertiary);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+
+        .insight-card h3 {
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
+
+        .insight-card p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .takeaways-list {
+            list-style: none;
+            margin-top: 1.5rem;
+        }
+
+        .takeaways-list li {
+            background-color: var(--bg-tertiary);
+            border-radius: var(--radius);
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            border-left: 3px solid var(--accent);
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .takeaways-list li::before {
+            content: "→";
+            color: var(--accent);
+            font-weight: bold;
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .takeaways-list li p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Europe AI Landscape 2026: EU Act, Mistral, Sovereign Compute</h1>
+
+        <section class="section">
+            <h2>Overview</h2>
+            <p>By 2026, Europe's AI ecosystem has undergone a fundamental transformation driven by the full enforcement of the EU AI Act, the rise of sovereign compute infrastructure, and the strategic positioning of open-weight models like Mistral and Apertus. This landscape reflects a deliberate divergence from the US frontier lab model and China's open-weight playbook, emphasizing regulatory compliance, data sovereignty, and regional self-reliance as core pillars of AI development and deployment.</p>
+        </section>
+
+        <section class="section">
+            <h2>Research Synthesis & Search Results</h2>
+            <div class="search-results">
+                <div class="result-card">
+                    <h3>Europe AI Landscape 2026: EU Act, Mistral, Sovereign Compute</h3>
+                    <p>Analysis of the EU AI Act enforcement timeline, AI Factories initiative, and the competitive positioning of Mistral and Apertus against US and Chinese AI strategies. Focus on post-Omnibus Annex III timelines and risk classification frameworks for high-risk, limited-risk, and minimal-risk AI systems.</p>
+                    <a href="https://explainx.ai/blog/europe-ai-landscape-sovereign-compute-eu-act-2026" target="_blank">Read more</a>
+                </div>
+                <div class="result-card">
+                    <h3>Open Source AI Licenses [2026]: Apache 2.0 to RAIL Guide</h3>
+                    <p>A source-aware framework separating copyright, model weights, code, outputs, training data, contractual obligations, and regulatory duties under the EU AI Act. Provides a version-pinned checklist for commercial use, modification, redistribution, training, and deployment region compliance.</p>
+                    <a href="https://qubittool.com/blog/open-source-ai-license-compliance-guide" target="_blank">Read more</a>
+                </div>
+                <div class="result-card">
+                    <h3>EU AI Act + Open-Source Models: Llama, Mistral, Falcon</h3>
+                    <p>Examination of Article 2(12) exemptions for GPAI providers, obligations for self-hosting and fine-tuning, and the specific risks faced by SMEs when deploying open-weight models like Llama, Mistral, and Falcon in EU-regulated environments.</p>
+                    <a href="https://compliance-kit.eu/en/knowledge/ai-act-open-source-models" target="_blank">Read more</a>
+                </div>
+                <div class="result-card">
+                    <h3>Llama 4 Is Banned in the EU: Open AI, Region-Locked</h3>
+                    <p>Critique of Llama 4's licensing model, which enforces geographic restrictions and brand control despite being labeled "open." This region-locking mechanism legally excludes EU researchers, startups, and institutions, exacerbating global inequities in AI access and contradicting open-source principles.</p>
+                    <a href="https://dionwiggins.substack.com/p/llama-4-is-banned-in-the-eu-open" target="_blank">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Key Insights & Concepts</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h3>Sovereign Compute Imperative</h3>
+                    <p>EU-hosted deployment of Mistral, Apertus, and self-hosted Llama for PII-heavy workloads is no longer optional but a regulatory necessity under the EU AI Act, driving demand for localized AI infrastructure.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>License ≠ Openness</h3>
+                    <p>Models like Llama 4 demonstrate that "open" labeling can mask restrictive terms—region locks, redistribution bans, and brand controls—that violate open-source ideals and trigger EU compliance barriers.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>GPAI Provider Accountability</h3>
+                    <p>General Purpose AI providers must now anticipate audit requirements by August 2, 2026, including documentation of which models power which products and alignment with EU AI Office expectations under the AI Act.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>Risk-Based Fragmentation</h3>
+                    <p>The post-Omnibus Annex III framework creates a tiered compliance landscape where high-risk AI (e.g., biometrics, critical infrastructure) faces stringent obligations, while minimal-risk applications benefit from lighter oversight—shaping model selection and deployment strategies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Takeaways & Next Steps</h2>
+            <ul class="takeaways-list">
+                <li><p>Prioritize EU-hosted or self-hosted open-weight models (Mistral, Apertus) for any application processing personal data to ensure compliance with sovereign compute requirements under the EU AI Act.</p></li>
+                <li><p>Conduct a license audit of all AI components—separating weights, code, outputs, and data—to identify region-locking clauses or redistribution restrictions that may trigger EU market exclusion.</p></li>
+                <li><p>Prepare for GPAI provider obligations by August 2, 2026: document model-to-product mappings, assess risk classifications, and align internal processes with EU AI Office audit expectations.</p></li>
+                <li><p>Engage with AI Factories and regional compute initiatives to access compliant infrastructure and stay aligned with Europe’s strategic AI autonomy goals.</p></li>
+            </ul>
+        </section>
+
+        <div class="footer">
+            <p>Synthesized from current research and regulatory developments in European AI policy, open-source licensing, and sovereign compute trends as of 2026.</p>
+        </div>
+    </div>
+</body>
+</html>
