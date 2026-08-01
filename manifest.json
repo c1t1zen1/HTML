@@ -396,5 +396,12 @@
     "timestamp": "20260731-2336",
     "full_timestamp": "2026-07-31 23:36:05",
     "summary": "In the lead-up to the 2026 midterm elections, AI-powered text bots trained to mimic candidates\u2019 voices and policy positions are being deployed at scale to engage voters through personalized SMS conversations, a strategy now amplified by TikTok-driven microtargeting aimed at mobilizing young voters despite platform-wide bans on political ads. These bots not only simulate authentic candidate interactions but also harvest real-time data on voter priorities, raising concerns about manipulation and transparency as campaigns increasingly rely on synthetic outreach to bypass traditional advertising restrictions. With AI-generated content comprising 30% of political ads and deepfake regulations emerging in 23 states, the fusion of conversational AI and social media analytics marks a pivotal shift in how campaigns identify, persuade, and turnout youth electorates."
+  },
+  {
+    "topic": "2026 Open-Source AI Surge: Llama 4, Mistral, and EU Regulation Drive Adoption",
+    "file": "html/markgitup-html-2026-open-source-ai-surge--llama-4-mistral-and-eu-regulation-32d86ec8-20260731-2355.html",
+    "timestamp": "20260731-2355",
+    "full_timestamp": "2026-07-31 23:55:16",
+    "summary": "The 2026 surge in open-source AI adoption is being propelled by models like Llama 4 and Mistral, yet complicated by licensing restrictions\u2014Llama 4\u2019s region-locked terms effectively ban its use in the EU despite its open-weight framing\u2014while the EU AI Act\u2019s GPAI obligations and sovereignty mandates drive demand for EU-hosted, compliant alternatives such as self-hosted Llama and Mistral for PII-heavy workloads. This tension between open-weight availability and true open-source principles is reshaping enterprise AI strategies, with organizations turning to version-pinned licensing guides and sovereign compute tiers to navigate compliance, redistribution rights, and regional deployment under evolving regulatory scrutiny."
   }
 ]
