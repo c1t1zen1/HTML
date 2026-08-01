@@ -424,5 +424,12 @@
     "timestamp": "20260801-0044",
     "full_timestamp": "2026-08-01 00:44:27",
     "summary": "In 2026, AI-driven edge computing is enabling a retro gaming renaissance through ultra-efficient 8-bit and 16-bit chip designs, exemplified by open-sourced consoles like the GameTank that leverage dual 6502 processors for audio and gameplay while integrating lightweight AI inference for adaptive difficulty and procedural content. Concurrently, advancements in low-precision AI hardware\u2014such as Nvidia\u2019s RTX Spark with 128GB unified memory supporting FP4 quantization\u2014allow massive language models to run on devices once limited to retro specifications, blurring the line between vintage aesthetics and modern intelligence. This convergence is further fueled by physical re-releases of cult 16-bit titles and new AI-optimized retro chipmakers, creating a niche where nostalgia and neural networks coexist on minimal hardware footprints."
+  },
+  {
+    "topic": "2026 NIST PQC Standardization Accelerates Amid Quantum Threat Surge",
+    "file": "html/markgitup-html-2026-nist-pqc-standardization-accelerates-amid-quantum-threa-87b2c264-20260801-0046.html",
+    "timestamp": "20260801-0046",
+    "full_timestamp": "2026-08-01 00:46:19",
+    "summary": "NIST's 2026 acceleration in post-quantum cryptography standardization reflects the urgent need to counter escalating quantum computing threats, with FIPS 203, 204, and 205 now finalized and ready for enterprise deployment to mitigate harvest-now-decrypt-later risks. The ongoing international PQC standardization process, including hash-based signatures and multi-party threshold cryptography, continues to evolve as organizations transition from research to production-grade quantum-resistant security. This shift underscores a critical inflection point where cryptographic agility is no longer optional but essential for safeguarding digital infrastructure against imminent quantum-enabled decryption capabilities."
   }
 ]
