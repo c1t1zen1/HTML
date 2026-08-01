@@ -438,5 +438,12 @@
     "timestamp": "20260801-0147",
     "full_timestamp": "2026-08-01 01:47:09",
     "summary": "In 2026, neural networks are enabling real-time, AI-driven procedural generation of infinite game worlds that adapt dynamically to player behavior, skill patterns, and progression history, moving beyond traditional noise and tilemap methods. Studios are integrating these systems into full development pipelines\u2014leveraging tools like Nvidia ACE, LLM-driven NPCs, and Unreal Engine\u2019s neural inference plugins\u2014to generate quests, level layouts, and environments on the fly, reducing production costs by an average of $10M per AAA title. This shift allows developers to translate creative goals into intelligent, responsive systems where AI not only builds worlds but continuously tailors them to individual players through plain-language design inputs and adaptive gameplay mechanics."
+  },
+  {
+    "topic": "RPi 5 Enables Offline LLM Inference for Edge AI Privacy in 2026",
+    "file": "html/markgitup-html-rpi-5-enables-offline-llm-inference-for-edge-ai-privacy-in-2-e1cd0a2f-20260801-0256.html",
+    "timestamp": "20260801-0256",
+    "full_timestamp": "2026-08-01 02:56:58",
+    "summary": "Raspberry Pi 5 enables offline LLM inference using tools like Ollama to run open-source models such as Llama 3 8B and Phi-3 Mini, supporting privacy-first edge AI applications in 2026. This advancement allows developers and hobbyists to build local smart home assistants that process language models on-device, control GPIO-connected hardware, and operate without internet or cloud dependency. Performance evaluations highlight the Raspberry Pi 5 as a viable, cost-effective platform for localized, privacy-preserving LLM inference amid growing interest in edge-based AI solutions."
   }
 ]
