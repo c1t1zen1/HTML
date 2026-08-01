@@ -389,5 +389,12 @@
     "timestamp": "20260731-2233",
     "full_timestamp": "2026-07-31 22:33:15",
     "summary": "NVIDIA's Retro AI Lab is pioneering the revival of 8-bit and 16-bit chip architectures to optimize edge machine learning, leveraging extreme codesign principles from the Rubin platform to drastically reduce inference token costs and GPU requirements for MoE models. This initiative aligns with NVIDIA's broader shift toward full-stack AI platforms, enabling local AI agent execution on personal computers and integrating legacy-inspired low-precision computing into modern AI factories for accelerated simulation and token generation. By merging retro computing efficiency with cutting-edge AI infrastructure showcased at GTC 2026 and Computex 2026, NVIDIA is redefining performance-per-watt for decentralized, real-time AI applications."
+  },
+  {
+    "topic": "2026: AI Text Bots Mobilize Youth Voters via TikTok-Driven Microtargeting",
+    "file": "html/markgitup-html-2026--ai-text-bots-mobilize-youth-voters-via-tiktok-driven-m-abddffdc-20260731-2336.html",
+    "timestamp": "20260731-2336",
+    "full_timestamp": "2026-07-31 23:36:05",
+    "summary": "In the lead-up to the 2026 midterm elections, AI-powered text bots trained to mimic candidates\u2019 voices and policy positions are being deployed at scale to engage voters through personalized SMS conversations, a strategy now amplified by TikTok-driven microtargeting aimed at mobilizing young voters despite platform-wide bans on political ads. These bots not only simulate authentic candidate interactions but also harvest real-time data on voter priorities, raising concerns about manipulation and transparency as campaigns increasingly rely on synthetic outreach to bypass traditional advertising restrictions. With AI-generated content comprising 30% of political ads and deepfake regulations emerging in 23 states, the fusion of conversational AI and social media analytics marks a pivotal shift in how campaigns identify, persuade, and turnout youth electorates."
   }
 ]
