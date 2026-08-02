@@ -564,5 +564,12 @@
     "timestamp": "20260802-0359",
     "full_timestamp": "2026-08-02 03:59:38",
     "summary": "In 2026, a landmark Imperial-Tsinghua study demonstrated that ten healthy individuals could simultaneously control two extra robotic arms using a tactile-encoded non-invasive BCI while maintaining natural hand function, marking a significant advance in human augmentation. Concurrently, Synaptrix Labs\u2019 FDA-cleared Atlas system enabled thought-controlled wheelchair navigation through non-invasive neural signaling, accelerating clinical translation by avoiding surgical implant hurdles. These developments, alongside progress from Neuralink, Paradromics, and Synchron, underscore a pivotal year where non-invasive BCIs are transitioning from lab prototypes to real-world assistive and augmentative applications."
+  },
+  {
+    "topic": "2026 EU AI Act Forces Real-Time Moderation on Global Platforms",
+    "file": "html/markgitup-html-2026-eu-ai-act-forces-real-time-moderation-on-global-platfor-de6836f2-20260802-0501.html",
+    "timestamp": "20260802-0501",
+    "full_timestamp": "2026-08-02 05:01:40",
+    "summary": "The 2026 EU AI Act enforces real-time content moderation obligations on global platforms like Hugging Face, requiring transparency in AI-generated content and imposing liability for facilitating illegal outputs, as seen in the Commission's July 2026 scrutiny of open-source model distribution. Media and publishing firms must now comply with disclosure rules for AI-assisted moderation and text-and-data-mining opt-outs, while GPAI providers face immediate accountability under Article 50 transparency mandates effective August 2, 2026. This regulatory shift aims to curb large-scale misinformation and manipulation by mandating clearer distinctions between human and AI-generated content across digital services."
   }
 ]
