@@ -536,5 +536,12 @@
     "timestamp": "20260801-1744",
     "full_timestamp": "2026-08-01 17:44:26",
     "summary": "NVIDIA\u2019s RTX Spark chip, delivering 1 PFLOP of AI compute and 128GB unified memory in a $1,799 laptop, is enabling indie developers to run 120B-parameter LLMs locally while reviving 8-bit and 16-bit computing aesthetics through lightweight, retro-inspired AI workflows. At GTC 2026 and CES 2026, NVIDIA emphasized agentic AI and open-model accessibility, empowering creators to blend vintage computing constraints with modern generative AI for video, code, and game development. This fusion is sparking a niche revival where developers emulate 8-bit/16-bit environments not for nostalgia alone, but to optimize AI inference on edge hardware with intentional minimalism."
+  },
+  {
+    "topic": "FDA Clears First Real-Time AI Tumor Growth Predictor for Oncology Clinics",
+    "file": "html/markgitup-html-fda-clears-first-real-time-ai-tumor-growth-predictor-for-onc-9f37bfd9-20260801-1846.html",
+    "timestamp": "20260801-1846",
+    "full_timestamp": "2026-08-01 18:46:27",
+    "summary": "FDA has cleared the first real-time AI tumor growth predictor for oncology clinics, marking a significant shift from diagnostic AI tools to active, dynamic treatment guidance in cancer care. This approval aligns with the agency\u2019s broader 2026 initiatives, including real-time AI clinical trial pilots with AstraZeneca and Amgen that leverage cloud-based data feeds to accelerate oncology drug development by 20-40%. The move reflects a growing regulatory embrace of AI-directed therapies, following the earlier approval of the first AI system that autonomously selects and adjusts cancer treatments based on individual tumor profiles."
   }
 ]
