@@ -557,5 +557,12 @@
     "timestamp": "20260802-0250",
     "full_timestamp": "2026-08-02 02:50:37",
     "summary": "The 2026 U.S. midterm elections have seen a surge in AI-generated political deepfakes, particularly targeting swing state voters with deceptive ads that blur the line between reality and fabrication, as exemplified by the National Republican Senatorial Committee\u2019s fabricated video of Texas Democratic Senate candidate James Talarico appearing to endorse controversial views from his past social media posts. With no federal regulations governing AI use in political messaging and only a fragmented set of untested state laws in place, campaigns are exploiting advanced generative AI tools to deploy highly realistic misinformation at scale, raising urgent concerns about electoral integrity and voter deception. Experts warn that without certified proof mechanisms and stronger oversight, the proliferation of such deepfakes could fundamentally undermine public trust in democratic processes."
+  },
+  {
+    "topic": "2026 Breakthrough: Non-Invasive BCIs Enable Thought-Controlled Prosthetics",
+    "file": "html/markgitup-html-2026-breakthrough--non-invasive-bcis-enable-thought-controll-f93a8190-20260802-0359.html",
+    "timestamp": "20260802-0359",
+    "full_timestamp": "2026-08-02 03:59:38",
+    "summary": "In 2026, a landmark Imperial-Tsinghua study demonstrated that ten healthy individuals could simultaneously control two extra robotic arms using a tactile-encoded non-invasive BCI while maintaining natural hand function, marking a significant advance in human augmentation. Concurrently, Synaptrix Labs\u2019 FDA-cleared Atlas system enabled thought-controlled wheelchair navigation through non-invasive neural signaling, accelerating clinical translation by avoiding surgical implant hurdles. These developments, alongside progress from Neuralink, Paradromics, and Synchron, underscore a pivotal year where non-invasive BCIs are transitioning from lab prototypes to real-world assistive and augmentative applications."
   }
 ]
