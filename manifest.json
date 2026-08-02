@@ -627,5 +627,12 @@
     "timestamp": "20260802-1321",
     "full_timestamp": "2026-08-02 13:21:48",
     "summary": "2026 marks a turning point in distributed AI as MIT's Federated Tiny Training Engine (FTTE) enables efficient, real-time federated learning on resource-constrained edge devices, overcoming latency and computational barriers. This advancement supports privacy-preserving model training across autonomous drones, industrial IoT, and wearables, where sensitive data remains localized while contributing to global intelligence. Optimized FL pipelines now bridge the gap between edge power and ethical AI, making real-time, decentralized training a production necessity in latency-sensitive applications."
+  },
+  {
+    "topic": "2026: AI-Powered Early Cancer Detection via Multi-Omics Data Fusion",
+    "file": "html/markgitup-html-2026--ai-powered-early-cancer-detection-via-multi-omics-data-ea048b38-20260802-1424.html",
+    "timestamp": "20260802-1424",
+    "full_timestamp": "2026-08-02 14:24:49",
+    "summary": "2026: AI-Powered Early Cancer Detection via Multi-Omics Data Fusion explores how artificial intelligence integrates genomics, transcriptomics, proteomics, metabolomics, and radiomics to enable earlier, more accurate cancer detection by uncovering complex biological patterns missed by single-layer analyses. This approach leverages multimodal AI frameworks to transform heterogeneous multi-omics and clinical data into personalized risk models, significantly improving diagnostic precision and treatment response prediction in oncology. Recent advances emphasize rigorous preprocessing, external validation, and biomarker discovery to bridge the gap between data deluge and actionable clinical decisions in precision cancer care."
   }
 ]
