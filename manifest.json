@@ -550,5 +550,12 @@
     "timestamp": "20260801-1948",
     "full_timestamp": "2026-08-01 19:48:29",
     "summary": "In 2026, major AI music labels are signing the first formal synthetic artist contracts, marking a pivotal shift as generative platforms like Suno and Udio transition from legal battles with the recording industry to structured licensing agreements that define revenue splits and opt-in use of copyrighted training data. These contracts now include critical clauses around synthetic voice protections, artist consent for voice cloning, and transparent compensation models, responding to advocacy warnings that musicians are being excluded from deals built on their creative work. As federal law remains unsettled, the music industry is reshaping authorship and rights through private contractual frameworks that attempt to balance innovation with creator control in the era of AI-generated music."
+  },
+  {
+    "topic": "2026 Election Deepfakes Surge as AI Ads Target Swing State Voters",
+    "file": "html/markgitup-html-2026-election-deepfakes-surge-as-ai-ads-target-swing-state-v-e9bef7ef-20260802-0250.html",
+    "timestamp": "20260802-0250",
+    "full_timestamp": "2026-08-02 02:50:37",
+    "summary": "The 2026 U.S. midterm elections have seen a surge in AI-generated political deepfakes, particularly targeting swing state voters with deceptive ads that blur the line between reality and fabrication, as exemplified by the National Republican Senatorial Committee\u2019s fabricated video of Texas Democratic Senate candidate James Talarico appearing to endorse controversial views from his past social media posts. With no federal regulations governing AI use in political messaging and only a fragmented set of untested state laws in place, campaigns are exploiting advanced generative AI tools to deploy highly realistic misinformation at scale, raising urgent concerns about electoral integrity and voter deception. Experts warn that without certified proof mechanisms and stronger oversight, the proliferation of such deepfakes could fundamentally undermine public trust in democratic processes."
   }
 ]
