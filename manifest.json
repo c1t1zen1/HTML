@@ -543,5 +543,12 @@
     "timestamp": "20260801-1846",
     "full_timestamp": "2026-08-01 18:46:27",
     "summary": "FDA has cleared the first real-time AI tumor growth predictor for oncology clinics, marking a significant shift from diagnostic AI tools to active, dynamic treatment guidance in cancer care. This approval aligns with the agency\u2019s broader 2026 initiatives, including real-time AI clinical trial pilots with AstraZeneca and Amgen that leverage cloud-based data feeds to accelerate oncology drug development by 20-40%. The move reflects a growing regulatory embrace of AI-directed therapies, following the earlier approval of the first AI system that autonomously selects and adjusts cancer treatments based on individual tumor profiles."
+  },
+  {
+    "topic": "2026: AI Music Labels Sign First Synthetic Artist Contracts",
+    "file": "html/markgitup-html-2026--ai-music-labels-sign-first-synthetic-artist-contracts-f7cc5366-20260801-1948.html",
+    "timestamp": "20260801-1948",
+    "full_timestamp": "2026-08-01 19:48:29",
+    "summary": "In 2026, major AI music labels are signing the first formal synthetic artist contracts, marking a pivotal shift as generative platforms like Suno and Udio transition from legal battles with the recording industry to structured licensing agreements that define revenue splits and opt-in use of copyrighted training data. These contracts now include critical clauses around synthetic voice protections, artist consent for voice cloning, and transparent compensation models, responding to advocacy warnings that musicians are being excluded from deals built on their creative work. As federal law remains unsettled, the music industry is reshaping authorship and rights through private contractual frameworks that attempt to balance innovation with creator control in the era of AI-generated music."
   }
 ]
