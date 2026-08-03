@@ -732,5 +732,12 @@
     "timestamp": "20260803-0509",
     "full_timestamp": "2026-08-03 05:09:06",
     "summary": "By spring 2026, 46 U.S. states had enacted laws targeting AI-generated political deepfakes, primarily requiring clear disclosures or banning deceptive candidate content near elections, amid growing legal challenges over First Amendment protections. The rapid spread of hyper-realistic AI-generated ads by campaigns and super PACs has intensified global concerns about election integrity, prompting urgent regulatory responses and court battles over the balance between preventing manipulation and safeguarding free speech. This crisis underscores a pivotal moment where technological capability outpaces legal frameworks, forcing democracies to redefine the boundaries of permissible political expression in the age of synthetic media."
+  },
+  {
+    "topic": "Raspberry Pi 5 Enables Offline LLM Inference at the Edge in 2026",
+    "file": "html/markgitup-html-raspberry-pi-5-enables-offline-llm-inference-at-the-edge-in--316e94f8-20260803-0611.html",
+    "timestamp": "20260803-0611",
+    "full_timestamp": "2026-08-03 06:11:06",
+    "summary": "Raspberry Pi 5 has emerged as a viable platform for offline LLM inference at the edge in 2026, enabling conversational language models like Phi-3.5 Mini and Llama 3.2 3B to run on CPU alone at 5-15 tokens per second with 8 GB of RAM. The integration of the AI HAT+ 2 accelerator and benchmarking across quantized models via Ollama and Llamafile highlights its capability to support simultaneous computer vision pipelines and sustained on-device agent workloads without cloud dependency. Despite rising costs due to global LPDDR shortages, the Pi 5 remains the most affordable credible edge LLM appliance, democratizing access to private, low-latency AI inference in controlled environments."
   }
 ]
