@@ -802,5 +802,12 @@
     "timestamp": "20260803-1543",
     "full_timestamp": "2026-08-03 15:43:15",
     "summary": "In 2026, AI avatars of banned politicians like Brazil\u2019s Jair Bolsonaro are surging in underground media as a workaround to electoral restrictions, enabling continued political messaging despite legal bans on candidacy. These synthetic surrogates\u2014deployed in campaign events and digital broadcasts\u2014are testing the limits of election law, raising urgent debates over whether AI-generated representations can function as legitimate political proxies. As 26 U.S. states scramble to regulate deepfakes in midterm elections, the use of AI avatars by barred figures highlights a growing clash between technological innovation, free speech, and electoral integrity."
+  },
+  {
+    "topic": "2026 Retro Computing Renaissance: 8-bit Chips Power Edge AI in IoT Devices",
+    "file": "html/markgitup-html-2026-retro-computing-renaissance--8-bit-chips-power-edge-ai--3bd89fd7-20260803-1645.html",
+    "timestamp": "20260803-1645",
+    "full_timestamp": "2026-08-03 16:45:17",
+    "summary": "The 2026 Retro Computing Renaissance leverages legacy 8-bit and 16-bit architectures as efficient foundations for edge AI in IoT, with Microchip\u2019s VectorBlox\u2122 Accelerator SDK enabling seamless migration from 8-bit MCU prototypes to production-ready AI workloads. Edge AI hardware like dual Edge TPU (8 TOPS) M.2 modules and Qualcomm\u2019s expanded IE\u2011IoT platform now support plug-and-play retrofits, allowing low-power, real-time inference on devices previously constrained by vintage computing limits. This revival merges nostalgic chip simplicity with modern AI acceleration, turning retro-compatible hardware into catalysts for intelligent, decentralized IoT systems."
   }
 ]
