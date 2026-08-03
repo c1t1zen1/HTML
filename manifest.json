@@ -655,5 +655,12 @@
     "timestamp": "20260802-1731",
     "full_timestamp": "2026-08-02 17:31:52",
     "summary": "AI text bots are transforming voter engagement in the 2026 election cycle by mimicking candidates\u2019 voices and policy positions to deliver personalized, real-time conversations at scale, as reported by NPR and Iowa Public Radio. These AI-powered tools are being deployed not only to boost mobilization and responsiveness but also to harvest voter data, raising concerns about effectiveness, annoyance, and ethical boundaries highlighted by WSIU and political.org. With 26 states enacting deepfake regulations and platforms like OpenAI implementing safeguards, campaigns navigate a rapidly evolving landscape where AI-driven texting offers unprecedented reach \u2014 and risk \u2014 in shaping voter behavior."
+  },
+  {
+    "topic": "Raspberry Pi 5 Powers Edge LLM Inference in 2026 Industrial IoT Deployments",
+    "file": "html/markgitup-html-raspberry-pi-5-powers-edge-llm-inference-in-2026-industrial--86ec951e-20260802-1833.html",
+    "timestamp": "20260802-1833",
+    "full_timestamp": "2026-08-02 18:33:53",
+    "summary": "In 2026, the Raspberry Pi 5 has emerged as a practical edge computing platform for local large language model inference, enabled by the $130 AI HAT+ 2 featuring a Hailo-10H accelerator and 8GB of dedicated RAM that supports models like Llama-3.2-3B without cloud reliance. Innovations such as NightRun\u2019s UEFI-based boot system allow direct LLM execution from USB or microSD storage, bypassing traditional operating systems for ultra-low-latency, offline AI interactions. These developments position the Raspberry Pi 5 as a cost-effective, deployable solution for industrial IoT applications requiring real-time language and vision processing at the edge."
   }
 ]
