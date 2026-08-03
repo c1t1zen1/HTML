@@ -683,5 +683,12 @@
     "timestamp": "20260802-2140",
     "full_timestamp": "2026-08-02 21:40:55",
     "summary": "Silicon Valley's AI lobbying surge in 2026 reflects a strategic push by OpenAI, Anthropic, Google, and other tech giants to shape federal regulation before compliance standards are locked in, with firms opening Washington offices, hiring lobbyists, and spending record amounts to influence AI policy amid rising regulatory scrutiny. This effort is unfolding against a backdrop of internal industry divisions, highlighted by Anthropic's $40M lobbying initiative contrasting with a joint letter from other major tech firms advocating for unified federal standards over fragmented state rules. Concurrently, the FTC is seeking public comment on AI accuracy policies, while congressional disclosures reveal three competing lobbying camps: AI labs and cloud providers seeking workable standards, platforms defending algorithmic products, and civil-society groups demanding strict guardrails\u2014underscoring the high-stakes battle over how AI will be governed in political campaigns and beyond."
+  },
+  {
+    "topic": "Raspberry Pi 5 Powers Offline LLM Edge Clusters in 2026 Smart Factories",
+    "file": "html/markgitup-html-raspberry-pi-5-powers-offline-llm-edge-clusters-in-2026-smar-aa792f58-20260802-2242.html",
+    "timestamp": "20260802-2242",
+    "full_timestamp": "2026-08-02 22:42:56",
+    "summary": "By 2026, Raspberry Pi 5 has evolved into a foundational edge AI platform, enabling offline LLM inference through dedicated hardware like the AI HAT+ 2, which delivers 40 TOPS via a Hailo-10H accelerator and 8GB of dedicated RAM to run models such as Llama-3.2-3B and Whisper locally without cloud dependency. This advancement allows smart factories to deploy distributed edge clusters where Pi 5 units simultaneously process real-time computer vision streams and generate human-readable insights from structured detection data, achieving token rates of 5-15 per second on CPU alone or up to 42 tokens/sec with optimized models like LFM2.5-230M under 1GB RAM. Despite rising costs from global LPDDR shortages, the Pi 5 remains the most credible and affordable LLM appliance for industrial edge use, balancing 7-watt power efficiency with sufficient performance for latency-sensitive,"
   }
 ]
