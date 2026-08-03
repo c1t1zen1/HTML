@@ -760,5 +760,12 @@
     "timestamp": "20260803-0920",
     "full_timestamp": "2026-08-03 09:20:08",
     "summary": "FTTM orchestration is enabling real-time coordination of heterogeneous autonomous swarms across air, land, sea, and space domains in 2026 defense contracts, driven by initiatives like the Air Force\u2019s SwarmOS integration and the Pentagon\u2019s $100M Orchestrator competition. These efforts, exemplified by Palladyne AI\u2019s cross-domain swarm unification and xAI\u2019s Grok integration with SpaceX, focus on achieving seamless interoperability between drones, satellites, and ground systems for adaptive, AI-driven mission execution. The trend reflects a strategic shift toward federated, low-latency command architectures that empower swarm AI to operate autonomously in contested environments."
+  },
+  {
+    "topic": "2026: Q4_K_M Quantization Enables On-Device LLMs for Real-Time Edge AI",
+    "file": "html/markgitup-html-2026--q4_k_m-quantization-enables-on-device-llms-for-real-ti-0e785d67-20260803-1022.html",
+    "timestamp": "20260803-1022",
+    "full_timestamp": "2026-08-03 10:22:09",
+    "summary": "2026: Q4_K_M Quantization Enables On-Device LLMs for Real-Time Edge AI highlights how post-training quantization techniques like Q4_K_M now allow 7B parameter large language models to run efficiently on consumer edge devices with as little as 8 GB RAM, eliminating reliance on cloud APIs. This advancement, supported by GGUF format adoption and hardware acceleration from Apple Neural Engine, Qualcomm Hexagon NPU, and MediaTek APU, enables real-time, private inference for applications governed by GDPR Article 22, as endorsed by BfDI and CNIL. Systematic evaluations across 0.5B\u201314B models confirm that Q4_K_M delivers optimal trade-offs in accuracy, latency, and resource use, making on-device LLMs viable for multi-user edge deployments via llama.cpp and Ollama."
   }
 ]
