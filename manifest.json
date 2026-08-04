@@ -844,5 +844,12 @@
     "timestamp": "20260803-2157",
     "full_timestamp": "2026-08-03 21:57:23",
     "summary": "In 2026, AI data centers are achieving a 40% reduction in emissions through widespread adoption of liquid cooling technologies, driven by the thermal limits of air cooling in high-density GPU racks exceeding 1,000W. Direct-to-chip and immersion cooling systems are now mandatory for NVIDIA GB300 deployments and gigawatt-scale AI campuses operated by Microsoft, Google, Meta, and AWS, enabling 200kW-per-rack computing while slashing power usage and water consumption. This shift is reshaping data center design economics, with the $15B liquid cooling market accelerating retrofit adoption and supporting sustainable scaling amid rising energy demands and water-use constraints."
+  },
+  {
+    "topic": "2026 AI Art Lawsuits: Who Owns AI-Generated Music and Paintings?",
+    "file": "html/markgitup-html-2026-ai-art-lawsuits--who-owns-ai-generated-music-and-painti-dce77145-20260803-2259.html",
+    "timestamp": "20260803-2259",
+    "full_timestamp": "2026-08-03 22:59:24",
+    "summary": "The 2026 AI copyright litigation landscape culminated in the U.S. Supreme Court\u2019s denial of certiorari in Thaler v. Perlmutter on March 2, affirming that AI-generated works lack human authorship and thus cannot receive copyright protection, a decision tracked in real time by the AI Copyright Lawsuits Tracker 2026. This ruling has intensified legal disputes over ownership of AI-generated music and visual art, particularly as plaintiffs including visual artists, music publishers, and authors pursue claims against LLM and image-generator providers across U.S. federal courts and key international jurisdictions. The ongoing conflict underscores a definitive shift in legal precedent: while AI tools proliferate in creative industries, copyright eligibility remains contingent on human creative control, reshaping authorship norms and liability frameworks for generative AI outputs."
   }
 ]
