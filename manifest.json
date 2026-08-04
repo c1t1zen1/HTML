@@ -837,5 +837,12 @@
     "timestamp": "20260803-2054",
     "full_timestamp": "2026-08-03 20:54:21",
     "summary": "FTTM protocols are enabling real-time coordination of autonomous agent swarms in logistics operations, allowing dynamic adaptation to supply chain disruptions through decentralized decision-making and standardized interoperability frameworks like ADL and OAIS v3.0. Enterprises are deploying these orchestrated swarms to achieve measurable gains in disruption response time and operational resilience, moving beyond isolated pilots to compliance-ready, production-scale systems. This shift reflects a broader trend where multi-agent systems are redefining enterprise workflows by transforming AI from task-specific tools into adaptive, self-organizing networks for end-to-end supply chain optimization."
+  },
+  {
+    "topic": "2026: AI Data Centers Cut Emissions 40% via Liquid Cooling Breakthroughs",
+    "file": "html/markgitup-html-2026--ai-data-centers-cut-emissions-40%-via-liquid-cooling-b-51562abb-20260803-2157.html",
+    "timestamp": "20260803-2157",
+    "full_timestamp": "2026-08-03 21:57:23",
+    "summary": "In 2026, AI data centers are achieving a 40% reduction in emissions through widespread adoption of liquid cooling technologies, driven by the thermal limits of air cooling in high-density GPU racks exceeding 1,000W. Direct-to-chip and immersion cooling systems are now mandatory for NVIDIA GB300 deployments and gigawatt-scale AI campuses operated by Microsoft, Google, Meta, and AWS, enabling 200kW-per-rack computing while slashing power usage and water consumption. This shift is reshaping data center design economics, with the $15B liquid cooling market accelerating retrofit adoption and supporting sustainable scaling amid rising energy demands and water-use constraints."
   }
 ]
