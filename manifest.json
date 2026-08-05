@@ -1117,5 +1117,12 @@
     "timestamp": "20260805-1501",
     "full_timestamp": "2026-08-05 15:01:04",
     "summary": "2026 marks a pivotal shift as open-source swarm orchestration platforms like Agency Swarm and the Swarm Protocol challenge enterprise AI monopolies by enabling scalable, role-based collaboration across thousands of parallel agents using frameworks such as OpenAI Assistants API and Claude Code\u2019s hidden Swarm system. These platforms integrate with 3k+ internet tools and support diverse use cases from creative coding to enterprise research, offering full control through transparent, benchmarked architectures. Enterprises are increasingly adopting hybrid orchestration models that combine open-source flexibility with managed services to avoid vendor lock-in while maintaining robust, production-grade multi-agent deployments."
+  },
+  {
+    "topic": "Q4_K_M Quantization Breakthrough Enables On-Device LLMs in 2026 Smartphones",
+    "file": "html/markgitup-html-q4_k_m-quantization-breakthrough-enables-on-device-llms-in-2-3c9126ea-20260805-1610.html",
+    "timestamp": "20260805-1610",
+    "full_timestamp": "2026-08-05 16:10:05",
+    "summary": "Q4_K_M quantization has emerged as a pivotal breakthrough for on-device LLM deployment in 2026 smartphones, enabling efficient inference through GGUF-formatted models like Llama 3.2B without significant performance degradation, as validated in recent mobile execution studies. This approach, favored over more aggressive 2-bit formats due to its balance of compression and accuracy, is now central to end-to-end workflows involving PTQ, Termux, and Ollama for Android deployment, while being benchmarked against Q5, Q8, and GPU offload strategies across iOS and Apple Silicon platforms. The trend reflects a industry-wide shift toward practical, quantization-aware LLM optimization for real-world mobile constraints, prioritizing usability over extreme bit-width reduction."
   }
 ]
