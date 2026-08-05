@@ -1026,5 +1026,12 @@
     "timestamp": "20260805-0126",
     "full_timestamp": "2026-08-05 01:26:51",
     "summary": "The EU AI Act\u2019s full enforcement on August 2, 2026, is catalyzing a global realignment of content moderation policies, compelling platforms to adopt mandatory transparency labels for generative AI and synthetic content while accelerating secondary legislation in jurisdictions like the UK, Australia, and Canada to restrict youth access and strengthen platform liability. As high-risk AI conformity assessments are deferred to 2027\u20132028, immediate compliance pressures focus on Article 50 obligations and generative AI disclosure, prompting multinational enterprises to overhaul moderation systems amid rising penalties of up to 7% of global turnover. This regulatory wave, documented in the June 2026 Global Digital Policy Roundup, is driving harmonization efforts across G20 nations as Brazil\u2019s Supreme Federal Court redefines intermediary liability and Canada\u2019s Digital Safety Act introduces new due diligence standards for AI-mediated harms."
+  },
+  {
+    "topic": "2026: DAO-Governed AI Models Power Decentralized Content Moderation",
+    "file": "html/markgitup-html-2026--dao-governed-ai-models-power-decentralized-content-mod-48d6440e-20260805-0233.html",
+    "timestamp": "20260805-0233",
+    "full_timestamp": "2026-08-05 02:33:52",
+    "summary": "In 2026, DAO-governed AI models are powering decentralized content moderation through autonomous agents that execute governance decisions on-chain without human intervention, leveraging verifiable AI and agent economies to ensure transparency and accountability. These AI-native DAOs automate proposal generation, treasury allocation, and protocol upgrades, redefining decentralized governance by replacing token-weighted voting with intelligent, self-evolving systems trained on community norms and real-time behavioral data. The shift marks a transition from human-led consensus to AI-managed autonomy, where trust is established through cryptographic proof of agent behavior rather than participant reputation."
   }
 ]
