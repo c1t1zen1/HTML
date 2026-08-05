@@ -1068,5 +1068,12 @@
     "timestamp": "20260805-0744",
     "full_timestamp": "2026-08-05 07:44:56",
     "summary": "In 2026, AI voice clones and text bots are being deployed in swing state voter outreach to deliver hyper-personalized, algorithmically optimized messages that mimic candidates and target persuadable voters with unprecedented precision. Campaigns leverage generative AI to simulate natural conversations at scale, raising concerns about deepfake risks and prompting 26 states to enact safeguards against deceptive political content. This shift marks the first true AI election, where synthetic voter engagement tools are central to strategy but also pose significant challenges to electoral integrity and voter autonomy."
+  },
+  {
+    "topic": "Raspberry Pi 5 Powers Real-Time Edge LLM Inference in Smart Factories",
+    "file": "html/markgitup-html-raspberry-pi-5-powers-real-time-edge-llm-inference-in-smart--e7c8500c-20260805-0846.html",
+    "timestamp": "20260805-0846",
+    "full_timestamp": "2026-08-05 08:46:58",
+    "summary": "The Raspberry Pi 5, enhanced by the newly released AI HAT+ 2 accelerator with 40 TOPS and 8GB dedicated RAM, enables real-time local inference of quantized LLMs like Llama-3.2-3B in smart factory environments, eliminating reliance on cloud APIs. This setup supports concurrent computer vision pipelines from edge cameras, delivering low-latency, privacy-preserving AI for industrial automation. Combined with Rust-based edge software stacks, the platform is emerging as a cost-effective, standardized solution for on-device generative AI in 2026 manufacturing workflows."
   }
 ]
