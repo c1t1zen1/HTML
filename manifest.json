@@ -1054,5 +1054,12 @@
     "timestamp": "20260805-0539",
     "full_timestamp": "2026-08-05 05:39:54",
     "summary": "In 2026, political campaigns are deploying AI-powered text bots that mimic candidates' voices to deliver personalized, real-time messages to voters in swing states, with firms like Vector Political sending millions of texts and generating tens of thousands of interactive conversations. These bots are being used not only for voter outreach and persuasion but also to collect data, raising concerns about impersonation, deepfake risks, and the need for safeguards amid a rapidly evolving AI-driven election landscape. As AI becomes both a central policy issue and a potent campaign tool, its use in voter engagement marks a shift toward hyper-targeted, scalable, and increasingly sophisticated political communication."
+  },
+  {
+    "topic": "2026: AI Music Collaborations Spark Copyright Lawsuits Over Training Data",
+    "file": "html/markgitup-html-2026--ai-music-collaborations-spark-copyright-lawsuits-over--68e809bf-20260805-0641.html",
+    "timestamp": "20260805-0641",
+    "full_timestamp": "2026-08-05 06:41:56",
+    "summary": "In 2026, AI music collaborations between artists and generative models like Suno and Udio have intensified copyright litigation, with courts evaluating whether training on copyrighted recordings constitutes fair use\u2014a pivotal question extending beyond music to all creative industries. Major lawsuits, including those tracked by the AI Copyright Lawsuits Tracker and Music Industry AI Lawsuits Tracker, are nearing resolution, with outcomes poised to redefine authorship, licensing, and liability for AI-generated creative works. The Sony fair-use ruling and high-stakes cases such as NYT v. OpenAI serve as bellwethers, signaling a transformative legal threshold for how AI training data is treated under copyright law across music, art, and digital authorship."
   }
 ]
