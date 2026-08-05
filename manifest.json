@@ -1103,5 +1103,12 @@
     "timestamp": "20260805-1256",
     "full_timestamp": "2026-08-05 12:56:02",
     "summary": "NIST has finalized its first three post-quantum cryptography standards\u2014FIPS 203, 204, and 205\u2014marking a critical milestone in the global effort to defend against quantum threats as adversaries increasingly harvest encrypted data for future decryption. This acceleration in standardization, driven by an eight-year evaluation process and reinforced by ongoing third-round candidate selections for digital signatures, underscores the urgency for organizations to adopt PQC algorithms before quantum computers become capable of breaking current public-key infrastructure. The 2026 landscape reflects a shift from theoretical risk to actionable migration, with joint guidance from CISA and NSA providing a six-step playbook to secure systems against the harvest-now-decrypt-later threat model."
+  },
+  {
+    "topic": "2026: Autonomous Agent Swarms Optimize Real-Time Urban Infrastructure",
+    "file": "html/markgitup-html-2026--autonomous-agent-swarms-optimize-real-time-urban-infra-7d56f485-20260805-1359.html",
+    "timestamp": "20260805-1359",
+    "full_timestamp": "2026-08-05 13:59:03",
+    "summary": "2026: Autonomous Agent Swarms Optimize Real-Time Urban Infrastructure highlights how swarm robotics and AI-driven agents are transforming city operations through decentralized coordination, real-time spatial optimization, and adaptive infrastructure monitoring. Drawing from advances in self-healing mesh networks, multi-modal sensor fusion for GPS-denied environments, and digital twin integration, these swarms enable predictive maintenance, dynamic traffic flow control, and resilient utility management without centralized oversight. The shift from reactive services to autonomous, networked urban systems is powered by edge-AI agent swarms like OpenClaw and cooperative decision-making frameworks detailed in recent spatial optimization studies."
   }
 ]
