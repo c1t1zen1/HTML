@@ -1019,5 +1019,12 @@
     "timestamp": "20260805-0017",
     "full_timestamp": "2026-08-05 00:17:50",
     "summary": "In 2026, NIST\u2019s finalized post-quantum cryptography standards\u2014ML-KEM (FIPS 203), ML-DSA (FIPS 204), and SLH-DSA (FIPS 205)\u2014are catalyzing a large-scale enterprise migration to quantum-safe systems, driven by the urgent need to defend against harvest-now-decrypt-later threats. Security teams are prioritizing implementation of these FIPS-validated algorithms across TLS, code signing, and data protection layers, leveraging Python and open-source tools for integration. This wave reflects a decisive shift from theoretical preparation to operational deployment, as organizations act now to secure electronic information against future quantum computer capabilities."
+  },
+  {
+    "topic": "EU AI Act Enforcement Triggers Global Shifts in Content Moderation Policies",
+    "file": "html/markgitup-html-eu-ai-act-enforcement-triggers-global-shifts-in-content-mode-430edc58-20260805-0126.html",
+    "timestamp": "20260805-0126",
+    "full_timestamp": "2026-08-05 01:26:51",
+    "summary": "The EU AI Act\u2019s full enforcement on August 2, 2026, is catalyzing a global realignment of content moderation policies, compelling platforms to adopt mandatory transparency labels for generative AI and synthetic content while accelerating secondary legislation in jurisdictions like the UK, Australia, and Canada to restrict youth access and strengthen platform liability. As high-risk AI conformity assessments are deferred to 2027\u20132028, immediate compliance pressures focus on Article 50 obligations and generative AI disclosure, prompting multinational enterprises to overhaul moderation systems amid rising penalties of up to 7% of global turnover. This regulatory wave, documented in the June 2026 Global Digital Policy Roundup, is driving harmonization efforts across G20 nations as Brazil\u2019s Supreme Federal Court redefines intermediary liability and Canada\u2019s Digital Safety Act introduces new due diligence standards for AI-mediated harms."
   }
 ]
