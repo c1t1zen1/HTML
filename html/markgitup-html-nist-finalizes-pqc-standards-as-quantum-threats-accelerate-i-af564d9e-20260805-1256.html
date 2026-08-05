@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Quantum Cryptography: 2026 Complete Guide to NIST Standards and Migration</title>
+    <style>
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #121212;
+            --bg-tertiary: #1e1e1e;
+            --text-primary: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --accent: #00d4ff;
+            --accent-hover: #00b8e6;
+            --border-color: #2a2a2a;
+            --success: #00c853;
+            --warning: #ff9800;
+            --error: #d32f2f;
+            --font-sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            --radius: 8px;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1, h2, h3 {
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--accent);
+            padding-bottom: 0.5rem;
+            border-left: 4px solid var(--accent);
+            padding-left: 1rem;
+            margin-top: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            color: var(--text-secondary);
+            margin-top: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            color: var(--text-secondary);
+        }
+
+        .section {
+            background-color: var(--bg-secondary);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+        }
+
+        .highlight {
+            background-color: var(--bg-tertiary);
+            border-left: 3px solid var(--accent);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 var(--radius) var(--radius) 0;
+        }
+
+        .standards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .standard-card {
+            background-color: var(--bg-tertiary);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .standard-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+            border-color: var(--accent);
+        }
+
+        .standard-card h3 {
+            color: var(--accent);
+            margin-top: 0;
+            margin-bottom: 1rem;
+            border-left: none;
+            padding-left: 0;
+        }
+
+        .standard-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .standard-card .fips {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--bg-primary);
+            font-weight: bold;
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .threat-model {
+            background-color: rgba(255, 152, 0, 0.1);
+            border: 1px solid var(--warning);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .migration-steps {
+            counter-reset: step;
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+        }
+
+        .step::before {
+            counter-increment: step;
+            content: counter(step);
+            background-color: var(--accent);
+            color: var(--bg-primary);
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-content h4 {
+            margin: 0 0 0.5rem 0;
+            color: var(--text-primary);
+        }
+
+        .step-content p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--bg-primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: bold;
+            transition: var(--transition);
+            margin-top: 1.5rem;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-hover);
+            transform: scale(1.05);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .standards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Post-Quantum Cryptography: 2026 Complete Guide to NIST Standards and Migration</h1>
+
+        <section class="section">
+            <h2>Overview</h2>
+            <p>The era of quantum-resistant cryptography has arrived. As quantum computing advances threaten to break widely used encryption algorithms like RSA and ECC, organizations must act now to protect sensitive data. The National Institute of Standards and Technology (NIST) has finalized three core post-quantum cryptography (PQC) standards after an eight-year, globally collaborative evaluation process. These standards—FIPS 203, FIPS 204, and FIPS 205—provide the first globally vetted, standardized algorithms designed to withstand attacks from both classical and quantum computers. This guide synthesizes the latest NIST guidance, CSRC updates, and industry best practices to help organizations understand the harvest-now-decrypt-later threat, identify vulnerable cryptography in their systems, and begin a structured migration to quantum-safe security.</p>
+        </section>
+
+        <section class="section">
+            <h2>Research Synthesis & Search Results</h2>
+            <p>Recent developments in 2026 confirm the maturation of the PQC standardization process. NIST has advanced nine additional candidates to the third round of the Additional Digital Signatures for PQC standardization, signaling ongoing innovation beyond the initial three standards. The CSRC continues to lead national and global efforts, providing technical resources and migration guidance. Meanwhile, authoritative guides like the ITECS 2026 Complete Guide emphasize that adversaries are already harvesting encrypted data today with the intent to decrypt it once quantum computers reach sufficient maturity—making immediate action critical, even if large-scale quantum threats remain years away.</p>
+            <div class="highlight">
+                <strong>Key Sources Synthesized:</strong> NIST PQC project page, CSRC standardization updates, NIST Internal Report 8610 (May 2026), ITECS Post-Quantum Cryptography: 2026 Complete Guide, and entangledfuture.com’s analysis of FIPS 203, 204, 205.
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Key Insights & Concepts</h2>
+            <div class="standards-grid">
+                <div class="standard-card">
+                    <div class="fips">FIPS 203</div>
+                    <h3>ML-KEM (Key Encapsulation Mechanism)</h3>
+                    <p>Based on the CRYSTALS-Kyber algorithm, ML-KEM is NIST’s primary standard for general-purpose encryption. It establishes shared secrets securely over public channels, replacing vulnerable key exchange methods like ECDH and RSA key transport. Designed for efficiency and strong security guarantees against both classical and quantum attacks.</p>
+                </div>
+                <div class="standard-card">
+                    <div class="fips">FIPS 204</div>
+                    <h3>ML-DSA (Digital Signature Algorithm)</h3>
+                    <p>Based on CRYSTALS-Dilithium, ML-DSA is NIST’s primary standard for digital signatures. It provides a robust mechanism for authentication and integrity, replacing ECDSA and RSA signatures. Optimized for performance in software and hardware, with strong resistance to known quantum and classical attacks.</p>
+                </div>
+                <div class="standard-card">
+                    <div class="fips">FIPS 205</div>
+                    <h3>SLH-DSA (Stateless Hash-Based Signature)</h3>
+                    <p>Based on the SPHINCS+ algorithm, SLH-DSA is NIST’s backup digital signature standard. It offers security based solely on hash functions, making it highly resistant to quantum attacks even if other mathematical assumptions fail. Ideal for high-security environments requiring long-term signature integrity.</p>
+                </div>
+            </div>
+            <div class="threat-model">
+                <h3>The Harvest-Now-Decrypt-Later Threat Model</h3>
+                <p>Adversaries are actively intercepting and storing encrypted communications and data today, anticipating that future quantum computers will be able to break current public-key cryptography. This means sensitive information—such as financial records, health data, government secrets, and intellectual property—could be exposed years from now, even if it is encrypted with strong algorithms today. Migration to PQC is not a future precaution; it is a present-day necessity to protect data with long-term confidentiality requirements.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Takeaways & Next Steps</h2>
+            <p>Organizations must begin migrating to NIST’s PQC standards immediately to protect against evolving threats. The migration is not a single upgrade but a strategic, phased process requiring inventory, planning, testing, and deployment. Delaying action risks exposing harvested data to future decryption.</p>
+            <div class="migration-steps">
+                <div class="step">
+                    <div class="step-content">
+                        <h4>1. Inventory Cryptographic Assets</h4>
+                        <p>Identify all instances of RSA, ECDSA, ECDH, and other quantum-vulnerable algorithms in your systems—TLS endpoints, VPNs, code-signing, digital signatures, and legacy applications. Use automated scanning tools and manual code review to build a complete inventory.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-content">
+                        <h4>2. Prioritize Based on Risk and Data Sensitivity</h4>
+                        <p>Focus first on systems protecting data with long-term confidentiality needs (e.g., healthcare, finance, government) and those with long update cycles. Prioritize TLS 1.3 endpoints and code-signing mechanisms where harvested data poses the greatest future risk.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-content">
+                        <h4>3. Test Hybrid Cryptography in Staging Environments</h4>
+                        <p>Deploy hybrid modes that combine traditional ECDHE with ML-KEM or ECDSA with ML-DSA. This ensures backward compatibility while beginning quantum resistance. Test performance, interoperability, and error handling under real-world loads before production rollout.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-content">
+                        <h4>4. Update Policies and Procurement Standards</h4>
+                        <p>Revise internal security policies, vendor contracts, and procurement requirements to mandate PQC support. Ensure new hardware and software acquisitions include roadmaps for FIPS 203, 204, and 205 compliance. Engage with vendors about their PQC integration timelines.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-content">
+                        <h4>5. Monitor NIST and CSRC for Updates</h4>
+                        <p>Stay informed about ongoing standardization efforts, including the third-round candidates for additional digital signatures. Subscribe to NIST CSRC announcements and participate in industry working groups to anticipate future algorithm updates or refinements.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-content">
+                        <h4>6. Deploy and Monitor in Production</h4>
+                        <p>Roll out PQC-enabled configurations gradually, starting with low-risk services. Monitor for compatibility issues, performance impacts, and authentication failures. Maintain logs and establish rollback procedures. Treat PQC migration as an ongoing security hygiene practice, not a one-time project.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.nist.gov/pqc" class="cta-button" target="_blank" rel="noopener">Visit NIST PQC Official Resources</a>
+        </section>
+
+        <div class="footer">
+            <p>Based on NIST, CSRC, ITECS, and industry guidance as of 2026. This page synthesizes publicly available information for educational purposes. Cryptographic implementation should follow validated libraries and official standards.</p>
+        </div>
+    </div>
+</body>
+</html>
