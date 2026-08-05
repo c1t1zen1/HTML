@@ -1012,5 +1012,12 @@
     "timestamp": "20260804-2315",
     "full_timestamp": "2026-08-04 23:15:49",
     "summary": "In 2026, AI-driven quantum trading bots have surged in dominance across financial markets, leveraging quantum computing to process over a million trades per second and outperform human traders in volatile conditions. Firms are rapidly adopting these bots\u2014such as QuantumBotX\u2014to enhance decision accuracy, optimize high-frequency strategies, and generate passive income through automated cryptocurrency and stock trading. This shift marks a transformative era where quantum-AI integration redefines speed, precision, and accessibility in algorithmic trading, minimizing human intervention while maximizing returns."
+  },
+  {
+    "topic": "2026: NIST-PQC Standards Drive Enterprise Quantum-Safe Migration Wave",
+    "file": "html/markgitup-html-2026--nist-pqc-standards-drive-enterprise-quantum-safe-migra-96e626b5-20260805-0017.html",
+    "timestamp": "20260805-0017",
+    "full_timestamp": "2026-08-05 00:17:50",
+    "summary": "In 2026, NIST\u2019s finalized post-quantum cryptography standards\u2014ML-KEM (FIPS 203), ML-DSA (FIPS 204), and SLH-DSA (FIPS 205)\u2014are catalyzing a large-scale enterprise migration to quantum-safe systems, driven by the urgent need to defend against harvest-now-decrypt-later threats. Security teams are prioritizing implementation of these FIPS-validated algorithms across TLS, code signing, and data protection layers, leveraging Python and open-source tools for integration. This wave reflects a decisive shift from theoretical preparation to operational deployment, as organizations act now to secure electronic information against future quantum computer capabilities."
   }
 ]
