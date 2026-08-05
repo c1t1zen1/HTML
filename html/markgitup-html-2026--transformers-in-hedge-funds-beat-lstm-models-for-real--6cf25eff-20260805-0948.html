@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment-Aware Stock Price Prediction with Transformer and LLM-Generated Formulaic Alpha</title>
+    <style>
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #121212;
+            --bg-tertiary: #1e1e1e;
+            --text-primary: #e0e0e0;
+            --text-secondary: #a0a0a0;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+            --accent-green: #10b981;
+            --border-radius: 12px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2.5rem;
+            background: linear-gradient(to right, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        section {
+            background-color: var(--bg-secondary);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: var(--shadow-md);
+            border-left: 4px solid var(--accent-blue);
+        }
+
+        h2 {
+            color: var(--accent-blue);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h2::before {
+            content: "▸";
+            color: var(--accent-green);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+        }
+
+        .highlight {
+            background-color: var(--bg-tertiary);
+            border-left: 3px solid var(--accent-purple);
+            padding: 1rem 1.5rem;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+
+        .insight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .insight-card {
+            background-color: var(--bg-tertiary);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            border: 1px solid rgba(59, 130, 246, 0.1);
+        }
+
+        .insight-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--accent-blue);
+        }
+
+        .insight-card h3 {
+            color: var(--accent-purple);
+            margin-bottom: 0.75rem;
+            font-size: 1.2rem;
+        }
+
+        .insight-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .research-list {
+            list-style-type: none;
+            margin-top: 1rem;
+        }
+
+        .research-list li {
+            background-color: var(--bg-tertiary);
+            margin-bottom: 0.75rem;
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            border-left: 3px solid var(--accent-green);
+            transition: var(--transition);
+        }
+
+        .research-list li:hover {
+            background-color: rgba(30, 30, 30, 0.6);
+            transform: translateX(4px);
+        }
+
+        .research-list li strong {
+            color: var(--text-primary);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .research-list li span {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .takeaway-box {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .takeaway-box h3 {
+            color: var(--accent-blue);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .takeaway-box ul {
+            list-style-type: none;
+        }
+
+        .takeaway-box li {
+            padding: 0.75rem 0;
+            border-bottom: 1px dashed rgba(59, 130, 246, 0.2);
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .takeaway-box li:last-child {
+            border-bottom: none;
+        }
+
+        .takeaway-box li::before {
+            content: "→";
+            color: var(--accent-green);
+            flex-shrink: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            .insight-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Sentiment-Aware Stock Price Prediction with Transformer and LLM-Generated Formulaic Alpha</h1>
+
+    <section>
+        <h2>Overview</h2>
+        <p>This research explores the integration of Transformer architectures with Large Language Models (LLMs) to enhance stock price prediction by incorporating sentiment-aware, formulaic alpha generation. Moving beyond traditional technical indicators, the approach leverages LLMs to dynamically synthesize adaptive trading signals from multi-source inputs — including historical price data (Open, High, Low, Close, Volume), technical indicators, and sentiment scores derived from news, social media, and corporate disclosures of both target and related companies.</p>
+        <p>The core innovation lies in using prompt-engineered LLMs to generate diverse, context-aware alphas — mathematical expressions or rules that capture predictive patterns — which are then processed by a Transformer encoder to model temporal dependencies and market regime shifts. This hybrid framework aims to improve generalization and responsiveness to evolving market conditions compared to static models.</p>
+    </section>
+
+    <section>
+        <h2>Research Synthesis & Search Results</h2>
+        <p>Recent studies demonstrate growing interest in adapting Transformer architectures for financial forecasting, particularly when augmented with external knowledge sources. The following works represent key advancements in this domain:</p>
+        <ul class="research-list">
+            <li>
+                <strong>Transformer Adaptations for Financial Sequences</strong>
+                <span>Researchers have modified the standard Transformer architecture to better handle financial time series by treating prices, volumes, and technical indicators as sequential tokens. Enhanced attention mechanisms focus on salient market events such as volatility spikes or earnings announcements, improving predictive accuracy over vanilla models.</span>
+            </li>
+            <li>
+                <strong>Hybrid CNN-Transformer Architectures</strong>
+                <span>Combining Convolutional Neural Networks with Transformers enables the model to capture both local patterns (e.g., short-term candlestick formations) via CNNs and global dependencies (e.g., seasonal trends, macroeconomic cycles) via self-attention, resulting in more robust feature extraction across time horizons.</span>
+            </li>
+            <li>
+                <strong>LLM-Generated Alpha Synthesis</strong>
+                <span>Prompt-based LLMs are employed to generate diverse, adaptive trading formulas (alphas) using structured inputs like historical OHLCV data, technical indicators (RSI, MACD, Bollinger Bands), and sentiment scores. These generated alphas serve as dynamic features, allowing the model to evolve its predictive logic based on current market narratives and cross-asset relationships.</span>
+            </li>
+            <li>
+                <strong>Neuro-Symbolic and Temporal Fusion Approaches</strong>
+                <span>Some works integrate symbolic reasoning with neural networks to enforce interpretability and logical consistency in predictions. Others employ Temporal Fusion Transformers (TFT) to explicitly model static covariates (e.g., sector, market cap), known recurring events (e.g., holidays), and time-varying inputs, improving explainability and performance on indices like NIFTY Consumer Durables.</span>
+            </li>
+            <li>
+                <strong>Hidformer and Graph-Enhanced Variants</strong>
+                <span>Novel Transformer-style architectures such as Hidformer introduce hierarchical or graph-based attention mechanisms to model interactions between stocks, sectors, or macroeconomic variables. These extensions allow the prediction system to account for spillover effects and correlated movements across financial instruments.</span>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Key Insights & Concepts</h2>
+        <div class="insight-grid">
+            <div class="insight-card">
+                <h3>Sentiment as a Leading Signal</h3>
+                <p>Sentiment scores from news, social media, and analyst reports are not merely supplementary — they often precede price movements. Integrating sentiment from related companies (e.g., suppliers, competitors) enhances predictive power by capturing indirect market influences and sector-wide trends.</p>
+            </div>
+            <div class="insight-card">
+                <h3>Dynamic Alpha Generation > Static Features</h3>
+                <p>LLM-generated alphas adapt to changing market regimes — unlike fixed technical indicators. By conditioning on current context (e.g., volatility, liquidity, news flow), the system produces relevant, non-redundant signals that reduce overfitting and improve out-of-sample performance.</p>
+            </div>
+            <div class="insight-card">
+                <h3>Transformer Attention Interprets Market Regimes</h3>
+                <p>The self-attention mechanism in Transformers learns to weigh recent volatility bursts, liquidity shocks, or macro announcements more heavily during turbulent periods, while focusing on trends and momentum in stable markets — effectively mimicking adaptive trader behavior.</p>
+            </div>
+            <div class="insight-card">
+                <h3>Hybrid Models Reduce Prediction Variance</h3>
+                <p>Combining CNNs (for local pattern detection) with Transformers (for global context) reduces variance in predictions. CNNs detect short-term reversals or breakout patterns, while Transformers assess whether these align with broader market sentiment and macro conditions.</p>
+            </div>
+            <div class="insight-card">
+                <h3>Graph Extensions Enable Cross-Asset Awareness</h3>
+                <p>Incorporating graph-based attention allows the model to consider how a stock’s movement is influenced by its peers, sector indices, or macro factors. This leads to more accurate predictions during sector rotations or contagion events, where individual stock behavior is driven by group dynamics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Takeaways & Next Steps</h2>
+        <div class="takeaway-box">
+            <h3>Practical Implications</h3>
+            <ul>
+                <li>Sentiment-aware Transformer-LLM frameworks offer a path toward more adaptive, context-sensitive financial forecasting systems that respond to narrative-driven market shifts.</li>
+                <li>LLM-generated alphas reduce reliance on hand-crafted features and enable continuous discovery of predictive patterns as market structures evolve.</li>
+                <li>Hybrid architectures (CNN-Transformer, Graph-Transformer) improve robustness by capturing multi-scale temporal and relational dependencies.</li>
+                <li>Incorporating sentiment from related entities enhances prediction accuracy by modeling indirect influences and supply-chain effects.</li>
+            </ul>
+        </div>
+        <div class="takeaway-box">
+            <h3>Future Research Directions</h3>
+            <ul>
+                <li>Exploring reinforcement learning to refine LLM prompt strategies for alpha generation based on real-time trading performance.</li>
+                <li>Integrating multimodal inputs (e.g., earnings call audio, video, filings) into the LLM pipeline for richer sentiment and contextual understanding.</li>
+                <li>Developing uncertainty-aware variants using Bayesian Transformer layers to quantify prediction confidence during high-volatility events.</li>
+                <li>Testing framework effectiveness across asset classes (crypto, forex, commodities) and varying market liquidity conditions.</li>
+                <li>Establishing benchmarks for interpretability — linking generated alphas to economically rational trading logic.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        Generated from recent arXiv, Springer, Nature, and preprint sources on Transformer-LLM hybrid models for sentiment-driven stock forecasting.
+    </footer>
+</body>
+</html>

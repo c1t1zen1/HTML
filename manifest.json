@@ -1075,5 +1075,12 @@
     "timestamp": "20260805-0846",
     "full_timestamp": "2026-08-05 08:46:58",
     "summary": "The Raspberry Pi 5, enhanced by the newly released AI HAT+ 2 accelerator with 40 TOPS and 8GB dedicated RAM, enables real-time local inference of quantized LLMs like Llama-3.2-3B in smart factory environments, eliminating reliance on cloud APIs. This setup supports concurrent computer vision pipelines from edge cameras, delivering low-latency, privacy-preserving AI for industrial automation. Combined with Rust-based edge software stacks, the platform is emerging as a cost-effective, standardized solution for on-device generative AI in 2026 manufacturing workflows."
+  },
+  {
+    "topic": "2026: Transformers in Hedge Funds Beat LSTM Models for Real-Time Price Prediction",
+    "file": "html/markgitup-html-2026--transformers-in-hedge-funds-beat-lstm-models-for-real--6cf25eff-20260805-0948.html",
+    "timestamp": "20260805-0948",
+    "full_timestamp": "2026-08-05 09:48:59",
+    "summary": "Recent research demonstrates that Transformer-based models, enhanced with sentiment-aware inputs and LLM-generated formulaic alpha, are outperforming traditional LSTM architectures in real-time stock price prediction, particularly by leveraging multi-head attention to capture complex temporal dependencies in financial data. Innovations such as hybrid Temporal Fusion Transformers and neuro-symbolic integrations are improving forecast accuracy for indices like NIFTY Consumer Durables by combining deep learning with structured feature engineering from technical indicators and sentiment scores. These advances position Transformers as the leading neural network architecture in hedge fund AI quant models for 2026, enabling more adaptive and timely market movement predictions."
   }
 ]
