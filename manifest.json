@@ -1152,5 +1152,12 @@
     "timestamp": "20260805-2021",
     "full_timestamp": "2026-08-05 20:21:10",
     "summary": "In 2026, zero-knowledge AI models are enabling verifiable, private inference on Layer-2 chains, powering decentralized governance through Self-Evolving AI Protocols that autonomously adapt rules without central oversight. These systems leverage ZK-aggregation layers to ensure censorship-resistant, modular execution of AI-driven decisions while preserving data privacy and cryptographic integrity. The integration of tokenized ownership, agent wallets, and DePIN infrastructure is creating a trustless enterprise-grade framework where AI governs blockchain operations with provable security and scalable efficiency."
+  },
+  {
+    "topic": "2026 EU AI Act Enforcement Targets Voice Cloning Abuse in Deepfakes",
+    "file": "html/markgitup-html-2026-eu-ai-act-enforcement-targets-voice-cloning-abuse-in-de-16a984dc-20260805-2126.html",
+    "timestamp": "20260805-2126",
+    "full_timestamp": "2026-08-05 21:26:11",
+    "summary": "The EU AI Act's enforcement on August 2, 2026, specifically targets voice cloning abuse in deepfakes through Article 50, mandating machine-readable watermarking, visible labeling, and clear disclosures for AI-generated audio content to combat fraud like the $25.6M deepfake scam that spurred the regulation. National market surveillance authorities, the European AI Office, and the European Data Protection Supervisor will oversee compliance and issue fines for non-transparent neural text-to-speech and voice cloning applications. This regulatory shift directly impacts AI influencers, virtual avatars, and synthetic media creators, requiring real-time transparency measures to mitigate misuse while preserving innovation in generative voice technologies."
   }
 ]
