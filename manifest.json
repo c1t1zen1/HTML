@@ -1124,5 +1124,12 @@
     "timestamp": "20260805-1610",
     "full_timestamp": "2026-08-05 16:10:05",
     "summary": "Q4_K_M quantization has emerged as a pivotal breakthrough for on-device LLM deployment in 2026 smartphones, enabling efficient inference through GGUF-formatted models like Llama 3.2B without significant performance degradation, as validated in recent mobile execution studies. This approach, favored over more aggressive 2-bit formats due to its balance of compression and accuracy, is now central to end-to-end workflows involving PTQ, Termux, and Ollama for Android deployment, while being benchmarked against Q5, Q8, and GPU offload strategies across iOS and Apple Silicon platforms. The trend reflects a industry-wide shift toward practical, quantization-aware LLM optimization for real-world mobile constraints, prioritizing usability over extreme bit-width reduction."
+  },
+  {
+    "topic": "2026: AI Text Bots Surge in Swing State Voter Mobilization Efforts",
+    "file": "html/markgitup-html-2026--ai-text-bots-surge-in-swing-state-voter-mobilization-e-b5baa497-20260805-1713.html",
+    "timestamp": "20260805-1713",
+    "full_timestamp": "2026-08-05 17:13:07",
+    "summary": "In 2026, AI-powered text bots have become a central tool in swing state voter mobilization, with campaigns deploying personalized, candidate-voiced messaging at unprecedented scale to engage voters via SMS, as highlighted by NPR and Axios. While these bots improve factual accuracy in election-related queries, persistent risks include incomplete or misleading advice on polling locations, mail-in deadlines, and voter eligibility\u2014raising national security concerns per CyberScoop and The English Chronicle. Amid growing use of generative AI in political ads and voter targeting, 26 states have enacted deepfake regulations and platforms like OpenAI are implementing safeguards, yet the surge in AI-driven outreach marks this as the first true AI election where persuasion and peril operate at machine speed."
   }
 ]
