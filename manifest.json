@@ -1278,5 +1278,12 @@
     "timestamp": "20260806-2200",
     "full_timestamp": "2026-08-06 22:00:38",
     "summary": "This research synthesis explores Apple Silicon AI Dev Tools 2026: Core ML 4.0 and NPU Acceleration Surge (AI Development Tools for Apple Silicon latest trends). Key findings from recent sources include: WWDC 2026 AI Developer Recap: Everything Apple Announced for Developers: WWDC 2026 full AI developer recap: Core AI framework, Foundation Models updates, Xcode 27 with agents, Siri 1.2T mode.... Apple Outlines Major AI and Developer Tool Updates at 2026 Platforms ...: Apple yesterday held its WWDC 2026 Platforms State of the Union, detailing a wide range of updates to its developer t.... Dive into Core AI model authoring and optimization: Dive into Core AI model authoring and optimization Dive into the complete custom model deployment workflow for Apple .... The research aggregates insights from verified publications via SearXNG metasearch, providing detailed analysis of current developments, trends, and implications in this domain."
+  },
+  {
+    "topic": "Apple M4 Ultra Powers On-Device LLMs Beyond ChatGPT-4 Turbo",
+    "file": "html/markgitup-html-apple-m4-ultra-powers-on-device-llms-beyond-chatgpt-4-turbo-c4198857-20260806-2300.html",
+    "timestamp": "20260806-2300",
+    "full_timestamp": "2026-08-06 23:00:38",
+    "summary": "This research synthesis explores Apple M4 Ultra Powers On-Device LLMs Beyond ChatGPT-4 Turbo (M Series Apple Silicon LLM Inference latest trends). Key findings from recent sources include: Apple Silicon LLM Benchmarks 2026 \u2014 Tokens per Second by Model & Chip (M1\u2013M5): Real local LLM tokens-per-second on every Apple Silicon Mac \u2014 M1, M2, M3, M4, M5 (Pro, Max, Ultra). 227 benchmarks ac.... Apple Silicon LLM Inference Benchmarks \u2014 Measured, Not Estimated: Coming next The same suite will run on every chip in the fleet as capacity allows: M4 Pro (Mac mini) (273 GB/s), M4 M.... Apple Silicon for LLMs: M3 vs M4 Max vs M4 Ultra Benchmarks and Real-World Performance - ML Journey: Apple Silicon's unified memory delivers exceptionally high bandwidth \u2014 the M4 Ultra peaks over 800 GB/s \u2014 which trans.... The research aggregates insights from verified publications via SearXNG metasearch, providing detailed analysis of current developments, trends, and implications in this domain."
   }
 ]
