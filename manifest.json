@@ -1,14 +1,21 @@
 [
   {
     "article_number": 1,
-    "topic": "Legal Tech Firms Rush to Comply with EU AI Act’s August 2026 Deadline",
+    "topic": "Legal Tech Firms Rush to Comply with EU AI Act\u2019s August 2026 Deadline",
     "file": "html/article-0001-legal-tech-firms-rush-to-comply-with-eu-ai-acts-august-2026-deadline-20260808-034417.html",
     "timestamp": "20260808-034417",
     "full_timestamp": "2026-08-08T03:44:17-07:00",
-    "summary": "Legal AI vendors scramble to meet the EU AI Act’s August 2 2026 deadline, redesigning high‑risk tools to avoid fines up to €35 M or 7 % of global turnover.",
+    "summary": "Legal AI vendors scramble to meet the EU AI Act\u2019s August 2 2026 deadline, redesigning high\u2011risk tools to avoid fines up to \u20ac35 M or 7 % of global turnover.",
     "original_topic": "AI in Legal Systems & Law Practice",
     "search_query": "EU AI Act compliance deadline August 2026 legal artificial intelligence",
     "source_count": 12,
     "tags": "AI law, EU regulation, legal tech, compliance"
+  },
+  {
+    "topic": "2026 macOS AI Stack: Apple\u2019s Neural Engine Powers Local LLMs",
+    "file": "html/markgitup-html-2026-macos-ai-stack--apple\u2019s-neural-engine-powers-local-llms-72954037-20260808-0400.html",
+    "timestamp": "20260808-0400",
+    "full_timestamp": "2026-08-08 04:00:18",
+    "summary": "This research synthesis explores 2026 macOS AI Stack: Apple\u2019s Neural Engine Powers Local LLMs (Local AI Tools & Stacks for macOS latest news). Key findings from recent sources include: Running LLMs Locally on macOS: The Complete 2026 Comparison: If you're a developer building AI-powered applications, you've probably wondered: Can I just run these models on my M.... Apple Silicon LLMs: Run AI Models on Mac (MLX, 2026): Complete guide to running LLMs locally on Apple Silicon \u2014 MLX vs llama.cpp vs Ollama, what runs on what Mac, best 202.... Ollama, vLLM, llama.cpp, MLX, LM Studio: May 2026 Updates: Local AI Runtime Update: What Shipped in Ollama, vLLM, llama.cpp, MLX, and LM Studio in May 2026 May 2026 was a heavy.... The research aggregates insights from verified publications via SearXNG metasearch, providing detailed analysis of current developments, trends, and implications in this domain."
   }
 ]
