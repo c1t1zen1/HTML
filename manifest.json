@@ -143,5 +143,17 @@
     "search_query": "AI smart home electrical fault detection 2026",
     "source_count": 0,
     "tags": "AI, Smart Home, Safety, IoT"
+  },
+  {
+    "article_number": 9,
+    "topic": "Apple’s M4 Ultra Enables 4-bit LLM Inference on Mac Studio Under 15W",
+    "file": "html/article-0009-apples-m4-ultra-enables-4-bit-llm-inference-on-mac-studio-under-15w-20260808-130104.html",
+    "timestamp": "20260808-130104",
+    "full_timestamp": "2026-08-08T13:01:04-07:00",
+    "summary": "Apple’s M4 Ultra chip enables 4-bit LLM inference on Mac Studio under 15W, redefining local AI efficiency.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "M4 Ultra 4-bit LLM inference Mac Studio power consumption August 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM quantization, Mac Studio, energy efficiency"
   }
 ]
