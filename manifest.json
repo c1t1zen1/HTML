@@ -131,5 +131,17 @@
     "search_query": "SEC 2026 autonomous AI code agents algorithmic trading disclosure requirements",
     "source_count": 10,
     "tags": "AI regulation, algorithmic trading, SEC, autonomous agents"
+  },
+  {
+    "article_number": 8,
+    "topic": "Smart Home AI Assistants Now Detect Electrical Faults in Real Time",
+    "file": "html/article-0008-smart-home-ai-assistants-now-detect-electrical-faults-in-real-time-20260808-120053.html",
+    "timestamp": "20260808-120053",
+    "full_timestamp": "2026-08-08T12:00:53-07:00",
+    "summary": "A source-led look at what is changing in AI-Powered Smart Homes & Automation—and what to watch next.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "AI smart home electrical fault detection 2026",
+    "source_count": 0,
+    "tags": "AI, Smart Home, Safety, IoT"
   }
 ]
