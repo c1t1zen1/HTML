@@ -155,5 +155,17 @@
     "search_query": "M4 Ultra 4-bit LLM inference Mac Studio power consumption August 2026",
     "source_count": 12,
     "tags": "Apple Silicon, LLM quantization, Mac Studio, energy efficiency"
+  },
+  {
+    "article_number": 10,
+    "topic": "AI Video Models Now Simulate Real-World Physics for Industrial Training",
+    "file": "html/article-0010-ai-video-models-now-simulate-real-world-physics-for-industrial-training-20260808-140108.html",
+    "timestamp": "20260808-140108",
+    "full_timestamp": "2026-08-08T14:01:08-07:00",
+    "summary": "Explore how AI video models now embed real-time physics to simulate factory environments for safer, faster industrial training.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "AI video generation physics simulation industrial training 2026",
+    "source_count": 12,
+    "tags": "AI video, physics simulation, industrial training"
   }
 ]
