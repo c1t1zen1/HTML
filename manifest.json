@@ -179,5 +179,17 @@
     "search_query": "US intelligence AI satellite imagery analysis 2026 covert operations",
     "source_count": 12,
     "tags": "AI, surveillance, satellite imagery, intelligence"
+  },
+  {
+    "article_number": 12,
+    "topic": "Federal Election Commission Pilots AI Tool to Detect Coordinated Disinformation Networks",
+    "file": "html/article-0012-federal-election-commission-pilots-ai-tool-to-detect-coordinated-disinfo-20260808-160108.html",
+    "timestamp": "20260808-160108",
+    "full_timestamp": "2026-08-08T16:01:08-07:00",
+    "summary": "The FEC's new AI pilot aims to spot coordinated disinformation in real time as deepfakes and fake news surge ahead of the 2026 midterms.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "FEC AI disinformation detection pilot 2026 election integrity",
+    "source_count": 12,
+    "tags": "AI, election integrity, disinformation, FEC"
   }
 ]
