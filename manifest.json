@@ -1460,5 +1460,12 @@
     "timestamp": "20260808-0000",
     "full_timestamp": "2026-08-08 00:00:03",
     "summary": "This research synthesis explores Apple Silicon Enables Real-Time 4-Bit LLM Inference on MacBooks (Quantized LLMs Running on Mac Hardware latest trends). Key findings from recent sources include: Run and Fine-Tune LLMs on Mac with MLX-LM 2026 | Markaicode: Run and fine-tune LLMs on Apple Silicon using MLX-LM. Covers install, quantization, LoRA fine-tuning, and serving \u2014 t.... Apple Silicon LLMs: Run AI Models on Mac (MLX, 2026): Complete guide to running LLMs locally on Apple Silicon \u2014 MLX vs llama.cpp vs Ollama, what runs on what Mac, best 202.... Local LLMs Apple Silicon Mac 2026 | M1 M2 M3 Guide: Running local LLMs on Apple Silicon Macs is far more practical in 2026 than it was a few years ago, but the experienc.... The research aggregates insights from verified publications via SearXNG metasearch, providing detailed analysis of current developments, trends, and implications in this domain."
+  },
+  {
+    "topic": "Apple M4 Ultra Enables 70B Quantized LLMs on MacBook Pros 2026",
+    "file": "html/markgitup-html-apple-m4-ultra-enables-70b-quantized-llms-on-macbook-pros-20-46702507-20260808-0100.html",
+    "timestamp": "20260808-0100",
+    "full_timestamp": "2026-08-08 01:00:12",
+    "summary": "This research synthesis explores Apple M4 Ultra Enables 70B Quantized LLMs on MacBook Pros 2026 (Quantized LLMs Running on Mac Hardware latest trends). Key findings from recent sources include: Apple Silicon LLMs: Run AI Models on Mac (MLX, 2026): The honest buying-guide table \u2014 ... and dramatically faster on time-to-first-token: The sweet spot for most developer.... Best Local LLMs for Mac in 2026 \u2014 M1 through M5 Tested | InsiderLLM: The Mac Mini M4 Pro 48GB remains the best-value setup in this tier \u2014 though \"best value\" now costs more: Apple raised.... Apple MLX in 2026: A Developer Guide to Local AI on Mac: A 2026 comparative study found MLX achieving 21% to 87% higher throughput than llama.cpp across models from Qwen3-0.6.... The research aggregates insights from verified publications via SearXNG metasearch, providing detailed analysis of current developments, trends, and implications in this domain."
   }
 ]
