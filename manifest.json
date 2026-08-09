@@ -467,5 +467,17 @@
     "search_query": "generative AI real-time earnings call transcript analysis 2026",
     "source_count": 12,
     "tags": "Generative AI, Financial Reporting, Earnings Calls, Investor Analytics"
+  },
+  {
+    "article_number": 36,
+    "topic": "Autonomous AI Code Agents Now Self-Heal Production Bugs Without Human Intervention",
+    "file": "html/article-0036-autonomous-ai-code-agents-now-self-heal-production-bugs-without-human-in-20260809-160132.html",
+    "timestamp": "20260809-160132",
+    "full_timestamp": "2026-08-09T16:01:32-07:00",
+    "summary": "Explore how AI code agents now diagnose and patch production bugs autonomously, cutting resolution time in early enterprise trials.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "autonomous AI code agents self-heal production bugs 2026",
+    "source_count": 12,
+    "tags": "AI coding, DevOps, automation, self-healing systems"
   }
 ]
