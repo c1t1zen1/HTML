@@ -215,5 +215,17 @@
     "search_query": "White House AI Task Force federal procurement standards draft 2026",
     "source_count": 12,
     "tags": "AI policy, federal procurement, White House, regulation"
+  },
+  {
+    "article_number": 15,
+    "topic": "Apple M4 Chips Enable On-Device LLM Inference for Real-Time Medical Diagnostics",
+    "file": "html/article-0015-apple-m4-chips-enable-on-device-llm-inference-for-real-time-medical-diag-20260808-190111.html",
+    "timestamp": "20260808-190111",
+    "full_timestamp": "2026-08-08T19:01:11-07:00",
+    "summary": "Apple's M4 chips enable on-device LLM inference for medical diagnostics, offering low-latency, privacy-preserving analysis of imaging and patient data without cloud transmission.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M4 on-device LLM inference medical diagnostics 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM Inference, Healthcare AI, On-Device Computing"
   }
 ]
