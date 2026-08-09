@@ -419,5 +419,17 @@
     "search_query": "Apple M4 Ultra on-device LLM fine-tuning HIPAA medical records 2026",
     "source_count": 12,
     "tags": "Apple M4, on-device AI, HIPAA compliance, medical LLMs"
+  },
+  {
+    "article_number": 32,
+    "topic": "NVIDIA Unveils Real-Time AI Video Generation for Autonomous Driving Simulations",
+    "file": "html/article-0032-nvidia-unveils-real-time-ai-video-generation-for-autonomous-driving-simu-20260809-120133.html",
+    "timestamp": "20260809-120133",
+    "full_timestamp": "2026-08-09T12:01:33-07:00",
+    "summary": "NVIDIA's new AI model generates real-time driving scenarios to accelerate autonomous vehicle training without physical test miles.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "NVIDIA AI video generation autonomous driving simulation 2026",
+    "source_count": 12,
+    "tags": "AI video generation, autonomous vehicles, NVIDIA, simulation"
   }
 ]
