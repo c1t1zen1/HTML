@@ -455,5 +455,17 @@
     "search_query": "FEC AI disinformation detection swing state political ads 2026",
     "source_count": 12,
     "tags": "AI, Election Security, Disinformation, FEC"
+  },
+  {
+    "article_number": 35,
+    "topic": "Generative AI Automates Real-Time Earnings Call Transcript Analysis for Investors",
+    "file": "html/article-0035-generative-ai-automates-real-time-earnings-call-transcript-analysis-for-20260809-150136.html",
+    "timestamp": "20260809-150136",
+    "full_timestamp": "2026-08-09T15:01:36-07:00",
+    "summary": "New AI tools instantly parse earnings call transcripts to extract sentiment, guidance shifts, and risk factors, enabling faster investor decision-making.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "generative AI real-time earnings call transcript analysis 2026",
+    "source_count": 12,
+    "tags": "Generative AI, Financial Reporting, Earnings Calls, Investor Analytics"
   }
 ]
