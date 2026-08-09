@@ -239,5 +239,17 @@
     "search_query": "TikTok AI auto caption short form video 2026",
     "source_count": 12,
     "tags": "AI video, social media, accessibility, LLMs"
+  },
+  {
+    "article_number": 17,
+    "topic": "Apple M4 Ultra Powers On-Device LLM Training for Medical Research Labs",
+    "file": "html/article-0017-apple-m4-ultra-powers-on-device-llm-training-for-medical-research-labs-20260808-210112.html",
+    "timestamp": "20260808-210112",
+    "full_timestamp": "2026-08-08T21:01:12-07:00",
+    "summary": "Explore how Apple's M4 Ultra enables on-device LLM training for medical research, keeping sensitive data secure within hospital premises.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple M4 Ultra on-device LLM training medical research 2026",
+    "source_count": 12,
+    "tags": "Apple M4, on-device AI, medical research, privacy"
   }
 ]
