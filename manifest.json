@@ -203,5 +203,17 @@
     "search_query": "Apple open source quantized LLM toolkit M4 Mac August 2026",
     "source_count": 12,
     "tags": "Apple, M4, LLMs, open source"
+  },
+  {
+    "article_number": 14,
+    "topic": "White House AI Task Force Releases Draft Framework for Federal AI Procurement Standards",
+    "file": "html/article-0014-white-house-ai-task-force-releases-draft-framework-for-federal-ai-procur-20260808-180117.html",
+    "timestamp": "20260808-180117",
+    "full_timestamp": "2026-08-08T18:01:17-07:00",
+    "summary": "Federal agencies gain first binding rules for AI procurement, setting new standards for bias audits, transparency, and vendor accountability in government contracts.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "White House AI Task Force federal procurement standards draft 2026",
+    "source_count": 12,
+    "tags": "AI policy, federal procurement, White House, regulation"
   }
 ]
