@@ -383,5 +383,17 @@
     "search_query": "AI video editing deepfake detection real-time broadcast 2026",
     "source_count": 12,
     "tags": "AI video editing, deepfake detection, broadcast media, disinformation"
+  },
+  {
+    "article_number": 29,
+    "topic": "EU Election Watchdogs Deploy AI to Track Deepfake Political Ads in Real Time",
+    "file": "html/article-0029-eu-election-watchdogs-deploy-ai-to-track-deepfake-political-ads-in-real-20260809-090120.html",
+    "timestamp": "20260809-090120",
+    "full_timestamp": "2026-08-09T09:01:20-07:00",
+    "summary": "European election watchdogs now use AI to spot synthetic political ads within minutes, aiming to curb coordinated disinformation before the 2026 parliamentary votes.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "EU election deepfake detection AI political ads 2026",
+    "source_count": 12,
+    "tags": "AI, election integrity, deepfakes, EU"
   }
 ]
