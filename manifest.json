@@ -227,5 +227,17 @@
     "search_query": "Apple M4 on-device LLM inference medical diagnostics 2026",
     "source_count": 12,
     "tags": "Apple Silicon, LLM Inference, Healthcare AI, On-Device Computing"
+  },
+  {
+    "article_number": 16,
+    "topic": "TikTok Launches AI Tool to Auto-Generate Short-Form Video Captions in 12 Languages",
+    "file": "html/article-0016-tiktok-launches-ai-tool-to-auto-generate-short-form-video-captions-in-12-20260808-200110.html",
+    "timestamp": "20260808-200110",
+    "full_timestamp": "2026-08-08T20:01:10-07:00",
+    "summary": "TikTok’s new on-device AI caption tool promises real-time multilingual subtitles, potentially reshaping how creators reach global audiences without manual editing.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI auto caption short form video 2026",
+    "source_count": 12,
+    "tags": "AI video, social media, accessibility, LLMs"
   }
 ]
