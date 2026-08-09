@@ -347,5 +347,17 @@
     "search_query": "AI real-time subtitles live broadcast video tools 2026",
     "source_count": 12,
     "tags": "AI video, live streaming, accessibility, subtitles"
+  },
+  {
+    "article_number": 26,
+    "topic": "Local AI Tools on macOS Now Support Real-Time Sign Language Translation",
+    "file": "html/article-0026-local-ai-tools-on-macos-now-support-real-time-sign-language-translation-20260809-060112.html",
+    "timestamp": "20260809-060112",
+    "full_timestamp": "2026-08-09T06:01:12-07:00",
+    "summary": "Explore how new on-device AI tools translate sign language in real time using Apple Silicon, advancing accessibility without cloud reliance.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS AI sign language translation real-time 2026",
+    "source_count": 12,
+    "tags": "AI accessibility, macOS, sign language, on-device ML"
   }
 ]
