@@ -323,5 +323,17 @@
     "search_query": "AI synthetic identity fraud detection banking 2026",
     "source_count": 12,
     "tags": "AI, fraud detection, banking, synthetic identity"
+  },
+  {
+    "article_number": 24,
+    "topic": "Open-Source macOS LLM Toolkit Enables Offline Medical Note Transcription",
+    "file": "html/article-0024-open-source-macos-llm-toolkit-enables-offline-medical-note-transcription-20260809-040113.html",
+    "timestamp": "20260809-040113",
+    "full_timestamp": "2026-08-09T04:01:13-07:00",
+    "summary": "Discover how open-source toolkits now let clinicians run HIPAA-compliant LLMs on Apple Silicon Macs for real-time, offline medical note transcription without cloud reliance.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS open source LLM toolkit offline medical transcription 2026",
+    "source_count": 12,
+    "tags": "AI, Healthcare, macOS, Open Source"
   }
 ]
