@@ -287,5 +287,17 @@
     "search_query": "generative AI SEC XBRL automation mid-cap companies 2026",
     "source_count": 12,
     "tags": "Generative AI, Financial Reporting, SEC Compliance, XBRL"
+  },
+  {
+    "article_number": 21,
+    "topic": "Apple M4 Ultra Enables 2-bit LLM Inference on MacBook Pro at 8W Power Draw",
+    "file": "html/article-0021-apple-m4-ultra-enables-2-bit-llm-inference-on-macbook-pro-at-8w-power-dr-20260809-010122.html",
+    "timestamp": "20260809-010122",
+    "full_timestamp": "2026-08-09T01:01:22-07:00",
+    "summary": "Apple's M4 Ultra chip pushes 2-bit LLM inference to under 8W on MacBook Pro, redefining local AI feasibility.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "Apple M4 Ultra 2-bit LLM inference MacBook Pro 8W August 2026",
+    "source_count": 12,
+    "tags": "Apple, M4 Ultra, Quantized LLMs, On-Device AI"
   }
 ]
