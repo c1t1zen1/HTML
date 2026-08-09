@@ -395,5 +395,17 @@
     "search_query": "EU election deepfake detection AI political ads 2026",
     "source_count": 12,
     "tags": "AI, election integrity, deepfakes, EU"
+  },
+  {
+    "article_number": 30,
+    "topic": "FEC Announces AI Audit Trail for Political Ad Targeting Data",
+    "file": "html/article-0030-fec-announces-ai-audit-trail-for-political-ad-targeting-data-20260809-100128.html",
+    "timestamp": "20260809-100128",
+    "full_timestamp": "2026-08-09T10:01:28-07:00",
+    "summary": "A new FEC directive demands real-time logging of AI-driven microtargeting decisions in federal campaigns, aiming to increase transparency in voter segmentation practices.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "FEC AI audit trail political ad targeting 2026",
+    "source_count": 12,
+    "tags": "AI, Elections, FEC, Political Ads"
   }
 ]
