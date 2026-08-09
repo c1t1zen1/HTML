@@ -299,5 +299,17 @@
     "search_query": "Apple M4 Ultra 2-bit LLM inference MacBook Pro 8W August 2026",
     "source_count": 12,
     "tags": "Apple, M4 Ultra, Quantized LLMs, On-Device AI"
+  },
+  {
+    "article_number": 22,
+    "topic": "AI Video Editors Now Sync Color Grading to Emotional Script Beats",
+    "file": "html/article-0022-ai-video-editors-now-sync-color-grading-to-emotional-script-beats-20260809-020111.html",
+    "timestamp": "20260809-020111",
+    "full_timestamp": "2026-08-09T02:01:11-07:00",
+    "summary": "Explore how AI now reads screenplay sentiment to shift color grading in real time, linking narrative emotion to visual tone without manual keyframes.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "AI video editing color grading emotional script beats 2026",
+    "source_count": 12,
+    "tags": "AI video editing, color grading, post-production, emotional AI"
   }
 ]
