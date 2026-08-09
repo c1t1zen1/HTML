@@ -443,5 +443,17 @@
     "search_query": "AI voice biomarkers suicide risk detection therapy 2026",
     "source_count": 12,
     "tags": "AI mental health, voice analysis, suicide prevention, real-time monitoring"
+  },
+  {
+    "article_number": 34,
+    "topic": "FEC Pilots AI System to Flag Coordinated Disinformation in Swing State Ads",
+    "file": "html/article-0034-fec-pilots-ai-system-to-flag-coordinated-disinformation-in-swing-state-a-20260809-140128.html",
+    "timestamp": "20260809-140128",
+    "full_timestamp": "2026-08-09T14:01:28-07:00",
+    "summary": "The FEC tests an AI tool to spot coordinated disinformation in swing state political ads, marking its first proactive use of generative AI detection.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "FEC AI disinformation detection swing state political ads 2026",
+    "source_count": 12,
+    "tags": "AI, Election Security, Disinformation, FEC"
   }
 ]
