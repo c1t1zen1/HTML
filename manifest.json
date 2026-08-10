@@ -479,5 +479,17 @@
     "search_query": "autonomous AI code agents self-heal production bugs 2026",
     "source_count": 12,
     "tags": "AI coding, DevOps, automation, self-healing systems"
+  },
+  {
+    "article_number": 37,
+    "topic": "California Enacts First State Law Mandating Deepfake Watermarking in Political Ads",
+    "file": "html/article-0037-california-enacts-first-state-law-mandating-deepfake-watermarking-in-pol-20260809-170134.html",
+    "timestamp": "20260809-170134",
+    "full_timestamp": "2026-08-09T17:01:34-07:00",
+    "summary": "California's new watermark rule for AI political ads sets a national precedent as courts weigh First Amendment limits.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "California deepfake watermark law political ads 2026",
+    "source_count": 12,
+    "tags": "deepfake, legislation, political ads, watermarking"
   }
 ]
