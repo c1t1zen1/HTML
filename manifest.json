@@ -618,5 +618,31 @@
     ],
     "source_count": 12,
     "tags": "AI video editing, emotion recognition, real-time post-production, adaptive media"
+  },
+  {
+    "article_number": 44,
+    "topic": "US Intelligence Agencies Deploy AI for Real-Time Satellite Imagery Analysis",
+    "file": "html/article-0044-us-intelligence-agencies-deploy-ai-for-real-time-satellite-imagery-analy-20260810-000133.html",
+    "timestamp": "20260810-000133",
+    "full_timestamp": "2026-08-10T00:01:33-07:00",
+    "summary": "Explore how AI transforms satellite data into immediate intelligence for national security decisions.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "US intelligence AI real-time satellite imagery analysis 2026",
+    "search_queries": [
+      "US intelligence AI real-time satellite imagery analysis 2026",
+      "AI adoption in national security surveillance systems 2026",
+      "policy frameworks for AI-driven geospatial intelligence operations",
+      "infrastructure requirements for low-latency AI processing of satellite data",
+      "benchmarks of AI models in detecting anomalous activities from orbital sensors"
+    ],
+    "adjacent_queries": [
+      "AI adoption in national security surveillance systems 2026",
+      "policy frameworks for AI-driven geospatial intelligence operations",
+      "infrastructure requirements for low-latency AI processing of satellite data",
+      "benchmarks of AI models in detecting anomalous activities from orbital sensors",
+      "funding trends in defense AI for persistent surveillance and threat detection"
+    ],
+    "source_count": 0,
+    "tags": "AI surveillance, satellite imagery, national security, real-time analytics"
   }
 ]
