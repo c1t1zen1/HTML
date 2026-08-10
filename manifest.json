@@ -515,5 +515,31 @@
     "search_query": "TikTok AI voice cloning real-time dubbing creators August 2026",
     "source_count": 12,
     "tags": "AI video, voice cloning, social media, localization"
+  },
+  {
+    "article_number": 40,
+    "topic": "Apple Silicon M-Series Powers Local LLM Inference for Edge AI Robotics",
+    "file": "html/article-0040-apple-silicon-m-series-powers-local-llm-inference-for-edge-ai-robotics-20260809-200139.html",
+    "timestamp": "20260809-200139",
+    "full_timestamp": "2026-08-09T20:01:39-07:00",
+    "summary": "Explore how Apple's M-series chips are enabling real-time LLM inference in autonomous robots and industrial edge systems through unified memory and Neural Engine integration.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple silicon M-series local LLM inference edge robotics 2026",
+    "search_queries": [
+      "Apple silicon M-series local LLM inference edge robotics 2026",
+      "Apple silicon M-series developer tooling Apple silicon LLM deployment edge computing 2026",
+      "memory bandwidth optimization M-series neural engine LLM inference",
+      "Apple silicon M-series policy frameworks on-device AI inference privacy compliance 2026",
+      "Apple silicon M-series benchmarks Apple silicon vs discrete GPUs for local LLM workloads"
+    ],
+    "adjacent_queries": [
+      "Apple silicon M-series developer tooling Apple silicon LLM deployment edge computing 2026",
+      "memory bandwidth optimization M-series neural engine LLM inference",
+      "Apple silicon M-series policy frameworks on-device AI inference privacy compliance 2026",
+      "Apple silicon M-series benchmarks Apple silicon vs discrete GPUs for local LLM workloads",
+      "adoption trends M-series Mac Mini industrial automation LLM inference"
+    ],
+    "source_count": 12,
+    "tags": "Apple silicon, edge AI, LLM inference, robotics"
   }
 ]
