@@ -491,5 +491,17 @@
     "search_query": "California deepfake watermark law political ads 2026",
     "source_count": 12,
     "tags": "deepfake, legislation, political ads, watermarking"
+  },
+  {
+    "article_number": 38,
+    "topic": "Apple M4 Ultra Enables On-Device LLM Fine-Tuning for HIPAA-Compliant Medical Records",
+    "file": "html/article-0038-apple-m4-ultra-enables-on-device-llm-fine-tuning-for-hipaa-compliant-med-20260809-180140.html",
+    "timestamp": "20260809-180140",
+    "full_timestamp": "2026-08-09T18:01:40-07:00",
+    "summary": "Healthcare teams can now fine-tune LLMs on Macs without exposing patient data, thanks to Apple's M4 Ultra hardware safeguards.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple M4 Ultra on-device LLM fine-tuning HIPAA medical records 2026",
+    "source_count": 10,
+    "tags": "Apple, HIPAA, on-device AI, medical records"
   }
 ]
