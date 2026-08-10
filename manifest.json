@@ -566,5 +566,31 @@
     ],
     "source_count": 12,
     "tags": "AI video editing, audience analytics, adaptive content, post-production"
+  },
+  {
+    "article_number": 42,
+    "topic": "Hedge Funds Deploy LLMs for Real-Time Macro Event Arbitrage",
+    "file": "html/article-0042-hedge-funds-deploy-llms-for-real-time-macro-event-arbitrage-20260809-220138.html",
+    "timestamp": "20260809-220138",
+    "full_timestamp": "2026-08-09T22:01:38-07:00",
+    "summary": "Explore how hedge funds use LLMs to instantly interpret macro events and trigger arbitrage before news fully diffuses.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge funds LLMs real-time macro event arbitrage 2026",
+    "search_queries": [
+      "hedge funds LLMs real-time macro event arbitrage 2026",
+      "LLM adoption in quantitative trading strategies 2026",
+      "regulatory scrutiny AI-driven market prediction hedge funds",
+      "infrastructure costs low-latency LLM inference trading floors",
+      "performance benchmarks LLMs vs traditional models in macro forecasting"
+    ],
+    "adjacent_queries": [
+      "LLM adoption in quantitative trading strategies 2026",
+      "regulatory scrutiny AI-driven market prediction hedge funds",
+      "infrastructure costs low-latency LLM inference trading floors",
+      "performance benchmarks LLMs vs traditional models in macro forecasting",
+      "funding trends AI hedge funds specializing in alternative data"
+    ],
+    "source_count": 12,
+    "tags": "LLMs, hedge funds, algorithmic trading, macro arbitrage"
   }
 ]
