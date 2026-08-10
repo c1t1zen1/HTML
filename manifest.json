@@ -503,5 +503,17 @@
     "search_query": "Apple M4 Ultra on-device LLM fine-tuning HIPAA medical records 2026",
     "source_count": 10,
     "tags": "Apple, HIPAA, on-device AI, medical records"
+  },
+  {
+    "article_number": 39,
+    "topic": "TikTok Tests AI-Powered Real-Time Voice Cloning for Creator Dubbing",
+    "file": "html/article-0039-tiktok-tests-ai-powered-real-time-voice-cloning-for-creator-dubbing-20260809-190133.html",
+    "timestamp": "20260809-190133",
+    "full_timestamp": "2026-08-09T19:01:33-07:00",
+    "summary": "TikTok pilots on-device AI voice cloning for instant multilingual dubbing that preserves creator vocal identity.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI voice cloning real-time dubbing creators August 2026",
+    "source_count": 12,
+    "tags": "AI video, voice cloning, social media, localization"
   }
 ]
