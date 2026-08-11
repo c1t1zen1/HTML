@@ -595,5 +595,17 @@
     "search_query": "Snapchat Spotlight blocks fully AI-generated videos recommendation July 2026",
     "source_count": 12,
     "tags": "Snapchat, AI video, creator economy"
+  },
+  {
+    "article_number": 47,
+    "topic": "AI Voice-Liveness Checks Emerge as Banks’ New Defense Against Deepfake Account Takeovers",
+    "file": "html/article-0047-ai-voice-liveness-checks-emerge-as-banks-new-defense-against-deepfake-ac-20260810-230143.html",
+    "timestamp": "20260810-230143",
+    "full_timestamp": "2026-08-10T23:01:43-07:00",
+    "summary": "Banks face a sharper identity question: whether a caller is live and human, as voice cloning raises account-takeover risk beyond conventional transaction monitoring.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks AI voice liveness detection deepfake account takeover fraud",
+    "source_count": 12,
+    "tags": "banking fraud,voice cloning,account takeover,AI security"
   }
 ]
