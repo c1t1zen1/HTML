@@ -607,5 +607,17 @@
     "search_query": "2026 banks AI voice liveness detection deepfake account takeover fraud",
     "source_count": 12,
     "tags": "banking fraud,voice cloning,account takeover,AI security"
+  },
+  {
+    "article_number": 48,
+    "topic": "Apple’s Xcode 27 Brings MLX-Powered Local Coding Agents Into Native Developer Workflows",
+    "file": "html/article-0048-apples-xcode-27-brings-mlx-powered-local-coding-agents-into-native-devel-20260811-000139.html",
+    "timestamp": "20260811-000139",
+    "full_timestamp": "2026-08-11T00:01:39-07:00",
+    "summary": "Xcode 27 links Apple Silicon local inference, MLX workflows, and ACP-compatible agents, potentially turning privacy-preserving agentic development into a native Apple toolchain capability.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Xcode 27 MLX local agentic coding ACP Apple Silicon 2026",
+    "source_count": 12,
+    "tags": "Xcode 27, MLX, local AI, developer tools"
   }
 ]
