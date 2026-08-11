@@ -703,5 +703,17 @@
     "search_query": "2026 US intelligence surveillance AI procurement oversight news",
     "source_count": 12,
     "tags": "AI intelligence, surveillance, procurement"
+  },
+  {
+    "article_number": 56,
+    "topic": "California’s AI Transparency Act Makes Synthetic Media Provenance a Live Compliance Test",
+    "file": "html/article-0056-californias-ai-transparency-act-makes-synthetic-media-provenance-a-live-20260811-090211.html",
+    "timestamp": "20260811-090211",
+    "full_timestamp": "2026-08-11T09:02:11-07:00",
+    "summary": "California’s first operative AI transparency phase turns provenance, visible disclosures, and free detection tools into immediate compliance tests for covered generative-AI providers.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "California AI Transparency Act August 2 2026 provenance detection tool requirements",
+    "source_count": 12,
+    "tags": "California AI law, synthetic media, provenance"
   }
 ]
