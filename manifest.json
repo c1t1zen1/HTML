@@ -631,5 +631,17 @@
     "search_query": "OpenAI Anthropic record Q2 lobbying AI Kill Switch bill Congress 2026",
     "source_count": 12,
     "tags": "AI lobbying, federal policy, AI safety"
+  },
+  {
+    "article_number": 50,
+    "topic": "SEC Creates Financial Reporting Unit as AI-Generated Disclosures Face New Enforcement Scrutiny",
+    "file": "html/article-0050-sec-creates-financial-reporting-unit-as-ai-generated-disclosures-face-ne-20260811-030153.html",
+    "timestamp": "20260811-030153",
+    "full_timestamp": "2026-08-11T03:01:53-07:00",
+    "summary": "The SEC’s new accounting-focused enforcement unit raises the stakes for disclosure controls as companies increasingly consider AI-assisted financial reporting, even before AI-specific cases emerge.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC Financial Reporting Accounting Unit AI-generated disclosures enforcement August 2026",
+    "source_count": 12,
+    "tags": "SEC enforcement,financial reporting,AI governance"
   }
 ]
