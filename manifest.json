@@ -775,5 +775,17 @@
     "search_query": "MiniMax H3 open weights US EU licensing copyright litigation August 2026",
     "source_count": 11,
     "tags": "MiniMax H3, open weights, copyright, AI video"
+  },
+  {
+    "article_number": 62,
+    "topic": "Mac Local AI Apps Hit a Distribution Bottleneck as Model Files Grow Larger",
+    "file": "html/article-0062-mac-local-ai-apps-hit-a-distribution-bottleneck-as-model-files-grow-larg-20260811-160203.html",
+    "timestamp": "20260811-160203",
+    "full_timestamp": "2026-08-11T16:02:03-07:00",
+    "summary": "As Mac local AI moves from app downloads to multi-gigabyte model payloads, Apple’s distribution pathways may become the constraint, but supplied evidence leaves exact policy mechanics unresolved.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS local AI apps model downloads App Store distribution policy 2026",
+    "source_count": 12,
+    "tags": "macOS, local AI, app distribution, model deployment"
   }
 ]
