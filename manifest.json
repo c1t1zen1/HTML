@@ -679,5 +679,17 @@
     "search_query": "2026 regulators AI washing hedge funds trading model evidence enforcement",
     "source_count": 12,
     "tags": "AI regulation, hedge funds, model governance"
+  },
+  {
+    "article_number": 54,
+    "topic": "MLX Distributed Inference Benchmarks Put Apple Silicon Mac Clusters Under Scrutiny",
+    "file": "html/article-0054-mlx-distributed-inference-benchmarks-put-apple-silicon-mac-clusters-unde-20260811-070203.html",
+    "timestamp": "20260811-070203",
+    "full_timestamp": "2026-08-11T07:02:03-07:00",
+    "summary": "MLX distributed inference may let Mac clusters run larger LLMs, but interconnect overhead, benchmark gaps, and operational complexity temper claims of cloud-like performance.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "MLX distributed inference Apple Silicon Mac cluster benchmark 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, LLM inference, distributed computing"
   }
 ]
