@@ -835,5 +835,17 @@
     "search_query": "2026 AI avatars live customer service real-time launch latency",
     "source_count": 12,
     "tags": "AI avatars, customer service, real-time AI"
+  },
+  {
+    "article_number": 67,
+    "topic": "MacPaw’s Local AI Bet Turns Setapp Into an On-Device Inference Platform",
+    "file": "html/article-0067-macpaws-local-ai-bet-turns-setapp-into-an-on-device-inference-platform-20260811-210216.html",
+    "timestamp": "20260811-210216",
+    "full_timestamp": "2026-08-11T21:02:16-07:00",
+    "summary": "MacPaw’s August partnership with Liquid AI could turn Setapp from a software marketplace into a distribution layer for private, offline assistants and developer-facing local inference.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "MacPaw Liquid AI Setapp on-device inference developers August 2026",
+    "source_count": 12,
+    "tags": "local AI, MacPaw, on-device inference, privacy"
   }
 ]
