@@ -943,5 +943,17 @@
     "search_query": "FTC AI-generated short-form video ad disclosure guidelines 2026",
     "source_count": 12,
     "tags": "AI video, social media regulation, FTC, influencer marketing"
+  },
+  {
+    "article_number": 76,
+    "topic": "SEC Releases Generative AI Guidance for MD&A Disclosures in 10-K Filings",
+    "file": "html/article-0076-sec-releases-generative-ai-guidance-for-md-a-disclosures-in-10-k-filings-20260812-091026.html",
+    "timestamp": "20260812-091026",
+    "full_timestamp": "2026-08-12T09:10:26-07:00",
+    "summary": "Available evidence does not show a new SEC AI rule, but it points companies toward materiality, clear terminology, human review, and disciplined MD&A controls.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC generative AI guidance MD&A Form 10-K 2026",
+    "source_count": 12,
+    "tags": "Generative AI, SEC, Financial Reporting, Disclosure"
   }
 ]
