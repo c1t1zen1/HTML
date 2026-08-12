@@ -823,5 +823,17 @@
     "search_query": "2026 macOS local AI privacy audit enterprise telemetry prompt data",
     "source_count": 12,
     "tags": "Mac AI, privacy, enterprise security"
+  },
+  {
+    "article_number": 66,
+    "topic": "Live AI Avatars Turn Customer-Service Latency Into the Next Commercial Battleground",
+    "file": "html/article-0066-live-ai-avatars-turn-customer-service-latency-into-the-next-commercial-b-20260811-200222.html",
+    "timestamp": "20260811-200222",
+    "full_timestamp": "2026-08-11T20:02:22-07:00",
+    "summary": "Live AI avatars are moving toward customer service, where response latency, turn-taking reliability, rendering architecture, and transparent disclosure may decide whether visual agents earn trust.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "2026 AI avatars live customer service real-time launch latency",
+    "source_count": 12,
+    "tags": "AI avatars, customer service, real-time AI"
   }
 ]
