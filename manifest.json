@@ -787,5 +787,17 @@
     "search_query": "macOS local AI apps model downloads App Store distribution policy 2026",
     "source_count": 12,
     "tags": "macOS, local AI, app distribution, model deployment"
+  },
+  {
+    "article_number": 63,
+    "topic": "Apple Silicon’s Quantization Format Fight Threatens to Fragment Mac LLM Inference",
+    "file": "html/article-0063-apple-silicons-quantization-format-fight-threatens-to-fragment-mac-llm-i-20260811-170204.html",
+    "timestamp": "20260811-170204",
+    "full_timestamp": "2026-08-11T17:02:04-07:00",
+    "summary": "Apple Silicon inference is gaining quantization options, but divergent MLX and GGUF-era FP4 paths could increase conversion work, runtime dependence, and compatibility uncertainty.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX MXFP4 quantized LLM Apple Silicon compatibility August 2026",
+    "source_count": 12,
+    "tags": "quantization, Apple Silicon, MLX, inference"
   }
 ]
