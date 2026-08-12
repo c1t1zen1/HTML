@@ -931,5 +931,17 @@
     "search_query": "SEC AI stock prediction model stress test proposal 2026",
     "source_count": 12,
     "tags": "AI trading, SEC regulation, market risk, model validation"
+  },
+  {
+    "article_number": 75,
+    "topic": "FTC Updates Endorsement Rules for AI-Generated Short-Form Video Ads on Social Media",
+    "file": "html/article-0075-ftc-updates-endorsement-rules-for-ai-generated-short-form-video-ads-on-s-20260812-080329.html",
+    "timestamp": "20260812-080329",
+    "full_timestamp": "2026-08-12T08:03:29-07:00",
+    "summary": "FTC’s 2026 endorsement update mandates clear disclosures for AI‑generated short‑form video ads on social platforms, imposing fines up to $53K per violation.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "FTC AI-generated short-form video ad disclosure guidelines 2026",
+    "source_count": 12,
+    "tags": "AI video, social media regulation, FTC, influencer marketing"
   }
 ]
