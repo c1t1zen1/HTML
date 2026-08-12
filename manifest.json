@@ -1003,5 +1003,17 @@
     "search_query": "DHS AI drone surveillance pilot southwest border 2026",
     "source_count": 12,
     "tags": "DHS, AI surveillance, drone technology, border security"
+  },
+  {
+    "article_number": 81,
+    "topic": "Apple Rolls Out Core ML Tools Update Enabling LoRA Fine‑Tuning on M‑Series Macs",
+    "file": "html/article-0081-apple-rolls-out-core-ml-tools-update-enabling-lora-finetuning-on-mseries-20260812-151045.html",
+    "timestamp": "20260812-151045",
+    "full_timestamp": "2026-08-12T15:10:45-07:00",
+    "summary": "Apple Silicon’s local fine-tuning ecosystem is expanding through MLX and LoRA, but the supplied evidence does not yet verify an official Core ML Tools rollout.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple Core ML Tools LoRA fine-tuning M-series Mac 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, Core ML, LoRA, AI development"
   }
 ]
