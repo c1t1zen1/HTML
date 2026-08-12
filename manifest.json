@@ -919,5 +919,17 @@
     "search_query": "CFTC request for comment LLM trading algorithms manipulation 2026",
     "source_count": 12,
     "tags": "LLM trading, CFTC regulation, market manipulation, hedge funds"
+  },
+  {
+    "article_number": 74,
+    "topic": "SEC Proposes Stress‑Test Rules for AI‑Driven Stock Prediction Models",
+    "file": "html/article-0074-sec-proposes-stresstest-rules-for-aidriven-stock-prediction-models-20260812-070833.html",
+    "timestamp": "20260812-070833",
+    "full_timestamp": "2026-08-12T07:08:33-07:00",
+    "summary": "The SEC’s growing focus on AI‑based stock advice and past rule proposals, set against Federal Reserve stress‑test frameworks, raises questions about future oversight of AI‑driven prediction models.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "SEC AI stock prediction model stress test proposal 2026",
+    "source_count": 12,
+    "tags": "AI trading, SEC regulation, market risk, model validation"
   }
 ]
