@@ -811,5 +811,17 @@
     "search_query": "2026 campaign AI synthetic endorsement disclaimer election enforcement",
     "source_count": 12,
     "tags": "campaigns, deepfakes, election law"
+  },
+  {
+    "article_number": 65,
+    "topic": "Mac Local AI Privacy Claims Face a New Enterprise Auditability Test",
+    "file": "html/article-0065-mac-local-ai-privacy-claims-face-a-new-enterprise-auditability-test-20260811-190217.html",
+    "timestamp": "20260811-190217",
+    "full_timestamp": "2026-08-11T19:02:17-07:00",
+    "summary": "Enterprise Mac AI privacy is moving from vendor assurances toward observable controls, but current evidence does not yet prove that prompts, outputs, and model data remain local.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "2026 macOS local AI privacy audit enterprise telemetry prompt data",
+    "source_count": 12,
+    "tags": "Mac AI, privacy, enterprise security"
   }
 ]
