@@ -955,5 +955,17 @@
     "search_query": "SEC generative AI guidance MD&A Form 10-K 2026",
     "source_count": 12,
     "tags": "Generative AI, SEC, Financial Reporting, Disclosure"
+  },
+  {
+    "article_number": 77,
+    "topic": "Federal Election Commission Reviews AI Chatbots for Illegal Campaign Coordination Risks",
+    "file": "html/article-0077-federal-election-commission-reviews-ai-chatbots-for-illegal-campaign-coo-20260812-101037.html",
+    "timestamp": "20260812-101037",
+    "full_timestamp": "2026-08-12T10:10:37-07:00",
+    "summary": "Available evidence shows a regulatory gap around AI and campaign finance, but does not yet substantiate that the FEC has formally opened a chatbot-coordination review.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "FEC AI chatbot campaign coordination investigation 2026",
+    "source_count": 12,
+    "tags": "AI, Elections, FEC, Chatbots"
   }
 ]
