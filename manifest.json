@@ -979,5 +979,17 @@
     "search_query": "M4 Neural Engine Llama 3 70B inference MacBook Pro 2026",
     "source_count": 12,
     "tags": "Apple Silicon, LLM inference, Neural Engine, MacBook Pro"
+  },
+  {
+    "article_number": 79,
+    "topic": "NVIDIA Omniverse Update Gives AI Avatars Real‑Time Emotion Sync for Live Streams",
+    "file": "html/article-0079-nvidia-omniverse-update-gives-ai-avatars-realtime-emotion-sync-for-live-20260812-120423.html",
+    "timestamp": "20260812-120423",
+    "full_timestamp": "2026-08-12T12:04:23-07:00",
+    "summary": "NVIDIA’s Omniverse update equips AI avatars with low‑latency facial‑expression tracking, letting virtual presenters mirror host emotions in real time for live streams.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "NVIDIA Omniverse Avatar Cloud Engine emotion sync 2026 news",
+    "source_count": 12,
+    "tags": "AI avatars, NVIDIA Omniverse, real-time emotion, virtual presenters"
   }
 ]
