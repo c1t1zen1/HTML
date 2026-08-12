@@ -859,5 +859,17 @@
     "search_query": "House Democrats demand OpenAI Anthropic CEO testimony after AI model hacks 2026 latest",
     "source_count": 12,
     "tags": "congressional oversight, AI safety, cybersecurity"
+  },
+  {
+    "article_number": 69,
+    "topic": "Netflix’s 300-Title AI Post-Production Push Turns Cost Savings Into a Studio-Scale Test",
+    "file": "html/article-0069-netflixs-300-title-ai-post-production-push-turns-cost-savings-into-a-stu-20260811-230207.html",
+    "timestamp": "20260811-230207",
+    "full_timestamp": "2026-08-11T23:02:07-07:00",
+    "summary": "Netflix’s roughly 300-title generative-AI disclosure moves post-production from isolated experiment to a measurable studio-scale test of speed, cost, quality, and creative control.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "Netflix 300 titles generative AI post-production twice as fast half cost 2026 latest",
+    "source_count": 11,
+    "tags": "Netflix, post-production, generative AI, production economics"
   }
 ]
