@@ -871,5 +871,17 @@
     "search_query": "Netflix 300 titles generative AI post-production twice as fast half cost 2026 latest",
     "source_count": 11,
     "tags": "Netflix, post-production, generative AI, production economics"
+  },
+  {
+    "article_number": 70,
+    "topic": "Courts Test AI Evidence Authentication as Deepfake Admissibility Reaches Trial Practice",
+    "file": "html/article-0070-courts-test-ai-evidence-authentication-as-deepfake-admissibility-reaches-20260812-000214.html",
+    "timestamp": "20260812-000214",
+    "full_timestamp": "2026-08-12T00:02:14-07:00",
+    "summary": "As deepfakes enter trial practice, courts are testing whether existing authentication rules, forensic proof, corroborating records, and proposed burden shifts can preserve reliable adjudication.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 court rulings AI evidence authentication deepfake admissibility trials",
+    "source_count": 12,
+    "tags": "AI evidence, deepfakes, courts, admissibility"
   }
 ]
