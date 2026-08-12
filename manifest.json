@@ -907,5 +907,17 @@
     "search_query": "FTC Take It Down Act enforcement deepfake pornography platform removal May 2026",
     "source_count": 12,
     "tags": "Take It Down Act, deepfake pornography, FTC enforcement, platform liability"
+  },
+  {
+    "article_number": 73,
+    "topic": "CFTC Seeks Input on LLM Trading Algorithms Amid Manipulation Concerns",
+    "file": "html/article-0073-cftc-seeks-input-on-llm-trading-algorithms-amid-manipulation-concerns-20260812-051024.html",
+    "timestamp": "20260812-051024",
+    "full_timestamp": "2026-08-12T05:10:24-07:00",
+    "summary": "The CFTC is seeking public input on AI in regulated markets, including trading and manipulation risks, but supplied evidence does not establish a separate LLM-specific rulemaking.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "CFTC request for comment LLM trading algorithms manipulation 2026",
+    "source_count": 12,
+    "tags": "LLM trading, CFTC regulation, market manipulation, hedge funds"
   }
 ]
