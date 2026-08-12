@@ -967,5 +967,17 @@
     "search_query": "FEC AI chatbot campaign coordination investigation 2026",
     "source_count": 12,
     "tags": "AI, Elections, FEC, Chatbots"
+  },
+  {
+    "article_number": 78,
+    "topic": "M4 Neural Engine Powers Llama 3 70B Inference on MacBook Pro Under One Second",
+    "file": "html/article-0078-m4-neural-engine-powers-llama-3-70b-inference-on-macbook-pro-under-one-s-20260812-111012.html",
+    "timestamp": "20260812-111012",
+    "full_timestamp": "2026-08-12T11:10:12-07:00",
+    "summary": "Available evidence does not substantiate the headline: supplied sources emphasize GPU-based Metal inference, memory capacity, and throughput estimates rather than a sub-second M4 Neural Engine result.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "M4 Neural Engine Llama 3 70B inference MacBook Pro 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM inference, Neural Engine, MacBook Pro"
   }
 ]
