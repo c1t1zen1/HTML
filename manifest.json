@@ -799,5 +799,17 @@
     "search_query": "MLX MXFP4 quantized LLM Apple Silicon compatibility August 2026",
     "source_count": 12,
     "tags": "quantization, Apple Silicon, MLX, inference"
+  },
+  {
+    "article_number": 64,
+    "topic": "AI Campaign Ads Test Whether 2026 Election Disclaimers Can Keep Pace With Synthetic Endorsements",
+    "file": "html/article-0064-ai-campaign-ads-test-whether-2026-election-disclaimers-can-keep-pace-wit-20260811-180208.html",
+    "timestamp": "20260811-180208",
+    "full_timestamp": "2026-08-11T18:02:08-07:00",
+    "summary": "As campaigns imitate candidates in 2026 ads, regulators face a practical test: can disclosure rules identify, label, and pursue synthetic endorsements across diverging state regimes?",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 campaign AI synthetic endorsement disclaimer election enforcement",
+    "source_count": 12,
+    "tags": "campaigns, deepfakes, election law"
   }
 ]
