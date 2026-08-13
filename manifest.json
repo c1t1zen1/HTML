@@ -1066,5 +1066,18 @@
     "source_count": 12,
     "tags": "AI, litigation, disclosure, federal courts",
     "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
+  },
+  {
+    "article_number": 86,
+    "topic": "Major Banks Deploy Real-Time Voice Deepfake Fraud Detection After $50M CEO Spoofing Wave",
+    "file": "html/article-0086-major-banks-deploy-real-time-voice-deepfake-fraud-detection-after-50m-ce-20260813-011140.html",
+    "timestamp": "20260813-011140",
+    "full_timestamp": "2026-08-13T01:11:40-07:00",
+    "summary": "Voice-deepfake fraud is pushing financial institutions toward real-time detection and layered verification, but supplied evidence does not confirm a $50 million 2026 wave or universal bank deployment.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "banks deploy real-time voice deepfake fraud detection 2026",
+    "source_count": 12,
+    "tags": "AI fraud detection, voice deepfakes, banking security, real-time detection",
+    "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
   }
 ]
