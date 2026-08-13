@@ -1092,5 +1092,18 @@
     "source_count": 12,
     "tags": "India, political deepfakes, platform liability",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 88,
+    "topic": "Mirage Launches Live AI News Network With Synthetic Anchors Streaming Headlines on X",
+    "file": "html/article-0088-mirage-launches-live-ai-news-network-with-synthetic-anchors-streaming-he-20260813-150744.html",
+    "timestamp": "20260813-150744",
+    "full_timestamp": "2026-08-13T15:07:44-07:00",
+    "summary": "Mirage's live AI news network on X pushes synthetic anchors from clips to continuous journalism, raising fresh questions about real-time accuracy and disclosure.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "Mirage AI news network synthetic anchors live streaming X August 2026",
+    "source_count": 12,
+    "tags": "AI avatars, synthetic media, live streaming, journalism",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
