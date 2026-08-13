@@ -1079,5 +1079,18 @@
     "source_count": 12,
     "tags": "AI fraud detection, voice deepfakes, banking security, real-time detection",
     "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
+  },
+  {
+    "article_number": 87,
+    "topic": "Bombay High Court Orders Meta and Google to Unmask Political Deepfake Campaigners",
+    "file": "html/article-0087-bombay-high-court-orders-meta-and-google-to-unmask-political-deepfake-ca-20260813-145816.html",
+    "timestamp": "20260813-145816",
+    "full_timestamp": "2026-08-13T14:58:16-07:00",
+    "summary": "Bombay High Court orders Meta, Google, X to remove deepfakes and reveal anonymous creators behind political disinformation targeting Nitin Gadkari.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "Bombay High Court Meta Google identify Nitin Gadkari political deepfake accounts August 2026",
+    "source_count": 12,
+    "tags": "India, political deepfakes, platform liability",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
