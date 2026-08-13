@@ -1053,5 +1053,18 @@
     "source_count": 12,
     "tags": "FINRA, AI trading, LLM, regulation",
     "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
+  },
+  {
+    "article_number": 85,
+    "topic": "Federal Judges Mandate AI Disclosure in Court Filings as Multi-District Litigation Swells",
+    "file": "html/article-0085-federal-judges-mandate-ai-disclosure-in-court-filings-as-multi-district-20260813-001657.html",
+    "timestamp": "20260813-001657",
+    "full_timestamp": "2026-08-13T00:16:57-07:00",
+    "summary": "Federal courts are expanding AI disclosure and verification demands, but supplied evidence does not independently confirm a new MDL standing order or nationwide standard.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "federal courts AI disclosure rules litigation filings 2026",
+    "source_count": 12,
+    "tags": "AI, litigation, disclosure, federal courts",
+    "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
   }
 ]
