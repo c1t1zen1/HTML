@@ -1040,5 +1040,18 @@
     "source_count": 12,
     "tags": "AI companions, mental health, regulation, safety",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 84,
+    "topic": "FINRA Expands AI Trading Audit Trail Rules Covering LLM Market Signal Bots",
+    "file": "html/article-0084-finra-expands-ai-trading-audit-trail-rules-covering-llm-market-signal-bo-20260812-221311.html",
+    "timestamp": "20260812-221311",
+    "full_timestamp": "2026-08-12T22:13:11-07:00",
+    "summary": "Supplied evidence points to broader FINRA AI oversight, but does not substantiate a 2026 rule expansion aimed specifically at LLM market-signal bots or an SEC gap.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "FINRA AI trading audit rules LLM market signal bots 2026",
+    "source_count": 12,
+    "tags": "FINRA, AI trading, LLM, regulation",
+    "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
   }
 ]
