@@ -1105,5 +1105,18 @@
     "source_count": 12,
     "tags": "AI avatars, synthetic media, live streaming, journalism",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 89,
+    "topic": "Netflix Reveals AI Post-Production Used Across 300 Titles as Hollywood Scales Production Workflows",
+    "file": "html/article-0089-netflix-reveals-ai-post-production-used-across-300-titles-as-hollywood-s-20260813-160300.html",
+    "timestamp": "20260813-160300",
+    "full_timestamp": "2026-08-13T16:03:00-07:00",
+    "summary": "Netflix disclosed that roughly 300 titles used generative AI in post-production, citing a 17-minute sequence completed twice as fast and at half the cost.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "Netflix 300 titles generative AI post-production 17 minutes half cost 2026",
+    "source_count": 12,
+    "tags": "Netflix,AI post-production,visual effects,production economics",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
