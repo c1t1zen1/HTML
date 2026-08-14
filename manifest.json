@@ -1339,5 +1339,18 @@
     "source_count": 12,
     "tags": "AI video editing, Adobe After Effects, creative software security",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 107,
+    "topic": "India’s Deepfake Bill Moves From Platform Takedowns Toward Mandatory Provenance and Human Review",
+    "file": "html/article-0107-indias-deepfake-bill-moves-from-platform-takedowns-toward-mandatory-prov-20260814-100339.html",
+    "timestamp": "20260814-100339",
+    "full_timestamp": "2026-08-14T10:03:39-07:00",
+    "summary": "India’s proposed deepfake rules shift from reactive takedowns to mandatory provenance metadata, AI labels, and platform detection duties as Parliament pushes amendments.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "India parliamentary panel deepfake law mandatory provenance labels August 2026",
+    "source_count": 12,
+    "tags": "India, deepfakes, platform regulation",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
