@@ -1222,5 +1222,18 @@
     "source_count": 12,
     "tags": "elections,misinformation,platform-policy,AI",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 98,
+    "topic": "MLX-LM KV-Cache Quantization Targets Longer Local Contexts on Apple Silicon Macs",
+    "file": "html/article-0098-mlx-lm-kv-cache-quantization-targets-longer-local-contexts-on-apple-sili-20260814-010323.html",
+    "timestamp": "20260814-010323",
+    "full_timestamp": "2026-08-14T01:03:23-07:00",
+    "summary": "Quantizing KV caches—not weights—lets MLX-LM stretch context windows on Apple Silicon, with TurboQuant ports promising 5x compression and faster long-context inference.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX-LM KV cache quantization Apple Silicon Mac 2026",
+    "source_count": 12,
+    "tags": "MLX, Apple Silicon, quantization, local AI",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]

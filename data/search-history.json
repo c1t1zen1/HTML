@@ -982,5 +982,11 @@
     "canonical_query": "2026 midterm elections platforms ai misinformation response time requirements",
     "searched_at": "2026-08-14T00:01:39-07:00",
     "topic": "2026 Midterms Force Platforms to Prove AI Election-Misinformation Response Times"
+  },
+  {
+    "query": "MLX-LM KV cache quantization Apple Silicon Mac 2026",
+    "canonical_query": "mlx lm kv cache quantization apple silicon mac 2026",
+    "searched_at": "2026-08-14T01:01:38-07:00",
+    "topic": "MLX-LM KV-Cache Quantization Targets Longer Local Contexts on Apple Silicon Macs"
   }
 ]
