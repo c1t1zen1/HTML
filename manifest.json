@@ -1118,5 +1118,18 @@
     "source_count": 12,
     "tags": "Netflix,AI post-production,visual effects,production economics",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 90,
+    "topic": "Wallet V’s 688-Agent Benchmark Exposes Uneven LLM Crypto Trading Results",
+    "file": "html/article-0090-wallet-vs-688-agent-benchmark-exposes-uneven-llm-crypto-trading-results-20260813-170240.html",
+    "timestamp": "20260813-170240",
+    "full_timestamp": "2026-08-13T17:02:40-07:00",
+    "summary": "Wallet V's 688-agent benchmark shows AI trading bots on Hyperliquid/Aster are uneven: only 42% profitable, peak ROI +307%.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "Wallet V 688 AI trading agents benchmark Hyperliquid Aster performance 2026 latest",
+    "source_count": 12,
+    "tags": "AI trading, crypto, LLM benchmarks, autonomous agents",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
