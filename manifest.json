@@ -1196,5 +1196,18 @@
     "source_count": 12,
     "tags": "smart homes, robot vacuums, Matter, regulation",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 96,
+    "topic": "US Intelligence Deploys AI to Flag Foreign Influence Networks",
+    "file": "html/article-0096-us-intelligence-deploys-ai-to-flag-foreign-influence-networks-20260813-230306.html",
+    "timestamp": "20260813-230306",
+    "full_timestamp": "2026-08-13T23:03:06-07:00",
+    "summary": "AI is shifting US intelligence from physical surveillance to digital influence tracking, but federal defenses are receding ahead of 2026 elections.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "AI foreign influence detection intelligence 2026",
+    "source_count": 12,
+    "tags": "AI, intelligence, foreign influence, surveillance",
+    "model_names": "deepseek-v4-flash"
   }
 ]
