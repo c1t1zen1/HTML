@@ -1352,5 +1352,18 @@
     "source_count": 12,
     "tags": "India, deepfakes, platform regulation",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 108,
+    "topic": "C2PA Live-Video Provenance Puts Virtual Presenters’ Authenticity Claims to the Test",
+    "file": "html/article-0108-c2pa-live-video-provenance-puts-virtual-presenters-authenticity-claims-t-20260814-110408.html",
+    "timestamp": "20260814-110408",
+    "full_timestamp": "2026-08-14T11:04:08-07:00",
+    "summary": "C2PA 2.3 adds live-video provenance, but avatar livestreams still face metadata-stripping and verification gaps.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "C2PA live video provenance virtual presenters 2026 news",
+    "source_count": 12,
+    "tags": "AI avatars, C2PA, provenance, livestreaming",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
