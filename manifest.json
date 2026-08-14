@@ -1144,5 +1144,18 @@
     "source_count": 12,
     "tags": "Qwen3, MLX, quantization, Apple Silicon",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 92,
+    "topic": "New York Congressional Race Tests Whether AI Deepfake Disclosures Protect Voters",
+    "file": "html/article-0092-new-york-congressional-race-tests-whether-ai-deepfake-disclosures-protec-20260813-190436.html",
+    "timestamp": "20260813-190436",
+    "full_timestamp": "2026-08-13T19:04:36-07:00",
+    "summary": "A live NY-21 race is testing whether labeling an AI-generated attack video satisfies New York election law when it falsely depicts an opponent speaking.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "August 2026 New York 21 AI deepfake campaign video election law",
+    "source_count": 12,
+    "tags": "AI deepfakes, election law, political advertising",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
