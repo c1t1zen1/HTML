@@ -1378,5 +1378,18 @@
     "source_count": 12,
     "tags": "MLX,distributed inference,Thunderbolt RDMA,Apple Silicon",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 110,
+    "topic": "Colorado AI Act’s 2026 Compliance Deadline Tests Legal Software’s High-Impact Decision Controls",
+    "file": "html/article-0110-colorado-ai-acts-2026-compliance-deadline-tests-legal-softwares-high-imp-20260814-130508.html",
+    "timestamp": "20260814-130508",
+    "full_timestamp": "2026-08-14T13:05:08-07:00",
+    "summary": "Colorado's AI Act deadline moved to 2027, but legal software vendors must still prepare to document, monitor, and explain high-impact automated decisions.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "Colorado AI Act 2026 legal software high-impact decisions compliance deadline",
+    "source_count": 12,
+    "tags": "AI regulation, legal technology, compliance",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
