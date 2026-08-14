@@ -1404,5 +1404,18 @@
     "source_count": 12,
     "tags": "open weights, licensing, local inference, AI video",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 112,
+    "topic": "2026 Midterm Campaigns Test Whether AI Fundraising Messages Need Election Disclosures",
+    "file": "html/article-0112-2026-midterm-campaigns-test-whether-ai-fundraising-messages-need-electio-20260814-150351.html",
+    "timestamp": "20260814-150351",
+    "full_timestamp": "2026-08-14T15:03:51-07:00",
+    "summary": "AI donor outreach is reshaping 2026 fundraising, but disclosure laws mostly target ads—leaving AI-generated solicitation messages in a regulatory gray zone.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 midterm campaigns AI fundraising messages election disclosure rules",
+    "source_count": 12,
+    "tags": "campaign finance, election law, generative AI",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
