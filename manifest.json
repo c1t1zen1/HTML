@@ -1417,5 +1417,18 @@
     "source_count": 12,
     "tags": "campaign finance, election law, generative AI",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 113,
+    "topic": "Hedge Funds Race to Document AI Trading Decisions Under New SEC Exams",
+    "file": "html/article-0113-hedge-funds-race-to-document-ai-trading-decisions-under-new-sec-exams-20260814-160453.html",
+    "timestamp": "20260814-160453",
+    "full_timestamp": "2026-08-14T16:04:53-07:00",
+    "summary": "SEC examiners are now probing whether hedge funds can audit and govern autonomous AI trading models—not just whether they make money.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 SEC examinations hedge funds AI trading model governance documentation",
+    "source_count": 12,
+    "tags": "hedge funds,algorithmic trading,SEC,AI governance",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
