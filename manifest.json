@@ -1313,5 +1313,18 @@
     "source_count": 12,
     "tags": "AI policy, lobbying, copyright, Washington",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 105,
+    "topic": "Higgsfield’s AI Feature Tests Whether Licensed Celebrity Likenesses Can Scale Beyond Deepfakes",
+    "file": "html/article-0105-higgsfields-ai-feature-tests-whether-licensed-celebrity-likenesses-can-s-20260814-080428.html",
+    "timestamp": "20260814-080428",
+    "full_timestamp": "2026-08-14T08:04:28-07:00",
+    "summary": "Higgsfield’s 110-minute AI film 'The Cully Hill Boys' uses licensed celebrity likenesses and an acquired script, testing whether authorized synthetic performers can scale beyond deepfakes.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "Higgsfield Cully Hill Boys licensed celebrity likenesses AI feature August 2026",
+    "source_count": 12,
+    "tags": "AI filmmaking, digital likenesses, synthetic media, entertainment rights",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
