@@ -988,5 +988,11 @@
     "canonical_query": "mlx lm kv cache quantization apple silicon mac 2026",
     "searched_at": "2026-08-14T01:01:38-07:00",
     "topic": "MLX-LM KV-Cache Quantization Targets Longer Local Contexts on Apple Silicon Macs"
+  },
+  {
+    "query": "PCAOB generative AI audit guidance financial statements 2026",
+    "canonical_query": "pcaob generative ai audit guidance financial statements 2026",
+    "searched_at": "2026-08-14T02:02:29-07:00",
+    "topic": "PCAOB Issues First Guidance on Generative AI in Financial Statement Audits"
   }
 ]

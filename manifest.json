@@ -1235,5 +1235,18 @@
     "source_count": 12,
     "tags": "MLX, Apple Silicon, quantization, local AI",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 99,
+    "topic": "PCAOB Issues First Guidance on Generative AI in Financial Statement Audits",
+    "file": "html/article-0099-pcaob-issues-first-guidance-on-generative-ai-in-financial-statement-audi-20260814-020458.html",
+    "timestamp": "20260814-020458",
+    "full_timestamp": "2026-08-14T02:04:58-07:00",
+    "summary": "PCAOB staff spotlight outlines how auditors must verify AI-assisted financial reporting, but no binding standard exists yet—existing rules and inspections already apply.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "PCAOB generative AI audit guidance financial statements 2026",
+    "source_count": 12,
+    "tags": "PCAOB, AI auditing, financial reporting, auditor oversight",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
