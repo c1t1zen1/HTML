@@ -1183,5 +1183,18 @@
     "source_count": 12,
     "tags": "EU AI Act, AI video, content labeling",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 95,
+    "topic": "FCC Robot-Vacuum Ban Threatens Matter-Connected Smart Home Automation in the U.S.",
+    "file": "html/article-0095-fcc-robot-vacuum-ban-threatens-matter-connected-smart-home-automation-in-20260813-220321.html",
+    "timestamp": "20260813-220321",
+    "full_timestamp": "2026-08-13T22:03:21-07:00",
+    "summary": "FCC's national-security ban on foreign-made robot vacuums could stall future Matter and HomeKit smart-home devices, reshaping what U.S. buyers can automate.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "FCC foreign-made robot vacuum ban Matter smart home July 2026",
+    "source_count": 12,
+    "tags": "smart homes, robot vacuums, Matter, regulation",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
