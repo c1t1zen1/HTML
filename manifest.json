@@ -1157,5 +1157,18 @@
     "source_count": 12,
     "tags": "AI deepfakes, election law, political advertising",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 93,
+    "topic": "Congress Probes Intelligence Agencies’ AI Searches of Americans’ Commercial Data",
+    "file": "html/article-0093-congress-probes-intelligence-agencies-ai-searches-of-americans-commercia-20260813-200331.html",
+    "timestamp": "20260813-200331",
+    "full_timestamp": "2026-08-13T20:03:31-07:00",
+    "summary": "Congress is probing how intelligence agencies use AI to search Americans' commercially purchased data, as oversight bills and FISA renewal collide.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 Congress intelligence agencies AI searches Americans commercial data oversight",
+    "source_count": 12,
+    "tags": "AI surveillance, intelligence oversight, commercial data",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
