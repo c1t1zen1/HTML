@@ -1209,5 +1209,18 @@
     "source_count": 12,
     "tags": "AI, intelligence, foreign influence, surveillance",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 97,
+    "topic": "2026 Midterms Force Platforms to Prove AI Election-Misinformation Response Times",
+    "file": "html/article-0097-2026-midterms-force-platforms-to-prove-ai-election-misinformation-respon-20260814-000407.html",
+    "timestamp": "20260814-000407",
+    "full_timestamp": "2026-08-14T00:04:07-07:00",
+    "summary": "As the 2026 midterms approach, platforms face unprecedented pressure to prove measurable AI misinformation response times, moving beyond voluntary safeguards toward enforceable election-period obligations.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 midterm elections platforms AI misinformation response time requirements",
+    "source_count": 12,
+    "tags": "elections,misinformation,platform-policy,AI",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
