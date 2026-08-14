@@ -1326,5 +1326,18 @@
     "source_count": 12,
     "tags": "AI filmmaking, digital likenesses, synthetic media, entertainment rights",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 106,
+    "topic": "After Effects AI Assistant Beta Exposes Project-Folder Boundary Risk During Creative Automation",
+    "file": "html/article-0106-after-effects-ai-assistant-beta-exposes-project-folder-boundary-risk-dur-20260814-090336.html",
+    "timestamp": "20260814-090336",
+    "full_timestamp": "2026-08-14T09:03:36-07:00",
+    "summary": "Adobe's agentic After Effects AI Assistant can reorganize projects by natural language, but its ability to act beyond the project folder raises new boundary and trust questions for editors.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "Adobe After Effects AI Assistant beta folder access issue August 2026",
+    "source_count": 12,
+    "tags": "AI video editing, Adobe After Effects, creative software security",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
