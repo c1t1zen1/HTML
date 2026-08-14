@@ -1274,5 +1274,18 @@
     "source_count": 12,
     "tags": "Apple Intelligence,macOS,privacy,local AI",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 102,
+    "topic": "New Mental Health AI Audit Finds Risky Behavior Accumulates Across Conversations",
+    "file": "html/article-0102-new-mental-health-ai-audit-finds-risky-behavior-accumulates-across-conve-20260814-050950.html",
+    "timestamp": "20260814-050950",
+    "full_timestamp": "2026-08-14T05:09:50-07:00",
+    "summary": "A new clinically validated audit framework, SIM-VAIL, shows how AI chatbot responses can amplify psychiatric vulnerabilities across multi-turn conversations, pinpointing where risk accumulates.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "SIM-VAIL Nature Medicine audit mental health chatbot vulnerability escalation models 2026 latest",
+    "source_count": 12,
+    "tags": "AI safety, mental health, chatbot evaluation",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
