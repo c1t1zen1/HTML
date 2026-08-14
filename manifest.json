@@ -1131,5 +1131,18 @@
     "source_count": 12,
     "tags": "AI trading, crypto, LLM benchmarks, autonomous agents",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 91,
+    "topic": "Qwen3 Quantized Models Turn Mac Unified Memory Into a Local AI Testbed",
+    "file": "html/article-0091-qwen3-quantized-models-turn-mac-unified-memory-into-a-local-ai-testbed-20260813-180500.html",
+    "timestamp": "20260813-180500",
+    "full_timestamp": "2026-08-13T18:05:00-07:00",
+    "summary": "Qwen3 quantization plus MLX turns Mac unified memory into a practical local-AI testbed—MoE 35B fits in 19.5GB and beats 27B on M1 Max.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "2026 Mac Qwen3 quantized LLM MLX benchmark unified memory",
+    "source_count": 12,
+    "tags": "Qwen3, MLX, quantization, Apple Silicon",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
