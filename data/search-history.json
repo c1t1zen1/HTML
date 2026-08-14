@@ -1048,5 +1048,17 @@
     "canonical_query": "c2pa live video provenance virtual presenters 2026 news",
     "searched_at": "2026-08-14T11:01:52-07:00",
     "topic": "C2PA Live-Video Provenance Puts Virtual Presenters’ Authenticity Claims to the Test"
+  },
+  {
+    "query": "Apple MLX distributed inference Thunderbolt RDMA multiple Macs WWDC 2026",
+    "canonical_query": "apple mlx distributed inference thunderbolt rdma multiple macs wwdc 2026",
+    "searched_at": "2026-08-14T12:01:51-07:00",
+    "topic": "Apple’s Thunderbolt Mac Clusters Turn Local AI Development Into a Distributed Workflow"
+  },
+  {
+    "query": "Apple’s Thunderbolt Mac Clusters Turn Local AI Development Into a Distributed Workflow analysis developments",
+    "canonical_query": "apple s thunderbolt mac clusters turn local ai development into a distributed workflow analysis developments",
+    "searched_at": "2026-08-14T12:01:53-07:00",
+    "topic": "Apple’s Thunderbolt Mac Clusters Turn Local AI Development Into a Distributed Workflow"
   }
 ]

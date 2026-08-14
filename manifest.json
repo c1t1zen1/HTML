@@ -1365,5 +1365,18 @@
     "source_count": 12,
     "tags": "AI avatars, C2PA, provenance, livestreaming",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 109,
+    "topic": "Apple’s Thunderbolt Mac Clusters Turn Local AI Development Into a Distributed Workflow",
+    "file": "html/article-0109-apples-thunderbolt-mac-clusters-turn-local-ai-development-into-a-distrib-20260814-120337.html",
+    "timestamp": "20260814-120337",
+    "full_timestamp": "2026-08-14T12:03:37-07:00",
+    "summary": "Apple's MLX stack now shards 400B+ models across Thunderbolt-connected Macs, turning local AI development into a distributed workflow with RDMA and JACCL.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple MLX distributed inference Thunderbolt RDMA multiple Macs WWDC 2026",
+    "source_count": 12,
+    "tags": "MLX,distributed inference,Thunderbolt RDMA,Apple Silicon",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
