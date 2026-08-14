@@ -1000,5 +1000,11 @@
     "canonical_query": "apple m5 ultra local llm inference benchmark memory bandwidth 2026",
     "searched_at": "2026-08-14T03:01:42-07:00",
     "topic": "M5 Ultra LLM Benchmarks Test Whether Apple Silicon Scales Beyond Memory Bandwidth"
+  },
+  {
+    "query": "Apple Foundation Models framework Mac privacy apps 2026 developer news",
+    "canonical_query": "apple foundation models framework mac privacy apps 2026 developer news",
+    "searched_at": "2026-08-14T04:01:46-07:00",
+    "topic": "Apple’s Foundation Models Framework Makes App-Level Privacy the New Mac AI Battleground"
   }
 ]

@@ -1261,5 +1261,18 @@
     "source_count": 12,
     "tags": "Apple Silicon,LLM inference,M5 Ultra,benchmarks",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 101,
+    "topic": "Apple’s Foundation Models Framework Makes App-Level Privacy the New Mac AI Battleground",
+    "file": "html/article-0101-apples-foundation-models-framework-makes-app-level-privacy-the-new-mac-a-20260814-040425.html",
+    "timestamp": "20260814-040425",
+    "full_timestamp": "2026-08-14T04:04:25-07:00",
+    "summary": "Apple's on-device Foundation Models framework promises privacy, but third-party apps can quietly route data to cloud models, telemetry, and external tools.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Foundation Models framework Mac privacy apps 2026 developer news",
+    "source_count": 12,
+    "tags": "Apple Intelligence,macOS,privacy,local AI",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
