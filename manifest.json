@@ -1287,5 +1287,18 @@
     "source_count": 12,
     "tags": "AI safety, mental health, chatbot evaluation",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 103,
+    "topic": "Banks Turn AI Toward Mule Networks as Instant Payments Accelerate Fraud",
+    "file": "html/article-0103-banks-turn-ai-toward-mule-networks-as-instant-payments-accelerate-fraud-20260814-060507.html",
+    "timestamp": "20260814-060507",
+    "full_timestamp": "2026-08-14T06:05:07-07:00",
+    "summary": "Banks are shifting from scoring single transactions to mapping coordinated mule networks as instant payments shrink the fraud-response window.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks AI detection mule account networks instant payments fraud",
+    "source_count": 12,
+    "tags": "banking fraud, mule accounts, instant payments, AI detection",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
