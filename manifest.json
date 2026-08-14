@@ -1248,5 +1248,18 @@
     "source_count": 12,
     "tags": "PCAOB, AI auditing, financial reporting, auditor oversight",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 100,
+    "topic": "M5 Ultra LLM Benchmarks Test Whether Apple Silicon Scales Beyond Memory Bandwidth",
+    "file": "html/article-0100-m5-ultra-llm-benchmarks-test-whether-apple-silicon-scales-beyond-memory-20260814-030436.html",
+    "timestamp": "20260814-030436",
+    "full_timestamp": "2026-08-14T03:04:36-07:00",
+    "summary": "M5 Ultra's 192GB and 800+ GB/s promise linear decode gains, but sustained LLM throughput still hinges on memory bandwidth—and real benchmarks remain scarce.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M5 Ultra local LLM inference benchmark memory bandwidth 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon,LLM inference,M5 Ultra,benchmarks",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]

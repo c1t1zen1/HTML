@@ -994,5 +994,11 @@
     "canonical_query": "pcaob generative ai audit guidance financial statements 2026",
     "searched_at": "2026-08-14T02:02:29-07:00",
     "topic": "PCAOB Issues First Guidance on Generative AI in Financial Statement Audits"
+  },
+  {
+    "query": "Apple M5 Ultra local LLM inference benchmark memory bandwidth 2026",
+    "canonical_query": "apple m5 ultra local llm inference benchmark memory bandwidth 2026",
+    "searched_at": "2026-08-14T03:01:42-07:00",
+    "topic": "M5 Ultra LLM Benchmarks Test Whether Apple Silicon Scales Beyond Memory Bandwidth"
   }
 ]
