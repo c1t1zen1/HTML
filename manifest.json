@@ -1170,5 +1170,18 @@
     "source_count": 12,
     "tags": "AI surveillance, intelligence oversight, commercial data",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 94,
+    "topic": "EU AI Act Transparency Deadline Puts New Labels on AI Short Videos",
+    "file": "html/article-0094-eu-ai-act-transparency-deadline-puts-new-labels-on-ai-short-videos-20260813-210558.html",
+    "timestamp": "20260813-210558",
+    "full_timestamp": "2026-08-13T21:05:58-07:00",
+    "summary": "EU AI Act transparency rules take effect Aug 2, 2026, forcing labels on AI-generated short-form creator videos across TikTok, Instagram, and YouTube.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "EU AI Act August 2026 transparency labels TikTok Instagram YouTube AI videos",
+    "source_count": 12,
+    "tags": "EU AI Act, AI video, content labeling",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
