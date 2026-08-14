@@ -1300,5 +1300,18 @@
     "source_count": 12,
     "tags": "banking fraud, mule accounts, instant payments, AI detection",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 104,
+    "topic": "AI Firms’ 2026 Lobbying Push Targets Federal Rules for Training-Data Disclosure",
+    "file": "html/article-0104-ai-firms-2026-lobbying-push-targets-federal-rules-for-training-data-disc-20260814-070312.html",
+    "timestamp": "20260814-070312",
+    "full_timestamp": "2026-08-14T07:03:12-07:00",
+    "summary": "AI giants are pouring record sums into Washington lobbying, but the fight over federal training-data disclosure rules remains murky.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "2026 AI lobbying training data disclosure federal legislation Washington",
+    "source_count": 12,
+    "tags": "AI policy, lobbying, copyright, Washington",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
