@@ -1391,5 +1391,18 @@
     "source_count": 12,
     "tags": "AI regulation, legal technology, compliance",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 111,
+    "topic": "LTX-2.5’s Open Weights Put Local AI Video Production Under License Pressure",
+    "file": "html/article-0111-ltx-2-5s-open-weights-put-local-ai-video-production-under-license-pressu-20260814-140343.html",
+    "timestamp": "20260814-140343",
+    "full_timestamp": "2026-08-14T14:03:43-07:00",
+    "summary": "LTX-2.5's open weights promise local AI video, but a revenue-gated license and commercial terms may squeeze studios that cross the threshold.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "LTX-2.5 open weights ComfyUI license $10 million ARR August 2026",
+    "source_count": 12,
+    "tags": "open weights, licensing, local inference, AI video",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
