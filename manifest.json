@@ -1625,5 +1625,18 @@
     "source_count": 12,
     "tags": "hardware, supply-chain, ai-infrastructure",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 129,
+    "topic": "Adobe Premiere Pro 2026 AI Agents Automate Color Grading and Sound Mixing",
+    "file": "html/article-0129-adobe-premiere-pro-2026-ai-agents-automate-color-grading-and-sound-mixin-20260815-080258.html",
+    "timestamp": "20260815-080258",
+    "full_timestamp": "2026-08-15T08:02:58-07:00",
+    "summary": "Adobe's 2026 Premiere Pro update integrates autonomous AI agents to automate color grading and sound mixing, shifting post-production from manual precision to orchestrated creative workflows.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "Adobe Premiere Pro 2026 AI agents color grading sound mixing",
+    "source_count": 10,
+    "tags": "Adobe, Video Editing, AI Agents, Post-Production",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
