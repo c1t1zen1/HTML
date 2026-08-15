@@ -1638,5 +1638,18 @@
     "source_count": 10,
     "tags": "Adobe, Video Editing, AI Agents, Post-Production",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 130,
+    "topic": "FCC Proposes Real-Time AI Disclosure Mandate for 2026 Digital Ad Buy",
+    "file": "html/article-0130-fcc-proposes-real-time-ai-disclosure-mandate-for-2026-digital-ad-buy-20260815-090304.html",
+    "timestamp": "20260815-090304",
+    "full_timestamp": "2026-08-15T09:03:04-07:00",
+    "summary": "The FCC proposes mandatory on-air and written disclosures for AI-generated political ads on radio and television, aiming to ensure voters are informed during the 2026 cycle.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "FCC AI disclosure rules digital ads 2026 election",
+    "source_count": 12,
+    "tags": "FCC, political ads, AI disclosure, 2026 elections",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
