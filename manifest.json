@@ -1508,5 +1508,18 @@
     "source_count": 12,
     "tags": "MLX, speculative decoding, token latency, Apple Silicon",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 120,
+    "topic": "California’s AI-Therapy Bill Collides With Kaiser’s Black-Box Mental-Health Triage Complaint",
+    "file": "html/article-0120-californias-ai-therapy-bill-collides-with-kaisers-black-box-mental-healt-20260814-230358.html",
+    "timestamp": "20260814-230358",
+    "full_timestamp": "2026-08-14T23:03:58-07:00",
+    "summary": "California’s SB 903 would require consent and clinician review for AI triage, colliding with Kaiser’s denial that its e-visit tool makes clinical decisions.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California SB 903 Kaiser AI mental health triage complaint August 2026",
+    "source_count": 12,
+    "tags": "AI regulation, mental health, clinical triage, California",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
