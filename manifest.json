@@ -1547,5 +1547,18 @@
     "source_count": 12,
     "tags": "EU AI Act, hedge funds, model risk",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 123,
+    "topic": "TikTok’s AI Likeness Scanner Makes Biometric Verification the Price of Deepfake Protection",
+    "file": "html/article-0123-tiktoks-ai-likeness-scanner-makes-biometric-verification-the-price-of-de-20260815-020408.html",
+    "timestamp": "20260815-020408",
+    "full_timestamp": "2026-08-15T02:04:08-07:00",
+    "summary": "TikTok's opt-in AI likeness detection tool requires US creators to verify identity via Jumio, trading biometric data for deepfake protection.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI likeness detection tool creator identity verification unauthorized deepfakes 2026 latest",
+    "source_count": 12,
+    "tags": "TikTok, creator rights, deepfakes",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
