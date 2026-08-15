@@ -1677,5 +1677,18 @@
     "source_count": 12,
     "tags": "AI Video, EU AI Act, Biometrics, Compliance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 133,
+    "topic": "SEC Mandates Real-Time AI Audit Trails for 2026 Quarterly Financial Disclosures",
+    "file": "html/article-0133-sec-mandates-real-time-ai-audit-trails-for-2026-quarterly-financial-disc-20260815-120254.html",
+    "timestamp": "20260815-120254",
+    "full_timestamp": "2026-08-15T12:02:54-07:00",
+    "summary": "The premise of a 2026 real-time AI audit mandate is unsupported by current evidence. Actual SEC focus involves materiality-based disclosure reviews and exam priorities, not automated provenance tracking.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC AI audit trail mandate 2026 quarterly financial reporting",
+    "source_count": 12,
+    "tags": "SEC, AI Regulation, Financial Reporting, Audit",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
