@@ -1716,5 +1716,18 @@
     "source_count": 10,
     "tags": "smart home, Matter protocol, interoperability, 2026",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 136,
+    "topic": "Apple’s 2026 Neural Engine Update Targets Local Privacy Inference",
+    "file": "html/article-0136-apples-2026-neural-engine-update-targets-local-privacy-inference-20260815-150236.html",
+    "timestamp": "20260815-150236",
+    "full_timestamp": "2026-08-15T15:02:36-07:00",
+    "summary": "Apple’s 2026 hardware shifts leverage unified memory and MLX integration to accelerate local inference, reducing cloud dependency while maintaining strict on-device privacy for sensitive data workloads.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Silicon Neural Engine 2026 local LLM privacy update",
+    "source_count": 12,
+    "tags": "Apple Silicon, Local AI, Privacy, Neural Engine",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
