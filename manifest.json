@@ -1729,5 +1729,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Local AI, Privacy, Neural Engine",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 137,
+    "topic": "Quantized LLMs Face New macOS Security Sandbox Restrictions",
+    "file": "html/article-0137-quantized-llms-face-new-macos-security-sandbox-restrictions-20260815-160212.html",
+    "timestamp": "20260815-160212",
+    "full_timestamp": "2026-08-15T16:02:12-07:00",
+    "summary": "Apple's tightened macOS sandboxing in Sequoia 15.4 creates friction for third-party quantized LLMs, prioritizing data containment over local inference flexibility for developers.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "macOS 15.4 quantized LLM sandbox security restrictions 2026",
+    "source_count": 10,
+    "tags": "macOS security, LLM quantization, Apple privacy, local AI",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

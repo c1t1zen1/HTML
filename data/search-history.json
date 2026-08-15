@@ -1270,5 +1270,11 @@
     "canonical_query": "apple silicon neural engine 2026 local llm privacy update",
     "searched_at": "2026-08-15T15:00:09-07:00",
     "topic": "Apple’s 2026 Neural Engine Update Targets Local Privacy Inference"
+  },
+  {
+    "query": "macOS 15.4 quantized LLM sandbox security restrictions 2026",
+    "canonical_query": "macos 15 4 quantized llm sandbox security restrictions 2026",
+    "searched_at": "2026-08-15T16:00:17-07:00",
+    "topic": "Quantized LLMs Face New macOS Security Sandbox Restrictions"
   }
 ]
