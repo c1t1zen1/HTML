@@ -1586,5 +1586,18 @@
     "source_count": 10,
     "tags": "Apple Vision Pro, macOS Security, Local AI, Privacy",
     "model_names": "/Users/c1t1zen/models/Qwen3.6-27B-GGUF/Qwen3.6-27B-UD-Q8_K_XL.gguf"
+  },
+  {
+    "article_number": 126,
+    "topic": "Banking Sector Adopts AI-Generated Synthetic Fraud Scenarios for Model Stress Testing",
+    "file": "html/article-0126-banking-sector-adopts-ai-generated-synthetic-fraud-scenarios-for-model-s-20260815-050253.html",
+    "timestamp": "20260815-050253",
+    "full_timestamp": "2026-08-15T05:02:53-07:00",
+    "summary": "Banks are shifting from real-time detection to using AI-generated synthetic fraud scenarios to stress-test models against novel, unseen attack vectors in 2026.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "banks synthetic data AI fraud detection model stress testing 2026",
+    "source_count": 12,
+    "tags": "synthetic data, fraud prevention, model validation, banking AI",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
