@@ -1703,5 +1703,18 @@
     "source_count": 12,
     "tags": "election-integrity, legal-regulation, ai-infrastructure",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 135,
+    "topic": "Matter 1.5 Standardization Sparks 2026 Smart Home Interoperability Wars",
+    "file": "html/article-0135-matter-1-5-standardization-sparks-2026-smart-home-interoperability-wars-20260815-140209.html",
+    "timestamp": "20260815-140209",
+    "full_timestamp": "2026-08-15T14:02:09-07:00",
+    "summary": "Matter 1.5, released in late 2025, expands smart home interoperability to cameras and energy management, setting the stage for 2026 hardware competition and the CSA's Unify event.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Matter 1.5 standard release 2026 smart home interoperability",
+    "source_count": 10,
+    "tags": "smart home, Matter protocol, interoperability, 2026",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
