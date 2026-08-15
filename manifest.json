@@ -1612,5 +1612,18 @@
     "source_count": 10,
     "tags": "Apple Silicon, Local AI, Hardware Constraints",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 128,
+    "topic": "Nvidia Blackwell Supply Chain Bottlenecks Threaten 2026 AI Model Training Costs",
+    "file": "html/article-0128-nvidia-blackwell-supply-chain-bottlenecks-threaten-2026-ai-model-trainin-20260815-070317.html",
+    "timestamp": "20260815-070317",
+    "full_timestamp": "2026-08-15T07:03:17-07:00",
+    "summary": "Nvidia Blackwell's 2026 rollout faces critical CoWoS packaging and HBM3e memory constraints, driving up training costs and extending supply shortages despite TSMC capacity expansions.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "Nvidia Blackwell supply chain bottleneck 2026 AI training costs",
+    "source_count": 12,
+    "tags": "hardware, supply-chain, ai-infrastructure",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
