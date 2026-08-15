@@ -1560,5 +1560,18 @@
     "source_count": 12,
     "tags": "TikTok, creator rights, deepfakes",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 124,
+    "topic": "Congress Is Buying the AI Tools It Must Regulate as Lobbying Hits Records",
+    "file": "html/article-0124-congress-is-buying-the-ai-tools-it-must-regulate-as-lobbying-hits-record-20260815-030321.html",
+    "timestamp": "20260815-030321",
+    "full_timestamp": "2026-08-15T03:03:21-07:00",
+    "summary": "Congress spends 88% of its visible AI budget on ChatGPT while OpenAI and Anthropic set record lobbying totals.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "House offices ChatGPT spending OpenAI Anthropic lobbying records August 2026",
+    "source_count": 12,
+    "tags": "Congress, AI lobbying, procurement, oversight",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
