@@ -1430,5 +1430,18 @@
     "source_count": 12,
     "tags": "hedge funds,algorithmic trading,SEC,AI governance",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 114,
+    "topic": "Prompt Injection Turns AI Crypto Trading Bots Into a New Wallet-Drain Risk",
+    "file": "html/article-0114-prompt-injection-turns-ai-crypto-trading-bots-into-a-new-wallet-drain-ri-20260814-170500.html",
+    "timestamp": "20260814-170500",
+    "full_timestamp": "2026-08-14T17:05:00-07:00",
+    "summary": "A Morse-code prompt injection drained up to $200K from Grok-linked crypto wallets, showing how autonomous AI trading bots can be hijacked by hostile inputs.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "autonomous crypto trading bots prompt injection wallet drain security incident 2026",
+    "source_count": 12,
+    "tags": "AI security,crypto bots,prompt injection,DeFi",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
