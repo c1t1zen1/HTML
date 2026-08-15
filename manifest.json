@@ -1599,5 +1599,18 @@
     "source_count": 12,
     "tags": "synthetic data, fraud prevention, model validation, banking AI",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 127,
+    "topic": "Apple Silicon’s Unified Memory Bottleneck Limits Local AI Agent Swarms",
+    "file": "html/article-0127-apple-silicons-unified-memory-bottleneck-limits-local-ai-agent-swarms-20260815-060259.html",
+    "timestamp": "20260815-060259",
+    "full_timestamp": "2026-08-15T06:02:59-07:00",
+    "summary": "Unified memory enables large local models but creates a hard ceiling for multi-agent swarms, forcing developers to balance quantization, swap latency, and hardware tiers to avoid bottlenecks.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple Silicon unified memory bottleneck local AI agents 2026",
+    "source_count": 10,
+    "tags": "Apple Silicon, Local AI, Hardware Constraints",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
