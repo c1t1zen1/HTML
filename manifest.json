@@ -1443,5 +1443,18 @@
     "source_count": 12,
     "tags": "AI security,crypto bots,prompt injection,DeFi",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 115,
+    "topic": "Meta’s Vibes Feed Tests Whether AI-Only Short Videos Can Be Moderated at Scale",
+    "file": "html/article-0115-metas-vibes-feed-tests-whether-ai-only-short-videos-can-be-moderated-at-20260814-180532.html",
+    "timestamp": "20260814-180532",
+    "full_timestamp": "2026-08-14T18:05:32-07:00",
+    "summary": "Meta's Vibes feed, an AI-only short-video stream, tests whether recommendation and moderation systems can handle synthetic content at scale without provenance-based guardrails.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "Meta Vibes AI video feed moderation policy creator labeling August 2026",
+    "source_count": 12,
+    "tags": "Meta Vibes, AI video, content moderation, social media",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
