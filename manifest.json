@@ -1482,5 +1482,18 @@
     "source_count": 12,
     "tags": "AI finance, Nvidia, securitization, market risk",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 118,
+    "topic": "Are Ollama and LM Studio Ready for MCP Without Weakening Mac File Permissions?",
+    "file": "html/article-0118-are-ollama-and-lm-studio-ready-for-mcp-without-weakening-mac-file-permis-20260814-210513.html",
+    "timestamp": "20260814-210513",
+    "full_timestamp": "2026-08-14T21:05:13-07:00",
+    "summary": "Ollama needs a bridge, LM Studio has native MCP—but both expose files and network without clear macOS permission hardening.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Ollama LM Studio MCP macOS filesystem permissions 2026",
+    "source_count": 12,
+    "tags": "macOS, local AI, MCP, security",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
