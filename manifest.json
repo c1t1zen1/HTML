@@ -1690,5 +1690,18 @@
     "source_count": 12,
     "tags": "SEC, AI Regulation, Financial Reporting, Audit",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 134,
+    "topic": "State Attorneys General Form Coalition to Audit AI Election Data Pipelines",
+    "file": "html/article-0134-state-attorneys-general-form-coalition-to-audit-ai-election-data-pipelin-20260815-130136.html",
+    "timestamp": "20260815-130136",
+    "full_timestamp": "2026-08-15T13:01:36-07:00",
+    "summary": "A 42-state coalition subpoenas OpenAI to audit AI data pipelines, signaling a shift from general misinformation to infrastructure accountability and inter-state legal coordination in election administration.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "state attorneys general coalition AI election data audit 2026",
+    "source_count": 12,
+    "tags": "election-integrity, legal-regulation, ai-infrastructure",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
