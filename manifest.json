@@ -1534,5 +1534,18 @@
     "source_count": 12,
     "tags": "courts,legal AI,attorney sanctions",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 122,
+    "topic": "EU AI Act’s August Deadline Leaves Hedge-Fund Trading LLMs in a Classification Gray Zone",
+    "file": "html/article-0122-eu-ai-acts-august-deadline-leaves-hedge-fund-trading-llms-in-a-classific-20260815-010508.html",
+    "timestamp": "20260815-010508",
+    "full_timestamp": "2026-08-15T01:05:08-07:00",
+    "summary": "As EU AI Act high-risk rules bite on August 2, 2026, hedge funds using LLMs for research and execution face unclear classification and layered GPAI duties.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "EU AI Act August 2026 hedge fund trading LLM classification",
+    "source_count": 12,
+    "tags": "EU AI Act, hedge funds, model risk",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
