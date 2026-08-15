@@ -1138,5 +1138,17 @@
     "canonical_query": "ollama lm studio mcp macos filesystem permissions 2026",
     "searched_at": "2026-08-14T21:02:54-07:00",
     "topic": "Are Ollama and LM Studio Ready for MCP Without Weakening Mac File Permissions?"
+  },
+  {
+    "query": "MLX speculative decoding draft model token generation Apple hardware LLM August 2026",
+    "canonical_query": "mlx speculative decoding draft model token generation apple hardware llm august 2026",
+    "searched_at": "2026-08-14T22:04:10-07:00",
+    "topic": "MLX Speculative Decoding Tests Whether Apple Silicon Can Close the Local LLM Speed Gap"
+  },
+  {
+    "query": "MLX Speculative Decoding Tests Whether Apple Silicon Can Close the Local LLM Speed Gap analysis developments",
+    "canonical_query": "mlx speculative decoding tests whether apple silicon can close the local llm speed gap analysis developments",
+    "searched_at": "2026-08-14T22:04:12-07:00",
+    "topic": "MLX Speculative Decoding Tests Whether Apple Silicon Can Close the Local LLM Speed Gap"
   }
 ]

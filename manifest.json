@@ -1495,5 +1495,18 @@
     "source_count": 12,
     "tags": "macOS, local AI, MCP, security",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 119,
+    "topic": "MLX Speculative Decoding Tests Whether Apple Silicon Can Close the Local LLM Speed Gap",
+    "file": "html/article-0119-mlx-speculative-decoding-tests-whether-apple-silicon-can-close-the-local-20260814-220528.html",
+    "timestamp": "20260814-220528",
+    "full_timestamp": "2026-08-14T22:05:28-07:00",
+    "summary": "MLX's new speculative decoding may finally close Apple Silicon's local LLM speed gap—if draft-model acceptance beats Metal's verification overhead.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "MLX speculative decoding draft model token generation Apple hardware LLM August 2026",
+    "source_count": 12,
+    "tags": "MLX, speculative decoding, token latency, Apple Silicon",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
