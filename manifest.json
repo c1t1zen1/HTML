@@ -1573,5 +1573,18 @@
     "source_count": 12,
     "tags": "Congress, AI lobbying, procurement, oversight",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 125,
+    "topic": "Apple Vision Pro’s Local AI Engine Forces New macOS Privacy Sandboxing Standards",
+    "file": "html/article-0125-apple-vision-pros-local-ai-engine-forces-new-macos-privacy-sandboxing-st-20260815-040223.html",
+    "timestamp": "20260815-040223",
+    "full_timestamp": "2026-08-15T04:02:23-07:00",
+    "summary": "Vision Pro’s spatial AI demands are accelerating macOS privacy standards, driving native sandboxing tools like Agent Safehouse and enforcing on-device processing for local agents.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Apple Vision Pro local AI privacy sandboxing macOS 2026",
+    "source_count": 10,
+    "tags": "Apple Vision Pro, macOS Security, Local AI, Privacy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.6-27B-GGUF/Qwen3.6-27B-UD-Q8_K_XL.gguf"
   }
 ]
