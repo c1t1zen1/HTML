@@ -1521,5 +1521,18 @@
     "source_count": 12,
     "tags": "AI regulation, mental health, clinical triage, California",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 121,
+    "topic": "Hallucinated Citations Push Federal Courts Toward AI Disclosure Rules for Every Legal Filing",
+    "file": "html/article-0121-hallucinated-citations-push-federal-courts-toward-ai-disclosure-rules-fo-20260815-000325.html",
+    "timestamp": "20260815-000325",
+    "full_timestamp": "2026-08-15T00:03:25-07:00",
+    "summary": "Federal courts are now pairing AI-disclosure standing orders with cite-check duties and escalating sanctions for hallucinated legal citations.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 federal court AI disclosure rule hallucinated citations attorney sanctions",
+    "source_count": 12,
+    "tags": "courts,legal AI,attorney sanctions",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
