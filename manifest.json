@@ -1469,5 +1469,18 @@
     "source_count": 12,
     "tags": "coding agents, open source, AI governance, software security",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 117,
+    "topic": "Wall Street’s New AI Infrastructure Financing Model Could Reprice the Stocks Behind the Boom",
+    "file": "html/article-0117-wall-streets-new-ai-infrastructure-financing-model-could-reprice-the-sto-20260814-201335.html",
+    "timestamp": "20260814-201335",
+    "full_timestamp": "2026-08-14T20:13:35-07:00",
+    "summary": "Nvidia's $500B financing push with Wall Street asset managers securitizes AI infrastructure, creating a new repricing and contagion channel for the stocks behind the boom.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "Nvidia Wall Street securitization AI infrastructure financing stocks August 2026",
+    "source_count": 12,
+    "tags": "AI finance, Nvidia, securitization, market risk",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
