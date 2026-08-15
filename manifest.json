@@ -1664,5 +1664,18 @@
     "source_count": 10,
     "tags": "post-quantum-cryptography, ai-trading, crypto-security",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 132,
+    "topic": "AI Video Avatars Face New EU Biometric Consent Hurdles in 2026",
+    "file": "html/article-0132-ai-video-avatars-face-new-eu-biometric-consent-hurdles-in-2026-20260815-110315.html",
+    "timestamp": "20260815-110315",
+    "full_timestamp": "2026-08-15T11:03:15-07:00",
+    "summary": "EU AI Act transparency rules collide with biometric consent requirements in 2026, forcing video avatar creators to navigate complex legal friction between synthetic media disclosure and personal data protection.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "EU AI Act biometric consent AI video avatars 2026",
+    "source_count": 12,
+    "tags": "AI Video, EU AI Act, Biometrics, Compliance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
