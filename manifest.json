@@ -1807,5 +1807,18 @@
     "source_count": 12,
     "tags": "NSA, Quantum Computing, AI Surveillance, National Security",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 143,
+    "topic": "BlackRock’s 2026 AI Alpha Engine Faces SEC Latency Audit Scrutiny",
+    "file": "html/article-0143-blackrocks-2026-ai-alpha-engine-faces-sec-latency-audit-scrutiny-20260815-220152.html",
+    "timestamp": "20260815-220152",
+    "full_timestamp": "2026-08-15T22:01:52-07:00",
+    "summary": "BlackRock's 2026 AI strategy faces potential regulatory friction as SEC mandates for real-time audit trails may constrain high-frequency alpha generation, creating a compliance bottleneck for autonomous trading systems.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "BlackRock AI trading latency SEC audit 2026",
+    "source_count": 12,
+    "tags": "AI Trading, SEC Regulation, BlackRock, 2026",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
