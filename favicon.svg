@@ -1,16 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title id="title">Markgitup globe</title>
   <defs>
-    <linearGradient id="tile" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#193455"/>
-      <stop offset="1" stop-color="#07101d"/>
-    </linearGradient>
     <linearGradient id="globe" x1="18" y1="14" x2="47" y2="51" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5ee7ed"/>
       <stop offset="1" stop-color="#2b9ec1"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="16" fill="url(#tile)"/>
   <circle cx="32" cy="34" r="20" fill="#0d1a2b" stroke="url(#globe)" stroke-width="3"/>
   <path d="M12 34h40M16 24c4.5 3 10 4.5 16 4.5S43.5 27 48 24M16 44c4.5-3 10-4.5 16-4.5S43.5 41 48 44" fill="none" stroke="#5ee7ed" stroke-linecap="round" stroke-width="2" opacity=".9"/>
   <path d="M32 14c-7 5.5-10 12.5-10 20s3 14.5 10 20M32 14c7 5.5 10 12.5 10 20s-3 14.5-10 20" fill="none" stroke="#5ee7ed" stroke-linecap="round" stroke-width="2" opacity=".9"/>
