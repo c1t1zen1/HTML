@@ -1768,5 +1768,18 @@
     "source_count": 12,
     "tags": "AI Security, DevOps, Supply Chain",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 140,
+    "topic": "CFTC Proposes Real-Time Synthetic Media Disclosure Rules for 2026 Algorithmic Trading",
+    "file": "html/article-0140-cftc-proposes-real-time-synthetic-media-disclosure-rules-for-2026-algori-20260815-190201.html",
+    "timestamp": "20260815-190201",
+    "full_timestamp": "2026-08-15T19:02:01-07:00",
+    "summary": "The CFTC is moving toward stricter algorithmic trading oversight, with proposals for pre-trade testing and incident reporting, though specific 2026 synthetic media disclosure rules remain unconfirmed in provided sources.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "CFTC synthetic media disclosure rules algorithmic trading 2026",
+    "source_count": 12,
+    "tags": "CFTC, algorithmic trading, deepfake regulation, financial compliance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
