@@ -2002,5 +2002,18 @@
     "source_count": 12,
     "tags": "election integrity, AI fact-checking, 2026 midterms",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 158,
+    "topic": "TikTok's 2026 AI Creator Fund Shifts Incentives to Synthetic Video",
+    "file": "html/article-0158-tiktok-s-2026-ai-creator-fund-shifts-incentives-to-synthetic-video-20260816-130233.html",
+    "timestamp": "20260816-130233",
+    "full_timestamp": "2026-08-16T13:02:33-07:00",
+    "summary": "TikTok's 2026 Creator Rewards Program explicitly excludes predominantly AI-generated content from monetization, prioritizing human creative input for higher payouts while tightening enforcement on synthetic media.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI Creator Fund 2026 synthetic video incentives",
+    "source_count": 12,
+    "tags": "TikTok, AI Video, Creator Economy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
