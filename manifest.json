@@ -1924,5 +1924,18 @@
     "source_count": 12,
     "tags": "Adobe, neural rendering, post-production, cost efficiency",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 152,
+    "topic": "Hedge Funds Deploy Local LLMs to Bypass 2026 Cloud Latency Penalties",
+    "file": "html/article-0152-hedge-funds-deploy-local-llms-to-bypass-2026-cloud-latency-penalties-20260816-070219.html",
+    "timestamp": "20260816-070219",
+    "full_timestamp": "2026-08-16T07:02:19-07:00",
+    "summary": "Hedge funds are shifting to on-premise LLM inference to mitigate cloud latency penalties and regulatory scrutiny, leveraging local models to maintain edge in high-frequency trading environments.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge funds local LLM inference low latency trading 2026",
+    "source_count": 12,
+    "tags": "FinTech, LLMs, Latency, Trading",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
