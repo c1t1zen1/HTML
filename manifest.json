@@ -2028,5 +2028,18 @@
     "source_count": 12,
     "tags": "audit automation, GenAI, Big Four, financial compliance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 160,
+    "topic": "Apple’s 2026 Privacy API Mandate Forces Local AI Model Standardization",
+    "file": "html/article-0160-apples-2026-privacy-api-mandate-forces-local-ai-model-standardization-20260816-160220.html",
+    "timestamp": "20260816-160220",
+    "full_timestamp": "2026-08-16T16:02:20-07:00",
+    "summary": "Apple’s 2026 strategy shifts from hardware to software governance, using CoreAI and local-first mandates to standardize privacy-compliant on-device inference for developers.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple 2026 local AI privacy API standardization mandate",
+    "source_count": 10,
+    "tags": "Apple, Local AI, Privacy, API Standards",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
