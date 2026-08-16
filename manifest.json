@@ -1989,5 +1989,18 @@
     "source_count": 12,
     "tags": "legal-tech, e-discovery, AI-governance, court-rulings",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 157,
+    "topic": "Election Integrity Groups Deploy Real-Time LLM Fact-Checkers for 2026 Midterms",
+    "file": "html/article-0157-election-integrity-groups-deploy-real-time-llm-fact-checkers-for-2026-mi-20260816-120221.html",
+    "timestamp": "20260816-120221",
+    "full_timestamp": "2026-08-16T12:02:21-07:00",
+    "summary": "Non-partisan groups are deploying LLMs to counter real-time AI-driven misinformation in the 2026 midterms, addressing a surge in deepfakes and the retreat of platform fact-checking.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 midterm elections AI misinformation real-time fact-checking deployment",
+    "source_count": 12,
+    "tags": "election integrity, AI fact-checking, 2026 midterms",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

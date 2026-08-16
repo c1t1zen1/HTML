@@ -1420,5 +1420,17 @@
     "canonical_query": "federal court ruling ai audit logs e discovery 2026",
     "searched_at": "2026-08-16T11:00:29-07:00",
     "topic": "Federal Courts Mandate AI Audit Logs for 2026 E-Discovery Compliance"
+  },
+  {
+    "query": "2026 midterm elections AI misinformation real-time fact-checking deployment",
+    "canonical_query": "2026 midterm elections ai misinformation real time fact checking deployment",
+    "searched_at": "2026-08-16T12:00:31-07:00",
+    "topic": "Election Integrity Groups Deploy Real-Time LLM Fact-Checkers for 2026 Midterms"
+  },
+  {
+    "query": "Election Integrity Groups Deploy Real-Time LLM Fact-Checkers for 2026 Midterms analysis developments",
+    "canonical_query": "election integrity groups deploy real time llm fact checkers for 2026 midterms analysis developments",
+    "searched_at": "2026-08-16T12:00:32-07:00",
+    "topic": "Election Integrity Groups Deploy Real-Time LLM Fact-Checkers for 2026 Midterms"
   }
 ]
