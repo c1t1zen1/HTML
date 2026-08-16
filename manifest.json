@@ -1833,5 +1833,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, LLM Inference, Hardware",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 145,
+    "topic": "Deepfake Voice Cloning Triggers Emergency Debate in 2026 Congressional Campaign Finance",
+    "file": "html/article-0145-deepfake-voice-cloning-triggers-emergency-debate-in-2026-congressional-c-20260816-000315.html",
+    "timestamp": "20260816-000315",
+    "full_timestamp": "2026-08-16T00:03:15-07:00",
+    "summary": "Congressional scrutiny of AI voice cloning in 2026 campaigns centers on the NO FAKES and DEFIANCE Acts, addressing fraud and election integrity through new civil damages and federal rights.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 congressional campaign deepfake voice cloning regulation debate",
+    "source_count": 10,
+    "tags": "election security, synthetic media, campaign finance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

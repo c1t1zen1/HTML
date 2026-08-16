@@ -1330,5 +1330,11 @@
     "canonical_query": "apple m4 max 70b llm local inference 2026",
     "searched_at": "2026-08-15T23:00:17-07:00",
     "topic": "M4 Max Unified Memory Enables 70B Parameter LLMs Without Cloud Dependency"
+  },
+  {
+    "query": "2026 congressional campaign deepfake voice cloning regulation debate",
+    "canonical_query": "2026 congressional campaign deepfake voice cloning regulation debate",
+    "searched_at": "2026-08-16T00:00:22-07:00",
+    "topic": "Deepfake Voice Cloning Triggers Emergency Debate in 2026 Congressional Campaign Finance"
   }
 ]
