@@ -1859,5 +1859,18 @@
     "source_count": 12,
     "tags": "open-source, video-generation, ai-models",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 147,
+    "topic": "Fed Stress Tests Reveal AI Fraud Model Failures in 2026 Banking",
+    "file": "html/article-0147-fed-stress-tests-reveal-ai-fraud-model-failures-in-2026-banking-20260816-020218.html",
+    "timestamp": "20260816-020218",
+    "full_timestamp": "2026-08-16T02:02:18-07:00",
+    "summary": "2026 Fed stress tests confirm bank capital resilience against macro shocks, but regulatory focus shifts to AI fraud model robustness amid new oversight standards.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "Federal Reserve 2026 AI fraud detection model stress test results",
+    "source_count": 12,
+    "tags": "banking, AI regulation, fraud detection, Fed stress tests",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
