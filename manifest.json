@@ -1872,5 +1872,18 @@
     "source_count": 12,
     "tags": "banking, AI regulation, fraud detection, Fed stress tests",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 148,
+    "topic": "California’s 2026 AI Companion Rules Put Therapy Chatbots Under Self-Harm Safeguards",
+    "file": "html/article-0148-californias-2026-ai-companion-rules-put-therapy-chatbots-under-self-harm-20260816-030417.html",
+    "timestamp": "20260816-030417",
+    "full_timestamp": "2026-08-16T03:04:17-07:00",
+    "summary": "California's SB 243, effective Jan 1 2026, forces companion chatbots to disclose AI, add self-harm crisis protocols, and file annual suicide-risk reports—reshaping mental-health AI design and liability.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California AI companion law 2026 therapy chatbot self-harm safeguards",
+    "source_count": 12,
+    "tags": "AI therapy, mental health, regulation, self-harm",
+    "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
   }
 ]
