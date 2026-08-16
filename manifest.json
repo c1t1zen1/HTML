@@ -1963,5 +1963,18 @@
     "source_count": 12,
     "tags": "deepfake-legislation, state-law, political-ai",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 155,
+    "topic": "macOS Sequoia 16 Local AI Sandbox Blocks Third-Party Model Loading",
+    "file": "html/article-0155-macos-sequoia-16-local-ai-sandbox-blocks-third-party-model-loading-20260816-100222.html",
+    "timestamp": "20260816-100222",
+    "full_timestamp": "2026-08-16T10:02:22-07:00",
+    "summary": "macOS Sequoia's latest security patches tighten sandbox restrictions to block privilege escalation, inadvertently complicating the deployment of third-party local AI models that rely on broad system access.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS Sequoia 16 local AI sandbox restrictions third-party models 2026 latest",
+    "source_count": 10,
+    "tags": "macOS, Local AI, Security, Developer Tools",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
