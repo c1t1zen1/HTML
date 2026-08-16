@@ -1976,5 +1976,18 @@
     "source_count": 10,
     "tags": "macOS, Local AI, Security, Developer Tools",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 156,
+    "topic": "Federal Courts Mandate AI Audit Logs for 2026 E-Discovery Compliance",
+    "file": "html/article-0156-federal-courts-mandate-ai-audit-logs-for-2026-e-discovery-compliance-20260816-110237.html",
+    "timestamp": "20260816-110237",
+    "full_timestamp": "2026-08-16T11:02:37-07:00",
+    "summary": "Federal courts are increasingly treating AI prompts, logs, and outputs as discoverable evidence, stripping privilege protections and mandating transparent audit trails for 2026 e-discovery compliance.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "federal court ruling AI audit logs e-discovery 2026",
+    "source_count": 12,
+    "tags": "legal-tech, e-discovery, AI-governance, court-rulings",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
