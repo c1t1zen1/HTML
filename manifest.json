@@ -1911,5 +1911,18 @@
     "source_count": 12,
     "tags": "AI Video, VFX, Hollywood, Technical Standards",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 151,
+    "topic": "Adobe 2026 Real-Time Neural Render Pipeline Cuts Post-Production Costs by 40%",
+    "file": "html/article-0151-adobe-2026-real-time-neural-render-pipeline-cuts-post-production-costs-b-20260816-060241.html",
+    "timestamp": "20260816-060241",
+    "full_timestamp": "2026-08-16T06:02:41-07:00",
+    "summary": "Adobe's 2026 integration of NVIDIA RTX Spark and neural rendering promises to bypass traditional offline farms, potentially reducing post-production timelines by up to 70%.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "Adobe 2026 real-time neural rendering post-production cost reduction",
+    "source_count": 12,
+    "tags": "Adobe, neural rendering, post-production, cost efficiency",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
