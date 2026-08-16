@@ -1950,5 +1950,18 @@
     "source_count": 12,
     "tags": "crypto, regulation, AI, CFTC",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 154,
+    "topic": "State Legislators Push 2026 Deepfake Consent Laws for Public Officials",
+    "file": "html/article-0154-state-legislators-push-2026-deepfake-consent-laws-for-public-officials-20260816-090237.html",
+    "timestamp": "20260816-090237",
+    "full_timestamp": "2026-08-16T09:02:37-07:00",
+    "summary": "State legislatures are accelerating deepfake consent laws for public officials in 2026, creating a patchwork of regulations distinct from federal frameworks and targeting election integrity and nonconsensual imagery.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "2026 state deepfake consent legislation public officials",
+    "source_count": 12,
+    "tags": "deepfake-legislation, state-law, political-ai",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
