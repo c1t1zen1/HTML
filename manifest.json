@@ -1755,5 +1755,18 @@
     "source_count": 12,
     "tags": "AI Video, Hollywood, Labor, VFX",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 139,
+    "topic": "Autonomous Code Agents Trigger New Supply Chain Vulnerability Audits in 2026",
+    "file": "html/article-0139-autonomous-code-agents-trigger-new-supply-chain-vulnerability-audits-in-20260815-180230.html",
+    "timestamp": "20260815-180230",
+    "full_timestamp": "2026-08-15T18:02:30-07:00",
+    "summary": "Autonomous AI agents introduce non-human supply chain risks in 2026, forcing a shift from static SBOMs to agentic governance and new audit frameworks.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "autonomous AI code agent supply chain security audit 2026",
+    "source_count": 12,
+    "tags": "AI Security, DevOps, Supply Chain",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
