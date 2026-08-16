@@ -1898,5 +1898,18 @@
     "source_count": 10,
     "tags": "EU AI Act, Smart Home Security, Regulation",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 150,
+    "topic": "AI Video Temporal Consistency Breaks 2026 Hollywood VFX Union Standards",
+    "file": "html/article-0150-ai-video-temporal-consistency-breaks-2026-hollywood-vfx-union-standards-20260816-050232.html",
+    "timestamp": "20260816-050232",
+    "full_timestamp": "2026-08-16T05:02:32-07:00",
+    "summary": "AI video temporal consistency failures, not just displacement, are driving contractual disputes as Hollywood VFX unions enforce new standards for object permanence and scene stability in 2026.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI video temporal consistency VFX union standards 2026",
+    "source_count": 12,
+    "tags": "AI Video, VFX, Hollywood, Technical Standards",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
