@@ -1781,5 +1781,18 @@
     "source_count": 12,
     "tags": "CFTC, algorithmic trading, deepfake regulation, financial compliance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 141,
+    "topic": "AI Video Watermarking Standards Face Interoperability Crisis in 2026",
+    "file": "html/article-0141-ai-video-watermarking-standards-face-interoperability-crisis-in-2026-20260815-200218.html",
+    "timestamp": "20260815-200218",
+    "full_timestamp": "2026-08-15T20:02:18-07:00",
+    "summary": "In 2026, AI video watermarking faces a fragmentation crisis as competing protocols like C2PA and SynthID struggle with interoperability under new EU and California mandates.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "AI video watermarking interoperability standards 2026",
+    "source_count": 10,
+    "tags": "AI Video, Watermarking, Standards, Interoperability",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
