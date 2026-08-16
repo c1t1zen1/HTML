@@ -1742,5 +1742,18 @@
     "source_count": 10,
     "tags": "macOS security, LLM quantization, Apple privacy, local AI",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 138,
+    "topic": "Sora 2 Integration Breaks Traditional VFX Pipeline Contracts in Hollywood",
+    "file": "html/article-0138-sora-2-integration-breaks-traditional-vfx-pipeline-contracts-in-hollywoo-20260815-170208.html",
+    "timestamp": "20260815-170208",
+    "full_timestamp": "2026-08-15T17:02:08-07:00",
+    "summary": "Sora 2's integration into Hollywood workflows triggered immediate legal friction over likeness rights and copyright, culminating in OpenAI's decision to shut down the platform in 2026.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "Sora 2 VFX pipeline contract dispute Hollywood 2026",
+    "source_count": 12,
+    "tags": "AI Video, Hollywood, Labor, VFX",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

@@ -1276,5 +1276,11 @@
     "canonical_query": "macos 15 4 quantized llm sandbox security restrictions 2026",
     "searched_at": "2026-08-15T16:00:17-07:00",
     "topic": "Quantized LLMs Face New macOS Security Sandbox Restrictions"
+  },
+  {
+    "query": "Sora 2 VFX pipeline contract dispute Hollywood 2026",
+    "canonical_query": "sora 2 vfx pipeline contract dispute hollywood 2026",
+    "searched_at": "2026-08-15T17:00:11-07:00",
+    "topic": "Sora 2 Integration Breaks Traditional VFX Pipeline Contracts in Hollywood"
   }
 ]
