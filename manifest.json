@@ -2015,5 +2015,18 @@
     "source_count": 12,
     "tags": "TikTok, AI Video, Creator Economy",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 159,
+    "topic": "Big Four Firms Deploy Generative AI to Automate 2026 Audit Workpapers",
+    "file": "html/article-0159-big-four-firms-deploy-generative-ai-to-automate-2026-audit-workpapers-20260816-150221.html",
+    "timestamp": "20260816-150221",
+    "full_timestamp": "2026-08-16T15:02:21-07:00",
+    "summary": "Big Four firms are integrating generative AI into audit workflows to automate documentation and data analysis, marking a shift from sampling to full-population testing in 2026.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "Big Four accounting firms generative AI audit workpaper automation 2026",
+    "source_count": 12,
+    "tags": "audit automation, GenAI, Big Four, financial compliance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
