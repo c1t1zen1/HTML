@@ -1885,5 +1885,18 @@
     "source_count": 12,
     "tags": "AI therapy, mental health, regulation, self-harm",
     "model_names": "GPT 5.6 Luna + deepseek-v4-flash"
+  },
+  {
+    "article_number": 149,
+    "topic": "EU AI Act High-Risk Designations Target Smart Home Security Cameras in 2026",
+    "file": "html/article-0149-eu-ai-act-high-risk-designations-target-smart-home-security-cameras-in-2-20260816-040246.html",
+    "timestamp": "20260816-040246",
+    "full_timestamp": "2026-08-16T04:02:46-07:00",
+    "summary": "The EU AI Act's high-risk classification for smart home security AI faces a critical regulatory pivot, with compliance deadlines shifting from 2026 to 2027 and 2028 due to recent omnibus amendments.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "EU AI Act high-risk smart home security cameras 2026",
+    "source_count": 10,
+    "tags": "EU AI Act, Smart Home Security, Regulation",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
