@@ -2,13 +2,15 @@
 """Hourly Markgitup research publisher.
 
 Pipeline:
-1. Claim one random unused topic from the persistent 24-topic cycle.
-2. Ask the configured local LLM for a fresh, news-focused angle and query.
-3. Run several SearXNG searches and deduplicate the evidence.
-4. Ask the same local LLM for structured article synthesis.
-5. Render safe, deterministic HTML from that structured response.
-6. Reset-free append to manifest, regenerate the portal, and push the portal repo.
+1. Pick one of the 24 durable topic ideas.
+2. Discover the active local model, then give it one long inference window for a fresh, news-focused angle and query.
+3. If local inference fails or times out, retry the same request through GPT 5.6 Codex Luna.
+4. Run several SearXNG searches and deduplicate the evidence.
+5. Use the same local-then-Codex chain for structured article synthesis.
+6. Render safe, deterministic HTML from that structured response.
+7. Reset-free append to manifest, regenerate the portal, and push the portal repo.
 
+If both inference paths fail, the run aborts before writing or publishing anything.
 The LLM never receives permission to emit HTML, JavaScript, or executable content.
 Search results are treated as untrusted evidence, not instructions.
 """
@@ -21,10 +23,12 @@ import json
 import os
 import random
 import re
+import shutil
 import subprocess
 import sys
 import time
 import unicodedata
+from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
@@ -68,84 +72,119 @@ AI_API_URL = os.getenv(
     "http://192.168.0.219:8080/v1/chat/completions",
 )
 AI_MODEL = os.getenv("MARKGITUP_MODEL", "local-llm")
+CODEX_MODEL = os.getenv("MARKGITUP_CODEX_MODEL", "gpt-5.6-luna")
+CODEX_PROVIDER = os.getenv("MARKGITUP_CODEX_PROVIDER", "openai-codex")
+LOCAL_INFERENCE_BUDGET_SECONDS = 30 * 60
+LOCAL_INFERENCE_ATTEMPTS = 1
 PORTAL_DIR = Path(os.getenv("MARKGITUP_PORTAL_DIR", "/home/pi/Documents/HTML-Portal"))
 HTML_DIR = PORTAL_DIR / "html"
 MANIFEST_PATH = PORTAL_DIR / "manifest.json"
-SEARCH_HISTORY_PATH = Path(
-    os.getenv("MARKGITUP_SEARCH_HISTORY_PATH", str(PORTAL_DIR / "data" / "search-history.json"))
-)
-SEARCH_COOLDOWN_DAYS = int(os.getenv("MARKGITUP_SEARCH_COOLDOWN_DAYS", "3"))
-SEARCH_HISTORY_LIMIT = int(os.getenv("MARKGITUP_SEARCH_HISTORY_LIMIT", "2000"))
-TOPIC_CYCLE_PATH = Path(
-    os.getenv("MARKGITUP_TOPIC_CYCLE_PATH", str(PORTAL_DIR / "data" / "topic-cycle.json"))
-)
+TOPIC_CYCLE_PATH = PORTAL_DIR / "data" / "topic-cycle.json"
+SEARCH_HISTORY_PATH = PORTAL_DIR / "data" / "search-history.json"
+COOLDOWN_DAYS = int(os.getenv("MARKGITUP_COOLDOWN_DAYS", "3"))
+MAX_ANGLE_RETRIES = int(os.getenv("MARKGITUP_ANGLE_RETRIES", "3"))
+REPEAT_STOPWORDS = {
+    "latest", "news", "developments", "analysis", "the", "and", "for", "of", "in",
+    "on", "to", "with", "a", "an", "use", "using", "new", "update",
+    "2026", "2025", "2024", "2023",
+}
 
 
 class MarkgitupError(RuntimeError):
     """Expected operational failure with a user-readable message."""
 
 
+@dataclass(frozen=True)
+class AIResponse:
+    """Model response plus the backend and reported model that produced it."""
+
+    content: str
+    backend: str
+    model_name: str
+
+
+def friendly_model_name(value: str) -> str:
+    """Map configured transport identifiers to compact human-readable names."""
+    raw = clean_text(value, 120)
+    known = {
+        "local-llm": "Nemotron 3 Super",
+        "gpt-5.6-luna": "GPT 5.6 Luna",
+    }
+    return known.get(raw.lower(), raw or "Unknown model")
+
+
+def parse_model_ids(response_data: dict[str, Any]) -> list[str]:
+    """Parse model IDs from an OpenAI-compatible /v1/models response."""
+    raw_models = response_data.get("data")
+    if not isinstance(raw_models, list):
+        raise MarkgitupError("/v1/models response omitted data")
+    model_ids = [
+        clean_text(item.get("id"), 200)
+        for item in raw_models
+        if isinstance(item, dict) and clean_text(item.get("id"), 200)
+    ]
+    if not model_ids:
+        raise MarkgitupError("/v1/models returned no model IDs")
+    return list(dict.fromkeys(model_ids))
+
+
+def local_chat_payload(
+    messages: list[dict[str, str]], max_tokens: int, model_id: str
+) -> dict[str, Any]:
+    """Build a local request using the model ID discovered from /v1/models."""
+    return {
+        "model": model_id,
+        "messages": messages,
+        "temperature": 0.45,
+        "max_tokens": max_tokens,
+        "chat_template_kwargs": {"enable_thinking": False},
+    }
+
+
+def local_timeout_seconds(now: float, deadline: float) -> int:
+    """Return bounded socket timeout remaining in the shared local budget."""
+    return max(1, int(deadline - now))
+
+
+def discover_local_model() -> str:
+    """Discover the active local model ID before any research inference."""
+    models_url = AI_API_URL.rsplit("/chat/completions", 1)[0] + "/models"
+    request = Request(models_url, headers={"Accept": "application/json"})
+    try:
+        with urlopen(request, timeout=30) as response:
+            response_data = json.loads(response.read().decode("utf-8"))
+        model_ids = parse_model_ids(response_data)
+    except Exception as exc:
+        raise MarkgitupError(f"local model discovery failed at {models_url}: {exc}") from exc
+
+    configured = os.getenv("MARKGITUP_MODEL", "").strip()
+    if configured and configured != "local-llm" and configured in model_ids:
+        selected = configured
+    elif len(model_ids) == 1:
+        selected = model_ids[0]
+    else:
+        selected = sorted(model_ids)[0]
+        print(
+            f"multiple local models advertised; selecting {selected!r} deterministically",
+            file=sys.stderr,
+        )
+    print(f"Discovered local model: {selected}")
+    return selected
+
+
+def model_names_text(model_names: set[str]) -> str:
+    """Serialize model names for manifest/debug state without footer wording."""
+    names = sorted({clean_text(name, 120) for name in model_names if clean_text(name, 120)})
+    return " + ".join(names or ["Unknown model"])
+
+
+def model_credit(model_names: set[str]) -> str:
+    """Return deterministic footer attribution for models used in this run."""
+    return "Powered by " + model_names_text(model_names)
+
+
 def now_local() -> datetime:
     return datetime.now().astimezone()
-
-
-def load_topic_cycle(path: Path | None = None) -> list[str]:
-    """Load used topic ideas, tolerating the first run with no state file."""
-    cycle_path = path or TOPIC_CYCLE_PATH
-    if not cycle_path.exists():
-        return []
-    try:
-        data = json.loads(cycle_path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        raise MarkgitupError(f"cannot read topic cycle state {cycle_path}: {exc}") from exc
-    if isinstance(data, list):
-        values = data
-    elif isinstance(data, dict):
-        values = data.get("used_topics", [])
-    else:
-        raise MarkgitupError(f"topic cycle state must be a JSON list or object: {cycle_path}")
-    if not isinstance(values, list):
-        raise MarkgitupError(f"topic cycle used_topics must be a JSON list: {cycle_path}")
-    known = set(TOPICS)
-    unique: list[str] = []
-    for value in values:
-        topic = str(value)
-        if topic in known and topic not in unique:
-            unique.append(topic)
-    return unique
-
-
-def save_topic_cycle(path: Path, used_topics: list[str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "used_topics": used_topics,
-        "updated_at": now_local().isoformat(timespec="seconds"),
-    }
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    temporary.replace(path)
-
-
-def select_cyclic_topic(
-    path: Path | None = None,
-    topics: list[str] | None = None,
-    rng: Any | None = None,
-) -> str:
-    """Claim one random unused topic; clear state after the 24th topic."""
-    cycle_path = path or TOPIC_CYCLE_PATH
-    topic_pool = list(dict.fromkeys(topics or TOPICS))
-    if not topic_pool:
-        raise MarkgitupError("topic pool is empty")
-    used = [topic for topic in load_topic_cycle(cycle_path) if topic in topic_pool]
-    available = [topic for topic in topic_pool if topic not in used]
-    if not available:
-        used = []
-        available = list(topic_pool)
-    selected = (rng or random).choice(available)
-    next_used = [*used, selected]
-    # Empty state marks a completed pass. Next run starts a fresh random permutation.
-    save_topic_cycle(cycle_path, [] if len(next_used) == len(topic_pool) else next_used)
-    return selected
 
 
 def clean_text(value: Any, limit: int = 500) -> str:
@@ -153,227 +192,10 @@ def clean_text(value: Any, limit: int = 500) -> str:
     return text[:limit].rstrip()
 
 
-def canonical_query(value: Any) -> str:
-    """Normalize a query for exact-repeat detection without semantic fuzzy matching."""
-    text = unicodedata.normalize("NFKC", str(value or "")).casefold()
-    text = re.sub(r"[^a-z0-9]+", " ", text)
-    return re.sub(r"\s+", " ", text).strip()
-
-
-def normalize_topic_query(query: str, original_topic: str = "") -> str:
-    """Keep topic searches broad; never narrow the M-series family to one chip."""
-    text = clean_text(query, 220)
-    topic = original_topic.casefold()
-    m_series_scope = bool(
-        re.search(r"\b(?:apple\s+)?m\s*[- ]?[1-9]\b", text, flags=re.IGNORECASE)
-        or "m series" in text.casefold()
-        or "m-series" in text.casefold()
-    )
-    m_series_topic = "m series" in topic or "m-series" in topic
-    if m_series_topic or m_series_scope:
-        text = re.sub(
-            r"\b(?:apple\s+)?m\s*[- ]?[1-9]\b(?:\s+(?:pro|max|ultra))?",
-            "M-series",
-            text,
-            flags=re.IGNORECASE,
-        )
-        text = re.sub(r"\bm\s*[- ]?series\b", "M-series", text, flags=re.IGNORECASE)
-        if "m-series" not in text.casefold():
-            text = f"Apple silicon M-series {text}".strip()
-    return clean_text(text, 220)
-
-
-def _parse_history_time(value: Any, fallback: datetime) -> datetime:
-    try:
-        parsed = datetime.fromisoformat(str(value))
-    except (TypeError, ValueError):
-        return fallback
-    if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=fallback.tzinfo)
-    return parsed
-
-
-def load_search_history(path: Path = SEARCH_HISTORY_PATH) -> list[dict[str, Any]]:
-    if not path.exists():
-        return []
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        raise MarkgitupError(f"cannot read {path}: {exc}") from exc
-    if not isinstance(data, list):
-        raise MarkgitupError(f"search history must be a JSON list: {path}")
-    return [item for item in data if isinstance(item, dict) and item.get("query")]
-
-
-def record_search_history(
-    path: Path,
-    queries: list[str],
-    topic: str = "",
-    searched_at: datetime | None = None,
-) -> None:
-    """Persist every query attempted by a run, including failed searches."""
-    timestamp = (searched_at or now_local()).isoformat(timespec="seconds")
-    history = load_search_history(path)
-    batch_keys: set[str] = set()
-    for query in queries:
-        cleaned = clean_text(query, 220)
-        key = canonical_query(cleaned)
-        if not key or key in batch_keys:
-            continue
-        history.append(
-            {
-                "query": cleaned,
-                "canonical_query": key,
-                "searched_at": timestamp,
-                "topic": clean_text(topic, 160),
-            }
-        )
-        batch_keys.add(key)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(json.dumps(history[-SEARCH_HISTORY_LIMIT:], indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    temporary.replace(path)
-
-
-def query_in_cooldown(
-    query: str,
-    history: list[dict[str, Any]],
-    now: datetime | None = None,
-    cooldown_days: int = SEARCH_COOLDOWN_DAYS,
-) -> bool:
-    current = now or now_local()
-    key = canonical_query(query)
-    cutoff = current - timedelta(days=cooldown_days)
-    for item in history:
-        if canonical_query(item.get("query")) != key:
-            continue
-        searched_at = _parse_history_time(item.get("searched_at") or item.get("full_timestamp"), current)
-        if searched_at >= cutoff:
-            return True
-    return False
-
-
-def manifest_search_history(manifest: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Read legacy manifest query fields so the new ledger starts safely."""
-    history: list[dict[str, Any]] = []
-    for item in manifest:
-        if not isinstance(item, dict):
-            continue
-        timestamp = item.get("full_timestamp") or item.get("timestamp")
-        queries = item.get("search_queries") or []
-        if isinstance(queries, str):
-            queries = [queries]
-        if item.get("search_query"):
-            queries = [item["search_query"], *queries]
-        for query in queries:
-            if query:
-                history.append(
-                    {
-                        "query": clean_text(query, 220),
-                        "searched_at": timestamp,
-                        "topic": clean_text(item.get("original_topic"), 160),
-                    }
-                )
-    return history
-
-
-def build_search_plan(
-    title: str,
-    original_topic: str,
-    angle: dict[str, Any],
-    history: list[dict[str, Any]],
-    now: datetime | None = None,
-    max_queries: int = 5,
-) -> list[str]:
-    """Build novel base + adjacent searches while preserving broad topic scope."""
-    current = now or now_local()
-    candidates: list[str] = [str(angle.get("search_query") or "")]
-    adjacent = angle.get("adjacent_queries") or []
-    if isinstance(adjacent, str):
-        adjacent = [adjacent]
-    candidates.extend(str(item) for item in adjacent)
-    candidates.extend(
-        [
-            f"{original_topic} recent reporting adoption signals {current.year}",
-            f"{original_topic} implementation constraints policy funding {current.year}",
-            f"{original_topic} benchmark deployment ecosystem changes {current.year}",
-            f"{title} independent analysis follow-up {current.year}",
-        ]
-    )
-    selected: list[str] = []
-    selected_keys: set[str] = set()
-    for candidate in candidates:
-        query = normalize_topic_query(candidate, original_topic)
-        key = canonical_query(query)
-        if not key or key in selected_keys or query_in_cooldown(query, history, current):
-            continue
-        selected.append(query)
-        selected_keys.add(key)
-        if len(selected) >= max_queries:
-            break
-    if not selected:
-        raise MarkgitupError(f"no novel search query remains for topic family: {original_topic}")
-    return selected
-
-
 def slugify(value: str, limit: int = 72) -> str:
     normalized = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", normalized.lower()).strip("-")
     return (slug or "research-update")[:limit].rstrip("-")
-
-
-def concise_portal_summary(value: Any, title: str, max_chars: int = 240, context: str = "") -> str:
-    """Turn model dek output into a short, inviting portal card blurb.
-
-    Portal cards are an editorial doorway, not a second article. Strip model
-    boilerplate and source dumps, keep at most three sentences, and enforce a
-    hard character budget so Nemotron cannot make the front page verbose.
-    """
-    text = re.sub(r"<[^>]+>", " ", str(value or ""))
-    text = clean_text(text, 1200)
-    text = re.sub(
-        r"^(?:this research synthesis explores|this dynamic webpage synthesizes research on)\s+[^.]+\.\s*",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-    for marker in (
-        "Key findings from recent sources include:",
-        "The research aggregates insights from verified publications",
-        "Research Methodology:",
-    ):
-        text = text.split(marker, 1)[0].strip()
-    title_clean = clean_text(title, 180).lower()
-    if (
-        not text
-        or "source-led briefing" in text.lower()
-        or "built from " in text.lower()
-        or "fresh reporting maps the practical stakes" in text.lower()
-        or (title_clean and text.lower().startswith(title_clean))
-    ):
-        text = ""
-    sentences = [part.strip() for part in re.split(r"(?<=[.!?])\s+", text) if part.strip()]
-    text = " ".join(sentences[:3])
-    if len(text) > max_chars:
-        words = text[: max_chars + 1].rsplit(" ", 1)[0].rstrip(".,;:!?—-")
-        text = words + "…"
-    if not text:
-        if context:
-            text = f"A source-led look at what is changing in {clean_text(context, 120)}—and what to watch next."
-        else:
-            text = "Fresh reporting maps the practical stakes and the next signal worth watching."
-    return text
-
-
-LUNA_LAYOUT_CONTRACT = """The HTML renderer is a fixed editorial template. You supply content only; never emit markup.
-The finished article must read like the canonical Markgitup Luna edition:
-1. Editor's brief: 2 compact paragraphs explaining why the signal matters now.
-2. Three to five FIELD NOTE sections, each with a specific editorial heading, 2-4 substantive paragraphs, 2-4 evidence-grounded bullets, and source numbers.
-3. Forecast triad: evidence-grounded upside, risks, and concrete watch-next signals.
-4. Closing read: 2-3 paragraphs that separate reported facts from projections, then exactly five source-tied takeaways.
-5. The dek is a sharp 20-35 word invitation. It must not list source titles, repeat the headline, or say 'this research synthesis'.
-Write with concrete nouns and active verbs. No boilerplate, generic AI claims, invented facts, unsupported statistics, PHP, HTML, CSS, JavaScript, Markdown, or source-dump prose.
-"""
 
 
 def json_from_response(text: str, expected: str | None = None) -> Any:
@@ -399,39 +221,132 @@ def json_from_response(text: str, expected: str | None = None) -> Any:
     raise MarkgitupError("local model returned no parseable JSON")
 
 
-def ai_chat(messages: list[dict[str, str]], max_tokens: int, label: str) -> str:
-    payload = {
-        "model": AI_MODEL,
-        "messages": messages,
-        "temperature": 0.45,
-        "max_tokens": max_tokens,
-        # Nemotron's llama.cpp chat template supports this switch. Without it,
-        # the model can spend the whole completion budget narrating its draft
-        # before reaching the required JSON envelope.
-        "chat_template_kwargs": {"enable_thinking": False},
-    }
+def codex_chat(messages: list[dict[str, str]], max_tokens: int, label: str) -> str:
+    """Run one Codex fallback request through Hermes' authenticated provider route."""
+    prompt = "\n\n".join(
+        f"{message['role'].upper()}:\n{message['content']}" for message in messages
+    )
+    hermes = shutil.which("hermes") or "/home/pi/.local/bin/hermes"
+    command = [
+        hermes,
+        "chat",
+        "-Q",
+        "-q",
+        prompt,
+        "-m",
+        CODEX_MODEL,
+        "--provider",
+        CODEX_PROVIDER,
+        "--max-turns",
+        "1",
+    ]
+    try:
+        completed = subprocess.run(
+            command,
+            check=False,
+            text=True,
+            capture_output=True,
+            timeout=300,
+        )
+        if completed.returncode != 0:
+            detail = clean_text(completed.stderr or completed.stdout, 500)
+            raise MarkgitupError(f"Codex exited {completed.returncode}: {detail}")
+        content = completed.stdout.strip()
+        if not content:
+            raise MarkgitupError("Codex returned an empty response")
+        print(f"{label}: Codex response received")
+        return content
+    except MarkgitupError:
+        raise
+    except Exception as exc:
+        raise MarkgitupError(f"Codex request failed: {exc}") from exc
+
+
+def ai_chat(
+    messages: list[dict[str, str]],
+    max_tokens: int,
+    label: str,
+    local_model_id: str,
+    local_deadline: float,
+    expected: str | None = None,
+) -> tuple[AIResponse, Any]:
+    """Try one local inference window, then one GPT 5.6 Codex fallback.
+
+    Returns (response, parsed_json). The local path is accepted only when its
+    content parses as the expected JSON shape. A reasoning-only or non-JSON
+    response is treated as a failed local attempt so the Codex fallback runs;
+    otherwise a reasoning model's narration would abort the whole run.
+    """
+    payload = local_chat_payload(messages, max_tokens, local_model_id)
     request_data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     last_error: Exception | None = None
-    for attempt in range(1, 3):
+    for attempt in range(1, LOCAL_INFERENCE_ATTEMPTS + 1):
         try:
             request = Request(AI_API_URL, data=request_data, headers=headers, method="POST")
-            with urlopen(request, timeout=240) as response:
+            with urlopen(
+                request,
+                timeout=local_timeout_seconds(time.monotonic(), local_deadline),
+            ) as response:
                 response_data = json.loads(response.read().decode("utf-8"))
             choice = (response_data.get("choices") or [{}])[0]
             message = choice.get("message") or {}
             content_parts = [message.get("content"), message.get("reasoning_content")]
             content = "\n".join(str(part) for part in content_parts if part)
-            if content.strip():
-                print(f"{label}: model response received on attempt {attempt}")
-                return content.strip()
-            raise MarkgitupError("empty model response")
+            if not content.strip():
+                raise MarkgitupError("empty model response")
+            print(f"{label}: model response received on attempt {attempt}")
+            response_model = clean_text(response_data.get("model"), 200) or local_model_id
+            try:
+                data = json_from_response(content.strip(), expected)
+            except MarkgitupError as parse_err:
+                # Reasoning-only / non-JSON output is not usable; route to Codex.
+                last_error = parse_err
+                print(f"{label}: local response not parseable JSON; trying Codex fallback", file=sys.stderr)
+                break
+            return AIResponse(content.strip(), "local", response_model), data
         except Exception as exc:  # network and model-server errors are retryable
             last_error = exc
-            print(f"{label}: attempt {attempt}/2 failed: {exc}", file=sys.stderr)
-            if attempt == 1:
-                time.sleep(4)
-    raise MarkgitupError(f"{label} failed after retries: {last_error}")
+            print(f"{label}: attempt {attempt}/{LOCAL_INFERENCE_ATTEMPTS} failed: {exc}", file=sys.stderr)
+
+    print(f"{label}: local inference unavailable; trying Codex fallback", file=sys.stderr)
+    try:
+        content = codex_chat(messages, max_tokens, label)
+        data = json_from_response(content, expected)
+        return AIResponse(content, "fallback", friendly_model_name(CODEX_MODEL)), data
+    except MarkgitupError as codex_error:
+        raise MarkgitupError(
+            f"{label}: local inference failed after {LOCAL_INFERENCE_BUDGET_SECONDS}s ({last_error}); "
+            f"Codex fallback failed ({codex_error})"
+        ) from codex_error
+
+
+def choose_topic() -> str:
+    """Choose an unused topic and persist cycle usage before expensive work."""
+    used_topics: list[str] = []
+    if TOPIC_CYCLE_PATH.exists():
+        try:
+            state = json.loads(TOPIC_CYCLE_PATH.read_text(encoding="utf-8"))
+            raw_used = state.get("used_topics", []) if isinstance(state, dict) else []
+            if isinstance(raw_used, list):
+                used_topics = [topic for topic in raw_used if topic in TOPICS]
+        except (OSError, json.JSONDecodeError) as exc:
+            raise MarkgitupError(f"cannot read {TOPIC_CYCLE_PATH}: {exc}") from exc
+
+    available = [topic for topic in TOPICS if topic not in used_topics]
+    if not available:
+        used_topics = []
+        available = TOPICS[:]
+    topic = random.choice(available)
+    atomic_write(
+        TOPIC_CYCLE_PATH,
+        json.dumps(
+            {"used_topics": [*used_topics, topic], "updated_at": now_local().isoformat(timespec="seconds")},
+            indent=2,
+        )
+        + "\n",
+    )
+    return topic
 
 
 def load_manifest() -> list[dict[str, Any]]:
@@ -444,21 +359,87 @@ def load_manifest() -> list[dict[str, Any]]:
         raise MarkgitupError(f"cannot read {MANIFEST_PATH}: {exc}") from exc
 
 
+def canonicalize(query: str) -> str:
+    """Normalize a query for exact-repeat detection (case/punct/whitespace)."""
+    norm = re.sub(r"[^a-z0-9]+", " ", str(query).lower())
+    return re.sub(r"\s+", " ", norm).strip()
+
+
+def distinctive_tokens(query: str) -> set[str]:
+    """Return non-generic tokens used for semantic repeat detection."""
+    return {
+        token
+        for token in canonicalize(query).split()
+        if token not in REPEAT_STOPWORDS
+    }
+
+
+def load_search_history() -> list[dict[str, Any]]:
+    """Return the search-novelty ledger, backfilled from legacy manifest queries."""
+    entries: list[dict[str, Any]] = []
+    if SEARCH_HISTORY_PATH.exists():
+        try:
+            data = json.loads(SEARCH_HISTORY_PATH.read_text(encoding="utf-8"))
+            if isinstance(data, list):
+                entries = [entry for entry in data if isinstance(entry, dict)]
+        except (OSError, json.JSONDecodeError) as exc:
+            raise MarkgitupError(f"cannot read {SEARCH_HISTORY_PATH}: {exc}") from exc
+    seen = {entry.get("canonical_query") for entry in entries if entry.get("canonical_query")}
+    changed = False
+    for item in load_manifest():
+        query = clean_text(item.get("search_query"), 180)
+        if not query:
+            continue
+        canon = canonicalize(query)
+        if canon not in seen:
+            seen.add(canon)
+            entries.append(
+                {
+                    "query": query,
+                    "canonical_query": canon,
+                    "searched_at": item.get("full_timestamp") or "",
+                    "topic": clean_text(item.get("original_topic"), 140),
+                }
+            )
+            changed = True
+    if changed:
+        atomic_write(SEARCH_HISTORY_PATH, json.dumps(entries, indent=2, ensure_ascii=False) + "\n")
+    return entries
+
+
+def repeat_match(candidate: str, history: list[dict[str, Any]], cooldown_days: int) -> tuple[bool, str]:
+    """True if candidate semantically repeats a recent search from the ledger."""
+    cand_tokens = distinctive_tokens(candidate)
+    if not cand_tokens:
+        return False, ""
+    cutoff = datetime.now().astimezone() - timedelta(days=cooldown_days)
+    for entry in history:
+        searched_at = entry.get("searched_at") or ""
+        if searched_at:
+            try:
+                if datetime.fromisoformat(searched_at) < cutoff:
+                    continue  # outside the cooldown window
+            except ValueError:
+                pass  # unparseable date: treat as recent (conservative)
+        hist_tokens = distinctive_tokens(entry.get("canonical_query") or entry.get("query") or "")
+        if not hist_tokens:
+            continue
+        shared = cand_tokens & hist_tokens
+        if len(shared) >= 3:
+            coverage = len(shared) / len(cand_tokens)
+            if coverage >= 0.6:
+                return True, entry.get("query") or ""
+    return False, ""
+
+
 def choose_angle(
-    topic: str,
-    manifest: list[dict[str, Any]],
-    history: list[dict[str, Any]] | None = None,
-) -> dict[str, Any]:
+    topic: str, manifest: list[dict[str, Any]], local_model_id: str, local_deadline: float
+) -> tuple[dict[str, str], set[str]]:
     previous = "\n".join(
         f"- {clean_text(item.get('topic'), 140)}"
-        for item in manifest[-24:]
+        for item in manifest[-18:]
         if item.get("topic")
     ) or "- none; this is the first article in the new edition"
-    recent_queries = "\n".join(
-        f"- {clean_text(item.get('query'), 180)}"
-        for item in (history or [])[-30:]
-        if item.get("query")
-    ) or "- none; no search ledger exists yet"
     today = now_local().strftime("%B %-d, %Y")
     current_year = now_local().year
     prompt = f"""You are the assignment editor for a current technology research publication.
@@ -466,21 +447,14 @@ Today is {today}. Treat this date as authoritative.
 Original topic idea: {topic}
 Previously published titles (avoid repeating these angles):
 {previous}
-Searches attempted recently; do not repeat these exact queries:
-{recent_queries}
 
 Find a genuinely new, specific, current or breaking-news angle related to the original idea.
 Prefer developments reported within the last 90 days or clearly active in {current_year}.
-A historical product launch, a generic "latest trends" explainer, or a restatement of a prior title is not a new angle.
-The main query must be open-ended about the topic family, not a single product SKU, chip generation, or vendor launch.
-For M Series Apple Silicon LLM Inference, use broad language such as Apple silicon, M-series, Neural Engine,
-local inference, memory bandwidth, deployment, or developer tooling. Never use Apple M4, Apple M3, M4 Ultra,
-M3 Max, or another specific M-series chip name in any query.
-Do not invent an event. The next step will verify your queries through web search.
-Return JSON only with exactly these keys:
+A historical product launch or a generic "latest trends" explainer is not a new angle.
+Do not invent an event. The next step will verify your query through web search.
+Return JSON only with exactly these string keys:
 - title: a compelling headline, 8-16 words
-- search_query: one focused English news/search query, 6-14 words
-- adjacent_queries: 3-5 distinct queries using different adjacent lenses such as adoption, policy, infrastructure, funding, benchmarks, or implementation
+- search_query: a focused English news/search query, 6-14 words
 - angle: one sentence explaining what makes this angle distinct
 - tags: a comma-separated list of 2-4 short topical tags
 """
@@ -488,44 +462,41 @@ Return JSON only with exactly these keys:
         {"role": "system", "content": "You are a careful assignment editor. Return valid JSON only."},
         {"role": "user", "content": prompt},
     ]
-    try:
-        data = json_from_response(ai_chat(messages, 2200, "angle selection"), expected="object")
+    history = load_search_history()
+    used_models: set[str] = set()
+    for attempt in range(1, MAX_ANGLE_RETRIES + 1):
+        response, data = ai_chat(
+            messages, 1800, f"angle selection (attempt {attempt})", local_model_id, local_deadline, expected="object"
+        )
+        used_models.add(response.model_name)
         if not isinstance(data, dict):
             raise MarkgitupError("angle response was not an object")
         title = clean_text(data.get("title"), 140)
-        query = normalize_topic_query(clean_text(data.get("search_query"), 180), topic)
+        query = clean_text(data.get("search_query"), 180)
         angle = clean_text(data.get("angle"), 300)
         tags = clean_text(data.get("tags"), 120)
-        adjacent = data.get("adjacent_queries") or []
-        if isinstance(adjacent, str):
-            adjacent = [adjacent]
-        adjacent_queries = [normalize_topic_query(clean_text(item, 180), topic) for item in adjacent if clean_text(item)]
         if not title or not query:
             raise MarkgitupError("angle response omitted title or search_query")
         if str(current_year) not in query:
             query = f"{query} {current_year} latest"
-        return {
-            "title": title,
-            "search_query": query,
-            "adjacent_queries": adjacent_queries[:5],
-            "angle": angle,
-            "tags": tags,
-        }
-    except MarkgitupError as exc:
-        # Keep the job useful if the model is temporarily unavailable; the search and article
-        # still use real sources, and the next hourly run gets another AI attempt.
-        print(f"angle selection fallback: {exc}", file=sys.stderr)
-        return {
-            "title": f"Fresh developments in {topic}",
-            "search_query": normalize_topic_query(f"{topic} latest news developments {current_year}", topic),
-            "adjacent_queries": [
-                normalize_topic_query(f"{topic} adoption deployments {current_year}", topic),
-                normalize_topic_query(f"{topic} implementation constraints policy {current_year}", topic),
-                normalize_topic_query(f"{topic} infrastructure benchmarks ecosystem {current_year}", topic),
-            ],
-            "angle": "A source-led scan of the newest developments and their practical implications.",
-            "tags": "AI, trends, research",
-        }
+        is_repeat, matched = repeat_match(query, history, COOLDOWN_DAYS)
+        if not is_repeat:
+            return {"title": title, "search_query": query, "angle": angle, "tags": tags}, used_models
+        print(
+            f"angle query {query!r} repeats a recent search ({matched!r}); asking for a new angle",
+            file=sys.stderr,
+        )
+        messages.append(
+            {
+                "role": "user",
+                "content": (
+                    f"The search query you proposed ('{query}') is too close to a search already run "
+                    f"({matched}). Pick a genuinely different angle and a NEW search query with "
+                    f"different keywords. Return JSON only with title/search_query/angle/tags."
+                ),
+            }
+        )
+    raise MarkgitupError(f"angle selection kept repeating recent searches after {MAX_ANGLE_RETRIES} attempts")
 
 
 def search_searxng(query: str) -> list[dict[str, Any]]:
@@ -537,32 +508,29 @@ def search_searxng(query: str) -> list[dict[str, Any]]:
     return results if isinstance(results, list) else []
 
 
-def deep_search(
-    title: str,
-    query: str,
-    adjacent_queries: list[str] | None = None,
-    original_topic: str = "",
-    history: list[dict[str, Any]] | None = None,
-    search_plan: list[str] | None = None,
-    history_path: Path | None = None,
-    now: datetime | None = None,
-) -> list[dict[str, Any]]:
-    current = now or now_local()
-    ledger_path = history_path or SEARCH_HISTORY_PATH
-    history_entries = history if history is not None else load_search_history(ledger_path)
-    plan = search_plan or build_search_plan(
-        title,
-        original_topic,
-        {"search_query": query, "adjacent_queries": adjacent_queries or []},
-        history_entries,
-        now=current,
-    )
+def deep_search(title: str, query: str) -> list[dict[str, Any]]:
+    queries = [query, f"{query} latest news", f"{title} analysis developments"]
+    history = load_search_history()
     results: list[dict[str, Any]] = []
     seen: set[str] = set()
-    for search_query in plan:
-        # Record immediately before the network request. Failed attempts still count as
-        # attempted searches, preventing a retry storm from repeating the same query.
-        record_search_history(ledger_path, [search_query], topic=original_topic or title, searched_at=current)
+    for search_query in queries:
+        canon = canonicalize(search_query)
+        is_repeat, _ = repeat_match(search_query, history, COOLDOWN_DAYS)
+        if is_repeat:
+            print(f"SearXNG: skipping repeat query {search_query!r}", file=sys.stderr)
+            continue
+        # Record every attempted query (even failures) before searching, so the
+        # novelty ledger stays complete for future runs.
+        if not any(entry.get("canonical_query") == canon for entry in history):
+            history.append(
+                {
+                    "query": search_query,
+                    "canonical_query": canon,
+                    "searched_at": now_local().isoformat(timespec="seconds"),
+                    "topic": title,
+                }
+            )
+            atomic_write(SEARCH_HISTORY_PATH, json.dumps(history, indent=2, ensure_ascii=False) + "\n")
         try:
             found = search_searxng(search_query)
             print(f"SearXNG: {len(found)} results for {search_query!r}")
@@ -570,8 +538,6 @@ def deep_search(
             print(f"SearXNG: query failed for {search_query!r}: {exc}", file=sys.stderr)
             continue
         for item in found:
-            if len(results) >= 12:
-                break
             url = str(item.get("url") or "").strip()
             if not url.startswith(("http://", "https://")) or url in seen:
                 continue
@@ -587,6 +553,8 @@ def deep_search(
                     "img_src": str(item.get("img_src") or "").strip(),
                 }
             )
+            if len(results) >= 12:
+                return results
     return results
 
 
@@ -600,52 +568,15 @@ def source_context(results: list[dict[str, Any]]) -> str:
     return "\n\n".join(rows) or "No sources were returned."
 
 
-def fallback_article(title: str, angle: dict[str, str], results: list[dict[str, Any]]) -> dict[str, Any]:
-    """Produce a useful Luna-shaped article when the slow local model is unavailable."""
-    groups = [results[index : index + 3] for index in range(0, len(results), 3)]
-    labels = [
-        "What the reporting agrees on",
-        "Where the approaches diverge",
-        "The practical constraint",
-        "Signals worth tracking",
-    ]
-    sections = []
-    for index, group in enumerate(groups[:4]):
-        source_numbers = list(range(index * 3 + 1, index * 3 + len(group) + 1))
-        body = "\n\n".join(
-            f"{result['title']}: {result['content']}" for result in group
-        )
-        sections.append(
-            {
-                "heading": labels[index],
-                "body": body or "No detailed source text was returned for this field note.",
-                "bullets": [clean_text(result["title"], 180) for result in group[:3]],
-                "sources": source_numbers,
-            }
-        )
-    return {
-        "dek": f"{title} is moving from experiment toward practice. Fresh reporting shows where the promise is real—and where the constraints still bite.",
-        "overview": (
-            f"This edition follows the angle '{angle['angle']}' through {len(results)} fresh search results. "
-            "The evidence is grouped into themes rather than repeated source summaries."
-            "\n\nThe source set mixes reporting, technical analysis, and practical guides, so claims are kept close to their cited retrieval context."
-        ),
-        "sections": sections or [{"heading": "Evidence gap", "body": "No sources were returned by SearXNG for this run.", "bullets": [], "sources": []}],
-        "conclusion": (
-            "The available evidence supports a measured reading rather than a sweeping forecast. "
-            "The signal is worth watching, but implementation details and independent confirmation matter."
-            "\n\nRecheck the primary sources as new deployments, benchmarks, or policy decisions arrive."
-        ),
-        "upside": ["Fresh reporting can clarify which experiments are moving toward adoption."],
-        "risks": ["Sparse or conflicting coverage can exaggerate a trend before it is independently confirmed."],
-        "watch_next": ["Look for primary announcements, measurable deployments, and follow-up reporting."],
-        "takeaways": [clean_text(result["title"], 180) for result in results[:5]] or ["No verified source was available in this run."],
-    }
-
-
-def synthesize_article(title: str, original_topic: str, angle: dict[str, str], results: list[dict[str, Any]]) -> dict[str, Any]:
-    prompt = f"""You are the senior researcher writing one rigorous web article for a discerning human reader.
-{LUNA_LAYOUT_CONTRACT}
+def synthesize_article(
+    title: str,
+    original_topic: str,
+    angle: dict[str, str],
+    results: list[dict[str, Any]],
+    local_model_id: str,
+    local_deadline: float,
+) -> tuple[dict[str, Any], set[str]]:
+    prompt = f"""You are the senior researcher writing one rigorous web article.
 Original topic family: {original_topic}
 New assignment headline: {title}
 Distinct angle: {angle['angle']}
@@ -659,32 +590,28 @@ source material. When sources conflict, say so. Clearly label forecasts as forec
 Return one valid JSON object only. No Markdown, HTML, JavaScript, PHP, code fences, or commentary.
 Use exactly this shape:
 {{
-  "dek": "one sharp 20-35 word invitation, not a source list",
-  "overview": "2 compact paragraphs as one string explaining why this signal matters now and how the evidence was gathered",
-  "sections": [{{"heading":"specific editorial heading", "body":"2-4 substantive paragraphs as one string", "bullets":["2-4 concrete points"], "sources":[1,2]}}],
+  "dek": "one sharp 20-35 word summary",
+  "overview": "2-3 paragraphs as one string explaining what matters and how the evidence was gathered",
+  "sections": [{{"heading":"...", "body":"2-4 paragraphs as one string", "bullets":["..."], "sources":[1,2]}}],
   "conclusion": "2-3 paragraphs synthesizing the evidence and separating fact from projection",
   "upside": ["2-4 evidence-grounded positive possibilities"],
   "risks": ["2-4 evidence-grounded risks or failure modes"],
   "watch_next": ["2-4 concrete signals readers should monitor"],
-  "takeaways": ["exactly 5 specific takeaways tied to the supplied sources"]
+  "takeaways": ["5 specific takeaways tied to the supplied sources"]
 }}
 Create 3-5 sections. Every sources array must contain only valid source numbers. Do not invent statistics,
-organizations, quotes, dates, or source URLs. Do not repeat the headline in the dek. Use cautious language when evidence is thin."""
+organizations, quotes, dates, or source URLs. Use cautious language when evidence is thin."""
     messages = [
         {"role": "system", "content": "You are a source-disciplined research editor. Return valid JSON only."},
         {"role": "user", "content": prompt},
     ]
-    try:
-        data = json_from_response(ai_chat(messages, 5000, "article synthesis"), expected="object")
-        if not isinstance(data, dict):
-            raise MarkgitupError("article response was not an object")
-        required = ["dek", "overview", "sections", "conclusion", "upside", "risks", "watch_next", "takeaways"]
-        if any(key not in data for key in required):
-            raise MarkgitupError("article response omitted required fields")
-        return data
-    except MarkgitupError as exc:
-        print(f"article synthesis fallback: {exc}", file=sys.stderr)
-        return fallback_article(title, angle, results)
+    response, data = ai_chat(messages, 9000, "article synthesis", local_model_id, local_deadline, expected="object")
+    if not isinstance(data, dict):
+        raise MarkgitupError("article response was not an object")
+    required = ["dek", "overview", "sections", "conclusion", "upside", "risks", "watch_next", "takeaways"]
+    if any(key not in data for key in required):
+        raise MarkgitupError("article response omitted required fields")
+    return data, {response.model_name}
 
 
 def safe_url(url: str) -> str:
@@ -723,6 +650,7 @@ def render_article(
     results: list[dict[str, Any]],
     article: dict[str, Any],
     generated: datetime,
+    model_credit_text: str,
 ) -> str:
     sections = article.get("sections") if isinstance(article.get("sections"), list) else []
     section_html = []
@@ -750,7 +678,7 @@ def render_article(
         )
     hero = next((safe_url(item.get("img_src", "")) for item in results if safe_url(item.get("img_src", "")) != "#"), "")
     hero_html = f'<img class="hero-image" src="{html.escape(hero, quote=True)}" alt="" loading="eager">' if hero else '<div class="hero-orb" aria-hidden="true"></div>'
-    dek = concise_portal_summary(article.get("dek"), title, max_chars=320, context=original_topic)
+    dek = clean_text(article.get("dek"), 500) or f"A new source-led briefing on {title}."
     tags = [clean_text(item, 40) for item in angle.get("tags", "").split(",") if clean_text(item, 40)]
     tags_html = "".join(f'<span class="tag">{html.escape(tag)}</span>' for tag in tags)
     timestamp = generated.strftime("%B %-d, %Y · %-I:%M %p %Z")
@@ -764,6 +692,7 @@ def render_article(
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{html.escape(dek, quote=True)}">
 <meta name="theme-color" content="#0b1220">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
 <title>{title_escaped} · Markgitup</title>
 <style>
 :root {{ --ink:#eef4ff; --muted:#a8b6cb; --dim:#71819a; --bg:#07101d; --surface:#0d1a2b; --surface-2:#12243a; --line:#24405f; --cyan:#5ee7ed; --lime:#b8f36b; --orange:#ffb86c; --shadow:0 24px 70px rgba(0,0,0,.28); }}
@@ -791,7 +720,7 @@ a {{ color:var(--cyan); }} .skip {{ position:absolute; left:-999px; }} .skip:foc
 <div class="forecasts"><section class="forecast up"><h2>↗ Where it could go</h2>{list_html(article.get("upside", []))}</section><section class="forecast risk"><h2>△ What could go wrong</h2>{list_html(article.get("risks", []))}</section><section class="forecast watch"><h2>◌ Watch next</h2>{list_html(article.get("watch_next", []))}</section></div>
 <section class="article-section"><div class="section-kicker">Closing read</div><h2>Conclusion</h2>{paragraphs(article.get("conclusion", ""))}<h3>Five takeaways</h3>{list_html(article.get("takeaways", []))}</section>
 </article><aside class="side"><section class="source-panel"><div class="section-kicker">Evidence desk</div><h2>Sources processed</h2><p class="source-count">Every source is linked to its original publication. Search snippets are shown as retrieval context, not independent verification.</p><ol class="source-list">{''.join(sources_html) or '<li class="source-count">No sources returned.</li>'}</ol></section></aside></div>
-</main><footer class="footer">Markgitup · hourly source-led research · AI-assisted synthesis with human-readable citations</footer>
+</main><footer class="footer">Markgitup - hourly source-led research - AI-assisted synthesis with human-readable citations - {html.escape(model_credit_text)}</footer>
 <script>const progress=document.createElement('div');progress.style='position:fixed;top:0;left:0;height:3px;background:#b8f36b;z-index:9;width:0;transition:width .1s';document.body.append(progress);addEventListener('scroll',()=>{{const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max?scrollY/max*100:0)+'%'}});</script>
 </body></html>'''
 
@@ -801,7 +730,7 @@ def render_index(manifest: list[dict[str, Any]]) -> str:
     serialized = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     generated_at = now_local().strftime("%B %-d, %Y · %-I:%M %p %Z")
     return f'''<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Markgitup: an hourly AI-assisted research desk tracking emerging technology signals."><meta name="theme-color" content="#07101d"><title>Markgitup · Research desk</title>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Markgitup: an hourly AI-assisted research desk tracking emerging technology signals."><meta name="theme-color" content="#07101d"><link rel="icon" type="image/svg+xml" href="favicon.svg"><title>Markgitup · Research desk</title>
 <style>
 :root {{ --ink:#eef4ff;--muted:#a8b6cb;--dim:#71819a;--bg:#07101d;--surface:#0d1a2b;--surface2:#12243a;--line:#24405f;--cyan:#5ee7ed;--lime:#b8f36b;--orange:#ffb86c; }}
 [data-theme="light"] {{ --ink:#122238;--muted:#49627f;--dim:#71819a;--bg:#f3f7fb;--surface:#fff;--surface2:#e8f0f7;--line:#cad9e8;--cyan:#087d91;--lime:#4f7800;--orange:#a34c00; }}
@@ -809,7 +738,7 @@ def render_index(manifest: list[dict[str, Any]]) -> str:
 </style></head><body><main class="shell"><div class="topbar"><a class="brand" href="index.html">MARK<span>GITUP</span></a><button id="theme" type="button" aria-label="Toggle theme">☼</button></div><header class="hero"><div><div class="eyebrow">The hourly research desk</div><h1>Signals worth following.</h1><p>Fresh angles on technology, policy, markets, and culture. Each edition starts with a broad idea, finds a sharper live signal, then maps the evidence, upside, risk, and what to watch next.</p></div><div class="hero-note"><strong id="count">{len(data)}</strong>articles in the new edition<br><span>Last build: {html.escape(generated_at)}</span></div></header><div class="controls"><input class="search" id="search" type="search" placeholder="Filter the desk by title, topic, or tag…" autocomplete="off"><span id="status" class="feature-meta"></span></div><section id="featured" class="latest" aria-label="Latest research"></section><div class="section-head"><h2>All dispatches</h2><span class="feature-meta">Newest first · open any card</span></div><section id="grid" class="grid" aria-live="polite"></section><footer>Markgitup · AI-assisted, source-linked research · Generated hourly from a local LLM and SearXNG</footer></main><script>
 const entries={serialized};const grid=document.querySelector('#grid'),featured=document.querySelector('#featured'),status=document.querySelector('#status'),count=document.querySelector('#count'),allHead=document.querySelector('.section-head');
 const formatDate=(v)=>new Date(v).toLocaleString();
-function card(entry,feature=false){{const a=document.createElement('article');a.className=feature?'feature':'card';const kicker=document.createElement('div');kicker.className='kicker';const label=entry.article_number?`Article ${{String(entry.article_number).padStart(4,'0')}}`:'Research dispatch';const sources=entry.source_count?` · ${{entry.source_count}} sources`:'';kicker.textContent=label+sources;a.append(kicker);const h=document.createElement('h2');if(!feature){{const h3=document.createElement('h3');const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h3.append(link);a.append(h3)}}else{{const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h.append(link);a.append(h)}}const p=document.createElement('p');p.textContent=entry.summary||'Source-linked research synthesis.';a.append(p);const foot=document.createElement('div');foot.className=feature?'feature-meta':'card-foot';foot.textContent=`${{formatDate(entry.full_timestamp)}} · ${{entry.original_topic||'Research'}}`;a.append(foot);return a}}
+function card(entry,feature=false){{const a=document.createElement(feature?'article':'article');a.className=feature?'feature':'card';const kicker=document.createElement('div');kicker.className='kicker';kicker.textContent=`Article ${{String(entry.article_number||'').padStart(4,'0')}} · ${{entry.source_count||0}} sources`;a.append(kicker);const h=document.createElement('h2');if(!feature){{const h3=document.createElement('h3');const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h3.append(link);a.append(h3)}}else{{const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h.append(link);a.append(h)}}const p=document.createElement('p');p.textContent=entry.summary||'Source-linked research synthesis.';a.append(p);const foot=document.createElement('div');foot.className=feature?'feature-meta':'card-foot';foot.textContent=`${{formatDate(entry.full_timestamp)}} · ${{entry.original_topic||'Research'}}`;a.append(foot);return a}}
 function render(query=''){{const q=query.toLowerCase().trim();const filtered=entries.filter(e=>[e.topic,e.summary,e.original_topic,e.tags].join(' ').toLowerCase().includes(q));featured.replaceChildren();grid.replaceChildren();status.textContent=`${{filtered.length}} result${{filtered.length===1?'':'s'}}`;if(!q&&entries[0])featured.append(card(entries[0],true));const rest=q?filtered:filtered.slice(1);allHead.style.display=rest.length?'flex':'none';if(!rest.length&&!featured.children.length){{const empty=document.createElement('div');empty.className='empty';empty.textContent='No dispatches match that filter yet.';grid.append(empty)}}else rest.forEach(e=>grid.append(card(e)))}}
 document.querySelector('#search').addEventListener('input',e=>render(e.target.value));document.querySelector('#theme').addEventListener('click',()=>{{const light=document.body.dataset.theme!=='light';document.body.dataset.theme=light?'light':'dark';localStorage.setItem('markgitup-theme',light?'light':'dark')}});document.body.dataset.theme=localStorage.getItem('markgitup-theme')||'dark';render();
 </script></body></html>'''
@@ -858,40 +787,41 @@ def main() -> int:
         raise MarkgitupError(f"portal directory does not exist: {PORTAL_DIR}")
     HTML_DIR.mkdir(parents=True, exist_ok=True)
     manifest = load_manifest()
-    for item in manifest:
-        if isinstance(item, dict) and item.get("topic"):
-            item["summary"] = concise_portal_summary(
-                item.get("summary"), str(item["topic"]), context=str(item.get("original_topic") or "")
-            )
-    search_history = load_search_history(SEARCH_HISTORY_PATH)
-    history = [*manifest_search_history(manifest), *search_history]
-    original_topic = select_cyclic_topic()
-    angle = choose_angle(original_topic, manifest, history)
+    local_model_id = discover_local_model()
+    local_deadline = time.monotonic() + LOCAL_INFERENCE_BUDGET_SECONDS
+    original_topic = choose_topic()
+    angle, angle_models = choose_angle(original_topic, manifest, local_model_id, local_deadline)
     title = angle["title"]
-    search_plan = build_search_plan(title, original_topic, angle, history, now=now_local(), max_queries=5)
     print(f"Selected topic family: {original_topic}")
     print(f"New research angle: {title}")
-    print("Novel search plan:")
-    for index, planned_query in enumerate(search_plan, 1):
-        print(f"  {index}. {planned_query}")
-    results = deep_search(
-        title,
-        angle["search_query"],
-        adjacent_queries=angle.get("adjacent_queries", []),
-        original_topic=original_topic,
-        history=history,
-        search_plan=search_plan,
-    )
+    print(f"Search query: {angle['search_query']}")
+    results = deep_search(title, angle["search_query"])
     print(f"Deep search collected {len(results)} unique sources")
-    article = synthesize_article(title, original_topic, angle, results)
+    article, article_models = synthesize_article(
+        title, original_topic, angle, results, local_model_id, local_deadline
+    )
+    model_names = angle_models | article_models
+    model_credit_text = model_credit(model_names)
     generated = now_local()
     existing_numbers = [int(item["article_number"]) for item in manifest if str(item.get("article_number", "")).isdigit()]
     article_number = max(existing_numbers, default=0) + 1
     stamp = generated.strftime("%Y%m%d-%H%M%S")
     filename = f"article-{article_number:04d}-{slugify(title)}-{stamp}.html"
     article_rel = f"html/{filename}"
-    atomic_write(HTML_DIR / filename, render_article(article_number, title, original_topic, angle, results, article, generated))
-    dek = concise_portal_summary(article.get("dek"), title, context=original_topic)
+    atomic_write(
+        HTML_DIR / filename,
+        render_article(
+            article_number,
+            title,
+            original_topic,
+            angle,
+            results,
+            article,
+            generated,
+            model_credit_text,
+        ),
+    )
+    dek = clean_text(article.get("dek"), 420) or f"A source-led briefing on {title}."
     entry = {
         "article_number": article_number,
         "topic": title,
@@ -900,16 +830,15 @@ def main() -> int:
         "full_timestamp": generated.isoformat(timespec="seconds"),
         "summary": dek,
         "original_topic": original_topic,
-        "search_query": search_plan[0],
-        "search_queries": search_plan,
-        "adjacent_queries": angle.get("adjacent_queries", []),
+        "search_query": angle["search_query"],
         "source_count": len(results),
         "tags": angle.get("tags", ""),
+        "model_names": model_names_text(model_names),
     }
     manifest.append(entry)
     atomic_write(MANIFEST_PATH, json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     atomic_write(PORTAL_DIR / "index.html", render_index(manifest))
-    atomic_write(PORTAL_DIR / "README.md", """# Markgitup Research Desk\n\nHourly source-led research portal. Each dispatch starts from one of 24 topic families, finds a new current angle with the local LLM, expands into adjacent search lenses, gathers evidence through SearXNG, and publishes a linked synthesis.\n\n## Runtime\n\n- Schedule: hourly (`0 * * * *`)\n- LLM: OpenAI-compatible local endpoint at `192.168.0.219:8080/v1`\n- Search: local SearXNG at `127.0.0.1:8888`\n- Novelty ledger: `data/search-history.json`\n- Topic cycle ledger: `data/topic-cycle.json` (random permutation of all 24 topic families, then reset)\n- Exact-query cooldown: 3 days (configurable with `MARKGITUP_SEARCH_COOLDOWN_DAYS`)\n- Output: GitHub Pages via `main`\n""")
+    atomic_write(PORTAL_DIR / "README.md", """# Markgitup Research Desk\n\nHourly source-led research portal. Each dispatch starts from one of 24 topic families, finds a new current angle, gathers evidence through SearXNG, and publishes a linked synthesis.\n\n## Runtime\n\n- Schedule: hourly (`0 * * * *`)\n- Local model: discovered dynamically from `/v1/models` at `192.168.0.219:8080/v1`\n- Local inference budget: one attempt, 30 minutes\n- Fallback LLM: GPT 5.6 Codex Luna through Hermes `openai-codex`\n- Failure policy: no post is written when both inference paths fail\n- Search: local SearXNG at `127.0.0.1:8888`\n- Output: GitHub Pages via `main`\n""")
     if not args.no_push:
         publish(title, article_rel)
     print(f"Published article {article_number:04d}: {article_rel}")

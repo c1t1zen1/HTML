@@ -1,6 +1,6 @@
 # Markgitup CronJob Archive
 
-Versioned copy of the Markgitup HTML research cronjob and its tests.
+Versioned archive of the Markgitup publisher and its regression tests. This directory is not the scheduler's canonical runtime source.
 
 ## Runtime source
 
@@ -10,17 +10,19 @@ Versioned copy of the Markgitup HTML research cronjob and its tests.
 - Portal state: `../data/search-history.json` and `../data/topic-cycle.json`
 - Target branch: `main`
 
-The scheduler executes the canonical development script through the launcher. This folder is the GitHub versioned archive. Edit the canonical development script first, run tests, then refresh this archive before publishing.
+`markgitup-html-cron.py` in this archive must be byte-identical to the canonical development script. Edit the canonical file first, run tests, synchronize this archive, then publish the portal repository. Do not edit or execute the archived copy as the scheduler path.
 
 ## Checks
 
-Run from the Hermes-Jetson repository:
+Run from Hermes-Jetson:
 
 ```bash
+cmp /home/pi/Documents/Hermes-Jetson/scripts/markgitup-html-cron.py \
+    /home/pi/Documents/HTML-Portal/cronjob/markgitup-html-cron.py
 python3 -m unittest scripts.test_markgitup_html_cron -v
 python3 -m py_compile scripts/markgitup-html-cron.py scripts/test_markgitup_html_cron.py
 ```
 
 ## Restore
 
-Do not execute an archived script blindly. Inspect the archive, copy the desired version to the canonical development path, run the checks above, then let the scheduler use the launcher.
+Do not execute an archived script blindly. Inspect the archive, copy the desired version to the canonical development path, run the checks above, synchronize the archive, and let the scheduler use the launcher.
