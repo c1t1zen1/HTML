@@ -1937,5 +1937,18 @@
     "source_count": 12,
     "tags": "FinTech, LLMs, Latency, Trading",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 153,
+    "topic": "CFTC Scrutinizes AI Crypto Bots for 2026 Market Manipulation Risks",
+    "file": "html/article-0153-cftc-scrutinizes-ai-crypto-bots-for-2026-market-manipulation-risks-20260816-080224.html",
+    "timestamp": "20260816-080224",
+    "full_timestamp": "2026-08-16T08:02:24-07:00",
+    "summary": "The CFTC is deploying AI tools to monitor crypto markets while warning against fraudulent AI trading bots. A new Innovation Task Force targets market manipulation risks and prediction market integrity in 2026.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "CFTC AI crypto trading bot manipulation investigation 2026",
+    "source_count": 12,
+    "tags": "crypto, regulation, AI, CFTC",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
