@@ -1820,5 +1820,18 @@
     "source_count": 12,
     "tags": "AI Trading, SEC Regulation, BlackRock, 2026",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 144,
+    "topic": "M4 Max Unified Memory Enables 70B Parameter LLMs Without Cloud Dependency",
+    "file": "html/article-0144-m4-max-unified-memory-enables-70b-parameter-llms-without-cloud-dependenc-20260815-230222.html",
+    "timestamp": "20260815-230222",
+    "full_timestamp": "2026-08-15T23:02:22-07:00",
+    "summary": "The M4 Max's 64GB unified memory and 400GB/s bandwidth allow local 70B LLM inference at 8-28 tokens/second, eliminating cloud dependency for dense models.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M4 Max 70B LLM local inference 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM Inference, Hardware",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

@@ -1324,5 +1324,11 @@
     "canonical_query": "blackrock s 2026 ai alpha engine faces sec latency audit scrutiny analysis developments",
     "searched_at": "2026-08-15T22:00:17-07:00",
     "topic": "BlackRock’s 2026 AI Alpha Engine Faces SEC Latency Audit Scrutiny"
+  },
+  {
+    "query": "Apple M4 Max 70B LLM local inference 2026",
+    "canonical_query": "apple m4 max 70b llm local inference 2026",
+    "searched_at": "2026-08-15T23:00:17-07:00",
+    "topic": "M4 Max Unified Memory Enables 70B Parameter LLMs Without Cloud Dependency"
   }
 ]
