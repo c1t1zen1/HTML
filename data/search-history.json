@@ -1504,5 +1504,11 @@
     "canonical_query": "hedge fund llm sentiment analysis earnings calls 2026",
     "searched_at": "2026-08-16T23:00:41-07:00",
     "topic": "Hedge Funds Adopt Real-Time LLM Sentiment Arbitrage for 2026 Earnings Calls"
+  },
+  {
+    "query": "Apple Silicon NPU power consumption local AI 2026",
+    "canonical_query": "apple silicon npu power consumption local ai 2026",
+    "searched_at": "2026-08-17T00:00:42-07:00",
+    "topic": "Apple Silicon NPU Bottlenecks Spark 2026 Local AI Power Consumption Backlash"
   }
 ]

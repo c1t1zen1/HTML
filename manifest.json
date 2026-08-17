@@ -2132,5 +2132,18 @@
     "source_count": 12,
     "tags": "quantitative trading, NLP, financial tech",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 168,
+    "topic": "Apple Silicon NPU Bottlenecks Spark 2026 Local AI Power Consumption Backlash",
+    "file": "html/article-0168-apple-silicon-npu-bottlenecks-spark-2026-local-ai-power-consumption-back-20260817-000312.html",
+    "timestamp": "20260817-000312",
+    "full_timestamp": "2026-08-17T00:03:12-07:00",
+    "summary": "Apple Silicon's efficiency advantage faces scrutiny as local AI workloads strain thermal limits. New data compares power costs against discrete GPUs, highlighting the trade-offs between raw speed and energy efficiency in 2026.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Silicon NPU power consumption local AI 2026",
+    "source_count": 10,
+    "tags": "Apple Silicon, Local AI, Power Efficiency",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
