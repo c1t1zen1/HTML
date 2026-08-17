@@ -2223,5 +2223,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Local LLM, Hardware, AI Infrastructure",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 175,
+    "topic": "Sora 2 Integration in Adobe Premiere Pro Sparks 2026 Workflow Debate",
+    "file": "html/article-0175-sora-2-integration-in-adobe-premiere-pro-sparks-2026-workflow-debate-20260817-070248.html",
+    "timestamp": "20260817-070248",
+    "full_timestamp": "2026-08-17T07:02:48-07:00",
+    "summary": "Adobe's integration of OpenAI's Sora 2 into Premiere Pro aims to streamline professional video workflows by embedding generative AI directly into the editing timeline, sparking debate over creative control and industry standards.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "Adobe Premiere Pro Sora 2 integration 2026 filmmaking workflow",
+    "source_count": 12,
+    "tags": "generative video, adobe premiere, filmmaking, ai tools",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
