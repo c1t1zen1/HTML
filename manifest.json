@@ -2236,5 +2236,18 @@
     "source_count": 12,
     "tags": "generative video, adobe premiere, filmmaking, ai tools",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 176,
+    "topic": "Corporate Training Departments Abandon Static AI Avatars for Real-Time Interactive Simulations",
+    "file": "html/article-0176-corporate-training-departments-abandon-static-ai-avatars-for-real-time-i-20260817-080252.html",
+    "timestamp": "20260817-080252",
+    "full_timestamp": "2026-08-17T08:02:52-07:00",
+    "summary": "L&D teams are shifting from passive AI avatar videos to interactive, branching simulations to address stagnant retention, leveraging real-time roleplay tools for active skill acquisition.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "enterprise AI avatar interactive training simulation 2026",
+    "source_count": 12,
+    "tags": "AI Avatars, Corporate Training, EdTech",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
