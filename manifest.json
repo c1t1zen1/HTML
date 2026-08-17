@@ -2184,5 +2184,18 @@
     "source_count": 12,
     "tags": "AI, Elections, Voter Suppression, 2026 Midterms",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 172,
+    "topic": "M4 Ultra Unifies Memory Pool for 400B Parameter Local LLMs",
+    "file": "html/article-0172-m4-ultra-unifies-memory-pool-for-400b-parameter-local-llms-20260817-040241.html",
+    "timestamp": "20260817-040241",
+    "full_timestamp": "2026-08-17T04:02:41-07:00",
+    "summary": "The M4 Ultra's 800+ GB/s unified memory bandwidth enables local inference of 400B+ parameter models, offering a distinct architectural advantage over discrete GPUs for massive LLMs.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M4 Ultra unified memory 400B local LLM inference 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, Local LLM, Unified Memory, M4 Ultra",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
