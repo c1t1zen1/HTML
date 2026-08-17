@@ -2158,5 +2158,18 @@
     "source_count": 12,
     "tags": "local-ai, open-source, macos, developer-tools",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 170,
+    "topic": "EU AI Act Mandates Real-Time Hallucination Logging for Legal AI by Late 2026",
+    "file": "html/article-0170-eu-ai-act-mandates-real-time-hallucination-logging-for-legal-ai-by-late-20260817-020217.html",
+    "timestamp": "20260817-020217",
+    "full_timestamp": "2026-08-17T02:02:17-07:00",
+    "summary": "The EU AI Act’s August 2026 enforcement mandates transparency for AI interactions, but sources do not confirm a specific mandate for real-time hallucination logging in legal AI.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "EU AI Act legal AI hallucination logging mandate 2026",
+    "source_count": 12,
+    "tags": "EU AI Act, Legal Tech, Compliance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
