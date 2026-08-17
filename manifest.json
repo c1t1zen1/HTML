@@ -2054,5 +2054,18 @@
     "source_count": 12,
     "tags": "AI Avatars, Real-Time Rendering, Interactive Media",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 162,
+    "topic": "GitHub Copilot Workspace Agents Trigger Unprecedented Merge Conflict Surges",
+    "file": "html/article-0162-github-copilot-workspace-agents-trigger-unprecedented-merge-conflict-sur-20260816-180311.html",
+    "timestamp": "20260816-180311",
+    "full_timestamp": "2026-08-16T18:03:11-07:00",
+    "summary": "Autonomous AI agents are shifting merge conflicts from manual chores to automated workflows, yet the operational stability of high-volume agent commits in enterprise repositories remains an untested frontier.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "GitHub Copilot Workspace autonomous agent merge conflicts 2026",
+    "source_count": 12,
+    "tags": "DevOps, GitHub, AI Agents",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
