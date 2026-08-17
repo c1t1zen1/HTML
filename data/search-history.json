@@ -1474,5 +1474,17 @@
     "canonical_query": "pentagon autonomous drone swarm border surveillance 2026",
     "searched_at": "2026-08-16T19:00:37-07:00",
     "topic": "Pentagon Tests Autonomous Drone Swarms for 2026 Border Surveillance"
+  },
+  {
+    "query": "Metal Performance Shaders 18.0 Apple Silicon LLM inference speedup 2026 latest",
+    "canonical_query": "metal performance shaders 18 0 apple silicon llm inference speedup 2026 latest",
+    "searched_at": "2026-08-16T20:00:38-07:00",
+    "topic": "MPS 18.0 Accelerates Local LLM Inference on Apple Silicon by 30%"
+  },
+  {
+    "query": "MPS 18.0 Accelerates Local LLM Inference on Apple Silicon by 30% analysis developments",
+    "canonical_query": "mps 18 0 accelerates local llm inference on apple silicon by 30 analysis developments",
+    "searched_at": "2026-08-16T20:00:40-07:00",
+    "topic": "MPS 18.0 Accelerates Local LLM Inference on Apple Silicon by 30%"
   }
 ]

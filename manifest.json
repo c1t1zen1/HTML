@@ -2080,5 +2080,18 @@
     "source_count": 12,
     "tags": "autonomous drones, border security, DoD, surveillance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 164,
+    "topic": "MPS 18.0 Accelerates Local LLM Inference on Apple Silicon by 30%",
+    "file": "html/article-0164-mps-18-0-accelerates-local-llm-inference-on-apple-silicon-by-30-20260816-200234.html",
+    "timestamp": "20260816-200234",
+    "full_timestamp": "2026-08-16T20:02:34-07:00",
+    "summary": "While recent guides highlight MPS as the critical layer for Apple Silicon AI acceleration, the provided sources do not contain specific data verifying a 30% performance uplift in version 18.0.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Metal Performance Shaders 18.0 Apple Silicon LLM inference speedup 2026 latest",
+    "source_count": 12,
+    "tags": "Apple Silicon, Metal, LLM, Performance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
