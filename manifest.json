@@ -2119,5 +2119,18 @@
     "source_count": 10,
     "tags": "NSA, Quantum Cryptography, Signals Intelligence, AI Security",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 167,
+    "topic": "Hedge Funds Adopt Real-Time LLM Sentiment Arbitrage for 2026 Earnings Calls",
+    "file": "html/article-0167-hedge-funds-adopt-real-time-llm-sentiment-arbitrage-for-2026-earnings-ca-20260816-230246.html",
+    "timestamp": "20260816-230246",
+    "full_timestamp": "2026-08-16T23:02:46-07:00",
+    "summary": "Hedge funds are deploying LLMs to parse live earnings calls for micro-second sentiment divergence, targeting alpha from the gap between scripted remarks and real-time Q&A pressure.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge fund LLM sentiment analysis earnings calls 2026",
+    "source_count": 12,
+    "tags": "quantitative trading, NLP, financial tech",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
