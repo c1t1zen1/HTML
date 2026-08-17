@@ -2171,5 +2171,18 @@
     "source_count": 12,
     "tags": "EU AI Act, Legal Tech, Compliance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 171,
+    "topic": "2026 Midterm Campaigns Face Surge in AI-Generated Voter Suppression Scripts",
+    "file": "html/article-0171-2026-midterm-campaigns-face-surge-in-ai-generated-voter-suppression-scri-20260817-030254.html",
+    "timestamp": "20260817-030254",
+    "full_timestamp": "2026-08-17T03:02:54-07:00",
+    "summary": "Campaigns are leveraging LLMs to mass-produce personalized voter suppression scripts, a tactic distinct from deepfakes. Regulators face a scramble to define and police these automated disinformation campaigns ahead of the 2026 midterms.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "AI generated voter suppression scripts 2026 midterm elections",
+    "source_count": 12,
+    "tags": "AI, Elections, Voter Suppression, 2026 Midterms",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
