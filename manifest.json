@@ -2262,5 +2262,18 @@
     "source_count": 12,
     "tags": "AI, Banking, Privacy, Fraud Detection",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 178,
+    "topic": "AI Trade Groups Launch 2026 PAC to Counter Federal Algorithmic Transparency Rules",
+    "file": "html/article-0178-ai-trade-groups-launch-2026-pac-to-counter-federal-algorithmic-transpare-20260817-100302.html",
+    "timestamp": "20260817-100302",
+    "full_timestamp": "2026-08-17T10:03:02-07:00",
+    "summary": "AI trade groups are mobilizing significant capital through new PACs and lobbying surges to shape federal algorithmic transparency rules before the 2026 midterms.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI industry PAC 2026 federal algorithmic transparency lobbying",
+    "source_count": 12,
+    "tags": "AI policy, lobbying, Washington, 2026",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
