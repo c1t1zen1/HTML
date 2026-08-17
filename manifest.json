@@ -2197,5 +2197,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Local LLM, Unified Memory, M4 Ultra",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 173,
+    "topic": "FDA Clears First AI-Driven Real-Time Therapy Interruption Tool for 2026",
+    "file": "html/article-0173-fda-clears-first-ai-driven-real-time-therapy-interruption-tool-for-2026-20260817-050233.html",
+    "timestamp": "20260817-050233",
+    "full_timestamp": "2026-08-17T05:02:33-07:00",
+    "summary": "FDA clearance for active AI therapy intervention marks a regulatory shift from passive analysis to live clinical safety, establishing new standards for AI-enabled mental health devices.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "FDA approval AI therapy interruption tool 2026",
+    "source_count": 12,
+    "tags": "AI Mental Health, FDA Regulation, Clinical AI",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
