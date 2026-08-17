@@ -2106,5 +2106,18 @@
     "source_count": 12,
     "tags": "AI governance, corporate strategy, regulatory capture, tech policy",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 166,
+    "topic": "NSA Adopts Quantum-Resistant AI Encryption for 2026 Signals Intelligence",
+    "file": "html/article-0166-nsa-adopts-quantum-resistant-ai-encryption-for-2026-signals-intelligence-20260816-220305.html",
+    "timestamp": "20260816-220305",
+    "full_timestamp": "2026-08-16T22:03:05-07:00",
+    "summary": "NSA mandates post-quantum algorithms for National Security Systems, creating a compliance-driven infrastructure shift that integrates quantum-resistant cryptography into intelligence pipelines by 2030.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "NSA quantum-resistant AI encryption signals intelligence 2026",
+    "source_count": 10,
+    "tags": "NSA, Quantum Cryptography, Signals Intelligence, AI Security",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
