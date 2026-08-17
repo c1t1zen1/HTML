@@ -1510,5 +1510,11 @@
     "canonical_query": "apple silicon npu power consumption local ai 2026",
     "searched_at": "2026-08-17T00:00:42-07:00",
     "topic": "Apple Silicon NPU Bottlenecks Spark 2026 Local AI Power Consumption Backlash"
+  },
+  {
+    "query": "open source local LLM inference stack macOS 2026 adoption",
+    "canonical_query": "open source local llm inference stack macos 2026 adoption",
+    "searched_at": "2026-08-17T01:00:58-07:00",
+    "topic": "Open-Source macOS AI Stack Gains Traction Amid Proprietary Tooling Fatigue"
   }
 ]

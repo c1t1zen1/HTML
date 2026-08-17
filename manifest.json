@@ -2145,5 +2145,18 @@
     "source_count": 10,
     "tags": "Apple Silicon, Local AI, Power Efficiency",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 169,
+    "topic": "Open-Source macOS AI Stack Gains Traction Amid Proprietary Tooling Fatigue",
+    "file": "html/article-0169-open-source-macos-ai-stack-gains-traction-amid-proprietary-tooling-fatig-20260817-010258.html",
+    "timestamp": "20260817-010258",
+    "full_timestamp": "2026-08-17T01:02:58-07:00",
+    "summary": "Developer fatigue with proprietary restrictions is driving adoption of open-source macOS AI stacks like LM Studio and Ollama, leveraging Apple Silicon for local, private inference.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "open source local LLM inference stack macOS 2026 adoption",
+    "source_count": 12,
+    "tags": "local-ai, open-source, macos, developer-tools",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
