@@ -2210,5 +2210,18 @@
     "source_count": 12,
     "tags": "AI Mental Health, FDA Regulation, Clinical AI",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 174,
+    "topic": "Apple Unveils M5 Ultra Neural Engine for Real-Time 10B LLMs",
+    "file": "html/article-0174-apple-unveils-m5-ultra-neural-engine-for-real-time-10b-llms-20260817-060251.html",
+    "timestamp": "20260817-060251",
+    "full_timestamp": "2026-08-17T06:02:51-07:00",
+    "summary": "Apple's M5 Ultra integrates dedicated Neural Accelerators into GPU cores, shifting LLM inference from software-only optimization to native hardware acceleration for low-latency local model execution.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple M5 Ultra Neural Engine AI inference 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, Local LLM, Hardware, AI Infrastructure",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
