@@ -2093,5 +2093,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Metal, LLM, Performance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 165,
+    "topic": "Tech Giants Fund 2026 AI Ethics Boards to Pre-Empt Federal Regulation",
+    "file": "html/article-0165-tech-giants-fund-2026-ai-ethics-boards-to-pre-empt-federal-regulation-20260816-210237.html",
+    "timestamp": "20260816-210237",
+    "full_timestamp": "2026-08-16T21:02:37-07:00",
+    "summary": "Tech firms are shifting from direct lobbying to funding independent AI ethics boards, a strategic pivot aimed at shaping 2026 regulatory outcomes and pre-empting federal mandates.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "tech industry funding independent AI ethics boards 2026 regulatory strategy",
+    "source_count": 12,
+    "tags": "AI governance, corporate strategy, regulatory capture, tech policy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
