@@ -2067,5 +2067,18 @@
     "source_count": 12,
     "tags": "DevOps, GitHub, AI Agents",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 163,
+    "topic": "Pentagon Tests Autonomous Drone Swarms for 2026 Border Surveillance",
+    "file": "html/article-0163-pentagon-tests-autonomous-drone-swarms-for-2026-border-surveillance-20260816-190238.html",
+    "timestamp": "20260816-190238",
+    "full_timestamp": "2026-08-16T19:02:38-07:00",
+    "summary": "The Pentagon is accelerating autonomous drone swarm development for 2026, prioritizing battlefield lethality and border security testing while navigating significant ethical and doctrinal challenges.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "Pentagon autonomous drone swarm border surveillance 2026",
+    "source_count": 12,
+    "tags": "autonomous drones, border security, DoD, surveillance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
