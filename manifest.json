@@ -2301,5 +2301,18 @@
     "source_count": 12,
     "tags": "AI coding agents, CI/CD security, prompt injection, supply chain",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 181,
+    "topic": "TAKE IT DOWN Act’s 2026 Enforcement Deadline Puts AI Deepfake Removal Systems Under Pressure",
+    "file": "html/article-0181-take-it-down-acts-2026-enforcement-deadline-puts-ai-deepfake-removal-sys-20260818-010319.html",
+    "timestamp": "20260818-010319",
+    "full_timestamp": "2026-08-18T01:03:19-07:00",
+    "summary": "The TAKE IT DOWN Act’s May 19, 2026 deadline turns deepfake removal from policy promise into an operational test of notice handling, 48-hour response, and duplicate suppression.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "TAKE IT DOWN Act 2026 enforcement AI deepfake removal deadline platforms",
+    "source_count": 12,
+    "tags": "TAKE IT DOWN Act, AI deepfakes, platform regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
