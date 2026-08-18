@@ -2288,5 +2288,18 @@
     "source_count": 12,
     "tags": "home energy, virtual power plants, demand response, AI agents",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 180,
+    "topic": "Black Hat Researchers Trace Public GitHub Issues Into Coding-Agent CI Secret Theft",
+    "file": "html/article-0180-black-hat-researchers-trace-public-github-issues-into-coding-agent-ci-se-20260818-000327.html",
+    "timestamp": "20260818-000327",
+    "full_timestamp": "2026-08-18T00:03:27-07:00",
+    "summary": "Black Hat 2026 research links ordinary GitHub issues to coding-agent CI workflows, exposing a trust-boundary failure that can escalate from prompt injection to secrets or runner control.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "Black Hat 2026 coding agents CI secrets prompt injection Claude Gemini Codex",
+    "source_count": 12,
+    "tags": "AI coding agents, CI/CD security, prompt injection, supply chain",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

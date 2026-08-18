@@ -1606,5 +1606,11 @@
     "canonical_query": "2026 utility ai residential virtual power plant smart home demand response",
     "searched_at": "2026-08-17T23:36:15-07:00",
     "topic": "Smart-Home AI Enters Virtual Power Plants as Utilities Target Residential Flexibility"
+  },
+  {
+    "query": "Black Hat 2026 coding agents CI secrets prompt injection Claude Gemini Codex",
+    "canonical_query": "black hat 2026 coding agents ci secrets prompt injection claude gemini codex",
+    "searched_at": "2026-08-18T00:02:19-07:00",
+    "topic": "Black Hat Researchers Trace Public GitHub Issues Into Coding-Agent CI Secret Theft"
   }
 ]
