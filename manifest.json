@@ -2327,5 +2327,18 @@
     "source_count": 12,
     "tags": "AI trading, crypto, MEV, performance",
     "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
+  },
+  {
+    "article_number": 183,
+    "topic": "EU AI Act’s August Transparency Deadline Forces Synthetic Video Labels Through Post-Production",
+    "file": "html/article-0183-eu-ai-acts-august-transparency-deadline-forces-synthetic-video-labels-th-20260818-030505.html",
+    "timestamp": "20260818-030505",
+    "full_timestamp": "2026-08-18T03:05:05-07:00",
+    "summary": "The 2 August 2026 Article 50 deadline moves synthetic-video compliance from model output into edit decisions, machine-readable marking, visible disclosure, and distribution controls.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "EU AI Act August 2026 synthetic video labeling post-production obligations",
+    "source_count": 12,
+    "tags": "EU AI Act, synthetic media, video editing, content provenance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
