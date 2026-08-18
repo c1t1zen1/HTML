@@ -2405,5 +2405,18 @@
     "source_count": 12,
     "tags": "AI video, provenance, Hollywood, copyright",
     "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
+  },
+  {
+    "article_number": 189,
+    "topic": "COSO’s New GenAI Control Roadmap Forces Finance Teams to Rethink AI-Assisted Close Workflows",
+    "file": "html/article-0189-cosos-new-genai-control-roadmap-forces-finance-teams-to-rethink-ai-assis-20260818-090448.html",
+    "timestamp": "20260818-090448",
+    "full_timestamp": "2026-08-18T09:04:48-07:00",
+    "summary": "COSO’s GenAI roadmap reframes AI-assisted close work as an internal-control challenge, requiring finance teams to govern, map, test, document, and monitor generated reporting outputs.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "COSO GenAI internal control roadmap financial reporting April 2026",
+    "source_count": 12,
+    "tags": "COSO, internal controls, financial reporting, GenAI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
