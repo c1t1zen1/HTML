@@ -2392,5 +2392,18 @@
     "source_count": 12,
     "tags": "MLX-LM, quantization, Apple Silicon, long-context",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 188,
+    "topic": "Hollywood Studios Mandate AI Video Provenance Standards Ahead of 2027 Contract Talks",
+    "file": "html/article-0188-hollywood-studios-mandate-ai-video-provenance-standards-ahead-of-2027-co-20260818-080504.html",
+    "timestamp": "20260818-080504",
+    "full_timestamp": "2026-08-18T08:05:04-07:00",
+    "summary": "Hollywood’s AI-video rules are moving toward consent, compensation, labeling, and chain-of-custody controls, but supplied evidence does not prove a universal mandate ahead of 2027 talks.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "AI video provenance standards Hollywood studios 2026 contract",
+    "source_count": 12,
+    "tags": "AI video, provenance, Hollywood, copyright",
+    "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
   }
 ]
