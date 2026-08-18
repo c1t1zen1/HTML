@@ -2418,5 +2418,18 @@
     "source_count": 12,
     "tags": "COSO, internal controls, financial reporting, GenAI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 190,
+    "topic": "MCP Support Turns macOS Local AI Tools Into Interoperable Agent Workstations",
+    "file": "html/article-0190-mcp-support-turns-macos-local-ai-tools-into-interoperable-agent-workstat-20260818-100457.html",
+    "timestamp": "20260818-100457",
+    "full_timestamp": "2026-08-18T10:04:57-07:00",
+    "summary": "MCP could connect local models, coding agents, and Mac automation, but supplied evidence shows emerging support—not yet proven interoperability across the desktop stack.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "2026 macOS local AI tools MCP support Apple Silicon agents",
+    "source_count": 12,
+    "tags": "MCP, macOS, local AI, coding agents",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
