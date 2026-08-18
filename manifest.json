@@ -2483,5 +2483,18 @@
     "source_count": 12,
     "tags": "AI code agents, CI/CD security, GitHub, secret leakage",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 195,
+    "topic": "Twitch Streamers Use AI Lip-Sync Avatars to Mask Real-Time Voice Fatigue",
+    "file": "html/article-0195-twitch-streamers-use-ai-lip-sync-avatars-to-mask-real-time-voice-fatigue-20260818-160109.html",
+    "timestamp": "20260818-160109",
+    "full_timestamp": "2026-08-18T16:01:09-07:00",
+    "summary": "Twitch streamers in 2026 are using AI lip-sync avatars to hide vocal strain during marathon broadcasts, preserving persona while protecting their voices.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "Twitch streamers AI lip-sync avatars voice fatigue 2026",
+    "source_count": 12,
+    "tags": "AI avatars, live streaming, voice synthesis, creator tools",
+    "model_names": "deepseek-v4-flash"
   }
 ]
