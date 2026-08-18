@@ -2431,5 +2431,18 @@
     "source_count": 12,
     "tags": "MCP, macOS, local AI, coding agents",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 191,
+    "topic": "Maven’s Expansion Tests Whether Battlefield AI Can Govern U.S. Surveillance",
+    "file": "html/article-0191-mavens-expansion-tests-whether-battlefield-ai-can-govern-u-s-surveillanc-20260818-120452.html",
+    "timestamp": "20260818-120452",
+    "full_timestamp": "2026-08-18T12:04:52-07:00",
+    "summary": "Maven’s shift from battlefield experiment to military program of record could expand AI-assisted intelligence workflows faster than the Pentagon’s oversight arrangements can prove their limits.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "Maven Smart System 2026 U.S. intelligence surveillance oversight expansion",
+    "source_count": 12,
+    "tags": "Maven Smart System, surveillance AI, intelligence oversight",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
