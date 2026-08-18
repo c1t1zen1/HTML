@@ -6,7 +6,8 @@ Hourly source-led research portal. Each dispatch starts from one of 24 topic fam
 
 - Schedule: hourly (`0 * * * *`)
 - Local model: discovered dynamically from `/v1/models` at `192.168.0.219:8080/v1`
-- Local inference: two bounded attempts with a short retry delay
+- Local inference: DeepSeek V4 uses native thinking-disabled streaming; other models retain the legacy payload; each response waits up to 20 minutes
+- Local status: `/home/pi/.hermes/cron/markgitup-local-inference-status.json`
 - Fallback LLM: GPT 5.6 Luna through Hermes `openai-codex`
 - Failure policy: no post is written when both inference paths fail
 - Search: local SearXNG at `127.0.0.1:8888`

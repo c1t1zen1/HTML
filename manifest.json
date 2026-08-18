@@ -2444,5 +2444,18 @@
     "source_count": 12,
     "tags": "Maven Smart System, surveillance AI, intelligence oversight",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 192,
+    "topic": "AI Avatars Now Lip-Sync Live in 8K via Neural Audio Waveform Mapping",
+    "file": "html/article-0192-ai-avatars-now-lip-sync-live-in-8k-via-neural-audio-waveform-mapping-20260818-130055.html",
+    "timestamp": "20260818-130055",
+    "full_timestamp": "2026-08-18T13:00:55-07:00",
+    "summary": "Neural audio-waveform lip-sync now drives real-time, high-fidelity AI avatars, shifting from static generation to live interactive presentation.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "AI video avatars lip-sync neural audio waveform mapping 2026",
+    "source_count": 10,
+    "tags": "AI avatars, lip-sync, neural audio, virtual presenters",
+    "model_names": "deepseek-v4-flash"
   }
 ]
