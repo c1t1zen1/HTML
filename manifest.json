@@ -2366,5 +2366,18 @@
     "source_count": 10,
     "tags": "election integrity, AI detection, local government, 2026 elections",
     "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
+  },
+  {
+    "article_number": 186,
+    "topic": "Snapchat Removes Fully AI-Generated Videos From Spotlight Recommendations, Protecting Human Creator Reach",
+    "file": "html/article-0186-snapchat-removes-fully-ai-generated-videos-from-spotlight-recommendation-20260818-060441.html",
+    "timestamp": "20260818-060441",
+    "full_timestamp": "2026-08-18T06:04:41-07:00",
+    "summary": "Snapchat now excludes wholly AI-generated videos from Spotlight recommendations while preserving eligibility for AI-assisted human footage with transparency indicators.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "Snap Spotlight fully AI-generated videos recommendation eligibility AI-assisted transparency July 2026",
+    "source_count": 12,
+    "tags": "Snapchat, creator economy, AI video, recommendation algorithms",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
