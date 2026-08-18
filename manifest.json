@@ -2470,5 +2470,18 @@
     "source_count": 12,
     "tags": "MLX, Apple Silicon, CI/CD, cloud agents",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 194,
+    "topic": "Coding-Agent CI Theft Now Exploits Public GitHub Issues at Scale",
+    "file": "html/article-0194-coding-agent-ci-theft-now-exploits-public-github-issues-at-scale-20260818-150115.html",
+    "timestamp": "20260818-150115",
+    "full_timestamp": "2026-08-18T15:01:15-07:00",
+    "summary": "One unprivileged GitHub issue can now reach CI runner secrets in Claude Code, Gemini CLI, and OpenAI Codex—an exploit chain that turns public issue trackers into a supply-chain attack surface.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "GitHub issues coding agent CI secret theft 2026",
+    "source_count": 12,
+    "tags": "AI code agents, CI/CD security, GitHub, secret leakage",
+    "model_names": "deepseek-v4-flash"
   }
 ]

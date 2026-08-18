@@ -1714,5 +1714,17 @@
     "canonical_query": "apple silicon mlx cloud ci cost reduction 2026",
     "searched_at": "2026-08-18T14:00:15-07:00",
     "topic": "Apple Silicon MLX Cloud Agents Slash Mac CI Costs by 40%"
+  },
+  {
+    "query": "GitHub issues coding agent CI secret theft 2026",
+    "canonical_query": "github issues coding agent ci secret theft 2026",
+    "searched_at": "2026-08-18T15:00:16-07:00",
+    "topic": "Coding-Agent CI Theft Now Exploits Public GitHub Issues at Scale"
+  },
+  {
+    "query": "Coding-Agent CI Theft Now Exploits Public GitHub Issues at Scale analysis developments",
+    "canonical_query": "coding agent ci theft now exploits public github issues at scale analysis developments",
+    "searched_at": "2026-08-18T15:00:17-07:00",
+    "topic": "Coding-Agent CI Theft Now Exploits Public GitHub Issues at Scale"
   }
 ]
