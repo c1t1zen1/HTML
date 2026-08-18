@@ -2379,5 +2379,18 @@
     "source_count": 12,
     "tags": "Snapchat, creator economy, AI video, recommendation algorithms",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 187,
+    "topic": "MLX-LM Quantization Update Reframes How Mac Users Serve Long-Context Models",
+    "file": "html/article-0187-mlx-lm-quantization-update-reframes-how-mac-users-serve-long-context-mod-20260818-070455.html",
+    "timestamp": "20260818-070455",
+    "full_timestamp": "2026-08-18T07:04:55-07:00",
+    "summary": "Available evidence points to stronger MLX-LM quantization workflows for Mac long-context serving, but does not verify a specific update, version, or measurable performance gain.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX-LM 2026 quantization update long-context Mac benchmark",
+    "source_count": 12,
+    "tags": "MLX-LM, quantization, Apple Silicon, long-context",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
