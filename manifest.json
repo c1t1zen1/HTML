@@ -2353,5 +2353,18 @@
     "source_count": 12,
     "tags": "AI regulation, hedge funds, SEC, algorithmic trading",
     "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
+  },
+  {
+    "article_number": 185,
+    "topic": "Local Election Officials Deploy AI Detection Tools for November 2026 Ballots",
+    "file": "html/article-0185-local-election-officials-deploy-ai-detection-tools-for-november-2026-bal-20260818-050500.html",
+    "timestamp": "20260818-050500",
+    "full_timestamp": "2026-08-18T05:05:00-07:00",
+    "summary": "Election offices are moving AI from policy debate toward operational planning, but supplied evidence stops short of proving county clerks are deploying detectors for November 2026 campaign materials.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "local election officials AI detection tools 2026 elections",
+    "source_count": 10,
+    "tags": "election integrity, AI detection, local government, 2026 elections",
+    "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
   }
 ]
