@@ -2275,5 +2275,18 @@
     "source_count": 12,
     "tags": "AI policy, lobbying, Washington, 2026",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 179,
+    "topic": "Smart-Home AI Enters Virtual Power Plants as Utilities Target Residential Flexibility",
+    "file": "html/article-0179-smart-home-ai-enters-virtual-power-plants-as-utilities-target-residentia-20260817-233713.html",
+    "timestamp": "20260817-233713",
+    "full_timestamp": "2026-08-17T23:37:13-07:00",
+    "summary": "Utilities are turning AI-managed thermostats, batteries, rooftop solar, and EV chargers into flexible residential capacity, but scale and firm availability remain unproven.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "2026 utility AI residential virtual power plant smart home demand response",
+    "source_count": 12,
+    "tags": "home energy, virtual power plants, demand response, AI agents",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
