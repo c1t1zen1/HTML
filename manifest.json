@@ -2457,5 +2457,18 @@
     "source_count": 10,
     "tags": "AI avatars, lip-sync, neural audio, virtual presenters",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 193,
+    "topic": "Apple Silicon MLX Cloud Agents Slash Mac CI Costs by 40%",
+    "file": "html/article-0193-apple-silicon-mlx-cloud-agents-slash-mac-ci-costs-by-40-20260818-140107.html",
+    "timestamp": "20260818-140107",
+    "full_timestamp": "2026-08-18T14:01:07-07:00",
+    "summary": "MLX cloud agents cut Mac CI costs 40% in 2026, shifting iOS builds from expensive runners to hybrid local-cloud pipelines.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple Silicon MLX cloud CI cost reduction 2026",
+    "source_count": 12,
+    "tags": "MLX, Apple Silicon, CI/CD, cloud agents",
+    "model_names": "deepseek-v4-flash"
   }
 ]
