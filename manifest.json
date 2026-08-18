@@ -2314,5 +2314,18 @@
     "source_count": 12,
     "tags": "TAKE IT DOWN Act, AI deepfakes, platform regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 182,
+    "topic": "AI Crypto Bots Face Live-Return Test as MEV and Fees Undercut Backtests",
+    "file": "html/article-0182-ai-crypto-bots-face-live-return-test-as-mev-and-fees-undercut-backtests-20260818-020656.html",
+    "timestamp": "20260818-020656",
+    "full_timestamp": "2026-08-18T02:06:56-07:00",
+    "summary": "AI crypto bots may look profitable in backtests, but liquidity, slippage, fees, and uncertain live-account evidence determine whether returns survive real execution.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "AI crypto trading bots live returns MEV fees backtest 2026",
+    "source_count": 12,
+    "tags": "AI trading, crypto, MEV, performance",
+    "model_names": "GPT 5.6 Luna + glm-5.2-colibri"
   }
 ]
