@@ -2561,5 +2561,18 @@
     "source_count": 12,
     "tags": "AI video provenance, cryptographic signing, model weights, supply-chain security",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 201,
+    "topic": "AI Trading Bots Face EU AI Act Stress Tests as August Deadline Looms",
+    "file": "html/article-0201-ai-trading-bots-face-eu-ai-act-stress-tests-as-august-deadline-looms-20260818-230127.html",
+    "timestamp": "20260818-230127",
+    "full_timestamp": "2026-08-18T23:01:27-07:00",
+    "summary": "EU AI Act high-risk obligations arrive August 2, 2026, forcing AI trading bots into stress tests and bias audits—compliance now rivals returns.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "AI trading bot EU AI Act stress test 2026",
+    "source_count": 12,
+    "tags": "AI trading, EU AI Act, stress tests, compliance",
+    "model_names": "deepseek-v4-flash"
   }
 ]
