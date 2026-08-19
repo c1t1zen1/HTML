@@ -1798,5 +1798,11 @@
     "canonical_query": "homekit secure video on device ai scene tagging 2026",
     "searched_at": "2026-08-19T01:00:29-07:00",
     "topic": "HomeKit Secure Video Now Runs On-Device AI Scene Tagging Without Cloud"
+  },
+  {
+    "query": "quantized LLM speculative decoding Apple Silicon Mac 2026",
+    "canonical_query": "quantized llm speculative decoding apple silicon mac 2026",
+    "searched_at": "2026-08-19T02:00:27-07:00",
+    "topic": "Mac LLM Inference Gets Sub-Second Token Streaming via New Quantized Speculative Decoding"
   }
 ]

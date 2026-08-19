@@ -2600,5 +2600,18 @@
     "source_count": 10,
     "tags": "HomeKit, on-device AI, privacy, smart-home",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 204,
+    "topic": "Mac LLM Inference Gets Sub-Second Token Streaming via New Quantized Speculative Decoding",
+    "file": "html/article-0204-mac-llm-inference-gets-sub-second-token-streaming-via-new-quantized-spec-20260819-020127.html",
+    "timestamp": "20260819-020127",
+    "full_timestamp": "2026-08-19T02:01:27-07:00",
+    "summary": "Quantized speculative decoding on Apple Silicon now delivers sub-second first-token streaming for local LLMs, with MLX-native MTP draft models beating llama.cpp Metal baselines.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "quantized LLM speculative decoding Apple Silicon Mac 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, quantized LLM, speculative decoding, MLX",
+    "model_names": "deepseek-v4-flash"
   }
 ]
