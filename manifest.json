@@ -2587,5 +2587,18 @@
     "source_count": 12,
     "tags": "deepfake legislation, political ads, state AGs, election integrity",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 203,
+    "topic": "HomeKit Secure Video Now Runs On-Device AI Scene Tagging Without Cloud",
+    "file": "html/article-0203-homekit-secure-video-now-runs-on-device-ai-scene-tagging-without-cloud-20260819-010106.html",
+    "timestamp": "20260819-010106",
+    "full_timestamp": "2026-08-19T01:01:06-07:00",
+    "summary": "Apple's HomeKit Secure Video now tags scenes on-device via Neural Engine, keeping privacy while adding AI search and summaries.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "HomeKit Secure Video on-device AI scene tagging 2026",
+    "source_count": 10,
+    "tags": "HomeKit, on-device AI, privacy, smart-home",
+    "model_names": "deepseek-v4-flash"
   }
 ]
