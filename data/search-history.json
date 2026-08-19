@@ -1768,5 +1768,11 @@
     "canonical_query": "apple silicon mlx moe routing on device inference 2026",
     "searched_at": "2026-08-18T20:00:22-07:00",
     "topic": "Apple M-Series MLX Gains On-Device MoE Routing for 8B Models"
+  },
+  {
+    "query": "AI video model weights cryptographic provenance ledger 2026",
+    "canonical_query": "ai video model weights cryptographic provenance ledger 2026",
+    "searched_at": "2026-08-18T22:00:24-07:00",
+    "topic": "AI Video Model Weights Now Signed via Cryptographic Provenance Ledger"
   }
 ]

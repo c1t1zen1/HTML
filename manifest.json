@@ -2548,5 +2548,18 @@
     "source_count": 12,
     "tags": "MLX, Apple Silicon, MoE, on-device inference",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 200,
+    "topic": "AI Video Model Weights Now Signed via Cryptographic Provenance Ledger",
+    "file": "html/article-0200-ai-video-model-weights-now-signed-via-cryptographic-provenance-ledger-20260818-220109.html",
+    "timestamp": "20260818-220109",
+    "full_timestamp": "2026-08-18T22:01:09-07:00",
+    "summary": "Cryptographic provenance ledgers are now signing AI video model weights, shifting authenticity checks from post-hoc labeling to supply-chain-level verification.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "AI video model weights cryptographic provenance ledger 2026",
+    "source_count": 12,
+    "tags": "AI video provenance, cryptographic signing, model weights, supply-chain security",
+    "model_names": "deepseek-v4-flash"
   }
 ]
