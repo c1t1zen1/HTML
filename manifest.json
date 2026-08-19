@@ -2691,5 +2691,18 @@
     "source_count": 12,
     "tags": "AI video editing, semantic audio processing, post-production automation, 2026",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 211,
+    "topic": "2026 Primary Deepfake Voice IDs Now Required in State Ad Laws",
+    "file": "html/article-0211-2026-primary-deepfake-voice-ids-now-required-in-state-ad-laws-20260819-090125.html",
+    "timestamp": "20260819-090125",
+    "full_timestamp": "2026-08-19T09:01:25-07:00",
+    "summary": "New 2026 state laws now require voice-clone disclosures in political ads, extending AI rules beyond deepfake video to audio-only synthetic voices in primaries.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "state laws deepfake voice disclosure primary election 2026",
+    "source_count": 12,
+    "tags": "deepfake voice, election integrity, state laws, AI disclosure",
+    "model_names": "deepseek-v4-flash"
   }
 ]
