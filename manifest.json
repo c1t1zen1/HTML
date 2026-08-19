@@ -2652,5 +2652,18 @@
     "source_count": 10,
     "tags": "AI video, watermarking, deepfake provenance, content verification",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 208,
+    "topic": "AI Lobbying Shifts to State Capitols as Federal Gridlock Persists",
+    "file": "html/article-0208-ai-lobbying-shifts-to-state-capitols-as-federal-gridlock-persists-20260819-060122.html",
+    "timestamp": "20260819-060122",
+    "full_timestamp": "2026-08-19T06:01:22-07:00",
+    "summary": "AI lobbying is pivoting to state capitols as 1,561 bills flood 45 legislatures, making state-level influence the new battleground.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI lobbying state legislatures 2026 artificial intelligence bills",
+    "source_count": 12,
+    "tags": "AI policy, state lobbying, legislative gridlock, tech industry",
+    "model_names": "deepseek-v4-flash"
   }
 ]
