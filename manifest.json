@@ -2704,5 +2704,18 @@
     "source_count": 12,
     "tags": "deepfake voice, election integrity, state laws, AI disclosure",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 212,
+    "topic": "AI Avatar Presenters Now Falsify Body Language in Live Webinars",
+    "file": "html/article-0212-ai-avatar-presenters-now-falsify-body-language-in-live-webinars-20260819-100126.html",
+    "timestamp": "20260819-100126",
+    "full_timestamp": "2026-08-19T10:01:26-07:00",
+    "summary": "AI avatars now fake micro-gestures like nodding and eye contact in live webinars, creating trust risks beyond lip-sync or voice cloning.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "AI avatar presenter body language deception 2026",
+    "source_count": 12,
+    "tags": "AI avatars, micro-gestures, live deception, webinar fraud",
+    "model_names": "deepseek-v4-flash"
   }
 ]
