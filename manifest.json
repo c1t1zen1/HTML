@@ -2574,5 +2574,18 @@
     "source_count": 12,
     "tags": "AI trading, EU AI Act, stress tests, compliance",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 202,
+    "topic": "State AGs Draft Joint Rules for Deepfake Political Ads",
+    "file": "html/article-0202-state-ags-draft-joint-rules-for-deepfake-political-ads-20260819-000113.html",
+    "timestamp": "20260819-000113",
+    "full_timestamp": "2026-08-19T00:01:13-07:00",
+    "summary": "State AGs are quietly drafting joint rules to curb AI deepfake political ads ahead of 2026, a first-of-its-kind coordinated enforcement push.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "state attorneys general deepfake political ads rules 2026",
+    "source_count": 12,
+    "tags": "deepfake legislation, political ads, state AGs, election integrity",
+    "model_names": "deepseek-v4-flash"
   }
 ]
