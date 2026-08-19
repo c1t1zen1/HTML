@@ -2678,5 +2678,18 @@
     "source_count": 12,
     "tags": "SEC, AI financial reporting, audit, earnings",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 210,
+    "topic": "AI Video Editing Agents Now Auto-Delete Dead Air via Semantic Audio Gaps",
+    "file": "html/article-0210-ai-video-editing-agents-now-auto-delete-dead-air-via-semantic-audio-gaps-20260819-080129.html",
+    "timestamp": "20260819-080129",
+    "full_timestamp": "2026-08-19T08:01:29-07:00",
+    "summary": "AI editing agents now detect semantic dead air—coughs, pauses, filler—and cut them automatically, moving beyond simple waveform silence detection.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "AI video editing semantic audio gap removal 2026",
+    "source_count": 12,
+    "tags": "AI video editing, semantic audio processing, post-production automation, 2026",
+    "model_names": "deepseek-v4-flash"
   }
 ]
