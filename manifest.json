@@ -2743,5 +2743,18 @@
     "source_count": 12,
     "tags": "Nasdaq, SEC, algorithmic trading, market surveillance",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 215,
+    "topic": "AI Legal Briefs Now Flag Hidden Bias in Settlement Algorithms",
+    "file": "html/article-0215-ai-legal-briefs-now-flag-hidden-bias-in-settlement-algorithms-20260819-130207.html",
+    "timestamp": "20260819-130207",
+    "full_timestamp": "2026-08-19T13:02:07-07:00",
+    "summary": "Court-approved AI audits now expose demographic bias in settlement algorithms, forcing firms to rerun cases under 2026 EU AI Act Article 6a.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "AI legal settlement bias audit 2026 court ruling",
+    "source_count": 12,
+    "tags": "legal AI, settlement bias, EU AI Act, algorithmic audit",
+    "model_names": "deepseek-v4-flash"
   }
 ]
