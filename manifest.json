@@ -2613,5 +2613,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, quantized LLM, speculative decoding, MLX",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 205,
+    "topic": "Central Banks Tap AI Sentiment Models to Pre-Announce Policy Shifts",
+    "file": "html/article-0205-central-banks-tap-ai-sentiment-models-to-pre-announce-policy-shifts-20260819-030132.html",
+    "timestamp": "20260819-030132",
+    "full_timestamp": "2026-08-19T03:01:32-07:00",
+    "summary": "Central banks are deploying AI sentiment models on speeches, statements, and market chatter to refine pre-announcement guidance, marking a new institutional frontier in AI-driven market analysis.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "central bank AI sentiment analysis monetary policy communication 2026",
+    "source_count": 12,
+    "tags": "central-bank-AI, sentiment-analysis, monetary-policy, market-signals",
+    "model_names": "deepseek-v4-flash"
   }
 ]
