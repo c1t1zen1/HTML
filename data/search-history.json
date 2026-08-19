@@ -1834,5 +1834,17 @@
     "canonical_query": "ai lobbying state legislatures 2026 artificial intelligence bills",
     "searched_at": "2026-08-19T06:00:31-07:00",
     "topic": "AI Lobbying Shifts to State Capitols as Federal Gridlock Persists"
+  },
+  {
+    "query": "SEC AI-generated financial reporting audit 2026",
+    "canonical_query": "sec ai generated financial reporting audit 2026",
+    "searched_at": "2026-08-19T07:00:31-07:00",
+    "topic": "SEC Flags AI-Generated Earnings Narratives as Audit Blind Spot"
+  },
+  {
+    "query": "SEC Flags AI-Generated Earnings Narratives as Audit Blind Spot analysis developments",
+    "canonical_query": "sec flags ai generated earnings narratives as audit blind spot analysis developments",
+    "searched_at": "2026-08-19T07:00:32-07:00",
+    "topic": "SEC Flags AI-Generated Earnings Narratives as Audit Blind Spot"
   }
 ]

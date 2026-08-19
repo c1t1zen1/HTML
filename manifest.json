@@ -2665,5 +2665,18 @@
     "source_count": 12,
     "tags": "AI policy, state lobbying, legislative gridlock, tech industry",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 209,
+    "topic": "SEC Flags AI-Generated Earnings Narratives as Audit Blind Spot",
+    "file": "html/article-0209-sec-flags-ai-generated-earnings-narratives-as-audit-blind-spot-20260819-070111.html",
+    "timestamp": "20260819-070111",
+    "full_timestamp": "2026-08-19T07:01:11-07:00",
+    "summary": "Regulators flag AI-generated narrative sections in earnings releases as a blind spot, since traditional audit checks don't verify those disclosures.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC AI-generated financial reporting audit 2026",
+    "source_count": 12,
+    "tags": "SEC, AI financial reporting, audit, earnings",
+    "model_names": "deepseek-v4-flash"
   }
 ]
