@@ -2626,5 +2626,18 @@
     "source_count": 12,
     "tags": "central-bank-AI, sentiment-analysis, monetary-policy, market-signals",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 206,
+    "topic": "Smart-Home AI Routers Block IoT Botnets via On-Device Traffic ML",
+    "file": "html/article-0206-smart-home-ai-routers-block-iot-botnets-via-on-device-traffic-ml-20260819-040119.html",
+    "timestamp": "20260819-040119",
+    "full_timestamp": "2026-08-19T04:01:19-07:00",
+    "summary": "On-device ML in smart-home routers now flags IoT botnet traffic in real time, shifting security from cloud to the edge.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "AI router IoT botnet detection smart home 2026",
+    "source_count": 12,
+    "tags": "smart home, AI router, IoT security, botnet detection",
+    "model_names": "deepseek-v4-flash"
   }
 ]
