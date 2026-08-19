@@ -2756,5 +2756,18 @@
     "source_count": 12,
     "tags": "legal AI, settlement bias, EU AI Act, algorithmic audit",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 216,
+    "topic": "AI Surveillance Audit Finds Bias in US Police Facial Recognition",
+    "file": "html/article-0216-ai-surveillance-audit-finds-bias-in-us-police-facial-recognition-20260819-140124.html",
+    "timestamp": "20260819-140124",
+    "full_timestamp": "2026-08-19T14:01:24-07:00",
+    "summary": "An audit finds U.S. police facial recognition bias persists despite vendor claims, raising due-process and oversight concerns.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "AI surveillance bias police facial recognition 2026",
+    "source_count": 12,
+    "tags": "AI bias, facial recognition, police surveillance, algorithmic audit",
+    "model_names": "deepseek-v4-flash"
   }
 ]
