@@ -1822,5 +1822,11 @@
     "canonical_query": "ai router iot botnet detection smart home 2026",
     "searched_at": "2026-08-19T04:00:28-07:00",
     "topic": "Smart-Home AI Routers Block IoT Botnets via On-Device Traffic ML"
+  },
+  {
+    "query": "AI video watermarking pixel-level deepfake provenance 2026",
+    "canonical_query": "ai video watermarking pixel level deepfake provenance 2026",
+    "searched_at": "2026-08-19T05:00:29-07:00",
+    "topic": "AI Video Watermarking Now Tracks Deepfake Edits at Pixel Level"
   }
 ]

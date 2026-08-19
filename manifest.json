@@ -2639,5 +2639,18 @@
     "source_count": 12,
     "tags": "smart home, AI router, IoT security, botnet detection",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 207,
+    "topic": "AI Video Watermarking Now Tracks Deepfake Edits at Pixel Level",
+    "file": "html/article-0207-ai-video-watermarking-now-tracks-deepfake-edits-at-pixel-level-20260819-050114.html",
+    "timestamp": "20260819-050114",
+    "full_timestamp": "2026-08-19T05:01:14-07:00",
+    "summary": "New cryptographic pixel-level watermarking lets platforms trace AI-generated video edits frame-by-frame, addressing provenance gaps beyond simple clip signing.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI video watermarking pixel-level deepfake provenance 2026",
+    "source_count": 10,
+    "tags": "AI video, watermarking, deepfake provenance, content verification",
+    "model_names": "deepseek-v4-flash"
   }
 ]
