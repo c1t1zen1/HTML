@@ -2782,5 +2782,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, LLM Inference, M4 Ultra",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 218,
+    "topic": "Hedge Fund LLM Agents Now Subject to SEC Algorithm Audit Logs",
+    "file": "html/article-0218-hedge-fund-llm-agents-now-subject-to-sec-algorithm-audit-logs-20260819-160140.html",
+    "timestamp": "20260819-160140",
+    "full_timestamp": "2026-08-19T16:01:40-07:00",
+    "summary": "SEC mandates immutable audit logs for LLM-driven hedge fund trades; firms scramble to retrofit agentic architectures.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "SEC AI audit logs hedge fund LLM agents 2026",
+    "source_count": 12,
+    "tags": "SEC regulation, hedge funds, LLM trading, algorithmic audit",
+    "model_names": "deepseek-v4-flash"
   }
 ]
