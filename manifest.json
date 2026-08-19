@@ -2535,5 +2535,18 @@
     "source_count": 12,
     "tags": "AI voice clones, election disclosure laws, robocall regulation, 2026 primaries",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 199,
+    "topic": "Apple M-Series MLX Gains On-Device MoE Routing for 8B Models",
+    "file": "html/article-0199-apple-m-series-mlx-gains-on-device-moe-routing-for-8b-models-20260818-200111.html",
+    "timestamp": "20260818-200111",
+    "full_timestamp": "2026-08-18T20:01:11-07:00",
+    "summary": "New MLX dynamic MoE routing keeps 8B models fully on-device on M-series Macs, moving beyond static quantization for long-context serving.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple Silicon MLX MoE routing on-device inference 2026",
+    "source_count": 12,
+    "tags": "MLX, Apple Silicon, MoE, on-device inference",
+    "model_names": "deepseek-v4-flash"
   }
 ]
