@@ -2509,5 +2509,18 @@
     "source_count": 12,
     "tags": "EU AI Act, therapy chatbots, mental-health AI, regulatory liability",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 197,
+    "topic": "2026 EU AI Act Forces Legal AI Bias Audits on Courtroom Analytics",
+    "file": "html/article-0197-2026-eu-ai-act-forces-legal-ai-bias-audits-on-courtroom-analytics-20260818-180105.html",
+    "timestamp": "20260818-180105",
+    "full_timestamp": "2026-08-18T18:01:05-07:00",
+    "summary": "EU AI Act's August 2026 enforcement forces mandatory bias audits on high-risk courtroom analytics, reshaping legal tech compliance.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "EU AI Act 2026 legal AI bias audits courtroom analytics",
+    "source_count": 12,
+    "tags": "EU AI Act, legal AI, bias audit, courtroom analytics",
+    "model_names": "deepseek-v4-flash"
   }
 ]
