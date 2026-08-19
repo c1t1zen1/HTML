@@ -1900,5 +1900,17 @@
     "canonical_query": "ai surveillance bias police facial recognition 2026",
     "searched_at": "2026-08-19T14:00:38-07:00",
     "topic": "AI Surveillance Audit Finds Bias in US Police Facial Recognition"
+  },
+  {
+    "query": "Apple M4 Ultra MLX LLM prefill latency 2026",
+    "canonical_query": "apple m4 ultra mlx llm prefill latency 2026",
+    "searched_at": "2026-08-19T15:00:40-07:00",
+    "topic": "Apple M4 Ultra GPU Cuts LLM Prefill Latency by 40% in New MLX Build"
+  },
+  {
+    "query": "Apple M4 Ultra GPU Cuts LLM Prefill Latency by 40% in New MLX Build analysis developments",
+    "canonical_query": "apple m4 ultra gpu cuts llm prefill latency by 40 in new mlx build analysis developments",
+    "searched_at": "2026-08-19T15:00:41-07:00",
+    "topic": "Apple M4 Ultra GPU Cuts LLM Prefill Latency by 40% in New MLX Build"
   }
 ]

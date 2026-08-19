@@ -2769,5 +2769,18 @@
     "source_count": 12,
     "tags": "AI bias, facial recognition, police surveillance, algorithmic audit",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 217,
+    "topic": "Apple M4 Ultra GPU Cuts LLM Prefill Latency by 40% in New MLX Build",
+    "file": "html/article-0217-apple-m4-ultra-gpu-cuts-llm-prefill-latency-by-40-in-new-mlx-build-20260819-150137.html",
+    "timestamp": "20260819-150137",
+    "full_timestamp": "2026-08-19T15:01:37-07:00",
+    "summary": "New MLX build shows Apple’s M4 Ultra GPU cutting LLM prefill latency by roughly 40% — a measurable win for long-context workloads.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M4 Ultra MLX LLM prefill latency 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, LLM Inference, M4 Ultra",
+    "model_names": "deepseek-v4-flash"
   }
 ]
