@@ -2522,5 +2522,18 @@
     "source_count": 12,
     "tags": "EU AI Act, legal AI, bias audit, courtroom analytics",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 198,
+    "topic": "2026 Primary AI Voice Clones Face State Disclosure Mandates",
+    "file": "html/article-0198-2026-primary-ai-voice-clones-face-state-disclosure-mandates-20260818-190113.html",
+    "timestamp": "20260818-190113",
+    "full_timestamp": "2026-08-18T19:01:13-07:00",
+    "summary": "New state disclosure mandates force 2026 primary campaigns to label AI voice clones in robocalls, reshaping voter outreach tech.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "AI voice clone disclosure law 2026 primary elections",
+    "source_count": 12,
+    "tags": "AI voice clones, election disclosure laws, robocall regulation, 2026 primaries",
+    "model_names": "deepseek-v4-flash"
   }
 ]
