@@ -2717,5 +2717,18 @@
     "source_count": 12,
     "tags": "AI avatars, micro-gestures, live deception, webinar fraud",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 213,
+    "topic": "Mac On-Device LLM Inference Gets 2-Bit Cache Quantization Boost",
+    "file": "html/article-0213-mac-on-device-llm-inference-gets-2-bit-cache-quantization-boost-20260819-110135.html",
+    "timestamp": "20260819-110135",
+    "full_timestamp": "2026-08-19T11:01:35-07:00",
+    "summary": "New 2-bit KV-cache quantization on Apple Silicon doubles usable context windows and cuts memory-bandwidth stalls, a distinct 2026 leap.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "Apple Silicon 2-bit cache quantization LLM inference 2026",
+    "source_count": 10,
+    "tags": "Apple Silicon, KV-cache quantization, LLM inference, MLX",
+    "model_names": "deepseek-v4-flash"
   }
 ]

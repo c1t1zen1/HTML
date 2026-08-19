@@ -1870,5 +1870,11 @@
     "canonical_query": "ai avatar presenter body language deception 2026",
     "searched_at": "2026-08-19T10:00:35-07:00",
     "topic": "AI Avatar Presenters Now Falsify Body Language in Live Webinars"
+  },
+  {
+    "query": "Apple Silicon 2-bit cache quantization LLM inference 2026",
+    "canonical_query": "apple silicon 2 bit cache quantization llm inference 2026",
+    "searched_at": "2026-08-19T11:00:36-07:00",
+    "topic": "Mac On-Device LLM Inference Gets 2-Bit Cache Quantization Boost"
   }
 ]
