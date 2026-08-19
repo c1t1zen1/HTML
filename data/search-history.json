@@ -1876,5 +1876,11 @@
     "canonical_query": "apple silicon 2 bit cache quantization llm inference 2026",
     "searched_at": "2026-08-19T11:00:36-07:00",
     "topic": "Mac On-Device LLM Inference Gets 2-Bit Cache Quantization Boost"
+  },
+  {
+    "query": "Nasdaq AI order type audit logs SEC 2026 rule",
+    "canonical_query": "nasdaq ai order type audit logs sec 2026 rule",
+    "searched_at": "2026-08-19T12:00:43-07:00",
+    "topic": "Nasdaq's New AI Order-Type Audit Logs Hit 2026 SEC Deadlines"
   }
 ]
