@@ -2496,5 +2496,18 @@
     "source_count": 12,
     "tags": "AI avatars, live streaming, voice synthesis, creator tools",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 196,
+    "topic": "Therapy Chatbots Face 2026 Liability Shift as EU AI Act Targets Mental-Health Claims",
+    "file": "html/article-0196-therapy-chatbots-face-2026-liability-shift-as-eu-ai-act-targets-mental-h-20260818-170118.html",
+    "timestamp": "20260818-170118",
+    "full_timestamp": "2026-08-18T17:01:18-07:00",
+    "summary": "EU AI Act enforcement on Aug 2, 2026 forces mental-health chatbots to prove efficacy or face transparency fines and liability for therapeutic claims.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "EU AI Act therapy chatbot medical claims liability 2026 enforcement",
+    "source_count": 12,
+    "tags": "EU AI Act, therapy chatbots, mental-health AI, regulatory liability",
+    "model_names": "deepseek-v4-flash"
   }
 ]
