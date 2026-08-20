@@ -3068,5 +3068,18 @@
     "source_count": 12,
     "tags": "C2PA, indie film, content provenance, AI ethics",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 240,
+    "topic": "US Courts Mandate AI Hallucination Disclosures in 2026 E-Discovery Rules",
+    "file": "html/article-0240-us-courts-mandate-ai-hallucination-disclosures-in-2026-e-discovery-rules-20260820-140301.html",
+    "timestamp": "20260820-140301",
+    "full_timestamp": "2026-08-20T14:03:01-07:00",
+    "summary": "US federal courts are tightening AI disclosure mandates in 2026, requiring attorneys to certify accuracy and revealing that GenAI prompts and outputs are increasingly subject to discovery and sanctions.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "US federal court e-discovery rules AI hallucination disclosure 2026",
+    "source_count": 12,
+    "tags": "LegalTech, AI Liability, E-Discovery",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
