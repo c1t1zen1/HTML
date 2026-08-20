@@ -2847,5 +2847,18 @@
     "source_count": 12,
     "tags": "AI video editing, shot language, visual grammar, pacing",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 223,
+    "topic": "AI-Generated Candidate Bios Now Flagged by Voter Fact-Check Bots",
+    "file": "html/article-0223-ai-generated-candidate-bios-now-flagged-by-voter-fact-check-bots-20260819-210139.html",
+    "timestamp": "20260819-210139",
+    "full_timestamp": "2026-08-19T21:01:39-07:00",
+    "summary": "Browser fact-check bots now auto-compare AI candidate bios against official records, exposing omissions and distortions during voter research.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "AI candidate biography fact-check voter bot 2026 election",
+    "source_count": 12,
+    "tags": "AI fact-checking, voter info integrity, election tech, deepfake bios",
+    "model_names": "deepseek-v4-flash"
   }
 ]
