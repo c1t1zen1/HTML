@@ -3094,5 +3094,18 @@
     "source_count": 9,
     "tags": "NVIDIA, Video Editing, Hardware, AI",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 242,
+    "topic": "Matter 1.4 Security Flaws Spark 2026 Smart Home Firmware Patch Rush",
+    "file": "html/article-0242-matter-1-4-security-flaws-spark-2026-smart-home-firmware-patch-rush-20260820-160218.html",
+    "timestamp": "20260820-160218",
+    "full_timestamp": "2026-08-20T16:02:18-07:00",
+    "summary": "Matter 1.4.2 patches security gaps and enforces Thread 1.4, triggering a 2026 firmware rush. Vendors must update hubs and devices to maintain certification and interoperability.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Matter 1.4 security vulnerability smart home firmware patch 2026",
+    "source_count": 12,
+    "tags": "smart home, cybersecurity, Matter standard, IoT security",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
