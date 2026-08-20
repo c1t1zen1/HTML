@@ -2834,5 +2834,18 @@
     "source_count": 12,
     "tags": "AI therapy, suicide prevention, real-time analysis, mental health tech",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 222,
+    "topic": "AI Video Editors Now Re-Cut Scene Pacing via Shot-Language Coherence",
+    "file": "html/article-0222-ai-video-editors-now-re-cut-scene-pacing-via-shot-language-coherence-20260819-200139.html",
+    "timestamp": "20260819-200139",
+    "full_timestamp": "2026-08-19T20:01:39-07:00",
+    "summary": "AI editors now parse shot-level visual grammar, re-cutting scene pacing and narrative coherence — not just cleaning audio gaps.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "AI video editing shot language coherence re-cutting 2026",
+    "source_count": 12,
+    "tags": "AI video editing, shot language, visual grammar, pacing",
+    "model_names": "deepseek-v4-flash"
   }
 ]
