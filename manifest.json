@@ -2977,5 +2977,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, Local AI, LLM",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 233,
+    "topic": "SEC Mandates Real-Time GenAI Disclosure for Earnings Call Transcripts",
+    "file": "html/article-0233-sec-mandates-real-time-genai-disclosure-for-earnings-call-transcripts-20260820-070300.html",
+    "timestamp": "20260820-070300",
+    "full_timestamp": "2026-08-20T07:03:00-07:00",
+    "summary": "Contrary to headlines, no specific SEC rule mandates real-time GenAI labeling in earnings calls. Current enforcement relies on existing materiality standards and cybersecurity obligations, creating a compliance gap for issuers.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC GenAI disclosure rule earnings calls 2026",
+    "source_count": 12,
+    "tags": "SEC, GenAI, Financial Reporting, Regulation",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

@@ -2026,5 +2026,17 @@
     "canonical_query": "apple m4 ultra mlx 10 billion parameter local llm august 2026",
     "searched_at": "2026-08-20T06:00:58-07:00",
     "topic": "Apple M4 Ultra MLX Framework Hits 10B Parameter Local LLM Milestone"
+  },
+  {
+    "query": "SEC GenAI disclosure rule earnings calls 2026",
+    "canonical_query": "sec genai disclosure rule earnings calls 2026",
+    "searched_at": "2026-08-20T07:00:58-07:00",
+    "topic": "SEC Mandates Real-Time GenAI Disclosure for Earnings Call Transcripts"
+  },
+  {
+    "query": "SEC Mandates Real-Time GenAI Disclosure for Earnings Call Transcripts analysis developments",
+    "canonical_query": "sec mandates real time genai disclosure for earnings call transcripts analysis developments",
+    "searched_at": "2026-08-20T07:00:59-07:00",
+    "topic": "SEC Mandates Real-Time GenAI Disclosure for Earnings Call Transcripts"
   }
 ]
