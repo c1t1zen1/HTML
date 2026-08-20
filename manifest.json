@@ -2886,5 +2886,18 @@
     "source_count": 10,
     "tags": "instant payments, mule accounts, graph AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 226,
+    "topic": "TikTok's 2026 AI Watermark Mandate Sparks Creator Backlash Over Detection Failures",
+    "file": "html/article-0226-tiktok-s-2026-ai-watermark-mandate-sparks-creator-backlash-over-detectio-20260820-000242.html",
+    "timestamp": "20260820-000242",
+    "full_timestamp": "2026-08-20T00:02:42-07:00",
+    "summary": "TikTok's 2026 AI watermark mandate faces creator backlash due to detection failures that flag original content, creating regulatory friction under the EU AI Act and threatening platform distribution.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI watermark mandate 2026 creator backlash detection failures",
+    "source_count": 12,
+    "tags": "short-form video, AI regulation, platform policy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
