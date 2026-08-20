@@ -2938,5 +2938,18 @@
     "source_count": 10,
     "tags": "smart home, Matter protocol, interoperability, standards",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 230,
+    "topic": "Apple M4 Ultra Enables Real-Time Privacy-Preserving Federated Learning on Mac",
+    "file": "html/article-0230-apple-m4-ultra-enables-real-time-privacy-preserving-federated-learning-o-20260820-040333.html",
+    "timestamp": "20260820-040333",
+    "full_timestamp": "2026-08-20T04:03:33-07:00",
+    "summary": "Apple's M4 Ultra status is contested, but unified memory and privacy-focused research position Macs for on-device federated learning, keeping raw data local while sharing model updates.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple M4 Ultra federated learning local AI privacy 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, Federated Learning, Local AI, Privacy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
