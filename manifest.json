@@ -2925,5 +2925,18 @@
     "source_count": 12,
     "tags": "SEC, AI Trading, Regulatory Compliance, Asset Management",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 229,
+    "topic": "Matter 1.4 Standardization Sparks 2026 Smart Home Interoperability Mandates",
+    "file": "html/article-0229-matter-1-4-standardization-sparks-2026-smart-home-interoperability-manda-20260820-030309.html",
+    "timestamp": "20260820-030309",
+    "full_timestamp": "2026-08-20T03:03:09-07:00",
+    "summary": "IEC 63271:2026 mandates Matter 1.4 for EU CE marking, enforcing strict latency and multi-protocol requirements. This regulatory shift transforms interoperability from a voluntary standard into a compliance necessity for 2026 smart home devices.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Matter 1.4 smart home interoperability mandate 2026",
+    "source_count": 10,
+    "tags": "smart home, Matter protocol, interoperability, standards",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
