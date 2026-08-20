@@ -3029,5 +3029,18 @@
     "source_count": 12,
     "tags": "FDA, Digital Therapeutics, Mental Health, AI Regulation",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 237,
+    "topic": "Pentagon Mandates AI Provenance Watermarks for Military-Adjacent Election Data",
+    "file": "html/article-0237-pentagon-mandates-ai-provenance-watermarks-for-military-adjacent-electio-20260820-110318.html",
+    "timestamp": "20260820-110318",
+    "full_timestamp": "2026-08-20T11:03:18-07:00",
+    "summary": "A 2026 DoD directive mandates cryptographic provenance tags for AI content near election infrastructure, distinct from civilian laws, integrating C2PA and SynthID standards into military-adjacent data governance.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "Pentagon AI provenance watermark election data mandate 2026",
+    "source_count": 12,
+    "tags": "AI Security, Election Integrity, DoD Policy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
