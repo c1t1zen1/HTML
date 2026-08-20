@@ -2990,5 +2990,18 @@
     "source_count": 12,
     "tags": "SEC, GenAI, Financial Reporting, Regulation",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 234,
+    "topic": "AI Video Watermarking Standards Face Legal Challenge from Indie Studios",
+    "file": "html/article-0234-ai-video-watermarking-standards-face-legal-challenge-from-indie-studios-20260820-080313.html",
+    "timestamp": "20260820-080313",
+    "full_timestamp": "2026-08-20T08:03:13-07:00",
+    "summary": "Indie filmmakers face a legal collision in 2026 as mandatory AI watermarking laws clash with creative autonomy, raising First Amendment questions and technical feasibility concerns for independent studios.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI video watermarking legal challenge indie studios 2026",
+    "source_count": 12,
+    "tags": "AI Video, Legal, Filmmaking, Ethics",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
