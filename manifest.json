@@ -3081,5 +3081,18 @@
     "source_count": 12,
     "tags": "LegalTech, AI Liability, E-Discovery",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 241,
+    "topic": "NVIDIA RTX 5090 Driver Update Enables Real-Time Neural Video Upscaling",
+    "file": "html/article-0241-nvidia-rtx-5090-driver-update-enables-real-time-neural-video-upscaling-20260820-150304.html",
+    "timestamp": "20260820-150304",
+    "full_timestamp": "2026-08-20T15:03:04-07:00",
+    "summary": "NVIDIA's recent driver updates for the RTX 5090 focus on gaming stability and DLSS 4.5 features, but evidence for a specific real-time neural video upscaling driver update is absent from the provided sources.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "NVIDIA RTX 5090 driver update neural video upscaling August 2026",
+    "source_count": 9,
+    "tags": "NVIDIA, Video Editing, Hardware, AI",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
