@@ -2821,5 +2821,18 @@
     "source_count": 12,
     "tags": "AI lobbying, FEC rules, campaign finance, algorithmic ads",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 221,
+    "topic": "AI Therapy Sessions Now Flag Suicide-Risk Speech Patterns in Real Time",
+    "file": "html/article-0221-ai-therapy-sessions-now-flag-suicide-risk-speech-patterns-in-real-time-20260819-190123.html",
+    "timestamp": "20260819-190123",
+    "full_timestamp": "2026-08-19T19:01:23-07:00",
+    "summary": "AI systems now analyze live therapy audio to flag suicide-risk speech cues in real time, moving suicide screening from retrospective studies into active clinical workflows.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "AI mental health suicide risk real-time speech detection 2026",
+    "source_count": 12,
+    "tags": "AI therapy, suicide prevention, real-time analysis, mental health tech",
+    "model_names": "deepseek-v4-flash"
   }
 ]
