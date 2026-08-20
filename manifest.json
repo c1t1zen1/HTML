@@ -2899,5 +2899,18 @@
     "source_count": 12,
     "tags": "short-form video, AI regulation, platform policy",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 227,
+    "topic": "Sora 2 API Launch Sparks Copyright Tug-of-War in Hollywood",
+    "file": "html/article-0227-sora-2-api-launch-sparks-copyright-tug-of-war-in-hollywood-20260820-010326.html",
+    "timestamp": "20260820-010326",
+    "full_timestamp": "2026-08-20T01:03:26-07:00",
+    "summary": "OpenAI's Sora 2 API launch triggered a legal standoff with Hollywood, leading to a rapid policy reversal and the discontinuation of consumer interfaces amidst intense copyright disputes.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "Sora 2 API copyright lawsuit Hollywood August 2026",
+    "source_count": 12,
+    "tags": "AI Video, Copyright, Hollywood, API",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
