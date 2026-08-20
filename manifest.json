@@ -2951,5 +2951,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Federated Learning, Local AI, Privacy",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 231,
+    "topic": "Autonomous AI Code Agents Face New EU Liability Framework",
+    "file": "html/article-0231-autonomous-ai-code-agents-face-new-eu-liability-framework-20260820-050315.html",
+    "timestamp": "20260820-050315",
+    "full_timestamp": "2026-08-20T05:03:15-07:00",
+    "summary": "The EU AI Act's 2026 enforcement introduces strict liability for autonomous code agents, mandating human oversight and imposing penalties up to 7% of global turnover.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "EU AI Act autonomous code agent liability 2026",
+    "source_count": 10,
+    "tags": "AI Law, Software Engineering, EU Regulation",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
