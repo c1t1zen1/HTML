@@ -3055,5 +3055,18 @@
     "source_count": 12,
     "tags": "banking, AI regulation, fraud detection, stress tests",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 239,
+    "topic": "Indie Studios Adopt Open-Source C2PA Tools to Bypass Big Tech Watermark Standards",
+    "file": "html/article-0239-indie-studios-adopt-open-source-c2pa-tools-to-bypass-big-tech-watermark-20260820-130300.html",
+    "timestamp": "20260820-130300",
+    "full_timestamp": "2026-08-20T13:03:00-07:00",
+    "summary": "Independent studios are leveraging open-source C2PA tools to establish verifiable provenance, offering a strategic alternative to proprietary AI watermarking mandates and enhancing trust in digital media.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "indie filmmakers C2PA content provenance adoption 2026",
+    "source_count": 12,
+    "tags": "C2PA, indie film, content provenance, AI ethics",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
