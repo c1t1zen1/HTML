@@ -2050,5 +2050,11 @@
     "canonical_query": "eu ai act article 50 deepfake disclosure obligations august 2026",
     "searched_at": "2026-08-20T09:01:01-07:00",
     "topic": "EU AI Act Article 50 Mandates Real-Time Deepfake Disclosure"
+  },
+  {
+    "query": "FDA digital therapeutics AI depression approval 2026",
+    "canonical_query": "fda digital therapeutics ai depression approval 2026",
+    "searched_at": "2026-08-20T10:01:01-07:00",
+    "topic": "FDA Fast-Tracks AI-Powered Digital Therapeutics for Treatment-Resistant Depression"
   }
 ]

@@ -3016,5 +3016,18 @@
     "source_count": 10,
     "tags": "EU AI Act, Deepfake Regulation, Synthetic Media, Compliance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 236,
+    "topic": "FDA Fast-Tracks AI-Powered Digital Therapeutics for Treatment-Resistant Depression",
+    "file": "html/article-0236-fda-fast-tracks-ai-powered-digital-therapeutics-for-treatment-resistant-20260820-100258.html",
+    "timestamp": "20260820-100258",
+    "full_timestamp": "2026-08-20T10:02:58-07:00",
+    "summary": "FDA regulatory scrutiny of AI-driven digital therapeutics for depression is intensifying, with advisory committees debating generative AI devices while non-AI digital treatments gain clearance.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "FDA digital therapeutics AI depression approval 2026",
+    "source_count": 12,
+    "tags": "FDA, Digital Therapeutics, Mental Health, AI Regulation",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
