@@ -2795,5 +2795,18 @@
     "source_count": 12,
     "tags": "SEC regulation, hedge funds, LLM trading, algorithmic audit",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 219,
+    "topic": "AI Election Ad Audits Now Flag Micro-Targeting Bias in Real Time",
+    "file": "html/article-0219-ai-election-ad-audits-now-flag-micro-targeting-bias-in-real-time-20260819-170119.html",
+    "timestamp": "20260819-170119",
+    "full_timestamp": "2026-08-19T17:01:19-07:00",
+    "summary": "Newly deployed real-time audit systems now flag biased micro-targeting in US election ads, a distinct 2026 development beyond deepfake rules.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "AI election ad audit micro-targeting bias real-time 2026",
+    "source_count": 10,
+    "tags": "AI elections, ad auditing, micro-targeting, bias detection",
+    "model_names": "deepseek-v4-flash"
   }
 ]
