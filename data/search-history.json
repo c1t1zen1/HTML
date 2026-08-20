@@ -1960,5 +1960,11 @@
     "canonical_query": "ai generated candidate bios now flagged by voter fact check bots analysis developments",
     "searched_at": "2026-08-19T21:00:49-07:00",
     "topic": "AI-Generated Candidate Bios Now Flagged by Voter Fact-Check Bots"
+  },
+  {
+    "query": "MLX Apple Silicon LoRA adapter auto-tuning 2026",
+    "canonical_query": "mlx apple silicon lora adapter auto tuning 2026",
+    "searched_at": "2026-08-19T22:00:46-07:00",
+    "topic": "Apple Silicon MLX Now Auto-Tunes LoRA Adapters for Edge Inference"
   }
 ]

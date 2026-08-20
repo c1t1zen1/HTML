@@ -2860,5 +2860,18 @@
     "source_count": 12,
     "tags": "AI fact-checking, voter info integrity, election tech, deepfake bios",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 224,
+    "topic": "Apple Silicon MLX Now Auto-Tunes LoRA Adapters for Edge Inference",
+    "file": "html/article-0224-apple-silicon-mlx-now-auto-tunes-lora-adapters-for-edge-inference-20260819-220140.html",
+    "timestamp": "20260819-220140",
+    "full_timestamp": "2026-08-19T22:01:40-07:00",
+    "summary": "MLX on Apple Silicon now auto-tunes and compiles LoRA adapters, cutting on-device fine-tuning overhead for edge AI.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "MLX Apple Silicon LoRA adapter auto-tuning 2026",
+    "source_count": 12,
+    "tags": "MLX, Apple Silicon, LoRA, Edge Inference",
+    "model_names": "deepseek-v4-flash"
   }
 ]
