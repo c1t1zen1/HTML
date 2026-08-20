@@ -2873,5 +2873,18 @@
     "source_count": 12,
     "tags": "MLX, Apple Silicon, LoRA, Edge Inference",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 225,
+    "topic": "Why Instant-Payment Mule Networks Are Banking AI’s Next Fraud-Detection Battleground",
+    "file": "html/article-0225-why-instant-payment-mule-networks-are-banking-ais-next-fraud-detection-b-20260819-230304.html",
+    "timestamp": "20260819-230304",
+    "full_timestamp": "2026-08-19T23:03:04-07:00",
+    "summary": "Instant-payment speed compresses the intervention window, making graph-based AI that links accounts, transfers, and transaction chains central to finding coordinated mule networks.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks AI mule account detection instant payments fraud networks",
+    "source_count": 10,
+    "tags": "instant payments, mule accounts, graph AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
