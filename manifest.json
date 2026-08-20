@@ -2964,5 +2964,18 @@
     "source_count": 10,
     "tags": "AI Law, Software Engineering, EU Regulation",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 232,
+    "topic": "Apple M4 Ultra MLX Framework Hits 10B Parameter Local LLM Milestone",
+    "file": "html/article-0232-apple-m4-ultra-mlx-framework-hits-10b-parameter-local-llm-milestone-20260820-060259.html",
+    "timestamp": "20260820-060259",
+    "full_timestamp": "2026-08-20T06:02:59-07:00",
+    "summary": "Apple Silicon's unified memory and MLX framework enable local inference of 10B+ parameter models, with M4 Max and M5 hardware offering significant speed advantages over discrete GPUs.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Apple M4 Ultra MLX 10 billion parameter local LLM August 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, Local AI, LLM",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
