@@ -2808,5 +2808,18 @@
     "source_count": 10,
     "tags": "AI elections, ad auditing, micro-targeting, bias detection",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 220,
+    "topic": "AI Lobbying FEC Filings Now Track Algorithmic Campaign Spending",
+    "file": "html/article-0220-ai-lobbying-fec-filings-now-track-algorithmic-campaign-spending-20260819-180132.html",
+    "timestamp": "20260819-180132",
+    "full_timestamp": "2026-08-19T18:01:32-07:00",
+    "summary": "New FEC disclosures now itemize AI-driven ad targeting and content costs, exposing a fresh regulatory frontier where campaign finance meets algorithmic politics.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI lobbying FEC algorithmic campaign spending 2026",
+    "source_count": 12,
+    "tags": "AI lobbying, FEC rules, campaign finance, algorithmic ads",
+    "model_names": "deepseek-v4-flash"
   }
 ]
