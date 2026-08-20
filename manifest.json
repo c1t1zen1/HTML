@@ -2912,5 +2912,18 @@
     "source_count": 12,
     "tags": "AI Video, Copyright, Hollywood, API",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 228,
+    "topic": "BlackRock's AI Trading Bots Now Face New SEC Latency Disclosure Rules",
+    "file": "html/article-0228-blackrock-s-ai-trading-bots-now-face-new-sec-latency-disclosure-rules-20260820-020348.html",
+    "timestamp": "20260820-020348",
+    "full_timestamp": "2026-08-20T02:03:48-07:00",
+    "summary": "SEC enforcement signals, not new rules, now treat AI latency and logic as material disclosures, forcing asset managers to audit algorithmic decision-making speeds under existing securities laws.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "SEC new rules AI trading bot latency disclosure 2026",
+    "source_count": 12,
+    "tags": "SEC, AI Trading, Regulatory Compliance, Asset Management",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
