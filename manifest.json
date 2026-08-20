@@ -3003,5 +3003,18 @@
     "source_count": 12,
     "tags": "AI Video, Legal, Filmmaking, Ethics",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 235,
+    "topic": "EU AI Act Article 50 Mandates Real-Time Deepfake Disclosure",
+    "file": "html/article-0235-eu-ai-act-article-50-mandates-real-time-deepfake-disclosure-20260820-090256.html",
+    "timestamp": "20260820-090256",
+    "full_timestamp": "2026-08-20T09:02:56-07:00",
+    "summary": "EU AI Act Article 50 mandates machine-readable deepfake labeling and chatbot disclosure from August 2, 2026, imposing fines up to 3% of global turnover for non-compliance.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "EU AI Act Article 50 deepfake disclosure obligations August 2026",
+    "source_count": 10,
+    "tags": "EU AI Act, Deepfake Regulation, Synthetic Media, Compliance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
