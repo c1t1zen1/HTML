@@ -3302,5 +3302,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Video Generation, Local AI, M4 Ultra",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 258,
+    "topic": "Xcode 26 Beta Introduces Native Metal Performance Shaders for Local LLM Inference",
+    "file": "html/article-0258-xcode-26-beta-introduces-native-metal-performance-shaders-for-local-llm-20260821-080227.html",
+    "timestamp": "20260821-080227",
+    "full_timestamp": "2026-08-21T08:02:27-07:00",
+    "summary": "Xcode 26 and Metal 4 enable direct neural inference in shaders, shifting local LLM execution from generic runtimes to optimized, native GPU paths on Apple Silicon.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Xcode 26 beta Metal Performance Shaders local LLM inference Apple Silicon 2026 latest",
+    "source_count": 12,
+    "tags": "Xcode, Metal, Local AI, Apple Silicon",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
