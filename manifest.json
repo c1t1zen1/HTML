@@ -3146,5 +3146,18 @@
     "source_count": 12,
     "tags": "deepfake-legislation, international-policy, synthetic-media",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 246,
+    "topic": "K-12 Districts Face New Federal Mandate for AI Vendor Lobbying Transparency",
+    "file": "html/article-0246-k-12-districts-face-new-federal-mandate-for-ai-vendor-lobbying-transpare-20260820-200210.html",
+    "timestamp": "20260820-200210",
+    "full_timestamp": "2026-08-20T20:02:10-07:00",
+    "summary": "New federal and state mandates are forcing K-12 districts to scrutinize AI vendor lobbying and transparency, shifting procurement from simple cost-benefit analysis to rigorous compliance with emerging data and oversight standards.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "federal mandate AI vendor lobbying transparency K-12 education 2026",
+    "source_count": 12,
+    "tags": "education policy, AI lobbying, federal regulation",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
