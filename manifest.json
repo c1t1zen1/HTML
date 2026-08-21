@@ -3263,5 +3263,18 @@
     "source_count": 12,
     "tags": "SEC, Crypto Regulation, AI Trading",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 255,
+    "topic": "Hedge Funds Deploy Real-Time LLM Sentiment Scoring for High-Frequency Options Trading",
+    "file": "html/article-0255-hedge-funds-deploy-real-time-llm-sentiment-scoring-for-high-frequency-op-20260821-050227.html",
+    "timestamp": "20260821-050227",
+    "full_timestamp": "2026-08-21T05:02:27-07:00",
+    "summary": "Hedge funds are integrating LLMs for sub-second sentiment analysis to capture alpha in high-frequency options trading, moving beyond lagging news signals to real-time market dynamics.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge fund LLM real-time sentiment high-frequency options trading 2026",
+    "source_count": 10,
+    "tags": "quant-finance, llm-trading, high-frequency-trading",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
