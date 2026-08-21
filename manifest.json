@@ -3120,5 +3120,18 @@
     "source_count": 10,
     "tags": "AI Video, Ad Tech, Runway, Brand Safety",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 244,
+    "topic": "AI-Generated Short-Form Video Drives Surge in 2026 Synthetic Data Labeling Demand",
+    "file": "html/article-0244-ai-generated-short-form-video-drives-surge-in-2026-synthetic-data-labeli-20260820-180204.html",
+    "timestamp": "20260820-180204",
+    "full_timestamp": "2026-08-20T18:02:04-07:00",
+    "summary": "As AI video generation costs plummet, a new labor market emerges for synthetic data annotation. This shift drives demand for human labelers to train models on short-form social content.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "AI short form video synthetic data labeling demand 2026",
+    "source_count": 12,
+    "tags": "AI Content, Labor Market, Synthetic Data",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
