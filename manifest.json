@@ -3380,5 +3380,18 @@
     "source_count": 10,
     "tags": "Apple Silicon, Hardware Limitations, LLM Inference, Thermal Management",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 264,
+    "topic": "Mac AI Coding Agents Adopt MCP Sandboxing as Tool-Chain Security Concerns Escalate",
+    "file": "html/article-0264-mac-ai-coding-agents-adopt-mcp-sandboxing-as-tool-chain-security-concern-20260821-140309.html",
+    "timestamp": "20260821-140309",
+    "full_timestamp": "2026-08-21T14:03:09-07:00",
+    "summary": "Apple Silicon coding agents are moving from permission prompts toward sandboxed execution, while MCP-related tool-chain risks sharpen the case for least privilege, secret isolation, and approval gates.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "2026 Mac AI coding agents MCP sandboxing security Apple Silicon",
+    "source_count": 12,
+    "tags": "AI coding agents, MCP security, Apple Silicon",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

@@ -2248,5 +2248,11 @@
     "canonical_query": "apple m4 max sustained llm inference thermal throttling 2026",
     "searched_at": "2026-08-21T13:00:40-07:00",
     "topic": "Apple M4 Max Developers Face Thermal Throttling in Sustained Local LLM Inference"
+  },
+  {
+    "query": "2026 Mac AI coding agents MCP sandboxing security Apple Silicon",
+    "canonical_query": "2026 mac ai coding agents mcp sandboxing security apple silicon",
+    "searched_at": "2026-08-21T14:02:05-07:00",
+    "topic": "Mac AI Coding Agents Adopt MCP Sandboxing as Tool-Chain Security Concerns Escalate"
   }
 ]
