@@ -3133,5 +3133,18 @@
     "source_count": 12,
     "tags": "AI Content, Labor Market, Synthetic Data",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 245,
+    "topic": "Global Deepfake Treaty Talks Stall Over Sovereign AI Enforcement Clauses",
+    "file": "html/article-0245-global-deepfake-treaty-talks-stall-over-sovereign-ai-enforcement-clauses-20260820-190212.html",
+    "timestamp": "20260820-190212",
+    "full_timestamp": "2026-08-20T19:02:12-07:00",
+    "summary": "Global deepfake treaty negotiations in 2026 face a diplomatic deadlock over cross-border enforcement powers, as regional frameworks diverge and sovereign AI jurisdictions clash.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "UN deepfake treaty negotiations 2026 sovereign AI enforcement",
+    "source_count": 12,
+    "tags": "deepfake-legislation, international-policy, synthetic-media",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
