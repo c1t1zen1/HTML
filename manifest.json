@@ -3224,5 +3224,18 @@
     "source_count": 12,
     "tags": "Microsoft Teams, AI Avatars, Corporate Policy",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 252,
+    "topic": "Apple M4 Ultra Enables 400B Parameter LLMs via Unified Memory",
+    "file": "html/article-0252-apple-m4-ultra-enables-400b-parameter-llms-via-unified-memory-20260821-020318.html",
+    "timestamp": "20260821-020318",
+    "full_timestamp": "2026-08-21T02:03:18-07:00",
+    "summary": "The M4 Ultra’s 800 GB/s unified memory bandwidth enables native execution of massive quantized LLMs, eliminating external GPU clusters for high-token-generation inference on Apple Silicon.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "Apple M4 Ultra 400B parameter LLM inference unified memory 2026 latest",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM Inference, Hardware",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
