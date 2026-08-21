@@ -2242,5 +2242,11 @@
     "canonical_query": "fda approval ai cognitive behavioral therapy app anxiety 2026",
     "searched_at": "2026-08-21T12:00:31-07:00",
     "topic": "FDA Fast-Tracks First AI-Driven CBT App for Clinical Anxiety Treatment"
+  },
+  {
+    "query": "Apple M4 Max sustained LLM inference thermal throttling 2026",
+    "canonical_query": "apple m4 max sustained llm inference thermal throttling 2026",
+    "searched_at": "2026-08-21T13:00:40-07:00",
+    "topic": "Apple M4 Max Developers Face Thermal Throttling in Sustained Local LLM Inference"
   }
 ]

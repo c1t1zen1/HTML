@@ -3367,5 +3367,18 @@
     "source_count": 12,
     "tags": "AI Mental Health, FDA Regulation, Digital Therapeutics",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 263,
+    "topic": "Apple M4 Max Developers Face Thermal Throttling in Sustained Local LLM Inference",
+    "file": "html/article-0263-apple-m4-max-developers-face-thermal-throttling-in-sustained-local-llm-i-20260821-130242.html",
+    "timestamp": "20260821-130242",
+    "full_timestamp": "2026-08-21T13:02:42-07:00",
+    "summary": "M4 Max developers face thermal throttling during sustained local LLM inference, where memory bandwidth limits and heat management impact long-term throughput stability.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M4 Max sustained LLM inference thermal throttling 2026",
+    "source_count": 10,
+    "tags": "Apple Silicon, Hardware Limitations, LLM Inference, Thermal Management",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
