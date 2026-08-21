@@ -3393,5 +3393,18 @@
     "source_count": 12,
     "tags": "AI coding agents, MCP security, Apple Silicon",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 265,
+    "topic": "Courts Test AI Citation Disclosure Rules as Lawyers Face Filing Sanctions in 2026",
+    "file": "html/article-0265-courts-test-ai-citation-disclosure-rules-as-lawyers-face-filing-sanction-20260821-150306.html",
+    "timestamp": "20260821-150306",
+    "full_timestamp": "2026-08-21T15:03:06-07:00",
+    "summary": "Courts and lawyers are confronting a narrower duty: disclose generative-AI use, verify every citation, and absorb sanctions when filings contain fabricated authorities.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 courts lawyers AI-generated citations disclosure filing sanctions",
+    "source_count": 12,
+    "tags": "legal AI, court sanctions, AI disclosure, professional ethics",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
