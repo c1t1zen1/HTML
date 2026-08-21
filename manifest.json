@@ -3185,5 +3185,18 @@
     "source_count": 12,
     "tags": "fintech, institutional-investing, ai-infrastructure",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 249,
+    "topic": "Ollama v0.9 Release Introduces Native Metal Backend for M3 Max",
+    "file": "html/article-0249-ollama-v0-9-release-introduces-native-metal-backend-for-m3-max-20260820-230226.html",
+    "timestamp": "20260820-230226",
+    "full_timestamp": "2026-08-20T23:02:26-07:00",
+    "summary": "Ollama v0.9 is not confirmed in sources; instead, v0.19 (March 2026) introduces an experimental MLX backend for Apple Silicon, shifting from default Metal to optimized unified memory performance.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Ollama 0.9 native Metal backend M3 Max release 2026 latest",
+    "source_count": 10,
+    "tags": "local-ai, ollama, apple-silicon, metal",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
