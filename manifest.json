@@ -3172,5 +3172,18 @@
     "source_count": 10,
     "tags": "NSA, quantum cryptography, signals intelligence, AI security",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 248,
+    "topic": "Bloomberg Terminal Integration Sparks Institutional Adoption of AI Alpha Signals",
+    "file": "html/article-0248-bloomberg-terminal-integration-sparks-institutional-adoption-of-ai-alpha-20260820-220157.html",
+    "timestamp": "20260820-220157",
+    "full_timestamp": "2026-08-20T22:01:57-07:00",
+    "summary": "Bloomberg is embedding agentic AI into its terminal via ASKB, shifting from data access to integrated decision support for institutional workflows and alpha generation.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "Bloomberg Terminal AI stock prediction integration institutional adoption 2026",
+    "source_count": 12,
+    "tags": "fintech, institutional-investing, ai-infrastructure",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
