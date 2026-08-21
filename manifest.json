@@ -3237,5 +3237,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, LLM Inference, Hardware",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 253,
+    "topic": "GitHub Copilot Workspace: Autonomous Agents Now Execute Multi-File Refactors",
+    "file": "html/article-0253-github-copilot-workspace-autonomous-agents-now-execute-multi-file-refact-20260821-030205.html",
+    "timestamp": "20260821-030205",
+    "full_timestamp": "2026-08-21T03:02:05-07:00",
+    "summary": "GitHub Copilot Workspace marks a 2026 shift from chat-based assistance to autonomous execution, enabling AI agents to independently plan and apply complex, multi-file code refactors.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "GitHub Copilot Workspace autonomous agent multi-file refactor 2026",
+    "source_count": 10,
+    "tags": "AI Agents, GitHub, Software Development",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
