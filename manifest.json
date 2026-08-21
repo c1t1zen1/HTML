@@ -3406,5 +3406,18 @@
     "source_count": 12,
     "tags": "legal AI, court sanctions, AI disclosure, professional ethics",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 266,
+    "topic": "U.S. Intelligence Community Plans Digital Identities for Autonomous AI Agents",
+    "file": "html/article-0266-u-s-intelligence-community-plans-digital-identities-for-autonomous-ai-ag-20260821-160251.html",
+    "timestamp": "20260821-160251",
+    "full_timestamp": "2026-08-21T16:02:51-07:00",
+    "summary": "The U.S. Intelligence Community is preparing an identity-management pilot for autonomous AI agents, making machine credentials and least-privilege authorization central to zero-trust modernization.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "Intelligence Community AI agent identity management zero trust pilot fall 2026",
+    "source_count": 12,
+    "tags": "agentic AI, zero trust, intelligence community, cybersecurity",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
