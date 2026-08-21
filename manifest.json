@@ -3354,5 +3354,18 @@
     "source_count": 10,
     "tags": "TikTok, AI Monetization, Creator Economy",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 262,
+    "topic": "FDA Fast-Tracks First AI-Driven CBT App for Clinical Anxiety Treatment",
+    "file": "html/article-0262-fda-fast-tracks-first-ai-driven-cbt-app-for-clinical-anxiety-treatment-20260821-120210.html",
+    "timestamp": "20260821-120210",
+    "full_timestamp": "2026-08-21T12:02:10-07:00",
+    "summary": "FDA regulatory milestones distinguish clinical digital therapeutics from consumer apps, with recent designations and approvals marking a shift toward evidence-based AI-assisted CBT for anxiety and depression.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "FDA approval AI cognitive behavioral therapy app anxiety 2026",
+    "source_count": 12,
+    "tags": "AI Mental Health, FDA Regulation, Digital Therapeutics",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
