@@ -2194,5 +2194,11 @@
     "canonical_query": "hedge fund llm real time sentiment high frequency options trading 2026",
     "searched_at": "2026-08-21T05:00:25-07:00",
     "topic": "Hedge Funds Deploy Real-Time LLM Sentiment Scoring for High-Frequency Options Trading"
+  },
+  {
+    "query": "EU AI Act local LLM bias disclosure Mac developers 2026",
+    "canonical_query": "eu ai act local llm bias disclosure mac developers 2026",
+    "searched_at": "2026-08-21T06:00:33-07:00",
+    "topic": "EU AI Act Forces Mac Developers to Disclose Local Model Biases"
   }
 ]

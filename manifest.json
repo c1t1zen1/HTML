@@ -3276,5 +3276,18 @@
     "source_count": 10,
     "tags": "quant-finance, llm-trading, high-frequency-trading",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 256,
+    "topic": "EU AI Act Forces Mac Developers to Disclose Local Model Biases",
+    "file": "html/article-0256-eu-ai-act-forces-mac-developers-to-disclose-local-model-biases-20260821-060230.html",
+    "timestamp": "20260821-060230",
+    "full_timestamp": "2026-08-21T06:02:30-07:00",
+    "summary": "EU AI Act transparency rules hit in August 2026, forcing Mac developers to document local model biases and data governance, creating new legal burdens for macOS AI apps.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "EU AI Act local LLM bias disclosure Mac developers 2026",
+    "source_count": 12,
+    "tags": "regulation, privacy, local-ai, compliance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
