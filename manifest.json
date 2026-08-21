@@ -3211,5 +3211,18 @@
     "source_count": 12,
     "tags": "elections, AI regulation, FEC, micro-targeting",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 251,
+    "topic": "Microsoft Teams Blocks AI Avatars in Boardrooms Amid Trust Crisis",
+    "file": "html/article-0251-microsoft-teams-blocks-ai-avatars-in-boardrooms-amid-trust-crisis-20260821-010210.html",
+    "timestamp": "20260821-010210",
+    "full_timestamp": "2026-08-21T01:02:10-07:00",
+    "summary": "Microsoft empowers admins to restrict AI avatars and unauthorized bots in Teams, addressing privacy concerns while expanding certified hardware and AI integration capabilities.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "Microsoft Teams policy AI avatars boardrooms 2026",
+    "source_count": 12,
+    "tags": "Microsoft Teams, AI Avatars, Corporate Policy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
