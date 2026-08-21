@@ -2224,5 +2224,11 @@
     "canonical_query": "big four generative ai rag 10 k footnote reconciliation 2026",
     "searched_at": "2026-08-21T09:00:37-07:00",
     "topic": "Big Four Firms Deploy RAG Pipelines to Automate 10-K Footnote Reconciliation"
+  },
+  {
+    "query": "court ruling AI voter guides election transparency 2026",
+    "canonical_query": "court ruling ai voter guides election transparency 2026",
+    "searched_at": "2026-08-21T10:00:30-07:00",
+    "topic": "Court Rules AI-Generated Voter Guides Violate 2026 State Election Transparency Laws"
   }
 ]

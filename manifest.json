@@ -3328,5 +3328,18 @@
     "source_count": 10,
     "tags": "auditing, RAG, financial reporting, Big Four",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 260,
+    "topic": "Court Rules AI-Generated Voter Guides Violate 2026 State Election Transparency Laws",
+    "file": "html/article-0260-court-rules-ai-generated-voter-guides-violate-2026-state-election-transp-20260821-100226.html",
+    "timestamp": "20260821-100226",
+    "full_timestamp": "2026-08-21T10:02:26-07:00",
+    "summary": "State courts are striking down AI deepfake laws on First Amendment grounds, creating a patchwork of election transparency rules that complicates compliance for campaigns in 2026.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "court ruling AI voter guides election transparency 2026",
+    "source_count": 12,
+    "tags": "election law, AI disclosure, state courts, voter integrity",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
