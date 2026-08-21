@@ -3107,5 +3107,18 @@
     "source_count": 12,
     "tags": "smart home, cybersecurity, Matter standard, IoT security",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 243,
+    "topic": "Runway Gen-4 API Integration Sparks Real-Time Brand Safety Concerns in 2026 Ad Tech",
+    "file": "html/article-0243-runway-gen-4-api-integration-sparks-real-time-brand-safety-concerns-in-2-20260820-170234.html",
+    "timestamp": "20260820-170234",
+    "full_timestamp": "2026-08-20T17:02:34-07:00",
+    "summary": "Runway Gen-4's API integration into automated ad pipelines creates operational friction, raising brand safety concerns in 2026 ad tech despite its world consistency features.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "Runway Gen-4 API brand safety ad tech 2026",
+    "source_count": 10,
+    "tags": "AI Video, Ad Tech, Runway, Brand Safety",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
