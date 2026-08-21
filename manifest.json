@@ -3159,5 +3159,18 @@
     "source_count": 12,
     "tags": "education policy, AI lobbying, federal regulation",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 247,
+    "topic": "NSA Adopts Quantum-Resistant AI Protocols for 2026 Signals Intelligence",
+    "file": "html/article-0247-nsa-adopts-quantum-resistant-ai-protocols-for-2026-signals-intelligence-20260820-210210.html",
+    "timestamp": "20260820-210210",
+    "full_timestamp": "2026-08-20T21:02:10-07:00",
+    "summary": "NSA's CNSA 2.0 mandates quantum-resistant algorithms for National Security Systems, shifting post-quantum cryptography from optional to compliance-driven. This transition impacts signals intelligence pipelines, with initial binding deadlines set for 2027.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "NSA quantum-resistant AI signals intelligence 2026",
+    "source_count": 10,
+    "tags": "NSA, quantum cryptography, signals intelligence, AI security",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
