@@ -2218,5 +2218,11 @@
     "canonical_query": "xcode 26 beta metal performance shaders local llm inference apple silicon 2026 latest",
     "searched_at": "2026-08-21T08:00:29-07:00",
     "topic": "Xcode 26 Beta Introduces Native Metal Performance Shaders for Local LLM Inference"
+  },
+  {
+    "query": "Big Four generative AI RAG 10-K footnote reconciliation 2026",
+    "canonical_query": "big four generative ai rag 10 k footnote reconciliation 2026",
+    "searched_at": "2026-08-21T09:00:37-07:00",
+    "topic": "Big Four Firms Deploy RAG Pipelines to Automate 10-K Footnote Reconciliation"
   }
 ]

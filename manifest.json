@@ -3315,5 +3315,18 @@
     "source_count": 12,
     "tags": "Xcode, Metal, Local AI, Apple Silicon",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 259,
+    "topic": "Big Four Firms Deploy RAG Pipelines to Automate 10-K Footnote Reconciliation",
+    "file": "html/article-0259-big-four-firms-deploy-rag-pipelines-to-automate-10-k-footnote-reconcilia-20260821-090242.html",
+    "timestamp": "20260821-090242",
+    "full_timestamp": "2026-08-21T09:02:42-07:00",
+    "summary": "Big Four firms are adopting RAG pipelines to automate 10-K footnote reconciliation, leveraging hybrid retrieval to ground LLM outputs in SEC filings and reduce hallucinations in audit-grade financial reporting.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "Big Four generative AI RAG 10-K footnote reconciliation 2026",
+    "source_count": 10,
+    "tags": "auditing, RAG, financial reporting, Big Four",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
