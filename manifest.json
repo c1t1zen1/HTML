@@ -3250,5 +3250,18 @@
     "source_count": 10,
     "tags": "AI Agents, GitHub, Software Development",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 254,
+    "topic": "SEC Scrutinizes 2026 AI Crypto Bot Wash Trading Schemes",
+    "file": "html/article-0254-sec-scrutinizes-2026-ai-crypto-bot-wash-trading-schemes-20260821-040232.html",
+    "timestamp": "20260821-040232",
+    "full_timestamp": "2026-08-21T04:02:32-07:00",
+    "summary": "SEC and DOJ target AI-washing and bot-driven wash trading, with recent actions exposing $12.3M fraud and $14M scams involving fake liquidity and misrepresentations.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "SEC enforcement action AI crypto trading bots wash trading 2026",
+    "source_count": 12,
+    "tags": "SEC, Crypto Regulation, AI Trading",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
