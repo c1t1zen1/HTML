@@ -3289,5 +3289,18 @@
     "source_count": 12,
     "tags": "regulation, privacy, local-ai, compliance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 257,
+    "topic": "Apple M4 Ultra Enables Real-Time 4K Video Generation on Local Silicon",
+    "file": "html/article-0257-apple-m4-ultra-enables-real-time-4k-video-generation-on-local-silicon-20260821-070252.html",
+    "timestamp": "20260821-070252",
+    "full_timestamp": "2026-08-21T07:02:52-07:00",
+    "summary": "Apple Silicon's unified memory architecture enables local execution of heavy generative workloads, shifting focus from text-only LLMs to image and video inference on M4-series hardware.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M4 Ultra local video generation model inference 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, Video Generation, Local AI, M4 Ultra",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

@@ -2200,5 +2200,17 @@
     "canonical_query": "eu ai act local llm bias disclosure mac developers 2026",
     "searched_at": "2026-08-21T06:00:33-07:00",
     "topic": "EU AI Act Forces Mac Developers to Disclose Local Model Biases"
+  },
+  {
+    "query": "Apple M4 Ultra local video generation model inference 2026",
+    "canonical_query": "apple m4 ultra local video generation model inference 2026",
+    "searched_at": "2026-08-21T07:00:43-07:00",
+    "topic": "Apple M4 Ultra Enables Real-Time 4K Video Generation on Local Silicon"
+  },
+  {
+    "query": "Apple M4 Ultra Enables Real-Time 4K Video Generation on Local Silicon analysis developments",
+    "canonical_query": "apple m4 ultra enables real time 4k video generation on local silicon analysis developments",
+    "searched_at": "2026-08-21T07:00:44-07:00",
+    "topic": "Apple M4 Ultra Enables Real-Time 4K Video Generation on Local Silicon"
   }
 ]
