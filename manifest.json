@@ -3198,5 +3198,18 @@
     "source_count": 10,
     "tags": "local-ai, ollama, apple-silicon, metal",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 250,
+    "topic": "FEC Investigates Real-Time AI Voter Micro-Targeting in 2026 Midterm Ads",
+    "file": "html/article-0250-fec-investigates-real-time-ai-voter-micro-targeting-in-2026-midterm-ads-20260821-000234.html",
+    "timestamp": "20260821-000234",
+    "full_timestamp": "2026-08-21T00:02:34-07:00",
+    "summary": "The FEC faces a critical enforcement gap in the 2026 midterms, lacking the quorum to investigate real-time AI micro-targeting despite billions in AI-optimized ad spending.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "FEC investigation AI voter micro-targeting 2026 midterms",
+    "source_count": 12,
+    "tags": "elections, AI regulation, FEC, micro-targeting",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

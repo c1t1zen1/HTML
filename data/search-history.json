@@ -2152,5 +2152,11 @@
     "canonical_query": "ollama 0 9 native metal backend m3 max release 2026 latest",
     "searched_at": "2026-08-20T23:00:25-07:00",
     "topic": "Ollama v0.9 Release Introduces Native Metal Backend for M3 Max"
+  },
+  {
+    "query": "FEC investigation AI voter micro-targeting 2026 midterms",
+    "canonical_query": "fec investigation ai voter micro targeting 2026 midterms",
+    "searched_at": "2026-08-21T00:00:20-07:00",
+    "topic": "FEC Investigates Real-Time AI Voter Micro-Targeting in 2026 Midterm Ads"
   }
 ]
