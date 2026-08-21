@@ -3341,5 +3341,18 @@
     "source_count": 12,
     "tags": "election law, AI disclosure, state courts, voter integrity",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 261,
+    "topic": "TikTok Tests AI-Only Creator Fund for Short-Form Video Monetization",
+    "file": "html/article-0261-tiktok-tests-ai-only-creator-fund-for-short-form-video-monetization-20260821-110206.html",
+    "timestamp": "20260821-110206",
+    "full_timestamp": "2026-08-21T11:02:06-07:00",
+    "summary": "TikTok's shift to the Creator Rewards Program in 2026 creates a specific financial pathway for AI-generated short-form video, contingent on strict disclosure and quality standards.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI-only creator fund short form video monetization 2026",
+    "source_count": 10,
+    "tags": "TikTok, AI Monetization, Creator Economy",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
