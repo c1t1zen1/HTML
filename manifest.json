@@ -3640,5 +3640,18 @@
     "source_count": 12,
     "tags": "federated learning, banking fraud, instant payments, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 284,
+    "topic": "AI Robocall Detection Moves Into Telecom Networks Before the 2026 U.S. Midterms",
+    "file": "html/article-0284-ai-robocall-detection-moves-into-telecom-networks-before-the-2026-u-s-mi-20260822-130353.html",
+    "timestamp": "20260822-130353",
+    "full_timestamp": "2026-08-22T13:03:53-07:00",
+    "summary": "As AI voice threats enter election law and carrier mitigation, the evidence points toward network defenses—but does not yet prove a coordinated U.S. midterm detection system.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 midterm election AI robocall detection telecom network deepfake response",
+    "source_count": 12,
+    "tags": "AI audio, robocalls, telecom, elections",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
