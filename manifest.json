@@ -3627,5 +3627,18 @@
     "source_count": 12,
     "tags": "Google Home, Gemini, smart-home agents, automation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 283,
+    "topic": "Banks Turn to Privacy-Preserving AI for Cross-Bank Fraud Signal Sharing",
+    "file": "html/article-0283-banks-turn-to-privacy-preserving-ai-for-cross-bank-fraud-signal-sharing-20260822-120336.html",
+    "timestamp": "20260822-120336",
+    "full_timestamp": "2026-08-22T12:03:36-07:00",
+    "summary": "Banks are testing federated learning and privacy-safe intelligence networks to share fraud signals without pooling raw customer data, but governance and proof remain decisive.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks privacy-preserving AI consortium cross-bank fraud signal sharing",
+    "source_count": 12,
+    "tags": "federated learning, banking fraud, instant payments, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
