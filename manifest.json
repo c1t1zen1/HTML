@@ -3471,5 +3471,18 @@
     "source_count": 12,
     "tags": "AI avatars, virtual presenters, sports media, synthetic media",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 271,
+    "topic": "TAKE IT DOWN Act Tests 48-Hour Removal Rules for AI Deepfakes",
+    "file": "html/article-0271-take-it-down-act-tests-48-hour-removal-rules-for-ai-deepfakes-20260821-210314.html",
+    "timestamp": "20260821-210314",
+    "full_timestamp": "2026-08-21T21:03:14-07:00",
+    "summary": "The TAKE IT DOWN Act makes rapid platform response—not upload-stage detection—the central test for nonconsensual intimate deepfakes, while leaving scope and notice abuse unresolved.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "TAKE IT DOWN Act 2026 deepfake removal enforcement platforms August",
+    "source_count": 12,
+    "tags": "TAKE IT DOWN Act, platform liability, nonconsensual deepfakes",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
