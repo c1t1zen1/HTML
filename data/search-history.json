@@ -2380,5 +2380,23 @@
     "canonical_query": "anthropic claude code auto mode default human review harmful actions august 2026",
     "searched_at": "2026-08-22T05:01:55-07:00",
     "topic": "Anthropic Makes Claude Code Auto Mode Default After Humans Miss Most Harmful Actions"
+  },
+  {
+    "query": "M5 Ultra Mac Studio 4-bit quantized LLM benchmarks 2026",
+    "canonical_query": "m5 ultra mac studio 4 bit quantized llm benchmarks 2026",
+    "searched_at": "2026-08-22T06:01:58-07:00",
+    "topic": "M5 Ultra Mac Studio Benchmarks Reopen the Case for 4-Bit Local LLMs"
+  },
+  {
+    "query": "Maine 2026 AI campaign ad disclosure law paid social media penalty",
+    "canonical_query": "maine 2026 ai campaign ad disclosure law paid social media penalty",
+    "searched_at": "2026-08-22T07:01:57-07:00",
+    "topic": "Maine’s New AI Ad Law Collides With Paid-Social Ambiguity in 2026 Campaigns"
+  },
+  {
+    "query": "Adobe Premiere Pro agentic rough cut assembly AI editor test August 2026",
+    "canonical_query": "adobe premiere pro agentic rough cut assembly ai editor test august 2026",
+    "searched_at": "2026-08-22T08:02:14-07:00",
+    "topic": "Adobe Premiere Pro Tests Agentic Rough-Cut Assembly as Editors Reassess AI’s Role in Post-Production"
   }
 ]

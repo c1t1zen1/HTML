@@ -3575,5 +3575,18 @@
     "source_count": 10,
     "tags": "Claude Code, autonomous coding agents, AI safety",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 279,
+    "topic": "Adobe Premiere Pro Tests Agentic Rough-Cut Assembly as Editors Reassess AI’s Role in Post-Production",
+    "file": "html/article-0279-adobe-premiere-pro-tests-agentic-rough-cut-assembly-as-editors-reassess-20260822-080342.html",
+    "timestamp": "20260822-080342",
+    "full_timestamp": "2026-08-22T08:03:42-07:00",
+    "summary": "Adobe’s Premiere Pro assistant is being framed as a rough-cut collaborator: it may organize footage and assemble multi-clip timelines, while editors retain review, revision, and creative control.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "Adobe Premiere Pro agentic rough cut assembly AI editor test August 2026",
+    "source_count": 12,
+    "tags": "Adobe Premiere Pro, agentic editing, post-production",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
