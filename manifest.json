@@ -3653,5 +3653,18 @@
     "source_count": 12,
     "tags": "AI audio, robocalls, telecom, elections",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 285,
+    "topic": "Mac Local AI Agents Shift From Chatbots to Desktop Automation Through MCP Tool Stacks",
+    "file": "html/article-0285-mac-local-ai-agents-shift-from-chatbots-to-desktop-automation-through-mc-20260822-140319.html",
+    "timestamp": "20260822-140319",
+    "full_timestamp": "2026-08-22T14:03:19-07:00",
+    "summary": "Local Mac AI is moving from private model access toward MCP-connected action, but the decisive questions are permission boundaries, reliability, and safe desktop control.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "2026 macOS local AI agents MCP desktop automation Ollama LM Studio",
+    "source_count": 12,
+    "tags": "local AI, MCP, macOS, desktop automation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
