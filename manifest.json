@@ -3614,5 +3614,18 @@
     "source_count": 12,
     "tags": "YouTube Shorts, AI slop, creator economy, video metrics",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 282,
+    "topic": "Google Home’s Gemini Agents Recast Smart-Home Automation Around Household Intent",
+    "file": "html/article-0282-google-homes-gemini-agents-recast-smart-home-automation-around-household-20260822-110307.html",
+    "timestamp": "20260822-110307",
+    "full_timestamp": "2026-08-22T11:03:07-07:00",
+    "summary": "Google Home’s Gemini updates suggest a shift from isolated commands toward contextual, chained automations, but supplied evidence still falls short of proving reliable, autonomous household-intent execution.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Google Home Gemini agent household automation updates May August 2026",
+    "source_count": 12,
+    "tags": "Google Home, Gemini, smart-home agents, automation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
