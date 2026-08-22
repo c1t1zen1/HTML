@@ -3536,5 +3536,18 @@
     "source_count": 12,
     "tags": "agentic AI, asset pricing, earnings, benchmarks",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 276,
+    "topic": "SEC AI Examinations Force Hedge Funds to Prove Trading Models, Claims, and Controls",
+    "file": "html/article-0276-sec-ai-examinations-force-hedge-funds-to-prove-trading-models-claims-and-20260822-020258.html",
+    "timestamp": "20260822-020258",
+    "full_timestamp": "2026-08-22T02:02:58-07:00",
+    "summary": "SEC’s 2026 examination agenda reportedly asks firms to substantiate AI trading, portfolio-management, governance, vendor, and marketing claims, shifting scrutiny from promised alpha toward demonstrable controls.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "SEC 2026 examinations hedge fund AI trading models AI washing governance",
+    "source_count": 12,
+    "tags": "SEC examinations, AI governance, hedge funds, algorithmic trading",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
