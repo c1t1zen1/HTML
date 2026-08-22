@@ -3562,5 +3562,18 @@
     "source_count": 10,
     "tags": "synthetic identity, deepfakes, identity verification, banking",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 278,
+    "topic": "Anthropic Makes Claude Code Auto Mode Default After Humans Miss Most Harmful Actions",
+    "file": "html/article-0278-anthropic-makes-claude-code-auto-mode-default-after-humans-miss-most-har-20260822-050249.html",
+    "timestamp": "20260822-050249",
+    "full_timestamp": "2026-08-22T05:02:49-07:00",
+    "summary": "Anthropic’s Claude Code auto-mode rollout replaces repeated approval prompts with classifier-mediated intervention, raising efficiency claims while moving more safety responsibility to boundaries and governance.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "Anthropic Claude Code auto mode default human review harmful actions August 2026",
+    "source_count": 10,
+    "tags": "Claude Code, autonomous coding agents, AI safety",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
