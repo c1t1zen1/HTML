@@ -3549,5 +3549,18 @@
     "source_count": 12,
     "tags": "SEC examinations, AI governance, hedge funds, algorithmic trading",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 277,
+    "topic": "AI Identity Screening Becomes Banks’ New Front Against Synthetic Fraud and Deepfake Onboarding",
+    "file": "html/article-0277-ai-identity-screening-becomes-banks-new-front-against-synthetic-fraud-an-20260822-030318.html",
+    "timestamp": "20260822-030318",
+    "full_timestamp": "2026-08-22T03:03:18-07:00",
+    "summary": "Banks are moving identity fraud defenses upstream, using AI to scrutinize synthetic applicants, altered documents, liveness signals, and deepfake-backed onboarding before fabricated identities become accounts.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks synthetic identity fraud AI document verification deepfake onboarding",
+    "source_count": 10,
+    "tags": "synthetic identity, deepfakes, identity verification, banking",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
