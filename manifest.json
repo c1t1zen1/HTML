@@ -3432,5 +3432,18 @@
     "source_count": 12,
     "tags": "macOS 26, Apple Intelligence, local AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 268,
+    "topic": "EU AI Act Deepfake Rules Take Effect, Forcing Video Model Provenance Disclosures",
+    "file": "html/article-0268-eu-ai-act-deepfake-rules-take-effect-forcing-video-model-provenance-disc-20260821-180308.html",
+    "timestamp": "20260821-180308",
+    "full_timestamp": "2026-08-21T18:03:08-07:00",
+    "summary": "From 2 August 2026, supplied sources say EU AI Act transparency duties will require synthetic-video labeling and machine-readable provenance, shifting video-model compliance toward auditable disclosure.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "EU AI Act August 2026 AI video deepfake labeling provenance rules",
+    "source_count": 12,
+    "tags": "AI video, regulation, provenance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
