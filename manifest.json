@@ -3523,5 +3523,18 @@
     "source_count": 12,
     "tags": "AI video, filmmaking, provenance, Hollywood",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 275,
+    "topic": "Agentic AI Systems Nearly Double Explained Stock Returns in New Real-Time Earnings Benchmark",
+    "file": "html/article-0275-agentic-ai-systems-nearly-double-explained-stock-returns-in-new-real-tim-20260822-010301.html",
+    "timestamp": "20260822-010301",
+    "full_timestamp": "2026-08-22T01:03:01-07:00",
+    "summary": "A real-time earnings benchmark reports that optimized agentic AI systems can more than double explained stock-return variation, while exposing the limits of prediction claims.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "CEPR optimized agentic AI asset pricing benchmark earnings announcement returns 2026",
+    "source_count": 12,
+    "tags": "agentic AI, asset pricing, earnings, benchmarks",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
