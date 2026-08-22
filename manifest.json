@@ -3510,5 +3510,18 @@
     "source_count": 10,
     "tags": "generative AI, CSRD, financial reporting",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 274,
+    "topic": "Hollywood Studios Shift AI Video Provenance From Models to Production Workflows",
+    "file": "html/article-0274-hollywood-studios-shift-ai-video-provenance-from-models-to-production-wo-20260822-000254.html",
+    "timestamp": "20260822-000254",
+    "full_timestamp": "2026-08-22T00:02:54-07:00",
+    "summary": "Studios’ AI debate is moving beyond model transparency toward production records: provenance, isolated assets, approval gates, and disclosure trails that can survive commercial release.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 Hollywood studios AI video provenance production workflow audit",
+    "source_count": 12,
+    "tags": "AI video, filmmaking, provenance, Hollywood",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
