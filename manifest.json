@@ -3601,5 +3601,18 @@
     "source_count": 12,
     "tags": "Congress, AI procurement, lobbying, policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 281,
+    "topic": "YouTube’s Shorts View-Count Reset Risks Rewarding AI Slop Before Viewers Stay",
+    "file": "html/article-0281-youtubes-shorts-view-count-reset-risks-rewarding-ai-slop-before-viewers-20260822-100318.html",
+    "timestamp": "20260822-100318",
+    "full_timestamp": "2026-08-22T10:03:18-07:00",
+    "summary": "YouTube’s August 24 play-start counting could inflate public view totals, complicate creator and advertiser comparisons, and reward AI video volume unless retention metrics carry more weight.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "YouTube Shorts view count change AI slop creators August 2026",
+    "source_count": 12,
+    "tags": "YouTube Shorts, AI slop, creator economy, video metrics",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
