@@ -3484,5 +3484,18 @@
     "source_count": 12,
     "tags": "TAKE IT DOWN Act, platform liability, nonconsensual deepfakes",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 272,
+    "topic": "Apple’s Private Cloud Compute Transparency Faces New Scrutiny as Mac AI Workloads Move Beyond Devices",
+    "file": "html/article-0272-apples-private-cloud-compute-transparency-faces-new-scrutiny-as-mac-ai-w-20260821-220253.html",
+    "timestamp": "20260821-220253",
+    "full_timestamp": "2026-08-21T22:02:53-07:00",
+    "summary": "Apple’s Private Cloud Compute offers auditable cloud AI claims, but expanding infrastructure and limited control evidence intensify questions about what users can independently verify.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Private Cloud Compute transparency audit macOS Tahoe local AI 2026",
+    "source_count": 12,
+    "tags": "Private Cloud Compute, Mac AI, privacy, Apple Intelligence",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
