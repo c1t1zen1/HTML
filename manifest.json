@@ -3445,5 +3445,18 @@
     "source_count": 12,
     "tags": "AI video, regulation, provenance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 269,
+    "topic": "AI Crypto Bots Turn Profitable—Yet All 13 Lose to Bitcoin in Live Benchmark",
+    "file": "html/article-0269-ai-crypto-bots-turn-profitableyet-all-13-lose-to-bitcoin-in-live-benchma-20260821-190315.html",
+    "timestamp": "20260821-190315",
+    "full_timestamp": "2026-08-21T19:03:15-07:00",
+    "summary": "TradeRank’s August live snapshot shows 10 of 13 identical-rule LLM traders in profit, but none outperforming Bitcoin, against an eight-season record with just 39% profitable model-seasons.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "TradeRank August 21 2026 AI crypto models Bitcoin benchmark performance",
+    "source_count": 12,
+    "tags": "AI trading, crypto, performance benchmarks",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
