@@ -3588,5 +3588,18 @@
     "source_count": 12,
     "tags": "Adobe Premiere Pro, agentic editing, post-production",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 280,
+    "topic": "ChatGPT Captures 80% of Identifiable House AI Spending as Congress Writes AI Rules",
+    "file": "html/article-0280-chatgpt-captures-80-of-identifiable-house-ai-spending-as-congress-writes-20260822-090319.html",
+    "timestamp": "20260822-090319",
+    "full_timestamp": "2026-08-22T09:03:19-07:00",
+    "summary": "House offices’ visible AI purchases overwhelmingly favor ChatGPT, creating real-world exposure that may influence how lawmakers assess tools while writing industry rules.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "House AI spending ChatGPT 80% congressional offices 2026",
+    "source_count": 12,
+    "tags": "Congress, AI procurement, lobbying, policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
