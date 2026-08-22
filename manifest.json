@@ -3419,5 +3419,18 @@
     "source_count": 12,
     "tags": "agentic AI, zero trust, intelligence community, cybersecurity",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 267,
+    "topic": "Mac AI Apps Race to Adopt Apple’s Foundation Models APIs in macOS 26",
+    "file": "html/article-0267-mac-ai-apps-race-to-adopt-apples-foundation-models-apis-in-macos-26-20260821-170308.html",
+    "timestamp": "20260821-170308",
+    "full_timestamp": "2026-08-21T17:03:08-07:00",
+    "summary": "Apple’s macOS 26 APIs could move AI integration from bundled local models toward a shared native layer, but supplied evidence shows capability more clearly than actual third-party adoption.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS 26 Apple Foundation Models API third-party apps August 2026",
+    "source_count": 12,
+    "tags": "macOS 26, Apple Intelligence, local AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
