@@ -3497,5 +3497,18 @@
     "source_count": 12,
     "tags": "Private Cloud Compute, Mac AI, privacy, Apple Intelligence",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 273,
+    "topic": "EU Omnibus CSRD Changes Force Generative AI Systems to Rebuild Finance Workflows",
+    "file": "html/article-0273-eu-omnibus-csrd-changes-force-generative-ai-systems-to-rebuild-finance-w-20260821-230309.html",
+    "timestamp": "20260821-230309",
+    "full_timestamp": "2026-08-21T23:03:09-07:00",
+    "summary": "The Omnibus CSRD reset turns generative AI finance automation into a moving-target problem: systems must reclassify scope, remap disclosures, and preserve explainable audit trails.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 EU Omnibus CSRD changes generative AI financial reporting workflows",
+    "source_count": 10,
+    "tags": "generative AI, CSRD, financial reporting",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
