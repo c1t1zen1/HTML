@@ -3783,5 +3783,18 @@
     "source_count": 12,
     "tags": "Apple Intelligence, local AI, privacy, developer tools",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 295,
+    "topic": "AI Video Avatars Enter the Provenance Test as Platforms Tighten Synthetic Media Labels",
+    "file": "html/article-0295-ai-video-avatars-enter-the-provenance-test-as-platforms-tighten-syntheti-20260823-030301.html",
+    "timestamp": "20260823-030301",
+    "full_timestamp": "2026-08-23T03:03:01-07:00",
+    "summary": "For avatar-led video, provenance is shifting from a trust signal to a potential distribution condition as regulators and platforms tighten disclosure, labeling, and traceability expectations.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "August 2026 AI avatar watermarking labeling platform policy virtual presenters",
+    "source_count": 12,
+    "tags": "AI avatars, synthetic media, watermarking, platform policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
