@@ -3861,5 +3861,18 @@
     "source_count": 12,
     "tags": "AI trading, crypto, performance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 301,
+    "topic": "Apple Silicon Developers Move Beyond MLX as Foundation Models APIs Reach Production Apps",
+    "file": "html/article-0301-apple-silicon-developers-move-beyond-mlx-as-foundation-models-apis-reach-20260823-100312.html",
+    "timestamp": "20260823-100312",
+    "full_timestamp": "2026-08-23T10:03:12-07:00",
+    "summary": "Apple’s first-party Foundation Models APIs may reduce integration friction, but supplied evidence does not yet prove that production developers are abandoning custom MLX pipelines.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple Foundation Models framework developer adoption 2026 local inference production apps",
+    "source_count": 12,
+    "tags": "Apple Silicon, Foundation Models, Xcode, Local AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
