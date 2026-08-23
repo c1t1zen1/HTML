@@ -3770,5 +3770,18 @@
     "source_count": 12,
     "tags": "financial reporting, SEC filings, audit trails",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 294,
+    "topic": "Apple’s Local Mac AI Faces a Privacy-Test Question: Can Developers Inspect It?",
+    "file": "html/article-0294-apples-local-mac-ai-faces-a-privacy-test-question-can-developers-inspect-20260823-010324.html",
+    "timestamp": "20260823-010324",
+    "full_timestamp": "2026-08-23T01:03:24-07:00",
+    "summary": "Apple’s on-device AI pitch promises privacy and offline execution, but developer-facing APIs alone may not reveal enough about data flows, model behavior, or sensitive-context exposure.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Mac local AI privacy developer inspectability 2026 update",
+    "source_count": 12,
+    "tags": "Apple Intelligence, local AI, privacy, developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
