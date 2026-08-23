@@ -3757,5 +3757,18 @@
     "source_count": 12,
     "tags": "NSA, Section 702, AI surveillance, oversight",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 293,
+    "topic": "CFOs Move Generative AI Into SEC Filings as Audit-Trail Demands Tighten",
+    "file": "html/article-0293-cfos-move-generative-ai-into-sec-filings-as-audit-trail-demands-tighten-20260823-000325.html",
+    "timestamp": "20260823-000325",
+    "full_timestamp": "2026-08-23T00:03:25-07:00",
+    "summary": "As AI enters filing workflows, CFOs must preserve citations, lineage, approvals, and review evidence while navigating conflicting claims about emerging disclosure requirements.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 CFO generative AI SEC filings audit trail financial reporting",
+    "source_count": 12,
+    "tags": "financial reporting, SEC filings, audit trails",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
