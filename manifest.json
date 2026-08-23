@@ -3926,5 +3926,18 @@
     "source_count": 12,
     "tags": "intelligence, surveillance, procurement",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 306,
+    "topic": "Hollywood’s AI Post-Production Contracts Face the Residuals and Credit Test",
+    "file": "html/article-0306-hollywoods-ai-post-production-contracts-face-the-residuals-and-credit-te-20260823-150240.html",
+    "timestamp": "20260823-150240",
+    "full_timestamp": "2026-08-23T15:02:40-07:00",
+    "summary": "Hollywood’s AI post-production fight is moving beyond tool adoption: labor deals must decide who gets replaced, credited, and paid when editing workflows absorb machine assistance.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 Hollywood AI post-production editing residuals credits union negotiations",
+    "source_count": 12,
+    "tags": "Hollywood, labor, post-production, AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
