@@ -3900,5 +3900,18 @@
     "source_count": 12,
     "tags": "AI infrastructure, energy policy, lobbying",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 304,
+    "topic": "AI Crypto Agents Face the Wallet-Attribution Test as Live Trading Records Go Public",
+    "file": "html/article-0304-ai-crypto-agents-face-the-wallet-attribution-test-as-live-trading-record-20260823-130337.html",
+    "timestamp": "20260823-130337",
+    "full_timestamp": "2026-08-23T13:03:37-07:00",
+    "summary": "Public leaderboards and live-capital tests challenge backtests, but wallet attribution, independent verification, and comparable risk data remain unresolved before autonomous crypto agents can claim durable performance.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "crypto AI agent wallet leaderboard verified live returns copy trading 2026",
+    "source_count": 12,
+    "tags": "AI agents, crypto trading, on-chain analytics",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
