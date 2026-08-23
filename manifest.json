@@ -3874,5 +3874,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Foundation Models, Xcode, Local AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 302,
+    "topic": "EU AI Act’s August 2026 Deadline Tests Compliance for AI Used by Judicial Authorities",
+    "file": "html/article-0302-eu-ai-acts-august-2026-deadline-tests-compliance-for-ai-used-by-judicial-20260823-110311.html",
+    "timestamp": "20260823-110311",
+    "full_timestamp": "2026-08-23T11:03:11-07:00",
+    "summary": "The EU’s August 2026 compliance moment is unsettled: conflicting deadline reports leave judicial-authority AI vendors facing classification, governance, and evidence demands without a settled timetable.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "EU AI Act August 2026 judicial AI high-risk court systems compliance",
+    "source_count": 12,
+    "tags": "EU AI Act, judicial AI, legal technology",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
