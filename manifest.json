@@ -3887,5 +3887,18 @@
     "source_count": 12,
     "tags": "EU AI Act, judicial AI, legal technology",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 303,
+    "topic": "AI Infrastructure Lobby Targets Grid Interconnection Rules as Washington Weighs Data-Center Demand",
+    "file": "html/article-0303-ai-infrastructure-lobby-targets-grid-interconnection-rules-as-washington-20260823-120247.html",
+    "timestamp": "20260823-120247",
+    "full_timestamp": "2026-08-23T12:02:47-07:00",
+    "summary": "AI infrastructure’s grid-access fight is moving from speed to cost: developers seek faster interconnection while lawmakers and states press them to fund upgrades and protect customers.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI data center electricity lobbying Congress grid interconnection rules 2026",
+    "source_count": 12,
+    "tags": "AI infrastructure, energy policy, lobbying",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
