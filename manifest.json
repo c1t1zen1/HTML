@@ -3809,5 +3809,18 @@
     "source_count": 12,
     "tags": "MLX, Apple Silicon, model training, developer tools",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 297,
+    "topic": "Apple Silicon LLM Tests Shift to Long-Context Throughput as Unified-Memory Limits Surface",
+    "file": "html/article-0297-apple-silicon-llm-tests-shift-to-long-context-throughput-as-unified-memo-20260823-050237.html",
+    "timestamp": "20260823-050237",
+    "full_timestamp": "2026-08-23T05:02:37-07:00",
+    "summary": "As Apple Silicon long-context tests move beyond model compatibility, the evidence points toward unified-memory bandwidth, KV-cache pressure, and decode methodology as the next performance constraints.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "2026 Apple Silicon MLX long context inference memory bandwidth benchmark",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, long-context inference, memory bandwidth",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

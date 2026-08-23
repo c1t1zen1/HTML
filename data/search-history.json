@@ -2566,5 +2566,17 @@
     "canonical_query": "mlx distributed training apple silicon clusters fine tuning 2026",
     "searched_at": "2026-08-23T04:01:27-07:00",
     "topic": "MLX Developers Push Apple Silicon Clusters Into Local Model Fine-Tuning"
+  },
+  {
+    "query": "2026 Apple Silicon MLX long context inference memory bandwidth benchmark",
+    "canonical_query": "2026 apple silicon mlx long context inference memory bandwidth benchmark",
+    "searched_at": "2026-08-23T05:01:20-07:00",
+    "topic": "Apple Silicon LLM Tests Shift to Long-Context Throughput as Unified-Memory Limits Surface"
+  },
+  {
+    "query": "Apple Silicon LLM Tests Shift to Long-Context Throughput as Unified-Memory Limits Surface analysis developments",
+    "canonical_query": "apple silicon llm tests shift to long context throughput as unified memory limits surface analysis developments",
+    "searched_at": "2026-08-23T05:01:21-07:00",
+    "topic": "Apple Silicon LLM Tests Shift to Long-Context Throughput as Unified-Memory Limits Surface"
   }
 ]
