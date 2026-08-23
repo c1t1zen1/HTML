@@ -3796,5 +3796,18 @@
     "source_count": 12,
     "tags": "AI avatars, synthetic media, watermarking, platform policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 296,
+    "topic": "MLX Developers Push Apple Silicon Clusters Into Local Model Fine-Tuning",
+    "file": "html/article-0296-mlx-developers-push-apple-silicon-clusters-into-local-model-fine-tuning-20260823-040225.html",
+    "timestamp": "20260823-040225",
+    "full_timestamp": "2026-08-23T04:02:25-07:00",
+    "summary": "MLX is moving Apple Silicon from capable local development hardware toward networked clusters for distributed inference and fine-tuning, with communication topology becoming as important as model tooling.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "MLX distributed training Apple Silicon clusters fine tuning 2026",
+    "source_count": 12,
+    "tags": "MLX, Apple Silicon, model training, developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
