@@ -3731,5 +3731,18 @@
     "source_count": 12,
     "tags": "AI therapy, mental health, chatbot regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 291,
+    "topic": "Federal Judges Demand AI-Use Disclosures as Hallucinated Filings Trigger Sanctions",
+    "file": "html/article-0291-federal-judges-demand-ai-use-disclosures-as-hallucinated-filings-trigger-20260822-220349.html",
+    "timestamp": "20260822-220349",
+    "full_timestamp": "2026-08-22T22:03:49-07:00",
+    "summary": "Federal courts are moving from punishing fabricated authorities after the fact toward disclosure and verification controls, but fragmented orders leave counsel facing jurisdiction-specific compliance risk.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 judges AI-generated filings sanctions lawyer accountability disclosure rules",
+    "source_count": 12,
+    "tags": "courts, legal ethics, generative AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
