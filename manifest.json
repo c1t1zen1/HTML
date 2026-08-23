@@ -3822,5 +3822,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, long-context inference, memory bandwidth",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 298,
+    "topic": "AI Video Model Firms Race for Licensed Footage as Copyright Cases Tighten Training Rules",
+    "file": "html/article-0298-ai-video-model-firms-race-for-licensed-footage-as-copyright-cases-tighte-20260823-070217.html",
+    "timestamp": "20260823-070217",
+    "full_timestamp": "2026-08-23T07:02:17-07:00",
+    "summary": "As copyright cases tighten training rules, licensing becomes strategic infrastructure, but the supplied evidence shows pressure across AI data markets more clearly than a proven video-footage race.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video model licensed training footage copyright deals lawsuits",
+    "source_count": 12,
+    "tags": "AI video,training data,copyright,licensing",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
