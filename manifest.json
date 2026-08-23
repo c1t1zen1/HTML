@@ -3718,5 +3718,18 @@
     "source_count": 10,
     "tags": "hedge funds,LLMs,market data,data licensing",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 290,
+    "topic": "California’s 2026 AI Companion Rules Put Therapy Chatbots Under a Safety Test",
+    "file": "html/article-0290-californias-2026-ai-companion-rules-put-therapy-chatbots-under-a-safety-20260822-200325.html",
+    "timestamp": "20260822-200325",
+    "full_timestamp": "2026-08-22T20:03:25-07:00",
+    "summary": "California’s SB 243 makes companion-chatbot safety operational: disclosures, self-harm protocols, youth protections, crisis referrals, and possible liability now matter alongside claims of emotional intelligence.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California 2026 AI companion chatbot law suicide safeguards therapy apps",
+    "source_count": 12,
+    "tags": "AI therapy, mental health, chatbot regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
