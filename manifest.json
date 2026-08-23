@@ -3692,5 +3692,18 @@
     "source_count": 12,
     "tags": "AI filmmaking, synthetic performers, labor rights",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 288,
+    "topic": "AI Lobbying Escalates as Congress Reopens the Fight Over Federal Preemption of State Rules",
+    "file": "html/article-0288-ai-lobbying-escalates-as-congress-reopens-the-fight-over-federal-preempt-20260822-180315.html",
+    "timestamp": "20260822-180315",
+    "full_timestamp": "2026-08-22T18:03:15-07:00",
+    "summary": "Congress’s 2026 AI fight has shifted from whether to regulate toward who controls the rules, with industry lobbying colliding with state-law defenders over federal preemption.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "August 2026 Congress AI preemption lobbying state laws Senate negotiations",
+    "source_count": 12,
+    "tags": "AI policy, lobbying, federal preemption, state regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
