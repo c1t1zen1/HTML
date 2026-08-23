@@ -3705,5 +3705,18 @@
     "source_count": 12,
     "tags": "AI policy, lobbying, federal preemption, state regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 289,
+    "topic": "Hedge Funds Rework LLM Training Data as Market-Data Licensing Deals Expand",
+    "file": "html/article-0289-hedge-funds-rework-llm-training-data-as-market-data-licensing-deals-expa-20260822-190321.html",
+    "timestamp": "20260822-190321",
+    "full_timestamp": "2026-08-22T19:03:21-07:00",
+    "summary": "Expanding data-licensing markets may make provenance, exclusivity, and recurring costs more important deployment constraints for trading LLMs than accuracy alone.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge funds market data licensing deals LLM training 2026",
+    "source_count": 10,
+    "tags": "hedge funds,LLMs,market data,data licensing",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
