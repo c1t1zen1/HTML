@@ -3835,5 +3835,18 @@
     "source_count": 12,
     "tags": "AI video,training data,copyright,licensing",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 299,
+    "topic": "Coding Agents Enter the Merge Queue as Enterprises Demand Auditable Autonomous Pull Requests",
+    "file": "html/article-0299-coding-agents-enter-the-merge-queue-as-enterprises-demand-auditable-auto-20260823-080210.html",
+    "timestamp": "20260823-080210",
+    "full_timestamp": "2026-08-23T08:02:10-07:00",
+    "summary": "As coding agents move from assistance to pull-request authorship, enterprises are shifting attention to merge gates, provenance, permissions, verification, and auditable accountability.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 autonomous coding agents enterprise pull requests audit trail merge queue",
+    "source_count": 12,
+    "tags": "coding agents, software security, developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
