@@ -3744,5 +3744,18 @@
     "source_count": 12,
     "tags": "courts, legal ethics, generative AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 292,
+    "topic": "AI Search Layers Are Rewriting How NSA Section 702 Data Gets Used",
+    "file": "html/article-0292-ai-search-layers-are-rewriting-how-nsa-section-702-data-gets-used-20260822-230334.html",
+    "timestamp": "20260822-230334",
+    "full_timestamp": "2026-08-22T23:03:34-07:00",
+    "summary": "As lawmakers revisit Section 702 in 2026, the central fight may move from collection authority to whether generative search, summaries, and observable query trails count as new surveillance.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 NSA generative AI search Section 702 data congressional oversight",
+    "source_count": 12,
+    "tags": "NSA, Section 702, AI surveillance, oversight",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
