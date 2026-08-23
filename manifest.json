@@ -3939,5 +3939,18 @@
     "source_count": 12,
     "tags": "Hollywood, labor, post-production, AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 307,
+    "topic": "Apple’s macOS 27 Intel Cutoff Could Reshape Quantized LLMs on Older Macs",
+    "file": "html/article-0307-apples-macos-27-intel-cutoff-could-reshape-quantized-llms-on-older-macs-20260823-160305.html",
+    "timestamp": "20260823-160305",
+    "full_timestamp": "2026-08-23T16:03:05-07:00",
+    "summary": "A macOS 27 Intel cutoff may not immediately stop local quantized inference, but it could turn OS support, software compatibility, and hardware migration into central constraints.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "2026 macOS 27 Intel support cutoff local quantized LLMs Mac",
+    "source_count": 12,
+    "tags": "macOS, Intel Mac, quantization, local inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
