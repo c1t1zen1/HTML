@@ -4225,5 +4225,18 @@
     "source_count": 10,
     "tags": "Google Home,AI agents,smart homes,device safety",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 329,
+    "topic": "Bank AI Fraud Systems Target Mule Networks as Criminals Recruit Accounts Through Social Platforms",
+    "file": "html/article-0329-bank-ai-fraud-systems-target-mule-networks-as-criminals-recruit-accounts-20260824-140309.html",
+    "timestamp": "20260824-140309",
+    "full_timestamp": "2026-08-24T14:03:09-07:00",
+    "summary": "Banks are shifting from transaction-by-transaction alerts toward AI systems that map recruited mule accounts, coordinated transfer chains, and criminal activity across social platforms.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks AI mule account detection social media recruitment fraud",
+    "source_count": 12,
+    "tags": "mule accounts, banking fraud, AI detection, social engineering",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
