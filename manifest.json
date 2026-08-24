@@ -4199,5 +4199,18 @@
     "source_count": 12,
     "tags": "AI canvassing, voter data, campaign technology, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 327,
+    "topic": "MLX Quantization Race Puts New Mac LLM Memory Claims Under Benchmark Pressure",
+    "file": "html/article-0327-mlx-quantization-race-puts-new-mac-llm-memory-claims-under-benchmark-pre-20260824-120334.html",
+    "timestamp": "20260824-120334",
+    "full_timestamp": "2026-08-24T12:03:34-07:00",
+    "summary": "New MLX reports widen the format race on Mac, but claims of lower-bit speed and memory gains still need apples-to-apples tests across chips, models, and contexts.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX quantized LLM Mac MXFP4 benchmark August 2026",
+    "source_count": 12,
+    "tags": "MLX, quantization, Mac, benchmarks",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
