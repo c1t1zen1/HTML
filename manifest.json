@@ -4186,5 +4186,18 @@
     "source_count": 12,
     "tags": "deepfake legislation, state AGs, election integrity, cross-border enforcement",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 326,
+    "topic": "AI Canvassing Copilots Put 2026 Campaign Voter Data and Human Oversight on Trial",
+    "file": "html/article-0326-ai-canvassing-copilots-put-2026-campaign-voter-data-and-human-oversight-20260824-110411.html",
+    "timestamp": "20260824-110411",
+    "full_timestamp": "2026-08-24T11:04:11-07:00",
+    "summary": "Campaigns are moving AI closer to the doorstep, where voter records, volunteer workflows, predictive recommendations, cybersecurity, and human review could determine whether efficiency outruns accountability.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 midterms campaign AI canvassing tools voter data privacy",
+    "source_count": 12,
+    "tags": "AI canvassing, voter data, campaign technology, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
