@@ -4121,5 +4121,18 @@
     "source_count": 12,
     "tags": "options trading, volatility skew, AI regulation, backtest audit",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 321,
+    "topic": "Short-Form AI Video Ads Face FTC Labeling Scrutiny as Deepfakes Spread",
+    "file": "html/article-0321-short-form-ai-video-ads-face-ftc-labeling-scrutiny-as-deepfakes-spread-20260824-060135.html",
+    "timestamp": "20260824-060135",
+    "full_timestamp": "2026-08-24T06:01:35-07:00",
+    "summary": "Regulators are tightening rules for AI-generated short-form video ads, forcing clear labeling and provenance that could reshape influencer marketing and brand compliance.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "FTC AI video ads labeling requirements 2026",
+    "source_count": 12,
+    "tags": "AI video ads, FTC regulation, social media, deepfake disclosure",
+    "model_names": "deepseek-v4-flash"
   }
 ]
