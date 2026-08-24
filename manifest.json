@@ -4082,5 +4082,18 @@
     "source_count": 12,
     "tags": "deepfake, C2PA, media law, provenance",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 318,
+    "topic": "AI Video Models Face Watermark Evasion as C2PA Legal Fight Intensifies",
+    "file": "html/article-0318-ai-video-models-face-watermark-evasion-as-c2pa-legal-fight-intensifies-20260824-030536.html",
+    "timestamp": "20260824-030536",
+    "full_timestamp": "2026-08-24T03:05:36-07:00",
+    "summary": "AI video watermarking meets a new adversarial wave as C2PA metadata stripping tools and legal fights over standards escalate.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "AI video generation watermark removal C2PA 2026",
+    "source_count": 12,
+    "tags": "AI video, C2PA, watermarking, deepfake litigation",
+    "model_names": "deepseek-v4-flash"
   }
 ]
