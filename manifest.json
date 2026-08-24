@@ -4108,5 +4108,18 @@
     "source_count": 12,
     "tags": "AI elections, campaign ads, disclosure audit, 2026 primaries",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 320,
+    "topic": "Options Traders Push AI Models Into Volatility Skew Arbitrage as Regulators Scrutinize Backtests",
+    "file": "html/article-0320-options-traders-push-ai-models-into-volatility-skew-arbitrage-as-regulat-20260824-050138.html",
+    "timestamp": "20260824-050138",
+    "full_timestamp": "2026-08-24T05:01:38-07:00",
+    "summary": "AI volatility-skew arbitrage is hitting a regulatory wall as watchdogs demand backtests meet traditional risk-model evidence standards.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "AI options trading volatility skew arbitrage regulatory backtest scrutiny 2026",
+    "source_count": 12,
+    "tags": "options trading, volatility skew, AI regulation, backtest audit",
+    "model_names": "deepseek-v4-flash"
   }
 ]
