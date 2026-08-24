@@ -4017,5 +4017,18 @@
     "source_count": 12,
     "tags": "instant payments, fraud liability, AI governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 313,
+    "topic": "AI Voice Cloning Moves From Campaign Stunts to Election-Day Robocall Traceability Fight",
+    "file": "html/article-0313-ai-voice-cloning-moves-from-campaign-stunts-to-election-day-robocall-tra-20260823-220348.html",
+    "timestamp": "20260823-220348",
+    "full_timestamp": "2026-08-23T22:03:48-07:00",
+    "summary": "AI-generated campaign calls are now a test of whether FCC rules, selective traceback, caller-ID defenses, and enforcement can expose harmful traffic before voting operations absorb the shock.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election AI voice robocalls telecom traceback FCC campaign",
+    "source_count": 12,
+    "tags": "voice cloning, robocalls, telecom enforcement, election security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
