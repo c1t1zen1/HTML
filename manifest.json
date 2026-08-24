@@ -3965,5 +3965,18 @@
     "source_count": 12,
     "tags": "Matter, smart homes, AI automation, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 309,
+    "topic": "AI Virtual Presenters Face Digital-Replica Bargaining Test in Broadcasters’ 2026 Expansion",
+    "file": "html/article-0309-ai-virtual-presenters-face-digital-replica-bargaining-test-in-broadcaste-20260823-180253.html",
+    "timestamp": "20260823-180253",
+    "full_timestamp": "2026-08-23T18:02:53-07:00",
+    "summary": "As broadcasters scale virtual presenters, contracts are becoming the operating system for consent, compensation, and likeness control—well before deployment proves who ultimately controls a digital replica.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "AI virtual presenter digital replica bargaining broadcasters 2026",
+    "source_count": 12,
+    "tags": "virtual presenters, digital replicas, broadcasters, performer rights",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
