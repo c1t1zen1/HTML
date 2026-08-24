@@ -4160,5 +4160,18 @@
     "source_count": 12,
     "tags": "FDA, AI chatbots, mental health, regulation",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 324,
+    "topic": "AI Video Watermarking Hits Forensic Wall as C2PA Evasion Goes Mainstream",
+    "file": "html/article-0324-ai-video-watermarking-hits-forensic-wall-as-c2pa-evasion-goes-mainstream-20260824-090200.html",
+    "timestamp": "20260824-090200",
+    "full_timestamp": "2026-08-24T09:02:00-07:00",
+    "summary": "C2PA provenance is being stripped by mainstream platforms, leaving forensics to invisible watermarks and exposing a widening detection gap.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI video C2PA watermark forensics failure 2026 deepfake detection",
+    "source_count": 12,
+    "tags": "AI video forensics, C2PA watermark evasion, deepfake detection, content provenance",
+    "model_names": "deepseek-v4-flash"
   }
 ]
