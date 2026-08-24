@@ -4238,5 +4238,18 @@
     "source_count": 12,
     "tags": "mule accounts, banking fraud, AI detection, social engineering",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 330,
+    "topic": "Xcode 26 AI Coding Features Put Apple Silicon Developer Workflows Under Beta-Test Pressure",
+    "file": "html/article-0330-xcode-26-ai-coding-features-put-apple-silicon-developer-workflows-under-20260824-150340.html",
+    "timestamp": "20260824-150340",
+    "full_timestamp": "2026-08-24T15:03:40-07:00",
+    "summary": "Xcode 26’s AI expansion promises agents, model choice, and localization help, but sparse evidence leaves Apple Silicon teams confronting unresolved privacy, tooling, beta-stability, and reproducibility questions.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Xcode 26 AI coding features beta Apple Silicon developer reactions August 2026",
+    "source_count": 10,
+    "tags": "Xcode, developer tools, Apple Silicon, coding AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
