@@ -3952,5 +3952,18 @@
     "source_count": 12,
     "tags": "macOS, Intel Mac, quantization, local inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 308,
+    "topic": "Matter 1.5’s Camera Push Turns AI Smart Homes Into an Interoperability Test",
+    "file": "html/article-0308-matter-1-5s-camera-push-turns-ai-smart-homes-into-an-interoperability-te-20260823-170245.html",
+    "timestamp": "20260823-170245",
+    "full_timestamp": "2026-08-23T17:02:45-07:00",
+    "summary": "Matter 1.5 puts cameras inside the interoperability experiment, but the supplied evidence leaves the decisive question unanswered: can cross-brand AI automation work without vendor-centered household video?",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Matter 1.5 2026 cameras AI smart home automation adoption",
+    "source_count": 12,
+    "tags": "Matter, smart homes, AI automation, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
