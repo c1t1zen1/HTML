@@ -3978,5 +3978,18 @@
     "source_count": 12,
     "tags": "virtual presenters, digital replicas, broadcasters, performer rights",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 310,
+    "topic": "GitHub Copilot Coding Agent Permissions Put Autonomous Repository Access Under Scrutiny",
+    "file": "html/article-0310-github-copilot-coding-agent-permissions-put-autonomous-repository-access-20260823-190243.html",
+    "timestamp": "20260823-190243",
+    "full_timestamp": "2026-08-23T19:02:43-07:00",
+    "summary": "GitHub Copilot’s expanding coding-agent controls make repository authorization, workflow approvals, and tool boundaries central to containing autonomous code-change risk before deployment.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "GitHub Copilot coding agent repository permissions security update August 2026",
+    "source_count": 12,
+    "tags": "coding agents,repository security,GitHub Copilot,AI governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
