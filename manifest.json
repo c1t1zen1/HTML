@@ -4251,5 +4251,18 @@
     "source_count": 10,
     "tags": "Xcode, developer tools, Apple Silicon, coding AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 331,
+    "topic": "AI Trading Agents Put Market-Manipulation Rules to Test Across 2026 Stock-Signal Platforms",
+    "file": "html/article-0331-ai-trading-agents-put-market-manipulation-rules-to-test-across-2026-stoc-20260824-160321.html",
+    "timestamp": "20260824-160321",
+    "full_timestamp": "2026-08-24T16:03:21-07:00",
+    "summary": "Autonomous stock-signal systems may shift manipulation risk from trade execution into recommendations, distribution, sentiment filters, and accountability gaps across 2026 platforms.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 AI trading agents market manipulation SEC stock signal platforms",
+    "source_count": 12,
+    "tags": "SEC, trading agents, market manipulation, stock prediction",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
