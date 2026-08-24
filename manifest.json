@@ -4173,5 +4173,18 @@
     "source_count": 12,
     "tags": "AI video forensics, C2PA watermark evasion, deepfake detection, content provenance",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 325,
+    "topic": "State AGs Launch Cross-Border Deepfake Task Force for 2026 Election Season",
+    "file": "html/article-0325-state-ags-launch-cross-border-deepfake-task-force-for-2026-election-seas-20260824-100146.html",
+    "timestamp": "20260824-100146",
+    "full_timestamp": "2026-08-24T10:01:46-07:00",
+    "summary": "State AGs are forming a cross-border task force to trace and prosecute election deepfakes ahead of the 2026 midterms.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "state attorneys general deepfake task force 2026 elections",
+    "source_count": 12,
+    "tags": "deepfake legislation, state AGs, election integrity, cross-border enforcement",
+    "model_names": "deepseek-v4-flash"
   }
 ]
