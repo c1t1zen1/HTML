@@ -4030,5 +4030,18 @@
     "source_count": 12,
     "tags": "voice cloning, robocalls, telecom enforcement, election security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 314,
+    "topic": "ERP AI Agents Enter Month-End Close as Finance Teams Test Autonomous Reconciliation",
+    "file": "html/article-0314-erp-ai-agents-enter-month-end-close-as-finance-teams-test-autonomous-rec-20260823-230401.html",
+    "timestamp": "20260823-230401",
+    "full_timestamp": "2026-08-23T23:04:01-07:00",
+    "summary": "Finance AI is moving beyond report drafting into reconciliation, journal-entry, exception, and close coordination—making audit trails, thresholds, controls, and human review central to autonomous-finance claims.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 ERP AI agents month-end close autonomous reconciliation finance",
+    "source_count": 10,
+    "tags": "ERP, AI agents, month-end close, reconciliation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
