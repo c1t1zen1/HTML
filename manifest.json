@@ -4004,5 +4004,18 @@
     "source_count": 12,
     "tags": "hedge funds, algorithmic trading, model risk, regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 312,
+    "topic": "Banks Face Real-Time Payment Fraud Liability as AI Detection Evidence Becomes Decisive",
+    "file": "html/article-0312-banks-face-real-time-payment-fraud-liability-as-ai-detection-evidence-be-20260823-210317.html",
+    "timestamp": "20260823-210317",
+    "full_timestamp": "2026-08-23T21:03:17-07:00",
+    "summary": "Banks’ real-time fraud controls are becoming liability controls: the key question is not only whether AI flags scams, but whether decisions can be explained, governed, and defended.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 real-time payment fraud reimbursement AI detection bank regulation",
+    "source_count": 12,
+    "tags": "instant payments, fraud liability, AI governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
