@@ -3991,5 +3991,18 @@
     "source_count": 12,
     "tags": "coding agents,repository security,GitHub Copilot,AI governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 311,
+    "topic": "Hedge Funds Put AI Trading Models Under Model-Risk Audit as Regulators Demand Evidence",
+    "file": "html/article-0311-hedge-funds-put-ai-trading-models-under-model-risk-audit-as-regulators-d-20260823-200302.html",
+    "timestamp": "20260823-200302",
+    "full_timestamp": "2026-08-23T20:03:02-07:00",
+    "summary": "As AI enters stock selection, execution, and risk controls, scrutiny is shifting from adoption claims toward documented governance, auditable performance evidence, supervision, and model-risk controls.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 hedge funds AI trading model risk audit regulator disclosures",
+    "source_count": 12,
+    "tags": "hedge funds, algorithmic trading, model risk, regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
