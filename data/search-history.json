@@ -2794,5 +2794,11 @@
     "canonical_query": "ftc ai video ads labeling requirements 2026",
     "searched_at": "2026-08-24T06:00:51-07:00",
     "topic": "Short-Form AI Video Ads Face FTC Labeling Scrutiny as Deepfakes Spread"
+  },
+  {
+    "query": "Apple M-series unified memory LLM inference 2026",
+    "canonical_query": "apple m series unified memory llm inference 2026",
+    "searched_at": "2026-08-24T07:00:52-07:00",
+    "topic": "Apple M-Series Unified Memory Bottleneck Tests New LLM Inference Limits"
   }
 ]

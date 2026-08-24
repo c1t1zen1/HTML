@@ -4134,5 +4134,18 @@
     "source_count": 12,
     "tags": "AI video ads, FTC regulation, social media, deepfake disclosure",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 322,
+    "topic": "Apple M-Series Unified Memory Bottleneck Tests New LLM Inference Limits",
+    "file": "html/article-0322-apple-m-series-unified-memory-bottleneck-tests-new-llm-inference-limits-20260824-070146.html",
+    "timestamp": "20260824-070146",
+    "full_timestamp": "2026-08-24T07:01:46-07:00",
+    "summary": "Apple’s unified memory removes VRAM limits, but a bandwidth ceiling now decides which LLMs can run fast on M-series chips.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M-series unified memory LLM inference 2026",
+    "source_count": 10,
+    "tags": "Apple Silicon, LLM Inference, Unified Memory, Performance",
+    "model_names": "deepseek-v4-flash"
   }
 ]
