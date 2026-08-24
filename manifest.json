@@ -4095,5 +4095,18 @@
     "source_count": 12,
     "tags": "AI video, C2PA, watermarking, deepfake litigation",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 319,
+    "topic": "AI Election Ad Disclosure Rules Face First Real-World Audit in 2026 Primaries",
+    "file": "html/article-0319-ai-election-ad-disclosure-rules-face-first-real-world-audit-in-2026-prim-20260824-040135.html",
+    "timestamp": "20260824-040135",
+    "full_timestamp": "2026-08-24T04:01:35-07:00",
+    "summary": "First enforcement audits of AI ad disclosure rules in 2026 primaries will test whether platforms and campaigns actually comply.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "AI election ads disclosure audit 2026 primaries",
+    "source_count": 12,
+    "tags": "AI elections, campaign ads, disclosure audit, 2026 primaries",
+    "model_names": "deepseek-v4-flash"
   }
 ]
