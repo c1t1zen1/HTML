@@ -4212,5 +4212,18 @@
     "source_count": 12,
     "tags": "MLX, quantization, Mac, benchmarks",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 328,
+    "topic": "Google Home APIs Put Third-Party AI Agents Inside Smart-Home Safety Boundaries",
+    "file": "html/article-0328-google-home-apis-put-third-party-ai-agents-inside-smart-home-safety-boun-20260824-130312.html",
+    "timestamp": "20260824-130312",
+    "full_timestamp": "2026-08-24T13:03:12-07:00",
+    "summary": "Google’s expanding Home APIs could let outside software act across richer household automation, shifting smart-home safety from voice recognition toward permissions, oversight, and accountability.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Google Home APIs third party AI agents smart home safety 2026",
+    "source_count": 10,
+    "tags": "Google Home,AI agents,smart homes,device safety",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

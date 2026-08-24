@@ -2842,5 +2842,11 @@
     "canonical_query": "mlx quantized llm mac mxfp4 benchmark august 2026",
     "searched_at": "2026-08-24T12:02:13-07:00",
     "topic": "MLX Quantization Race Puts New Mac LLM Memory Claims Under Benchmark Pressure"
+  },
+  {
+    "query": "Google Home APIs third party AI agents smart home safety 2026",
+    "canonical_query": "google home apis third party ai agents smart home safety 2026",
+    "searched_at": "2026-08-24T13:02:17-07:00",
+    "topic": "Google Home APIs Put Third-Party AI Agents Inside Smart-Home Safety Boundaries"
   }
 ]
