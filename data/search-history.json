@@ -2734,5 +2734,11 @@
     "canonical_query": "2026 erp ai agents month end close autonomous reconciliation finance",
     "searched_at": "2026-08-23T23:02:24-07:00",
     "topic": "ERP AI Agents Enter Month-End Close as Finance Teams Test Autonomous Reconciliation"
+  },
+  {
+    "query": "Apple Silicon local RAG development 2026 cost savings",
+    "canonical_query": "apple silicon local rag development 2026 cost savings",
+    "searched_at": "2026-08-24T00:00:48-07:00",
+    "topic": "Apple Silicon Developers Pivot to Local RAG as Cloud API Costs Spike"
   }
 ]

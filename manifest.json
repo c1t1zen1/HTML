@@ -4043,5 +4043,18 @@
     "source_count": 10,
     "tags": "ERP, AI agents, month-end close, reconciliation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 315,
+    "topic": "Apple Silicon Developers Pivot to Local RAG as Cloud API Costs Spike",
+    "file": "html/article-0315-apple-silicon-developers-pivot-to-local-rag-as-cloud-api-costs-spike-20260824-000258.html",
+    "timestamp": "20260824-000258",
+    "full_timestamp": "2026-08-24T00:02:58-07:00",
+    "summary": "Developers are shifting to local RAG pipelines on Apple Silicon to escape rising cloud inference costs, leveraging unified memory for privacy and predictable hardware expenditure.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Silicon local RAG development 2026 cost savings",
+    "source_count": 12,
+    "tags": "local-ai, rag, apple-silicon, developer-tools",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
