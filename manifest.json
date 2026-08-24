@@ -4056,5 +4056,18 @@
     "source_count": 12,
     "tags": "local-ai, rag, apple-silicon, developer-tools",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 316,
+    "topic": "Apple Intelligence Local Processing Limits Spark Developer Backlash Over Privacy Claims",
+    "file": "html/article-0316-apple-intelligence-local-processing-limits-spark-developer-backlash-over-20260824-010158.html",
+    "timestamp": "20260824-010158",
+    "full_timestamp": "2026-08-24T01:01:58-07:00",
+    "summary": "Developer scrutiny reveals that Apple Intelligence's local processing claims are complicated by cloud fallbacks, sparking debate over the true scope of on-device privacy and data sovereignty.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Apple Intelligence local processing privacy developer criticism 2026",
+    "source_count": 12,
+    "tags": "Apple Intelligence, Local AI, Privacy, macOS",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]

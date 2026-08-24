@@ -2740,5 +2740,17 @@
     "canonical_query": "apple silicon local rag development 2026 cost savings",
     "searched_at": "2026-08-24T00:00:48-07:00",
     "topic": "Apple Silicon Developers Pivot to Local RAG as Cloud API Costs Spike"
+  },
+  {
+    "query": "Apple Intelligence local processing privacy developer criticism 2026",
+    "canonical_query": "apple intelligence local processing privacy developer criticism 2026",
+    "searched_at": "2026-08-24T01:00:46-07:00",
+    "topic": "Apple Intelligence Local Processing Limits Spark Developer Backlash Over Privacy Claims"
+  },
+  {
+    "query": "Apple Intelligence Local Processing Limits Spark Developer Backlash Over Privacy Claims analysis developments",
+    "canonical_query": "apple intelligence local processing limits spark developer backlash over privacy claims analysis developments",
+    "searched_at": "2026-08-24T01:00:47-07:00",
+    "topic": "Apple Intelligence Local Processing Limits Spark Developer Backlash Over Privacy Claims"
   }
 ]
