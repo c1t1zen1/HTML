@@ -4147,5 +4147,18 @@
     "source_count": 10,
     "tags": "Apple Silicon, LLM Inference, Unified Memory, Performance",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 323,
+    "topic": "AI Therapy Bots Face New 2026 FDA Rule on Prescribing Crisis Care",
+    "file": "html/article-0323-ai-therapy-bots-face-new-2026-fda-rule-on-prescribing-crisis-care-20260824-080151.html",
+    "timestamp": "20260824-080151",
+    "full_timestamp": "2026-08-24T08:01:51-07:00",
+    "summary": "FDA’s 2026 rulemaking targets AI therapy chatbots’ crisis-intervention advice, a first regulatory milestone beyond privacy and efficacy debates.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "FDA AI mental health chatbot prescription 2026 regulation",
+    "source_count": 12,
+    "tags": "FDA, AI chatbots, mental health, regulation",
+    "model_names": "deepseek-v4-flash"
   }
 ]
