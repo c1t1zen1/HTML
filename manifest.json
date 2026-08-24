@@ -4069,5 +4069,18 @@
     "source_count": 12,
     "tags": "Apple Intelligence, Local AI, Privacy, macOS",
     "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
+  },
+  {
+    "article_number": 317,
+    "topic": "C2PA Metadata Standards Face Legal Challenge in 2026 Deepfake Litigation",
+    "file": "html/article-0317-c2pa-metadata-standards-face-legal-challenge-in-2026-deepfake-litigation-20260824-020157.html",
+    "timestamp": "20260824-020157",
+    "full_timestamp": "2026-08-24T02:01:57-07:00",
+    "summary": "Emerging federal precedents suggest C2PA metadata may satisfy authentication rules in deepfake litigation, though legal challenges and privacy concerns remain significant hurdles for widespread evidentiary adoption.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "C2PA content credentials legal admissibility deepfake lawsuit 2026",
+    "source_count": 12,
+    "tags": "deepfake, C2PA, media law, provenance",
+    "model_names": "/Users/c1t1zen/models/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q8_0.gguf"
   }
 ]
