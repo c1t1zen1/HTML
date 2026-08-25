@@ -4433,5 +4433,18 @@
     "source_count": 12,
     "tags": "MLX-LM, speculative decoding, Mac inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 345,
+    "topic": "AI-Generated Financial Reports Put SEC Disclosure Controls Under Audit-Trail Pressure",
+    "file": "html/article-0345-ai-generated-financial-reports-put-sec-disclosure-controls-under-audit-t-20260825-110237.html",
+    "timestamp": "20260825-110237",
+    "full_timestamp": "2026-08-25T11:02:37-07:00",
+    "summary": "Machine-generated financial figures may improve reporting speed, but weak provenance, unreproducible outputs, and undocumented review decisions could pressure existing disclosure controls.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 AI generated financial reports SEC disclosure controls audit evidence",
+    "source_count": 10,
+    "tags": "financial reporting, SEC, auditability",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
