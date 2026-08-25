@@ -4355,5 +4355,18 @@
     "source_count": 12,
     "tags": "macOS, local AI, agents, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 339,
+    "topic": "NRO Commercial Satellite AI Contracts Turn Persistent Surveillance Into an Accountability Test",
+    "file": "html/article-0339-nro-commercial-satellite-ai-contracts-turn-persistent-surveillance-into-20260825-040242.html",
+    "timestamp": "20260825-040242",
+    "full_timestamp": "2026-08-25T04:02:42-07:00",
+    "summary": "NRO’s expanding commercial satellite contracts pair persistent, AI-assisted sensing with faster procurement, raising unresolved questions about oversight, privacy boundaries, and responsibility for machine-supported surveillance.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 NRO commercial satellite AI contracts surveillance oversight",
+    "source_count": 12,
+    "tags": "NRO, satellite imagery, intelligence oversight",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
