@@ -4303,5 +4303,18 @@
     "source_count": 10,
     "tags": "AI lobbying, disclosure, federal preemption",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 335,
+    "topic": "MiCA Market-Abuse Enforcement Puts AI Crypto Trading Bots’ Order Trails on Trial",
+    "file": "html/article-0335-mica-market-abuse-enforcement-puts-ai-crypto-trading-bots-order-trails-o-20260824-200331.html",
+    "timestamp": "20260824-200331",
+    "full_timestamp": "2026-08-24T20:03:31-07:00",
+    "summary": "MiCA’s market-abuse regime moves AI crypto trading bots from opaque execution tools toward auditable CASP controls, while leaving autonomous-order attribution and technical reconstruction unresolved.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 MiCA market abuse enforcement AI crypto trading bots order trails",
+    "source_count": 12,
+    "tags": "crypto regulation, MiCA, trading bots",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
