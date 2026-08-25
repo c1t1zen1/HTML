@@ -4446,5 +4446,18 @@
     "source_count": 10,
     "tags": "financial reporting, SEC, auditability",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 346,
+    "topic": "AI Home Energy Managers Put Utility Data Access Under Pressure as Dynamic Tariffs Expand",
+    "file": "html/article-0346-ai-home-energy-managers-put-utility-data-access-under-pressure-as-dynami-20260825-120328.html",
+    "timestamp": "20260825-120328",
+    "full_timestamp": "2026-08-25T12:03:28-07:00",
+    "summary": "As dynamic tariffs grow more complex, AI home energy managers must turn price forecasts and utility signals into household load decisions without losing access, control, or trust.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "2026 AI home energy management utility demand response dynamic tariffs pilots",
+    "source_count": 12,
+    "tags": "smart homes, energy management, utilities, demand response",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
