@@ -4329,5 +4329,18 @@
     "source_count": 12,
     "tags": "voice cloning, voter services, election security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 337,
+    "topic": "AI Mental Health Apps Enter Employer Benefits Audits as Buyers Demand Clinical Outcome Evidence",
+    "file": "html/article-0337-ai-mental-health-apps-enter-employer-benefits-audits-as-buyers-demand-cl-20260825-010330.html",
+    "timestamp": "20260825-010330",
+    "full_timestamp": "2026-08-25T01:03:30-07:00",
+    "summary": "Employer mental-health buyers are signaling interest in measurable value, but the supplied evidence does not yet prove a standardized audit regime for independently measured patient outcomes.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "2026 employer mental health AI vendors clinical outcome audits reimbursement",
+    "source_count": 12,
+    "tags": "mental health AI, employer benefits, clinical evidence",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
