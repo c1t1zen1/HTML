@@ -4407,5 +4407,18 @@
     "source_count": 12,
     "tags": "Apple Silicon,LLM inference,MLX,Mac Studio",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 343,
+    "topic": "Newsrooms Put AI-Assisted Video Edits Under Evidence-Chain Pressure as Provenance Standards Tighten in 2026",
+    "file": "html/article-0343-newsrooms-put-ai-assisted-video-edits-under-evidence-chain-pressure-as-p-20260825-090255.html",
+    "timestamp": "20260825-090255",
+    "full_timestamp": "2026-08-25T09:02:55-07:00",
+    "summary": "As AI enters newsroom video workflows, the central test is no longer assistance alone but whether every transformation remains reviewable, attributable, and evidentially defensible.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 newsroom AI-assisted video editing provenance standards Reuters AP BBC",
+    "source_count": 12,
+    "tags": "AI video editing, provenance, journalism, synthetic media",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
