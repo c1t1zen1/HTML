@@ -4277,5 +4277,18 @@
     "source_count": 12,
     "tags": "AI avatars, live translation, virtual presenters, enterprise video",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 333,
+    "topic": "Hedge Funds’ LLM Trading Logs Become a New Regulatory Flashpoint in 2026",
+    "file": "html/article-0333-hedge-funds-llm-trading-logs-become-a-new-regulatory-flashpoint-in-2026-20260824-180243.html",
+    "timestamp": "20260824-180243",
+    "full_timestamp": "2026-08-24T18:02:43-07:00",
+    "summary": "As hedge funds deploy multi-agent LLMs, regulators and investors may increasingly demand reconstructable records of prompts, tool calls, outputs, approvals, and human oversight.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge funds LLM trading logs SEC AI oversight 2026",
+    "source_count": 12,
+    "tags": "hedge funds,LLMs,SEC oversight,algorithmic trading",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
