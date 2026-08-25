@@ -4472,5 +4472,18 @@
     "source_count": 12,
     "tags": "MLX, developer tools, Apple Silicon",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 348,
+    "topic": "Hedge Funds Put LLM Portfolio Risk Models Through a New Model-Validation Test",
+    "file": "html/article-0348-hedge-funds-put-llm-portfolio-risk-models-through-a-new-model-validation-20260825-140356.html",
+    "timestamp": "20260825-140356",
+    "full_timestamp": "2026-08-25T14:03:56-07:00",
+    "summary": "Hedge funds are moving LLM risk discussions from capability to validation: can deployed systems produce plausible volatility, drawdown, liquidity, and governance evidence under scrutiny?",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 hedge fund LLM model validation portfolio risk governance SEC",
+    "source_count": 12,
+    "tags": "model risk, portfolio management, hedge funds",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
