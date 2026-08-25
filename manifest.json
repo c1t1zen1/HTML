@@ -4459,5 +4459,18 @@
     "source_count": 12,
     "tags": "smart homes, energy management, utilities, demand response",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 347,
+    "topic": "MLX Ecosystem Expansion Tests Apple Silicon’s Bid for Cross-Tool AI Development",
+    "file": "html/article-0347-mlx-ecosystem-expansion-tests-apple-silicons-bid-for-cross-tool-ai-devel-20260825-130323.html",
+    "timestamp": "20260825-130323",
+    "full_timestamp": "2026-08-25T13:03:23-07:00",
+    "summary": "MLX’s expanding links to model tooling, local runtimes, and distributed jobs suggest an Apple Silicon platform—but the supplied evidence does not yet prove cross-tool interoperability.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "MLX ecosystem integrations Apple Silicon AI developer tools August 2026",
+    "source_count": 12,
+    "tags": "MLX, developer tools, Apple Silicon",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
