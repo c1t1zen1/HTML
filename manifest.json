@@ -4290,5 +4290,18 @@
     "source_count": 12,
     "tags": "hedge funds,LLMs,SEC oversight,algorithmic trading",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 334,
+    "topic": "Frontier AI Lobbying Faces Disclosure Test Over Federal Preemption Campaigns",
+    "file": "html/article-0334-frontier-ai-lobbying-faces-disclosure-test-over-federal-preemption-campa-20260824-190240.html",
+    "timestamp": "20260824-190240",
+    "full_timestamp": "2026-08-24T19:02:40-07:00",
+    "summary": "Supplied evidence shows a contested federal preemption campaign, but not yet whether lobbying disclosures demonstrate coordinated frontier-company pressure behind it.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "2026 frontier AI lobbying disclosure federal preemption state laws Washington",
+    "source_count": 10,
+    "tags": "AI lobbying, disclosure, federal preemption",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
