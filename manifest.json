@@ -4485,5 +4485,18 @@
     "source_count": 12,
     "tags": "model risk, portfolio management, hedge funds",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 349,
+    "topic": "AI Lobbying Targets Model-Weight Export Controls as Washington Weighs New Security Guardrails",
+    "file": "html/article-0349-ai-lobbying-targets-model-weight-export-controls-as-washington-weighs-ne-20260825-150346.html",
+    "timestamp": "20260825-150346",
+    "full_timestamp": "2026-08-25T15:03:46-07:00",
+    "summary": "Washington’s AI export-control debate is moving beyond chips toward model weights and access, with legal uncertainty and emerging enforcement claims raising stakes for labs, buyers, and allies.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "2026 Washington AI model-weight export controls lobbying national security rules",
+    "source_count": 10,
+    "tags": "export controls, national security, AI lobbying",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
