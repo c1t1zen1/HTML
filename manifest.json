@@ -4381,5 +4381,18 @@
     "source_count": 10,
     "tags": "AI video, copyright, EU AI Act",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 341,
+    "topic": "Film Festivals Turn AI Footage Disclosure Into a New Gatekeeping Test for Filmmakers",
+    "file": "html/article-0341-film-festivals-turn-ai-footage-disclosure-into-a-new-gatekeeping-test-fo-20260825-060308.html",
+    "timestamp": "20260825-060308",
+    "full_timestamp": "2026-08-25T06:03:08-07:00",
+    "summary": "As festivals separate enhancement from generation and demand clearer disclosures, AI footage may become an eligibility, labeling, and trust test for filmmakers pursuing premieres and awards.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 film festival AI-generated footage disclosure rules filmmaker eligibility",
+    "source_count": 12,
+    "tags": "film festivals,AI video,disclosure,filmmaking",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
