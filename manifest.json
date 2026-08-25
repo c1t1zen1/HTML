@@ -4368,5 +4368,18 @@
     "source_count": 12,
     "tags": "NRO, satellite imagery, intelligence oversight",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 340,
+    "topic": "EU AI Act Training-Data Disclosures Put 2026 Video Models Under Copyright Compliance Review",
+    "file": "html/article-0340-eu-ai-act-training-data-disclosures-put-2026-video-models-under-copyrigh-20260825-050229.html",
+    "timestamp": "20260825-050229",
+    "full_timestamp": "2026-08-25T05:02:29-07:00",
+    "summary": "By August 2026, disclosed training-data summaries could make copyright provenance a central compliance question for video-model providers classified as GPAI.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "EU AI Act 2026 AI video models training data disclosure compliance",
+    "source_count": 10,
+    "tags": "AI video, copyright, EU AI Act",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
