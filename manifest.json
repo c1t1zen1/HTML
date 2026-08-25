@@ -4316,5 +4316,18 @@
     "source_count": 12,
     "tags": "crypto regulation, MiCA, trading bots",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 336,
+    "topic": "AI Voice Clones Put Election Hotlines Under Authentication Pressure Ahead of 2026 Voting",
+    "file": "html/article-0336-ai-voice-clones-put-election-hotlines-under-authentication-pressure-ahea-20260824-210241.html",
+    "timestamp": "20260824-210241",
+    "full_timestamp": "2026-08-24T21:02:41-07:00",
+    "summary": "AI voice clones are moving voter deception toward trusted phone channels, raising a forward-looking authentication challenge for election hotlines before 2026 voting.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election AI voice clone voter hotline impersonation election officials",
+    "source_count": 12,
+    "tags": "voice cloning, voter services, election security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
