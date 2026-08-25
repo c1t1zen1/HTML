@@ -4420,5 +4420,18 @@
     "source_count": 12,
     "tags": "AI video editing, provenance, journalism, synthetic media",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 344,
+    "topic": "MLX-LM’s Quantized Draft Models Put Mac Speculative-Decoding Latency Under 2026 Scrutiny",
+    "file": "html/article-0344-mlx-lms-quantized-draft-models-put-mac-speculative-decoding-latency-unde-20260825-100304.html",
+    "timestamp": "20260825-100304",
+    "full_timestamp": "2026-08-25T10:03:04-07:00",
+    "summary": "MLX-LM speculative decoding may reduce interactive Mac latency, but gains depend on model pairing, quantization, context, memory overhead, and verified output fidelity.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX-LM quantized draft models speculative decoding Mac benchmark 2026",
+    "source_count": 12,
+    "tags": "MLX-LM, speculative decoding, Mac inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
