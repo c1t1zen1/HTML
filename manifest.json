@@ -4394,5 +4394,18 @@
     "source_count": 12,
     "tags": "film festivals,AI video,disclosure,filmmaking",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 342,
+    "topic": "Apple Silicon LLM Serving Tests Distributed Unified Memory as Mac Studios Become Inference Clusters",
+    "file": "html/article-0342-apple-silicon-llm-serving-tests-distributed-unified-memory-as-mac-studio-20260825-070259.html",
+    "timestamp": "20260825-070259",
+    "full_timestamp": "2026-08-25T07:02:59-07:00",
+    "summary": "Apple Silicon’s next inference test is not how fast one Mac runs a model, but whether several unified-memory machines can serve larger workloads efficiently enough to form a practical cluster.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "2026 Apple Silicon distributed LLM inference Mac Studio MLX cluster",
+    "source_count": 12,
+    "tags": "Apple Silicon,LLM inference,MLX,Mac Studio",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
