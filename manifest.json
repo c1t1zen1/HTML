@@ -4498,5 +4498,18 @@
     "source_count": 10,
     "tags": "export controls, national security, AI lobbying",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 350,
+    "topic": "YouTube Shorts Monetization Rules Put AI-Assisted Creators Under Originality Review",
+    "file": "html/article-0350-youtube-shorts-monetization-rules-put-ai-assisted-creators-under-origina-20260825-160319.html",
+    "timestamp": "20260825-160319",
+    "full_timestamp": "2026-08-25T16:03:19-07:00",
+    "summary": "YouTube’s supplied policy commentary converges on a simple test: AI assistance may remain monetizable, but repetitive, mass-produced Shorts face heightened originality and value scrutiny.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "YouTube Shorts AI-assisted content monetization originality policy 2026 creators",
+    "source_count": 12,
+    "tags": "YouTube Shorts, AI video, creator economy, platform policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
