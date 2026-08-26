@@ -4667,5 +4667,18 @@
     "source_count": 12,
     "tags": "AI avatars, identity verification, digital twins",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 363,
+    "topic": "Campaign AI Disclosure Rules Put Political Consultants’ Provenance Records Under 2026 Scrutiny",
+    "file": "html/article-0363-campaign-ai-disclosure-rules-put-political-consultants-provenance-record-20260826-060405.html",
+    "timestamp": "20260826-060405",
+    "full_timestamp": "2026-08-26T06:04:05-07:00",
+    "summary": "Federal AI campaign rules remain unsettled, while state disclosure efforts expand, leaving campaigns and consultants to preserve provenance evidence without a clearly established nationwide recordkeeping mandate.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 political campaign AI disclosure rules consultant provenance records FEC states",
+    "source_count": 12,
+    "tags": "campaigns, AI disclosure, election law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
