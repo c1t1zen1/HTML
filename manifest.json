@@ -4680,5 +4680,18 @@
     "source_count": 12,
     "tags": "campaigns, AI disclosure, election law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 364,
+    "topic": "California’s AI Companion Law Puts Therapy Chatbots’ Crisis Escalation Under 2026 Scrutiny",
+    "file": "html/article-0364-californias-ai-companion-law-puts-therapy-chatbots-crisis-escalation-und-20260826-070320.html",
+    "timestamp": "20260826-070320",
+    "full_timestamp": "2026-08-26T07:03:20-07:00",
+    "summary": "California’s 2026 companion-chatbot rules turn self-harm safeguards, crisis referrals, and therapy-marketing boundaries into practical tests for AI mental-health products.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California AI companion law 2026 therapy chatbot suicide crisis safeguards",
+    "source_count": 12,
+    "tags": "AI therapy, mental health, chatbot safety, regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
