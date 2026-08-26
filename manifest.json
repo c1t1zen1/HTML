@@ -4628,5 +4628,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, Long Context, Inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 360,
+    "topic": "EU AI Act’s August 2026 Transparency Rules Turn AI Video Labels Into Platform Workflow Test",
+    "file": "html/article-0360-eu-ai-acts-august-2026-transparency-rules-turn-ai-video-labels-into-plat-20260826-020340.html",
+    "timestamp": "20260826-020340",
+    "full_timestamp": "2026-08-26T02:03:40-07:00",
+    "summary": "From August 2026, Article 50 turns AI-video disclosure from a provenance debate into an operational test of labeling, publication, and platform workflows across the creative supply chain.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "EU AI Act Article 50 August 2026 AI-generated video labeling platforms",
+    "source_count": 12,
+    "tags": "EU AI Act, synthetic media, video labeling",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
