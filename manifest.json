@@ -4602,5 +4602,18 @@
     "source_count": 12,
     "tags": "macOS Tahoe,local AI,App Store,sandboxing",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 358,
+    "topic": "Synthetic-Voice Robocalls Put Election Offices’ Voter-Alert Authentication Under 2026 Pressure",
+    "file": "html/article-0358-synthetic-voice-robocalls-put-election-offices-voter-alert-authenticatio-20260826-000332.html",
+    "timestamp": "20260826-000332",
+    "full_timestamp": "2026-08-26T00:03:32-07:00",
+    "summary": "Synthetic voice robocalls are forcing election offices to make voter alerts easier to authenticate as impersonation risks, legal responses, and public confusion expand ahead of 2026.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election synthetic voice robocalls election offices voter alerts authentication",
+    "source_count": 12,
+    "tags": "synthetic voice, election security, robocalls",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
