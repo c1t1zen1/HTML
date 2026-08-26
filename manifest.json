@@ -4719,5 +4719,18 @@
     "source_count": 12,
     "tags": "autonomous systems, drone swarms, military AI, human control",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 367,
+    "topic": "AI Avatar Livestreams Put Real-Time Synthetic-Presenter Detection Under 2026 Pressure",
+    "file": "html/article-0367-ai-avatar-livestreams-put-real-time-synthetic-presenter-detection-under-20260826-100339.html",
+    "timestamp": "20260826-100339",
+    "full_timestamp": "2026-08-26T10:03:39-07:00",
+    "summary": "As platforms expand AI labels, provenance checks, and frame-level detection, livestreaming raises a forward-looking challenge: synthetic presenters may need disclosure while broadcasts are still unfolding.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "2026 YouTube TikTok AI avatar livestream disclosure detection policy",
+    "source_count": 12,
+    "tags": "AI avatars, livestreaming, deepfake detection",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
