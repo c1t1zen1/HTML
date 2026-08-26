@@ -4641,5 +4641,18 @@
     "source_count": 12,
     "tags": "EU AI Act, synthetic media, video labeling",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 361,
+    "topic": "AI Dubbing Moves Video Post-Production Into a New Voice-Consent Contract Test",
+    "file": "html/article-0361-ai-dubbing-moves-video-post-production-into-a-new-voice-consent-contract-20260826-030320.html",
+    "timestamp": "20260826-030320",
+    "full_timestamp": "2026-08-26T03:03:20-07:00",
+    "summary": "AI dubbing can compress multilingual post-production, but the supplied evidence points to a harder editorial question: whether voice consent, compensation, disclosure, and reuse survive localization.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 AI dubbing voice consent contracts video post-production studios",
+    "source_count": 10,
+    "tags": "AI dubbing, voice rights, post-production",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
