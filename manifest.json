@@ -4706,5 +4706,18 @@
     "source_count": 12,
     "tags": "synthetic data,stock forecasting,market analysis",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 366,
+    "topic": "Autonomous Drone Swarms Put Pentagon Human-Control Protocols Under a New Battlefield Test",
+    "file": "html/article-0366-autonomous-drone-swarms-put-pentagon-human-control-protocols-under-a-new-20260826-090356.html",
+    "timestamp": "20260826-090356",
+    "full_timestamp": "2026-08-26T09:03:56-07:00",
+    "summary": "The Pentagon is accelerating AI-coordinated drone swarms, forcing a harder question than capability: how human judgment, authorization, and accountability survive battlefield speed.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 Pentagon autonomous drone swarms human control surveillance rules of engagement",
+    "source_count": 12,
+    "tags": "autonomous systems, drone swarms, military AI, human control",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
