@@ -4511,5 +4511,18 @@
     "source_count": 12,
     "tags": "YouTube Shorts, AI video, creator economy, platform policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 351,
+    "topic": "TAKE IT DOWN Act’s 48-Hour Rule Tests Platforms’ Deepfake Removal Systems in 2026",
+    "file": "html/article-0351-take-it-down-acts-48-hour-rule-tests-platforms-deepfake-removal-systems-20260825-170301.html",
+    "timestamp": "20260825-170301",
+    "full_timestamp": "2026-08-25T17:03:01-07:00",
+    "summary": "With the TAKE IT DOWN Act’s 48-hour deadline now reportedly enforceable, platforms face a practical test: can victim notices trigger accurate removal of AI-generated intimate imagery and known copies in time?",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "TAKE IT DOWN Act May 2026 deepfake removal 48-hour deadline platforms",
+    "source_count": 10,
+    "tags": "deepfake law,platform liability,content moderation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
