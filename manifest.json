@@ -4589,5 +4589,18 @@
     "source_count": 12,
     "tags": "macOS, local AI, privacy, security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 357,
+    "topic": "macOS Tahoe’s AI App Sandbox Tests Whether Local Assistants Can Safely Call Tools",
+    "file": "html/article-0357-macos-tahoes-ai-app-sandbox-tests-whether-local-assistants-can-safely-ca-20260825-230326.html",
+    "timestamp": "20260825-230326",
+    "full_timestamp": "2026-08-25T23:03:26-07:00",
+    "summary": "Apple’s sandbox can constrain local assistants, but the supplied evidence suggests the decisive boundary is tool execution: entitlements, user-selected files, and subprocess behavior—not model locality alone.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS Tahoe local AI apps App Store sandbox entitlements tool calling 2026",
+    "source_count": 12,
+    "tags": "macOS Tahoe,local AI,App Store,sandboxing",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
