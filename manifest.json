@@ -4576,5 +4576,18 @@
     "source_count": 10,
     "tags": "AI coding agents, cybersecurity, responsible disclosure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 356,
+    "topic": "Mac Local AI Model Downloads Turn Notarization Into a New Privacy Boundary",
+    "file": "html/article-0356-mac-local-ai-model-downloads-turn-notarization-into-a-new-privacy-bounda-20260825-220313.html",
+    "timestamp": "20260825-220313",
+    "full_timestamp": "2026-08-25T22:03:13-07:00",
+    "summary": "Local inference reduces server exposure, but notarization, permissions, model downloads, and update paths define a separate trust boundary that the supplied evidence does not yet close.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "macOS local AI model downloads notarization privacy security 2026 developer reports",
+    "source_count": 12,
+    "tags": "macOS, local AI, privacy, security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
