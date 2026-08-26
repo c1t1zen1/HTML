@@ -4693,5 +4693,18 @@
     "source_count": 12,
     "tags": "AI therapy, mental health, chatbot safety, regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 365,
+    "topic": "Synthetic Market Data Puts AI Stock Forecasts Through a New Reliability Test",
+    "file": "html/article-0365-synthetic-market-data-puts-ai-stock-forecasts-through-a-new-reliability-20260826-080320.html",
+    "timestamp": "20260826-080320",
+    "full_timestamp": "2026-08-26T08:03:20-07:00",
+    "summary": "Synthetic datasets may expand rare-event testing for stock-forecasting AI, but distribution mismatch, data quality, and unprecedented shocks can make apparent accuracy unreliable.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 synthetic market data AI stock forecasting reliability news",
+    "source_count": 12,
+    "tags": "synthetic data,stock forecasting,market analysis",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
