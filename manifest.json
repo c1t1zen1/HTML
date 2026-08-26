@@ -4654,5 +4654,18 @@
     "source_count": 10,
     "tags": "AI dubbing, voice rights, post-production",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 362,
+    "topic": "AI Avatar Cloning Puts Liveness Checks Between Digital Twins and Public Identity",
+    "file": "html/article-0362-ai-avatar-cloning-puts-liveness-checks-between-digital-twins-and-public-20260826-040339.html",
+    "timestamp": "20260826-040339",
+    "full_timestamp": "2026-08-26T04:03:39-07:00",
+    "summary": "AI avatar cloning is moving beyond disclosure and voice consent toward a harder identity question: can platforms prove a synthetic presenter was authorized by, and remains tied to, a real person?",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "2026 AI avatar cloning liveness identity verification digital twins",
+    "source_count": 12,
+    "tags": "AI avatars, identity verification, digital twins",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
