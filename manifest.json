@@ -4615,5 +4615,18 @@
     "source_count": 12,
     "tags": "synthetic voice, election security, robocalls",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 359,
+    "topic": "Apple Silicon’s Long-Context LLM Race Puts KV-Cache Compression Under Fresh Pressure",
+    "file": "html/article-0359-apple-silicons-long-context-llm-race-puts-kv-cache-compression-under-fre-20260826-010340.html",
+    "timestamp": "20260826-010340",
+    "full_timestamp": "2026-08-26T01:03:40-07:00",
+    "summary": "Long-context Apple Silicon inference is increasingly framed as a unified-memory contest: reported KV-cache quantization and compressed attention may matter more than clustering or speculative decoding.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple Silicon MLX long context KV cache quantization benchmarks 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, Long Context, Inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

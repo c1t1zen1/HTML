@@ -3112,5 +3112,17 @@
     "canonical_query": "2026 election synthetic voice robocalls election offices voter alerts authentication",
     "searched_at": "2026-08-26T00:02:09-07:00",
     "topic": "Synthetic-Voice Robocalls Put Election Offices’ Voter-Alert Authentication Under 2026 Pressure"
+  },
+  {
+    "query": "Apple Silicon MLX long context KV cache quantization benchmarks 2026",
+    "canonical_query": "apple silicon mlx long context kv cache quantization benchmarks 2026",
+    "searched_at": "2026-08-26T01:02:12-07:00",
+    "topic": "Apple Silicon’s Long-Context LLM Race Puts KV-Cache Compression Under Fresh Pressure"
+  },
+  {
+    "query": "Apple Silicon’s Long-Context LLM Race Puts KV-Cache Compression Under Fresh Pressure analysis developments",
+    "canonical_query": "apple silicon s long context llm race puts kv cache compression under fresh pressure analysis developments",
+    "searched_at": "2026-08-26T01:02:13-07:00",
+    "topic": "Apple Silicon’s Long-Context LLM Race Puts KV-Cache Compression Under Fresh Pressure"
   }
 ]
