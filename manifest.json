@@ -4771,5 +4771,18 @@
     "source_count": 12,
     "tags": "Xcode, Apple Silicon, MLX, local AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 371,
+    "topic": "AI Video Training Datasets Put Copyright Licensing Ahead of Commercial Model Rollouts",
+    "file": "html/article-0371-ai-video-training-datasets-put-copyright-licensing-ahead-of-commercial-m-20260826-160506.html",
+    "timestamp": "20260826-160506",
+    "full_timestamp": "2026-08-26T16:05:06-07:00",
+    "summary": "Commercial video generators face a rights-clearance bottleneck: licensing footage may reduce training-data exposure, but provenance, scope, outputs, and jurisdiction still shape rollout risk.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 generative video training datasets copyright licensing litigation model developers",
+    "source_count": 12,
+    "tags": "copyright, training data, generative video",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
