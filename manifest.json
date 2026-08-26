@@ -4550,5 +4550,18 @@
     "source_count": 12,
     "tags": "legal AI, courts, lawyer ethics",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 354,
+    "topic": "Stablecoin Treasury Managers Test AI Trading Agents Against Human-Override and Loss-Limit Controls",
+    "file": "html/article-0354-stablecoin-treasury-managers-test-ai-trading-agents-against-human-overri-20260825-200409.html",
+    "timestamp": "20260825-200409",
+    "full_timestamp": "2026-08-25T20:04:09-07:00",
+    "summary": "Stablecoin treasuries give AI trading agents programmable reach, but the supplied evidence describes guardrails—not comparative tests—so governance, overrides, and loss limits remain the real question.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 stablecoin treasury AI trading agents human override loss limits",
+    "source_count": 12,
+    "tags": "crypto, AI trading, stablecoins, risk controls",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
