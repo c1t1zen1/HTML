@@ -4732,5 +4732,18 @@
     "source_count": 12,
     "tags": "AI avatars, livestreaming, deepfake detection",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 368,
+    "topic": "MLX Speculative Decoding Puts Apple Silicon Local LLM Speed Claims Under Fresh Scrutiny",
+    "file": "html/article-0368-mlx-speculative-decoding-puts-apple-silicon-local-llm-speed-claims-under-20260826-110310.html",
+    "timestamp": "20260826-110310",
+    "full_timestamp": "2026-08-26T11:03:10-07:00",
+    "summary": "MLX speculative decoding may deliver major Apple Silicon gains, but conflicting benchmarks show speedups depend on models, acceptance rates, runtimes, and reproducible test conditions.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "MLX speculative decoding Apple Silicon local LLM inference benchmark 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, LLM inference, benchmarks",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
