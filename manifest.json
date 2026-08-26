@@ -4524,5 +4524,18 @@
     "source_count": 10,
     "tags": "deepfake law,platform liability,content moderation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 352,
+    "topic": "AI Video Models’ Native Audio Puts Music Licensing on the 2026 Compliance Front",
+    "file": "html/article-0352-ai-video-models-native-audio-puts-music-licensing-on-the-2026-compliance-20260825-180314.html",
+    "timestamp": "20260825-180314",
+    "full_timestamp": "2026-08-25T18:03:14-07:00",
+    "summary": "As AI video tools pair generated images with synchronized music, creators may face a second compliance layer: licensing the soundtrack, tracking revenue, and documenting rights.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video models native audio music licensing copyright disputes",
+    "source_count": 10,
+    "tags": "AI video, music licensing, copyright, generative audio",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
