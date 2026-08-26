@@ -4563,5 +4563,18 @@
     "source_count": 12,
     "tags": "crypto, AI trading, stablecoins, risk controls",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 355,
+    "topic": "AI Coding Agents Turn Vulnerability Discovery Into a New Responsible-Disclosure Test",
+    "file": "html/article-0355-ai-coding-agents-turn-vulnerability-discovery-into-a-new-responsible-dis-20260825-210309.html",
+    "timestamp": "20260825-210309",
+    "full_timestamp": "2026-08-25T21:03:09-07:00",
+    "summary": "Autonomous coding agents are entering vulnerability research, but safe success depends not only on finding flaws, but on validating impact, limiting exposure, and coordinating disclosure.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 AI coding agents vulnerability discovery responsible disclosure security researchers",
+    "source_count": 10,
+    "tags": "AI coding agents, cybersecurity, responsible disclosure",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
