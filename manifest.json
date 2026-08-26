@@ -4537,5 +4537,18 @@
     "source_count": 10,
     "tags": "AI video, music licensing, copyright, generative audio",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 353,
+    "topic": "Courts Turn Lawyer AI-Use Disclosures Into a New Filing-Integrity Test",
+    "file": "html/article-0353-courts-turn-lawyer-ai-use-disclosures-into-a-new-filing-integrity-test-20260825-190311.html",
+    "timestamp": "20260825-190311",
+    "full_timestamp": "2026-08-25T19:03:11-07:00",
+    "summary": "Across U.S. courts, emerging AI-use disclosures and verification demands may make filing integrity depend not only on content, but also on transparent process and certification.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 courts lawyer AI use disclosure certification filing rules",
+    "source_count": 12,
+    "tags": "legal AI, courts, lawyer ethics",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
