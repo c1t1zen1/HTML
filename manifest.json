@@ -4745,5 +4745,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, LLM inference, benchmarks",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 369,
+    "topic": "Gemini for Home’s Agentic Routines Put Household Automation Behind a New Consent Test",
+    "file": "html/article-0369-gemini-for-homes-agentic-routines-put-household-automation-behind-a-new-20260826-120347.html",
+    "timestamp": "20260826-120347",
+    "full_timestamp": "2026-08-26T12:03:47-07:00",
+    "summary": "Google’s Gemini for Home can create cross-device automations from natural language, but the supplied evidence leaves permission, explanation, authorization, and revocation controls largely unproven.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Google Gemini for Home agentic routines 2026 smart home consent controls",
+    "source_count": 12,
+    "tags": "Gemini for Home,smart homes,AI automation,privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
