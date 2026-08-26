@@ -4758,5 +4758,18 @@
     "source_count": 12,
     "tags": "Gemini for Home,smart homes,AI automation,privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 370,
+    "topic": "Apple Silicon AI Tooling Puts Local Model Portability Under a New Xcode Test",
+    "file": "html/article-0370-apple-silicon-ai-tooling-puts-local-model-portability-under-a-new-xcode-20260826-140325.html",
+    "timestamp": "20260826-140325",
+    "full_timestamp": "2026-08-26T14:03:25-07:00",
+    "summary": "Apple’s Xcode AI integrations widen model choice, but supplied evidence points to adapter work and uneven beta behavior—not yet proof that app code travels cleanly across local and hosted runtimes.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Xcode 26 AI integrations third-party local model support August 2026",
+    "source_count": 12,
+    "tags": "Xcode, Apple Silicon, MLX, local AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
