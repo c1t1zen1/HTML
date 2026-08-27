@@ -4784,5 +4784,18 @@
     "source_count": 12,
     "tags": "copyright, training data, generative video",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 372,
+    "topic": "Election Deepfake Watchdogs Test Whether Platform Ad Libraries Expose AI Campaign Content",
+    "file": "html/article-0372-election-deepfake-watchdogs-test-whether-platform-ad-libraries-expose-ai-20260826-170351.html",
+    "timestamp": "20260826-170351",
+    "full_timestamp": "2026-08-26T17:03:51-07:00",
+    "summary": "Platform ad libraries may give independent auditors a useful record of AI political spending, but supplied evidence leaves coverage, completeness, provenance, and cross-platform comparability unresolved.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election AI deepfake ads platform ad libraries researcher access",
+    "source_count": 12,
+    "tags": "elections,deepfakes,political advertising,platform transparency",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
