@@ -4940,5 +4940,18 @@
     "source_count": 12,
     "tags": "C2PA, provenance, video editing",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 384,
+    "topic": "2026 Mac LLM Benchmarks Put 4-Bit Frontier Inference Claims Against Memory-Bandwidth Reality",
+    "file": "html/article-0384-2026-mac-llm-benchmarks-put-4-bit-frontier-inference-claims-against-memo-20260827-070257.html",
+    "timestamp": "20260827-070257",
+    "full_timestamp": "2026-08-27T07:02:57-07:00",
+    "summary": "High-memory Macs may run quantized frontier models, but 2026 benchmark claims matter only when bandwidth, sustained power, and tokens-per-watt survive long workloads.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "2026 Mac 4-bit frontier LLM inference benchmark memory bandwidth energy",
+    "source_count": 10,
+    "tags": "quantization,Mac hardware,LLM benchmarks,energy efficiency",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
