@@ -4914,5 +4914,18 @@
     "source_count": 12,
     "tags": "macOS, local AI, privacy, permissions",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 382,
+    "topic": "Open-Weight Video Models Put Post-Release Safety Controls Under a New Consumer GPU Test",
+    "file": "html/article-0382-open-weight-video-models-put-post-release-safety-controls-under-a-new-co-20260827-050400.html",
+    "timestamp": "20260827-050400",
+    "full_timestamp": "2026-08-27T05:04:00-07:00",
+    "summary": "As video checkpoints move from hosted APIs to downloadable weights that can run on consumer GPUs, safety may shift from release policy to operator-controlled safeguards.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 open weight text to video model release safety controls consumer GPUs",
+    "source_count": 12,
+    "tags": "open-weight models, video generation, AI safety",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

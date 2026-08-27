@@ -3340,5 +3340,17 @@
     "canonical_query": "2026 macos local ai agents permission escalation privacy updates",
     "searched_at": "2026-08-27T04:01:47-07:00",
     "topic": "Mac Local AI Agents Put Permission Escalation Under a New macOS Privacy Test"
+  },
+  {
+    "query": "2026 open weight text to video model release safety controls consumer GPUs",
+    "canonical_query": "2026 open weight text to video model release safety controls consumer gpus",
+    "searched_at": "2026-08-27T05:02:23-07:00",
+    "topic": "Open-Weight Video Models Put Post-Release Safety Controls Under a New Consumer GPU Test"
+  },
+  {
+    "query": "Open-Weight Video Models Put Post-Release Safety Controls Under a New Consumer GPU Test analysis developments",
+    "canonical_query": "open weight video models put post release safety controls under a new consumer gpu test analysis developments",
+    "searched_at": "2026-08-27T05:02:24-07:00",
+    "topic": "Open-Weight Video Models Put Post-Release Safety Controls Under a New Consumer GPU Test"
   }
 ]
