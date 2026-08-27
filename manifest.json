@@ -4966,5 +4966,18 @@
     "source_count": 12,
     "tags": "AI video, recommendation systems, creator economy, platform policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 386,
+    "topic": "FCA AI Advice Rules Put Retail Stock-Prediction Apps Behind a Consumer-Duty Test",
+    "file": "html/article-0386-fca-ai-advice-rules-put-retail-stock-prediction-apps-behind-a-consumer-d-20260827-090259.html",
+    "timestamp": "20260827-090259",
+    "full_timestamp": "2026-08-27T09:02:59-07:00",
+    "summary": "Emerging FCA expectations could put retail AI stock-prediction apps under closer Consumer Duty scrutiny, especially where forecasts resemble advice or shape investor decisions.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "FCA 2026 AI investment advice stock prediction consumer duty rules",
+    "source_count": 10,
+    "tags": "AI investing, FCA, retail finance, regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
