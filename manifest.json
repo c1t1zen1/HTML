@@ -4836,5 +4836,18 @@
     "source_count": 12,
     "tags": "campaign technology,political fundraising,AI governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 376,
+    "topic": "Mac App Store Distribution Puts Downloaded AI Model Weights Through a New Notarization Test",
+    "file": "html/article-0376-mac-app-store-distribution-puts-downloaded-ai-model-weights-through-a-ne-20260826-210231.html",
+    "timestamp": "20260826-210231",
+    "full_timestamp": "2026-08-26T21:02:31-07:00",
+    "summary": "Apple’s documented notarization flow covers app archives, while supplied evidence leaves open whether post-install AI weights create a distinct Mac App Store deployment bottleneck.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS App Store AI model weights notarization policy 2026",
+    "source_count": 12,
+    "tags": "macOS, local AI, App Store, notarization",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

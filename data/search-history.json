@@ -3274,5 +3274,17 @@
     "canonical_query": "2026 campaign ai fundraising agents donor consent fec",
     "searched_at": "2026-08-26T20:01:25-07:00",
     "topic": "AI Campaign Fundraising Agents Put Donor Consent Behind a New Election Compliance Test"
+  },
+  {
+    "query": "macOS App Store AI model weights notarization policy 2026",
+    "canonical_query": "macos app store ai model weights notarization policy 2026",
+    "searched_at": "2026-08-26T21:01:25-07:00",
+    "topic": "Mac App Store Distribution Puts Downloaded AI Model Weights Through a New Notarization Test"
+  },
+  {
+    "query": "Mac App Store Distribution Puts Downloaded AI Model Weights Through a New Notarization Test analysis developments",
+    "canonical_query": "mac app store distribution puts downloaded ai model weights through a new notarization test analysis developments",
+    "searched_at": "2026-08-26T21:01:27-07:00",
+    "topic": "Mac App Store Distribution Puts Downloaded AI Model Weights Through a New Notarization Test"
   }
 ]
