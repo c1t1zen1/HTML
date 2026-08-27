@@ -4992,5 +4992,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, AI coding agents, MCP, security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 388,
+    "topic": "EU Cyber Resilience Act Reporting Deadline Puts AI Smart-Home Hubs Through a Vulnerability-Disclosure Test",
+    "file": "html/article-0388-eu-cyber-resilience-act-reporting-deadline-puts-ai-smart-home-hubs-throu-20260827-110317.html",
+    "timestamp": "20260827-110317",
+    "full_timestamp": "2026-08-27T11:03:17-07:00",
+    "summary": "Europe’s September 2026 vulnerability-reporting deadline will test whether AI-enabled smart-home hubs can turn discovered flaws into timely disclosure, coordinated fixes, and safer automated households.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "EU Cyber Resilience Act September 2026 reporting smart home devices AI hubs",
+    "source_count": 10,
+    "tags": "smart homes, cybersecurity, EU regulation, AI automation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
