@@ -5018,5 +5018,18 @@
     "source_count": 12,
     "tags": "GPT-OSS, MXFP4, MLX, Apple Silicon",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 390,
+    "topic": "Data-Broker Intelligence Feeds Put AI Link Analysis Through a New Fourth-Amendment Test",
+    "file": "html/article-0390-data-broker-intelligence-feeds-put-ai-link-analysis-through-a-new-fourth-20260827-130357.html",
+    "timestamp": "20260827-130357",
+    "full_timestamp": "2026-08-27T13:03:57-07:00",
+    "summary": "Commercial identity and location data are moving into AI-enabled government analysis, intensifying questions about provenance, privacy compliance, warrant requirements, and constitutional limits.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 US intelligence data brokers algorithmic link analysis privacy",
+    "source_count": 12,
+    "tags": "data brokers, privacy, intelligence, AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
