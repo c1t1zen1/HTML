@@ -4979,5 +4979,18 @@
     "source_count": 10,
     "tags": "AI investing, FCA, retail finance, regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 387,
+    "topic": "Apple Silicon AI Coding Agents Put MCP Tool Access Behind a New Sandbox Test",
+    "file": "html/article-0387-apple-silicon-ai-coding-agents-put-mcp-tool-access-behind-a-new-sandbox-20260827-100400.html",
+    "timestamp": "20260827-100400",
+    "full_timestamp": "2026-08-27T10:04:00-07:00",
+    "summary": "Apple Silicon agents can expose local tools and project resources through MCP, but sandbox boundaries, permissions, and server trust—not model portability alone—define the security test.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple Silicon AI coding agents MCP sandbox security 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, AI coding agents, MCP, security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
