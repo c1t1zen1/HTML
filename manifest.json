@@ -5031,5 +5031,18 @@
     "source_count": 12,
     "tags": "data brokers, privacy, intelligence, AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 391,
+    "topic": "EU AI Act Compliance Deadline Puts Hedge-Fund LLMs Through a High-Risk Classification Test",
+    "file": "html/article-0391-eu-ai-act-compliance-deadline-puts-hedge-fund-llms-through-a-high-risk-c-20260827-150342.html",
+    "timestamp": "20260827-150342",
+    "full_timestamp": "2026-08-27T15:03:42-07:00",
+    "summary": "The August 2026 EU AI Act milestone may activate transparency duties while postponing some high-risk rules, leaving hedge funds to document whether trading-desk LLMs fall in scope.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "EU AI Act August 2026 hedge funds LLM trading compliance deadline",
+    "source_count": 12,
+    "tags": "EU AI Act, hedge funds, model governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
