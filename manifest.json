@@ -4901,5 +4901,18 @@
     "source_count": 12,
     "tags": "legal AI,bar rules,client confidentiality,law practice",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 381,
+    "topic": "Mac Local AI Agents Put Permission Escalation Under a New macOS Privacy Test",
+    "file": "html/article-0381-mac-local-ai-agents-put-permission-escalation-under-a-new-macos-privacy-20260827-040336.html",
+    "timestamp": "20260827-040336",
+    "full_timestamp": "2026-08-27T04:03:36-07:00",
+    "summary": "Local execution promises privacy and offline use, but Mac agents still face a harder question: do they request, explain, constrain, and relinquish access responsibly?",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "2026 macOS local AI agents permission escalation privacy updates",
+    "source_count": 12,
+    "tags": "macOS, local AI, privacy, permissions",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
