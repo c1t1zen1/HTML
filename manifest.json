@@ -4797,5 +4797,18 @@
     "source_count": 12,
     "tags": "elections,deepfakes,political advertising,platform transparency",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 373,
+    "topic": "AI-Generated Earnings Narratives Put Non-GAAP Reconciliation Controls Under 2026 Audit Pressure",
+    "file": "html/article-0373-ai-generated-earnings-narratives-put-non-gaap-reconciliation-controls-un-20260826-180339.html",
+    "timestamp": "20260826-180339",
+    "full_timestamp": "2026-08-26T18:03:39-07:00",
+    "summary": "AI can draft earnings narratives quickly, but 2026 audit pressure centers on whether finance teams can trace every non-GAAP claim to audited GAAP results and reconciliation evidence.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 generative AI earnings releases SEC non-GAAP reconciliation audit controls",
+    "source_count": 12,
+    "tags": "generative AI, financial reporting, SEC, audit controls",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
