@@ -4823,5 +4823,18 @@
     "source_count": 10,
     "tags": "instant payments, mule accounts, banking AI, fraud liability",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 375,
+    "topic": "AI Campaign Fundraising Agents Put Donor Consent Behind a New Election Compliance Test",
+    "file": "html/article-0375-ai-campaign-fundraising-agents-put-donor-consent-behind-a-new-election-c-20260826-200222.html",
+    "timestamp": "20260826-200222",
+    "full_timestamp": "2026-08-26T20:02:22-07:00",
+    "summary": "Autonomous AI fundraising could scale donor outreach, but consent, truthful solicitation, attribution, contribution limits, and disclosure remain unresolved compliance tests.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 campaign AI fundraising agents donor consent FEC",
+    "source_count": 12,
+    "tags": "campaign technology,political fundraising,AI governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
