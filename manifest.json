@@ -4953,5 +4953,18 @@
     "source_count": 10,
     "tags": "quantization,Mac hardware,LLM benchmarks,energy efficiency",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 385,
+    "topic": "AI Slop Enters the Feed: Short-Video Platforms Rework Recommendation and Creator-Pay Rules",
+    "file": "html/article-0385-ai-slop-enters-the-feed-short-video-platforms-rework-recommendation-and-20260827-080327.html",
+    "timestamp": "20260827-080327",
+    "full_timestamp": "2026-08-27T08:03:27-07:00",
+    "summary": "Short-video platforms are moving beyond AI disclosure toward harder questions: which synthetic videos reach feeds, which earn money, and how much human input counts.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "2026 social platforms AI slop recommendation ranking monetization short video creators",
+    "source_count": 12,
+    "tags": "AI video, recommendation systems, creator economy, platform policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
