@@ -5044,5 +5044,18 @@
     "source_count": 12,
     "tags": "EU AI Act, hedge funds, model governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 392,
+    "topic": "Voice-Cloned Bank Customers Put Call-Center Fraud Controls Under a New Authentication Test",
+    "file": "html/article-0392-voice-cloned-bank-customers-put-call-center-fraud-controls-under-a-new-a-20260827-160308.html",
+    "timestamp": "20260827-160308",
+    "full_timestamp": "2026-08-27T16:03:08-07:00",
+    "summary": "AI-generated customer voices are pushing bank call centers past knowledge-based authentication, forcing a shift toward layered identity, behavioral, and recovery controls as impersonation becomes harder to hear.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks voice cloning account takeover call center fraud",
+    "source_count": 12,
+    "tags": "voice cloning, account takeover, banking security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
