@@ -4927,5 +4927,18 @@
     "source_count": 12,
     "tags": "open-weight models, video generation, AI safety",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 383,
+    "topic": "C2PA Content Credentials Put AI-Assisted Video Edits Through a Post-Production Provenance Test",
+    "file": "html/article-0383-c2pa-content-credentials-put-ai-assisted-video-edits-through-a-post-prod-20260827-060337.html",
+    "timestamp": "20260827-060337",
+    "full_timestamp": "2026-08-27T06:03:37-07:00",
+    "summary": "C2PA’s promise in capturing AI intervention across editing workflows faces a harder test: can signed provenance survive post-production without creating false certainty?",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "C2PA Content Credentials AI-assisted video editing post-production provenance 2026",
+    "source_count": 12,
+    "tags": "C2PA, provenance, video editing",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
