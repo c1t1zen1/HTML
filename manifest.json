@@ -4862,5 +4862,18 @@
     "source_count": 12,
     "tags": "LLM trading, hedge funds, cybersecurity, risk controls",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 378,
+    "topic": "Classified AI Copilots Put U.S. Intelligence Data Access Under a New Audit Test",
+    "file": "html/article-0378-classified-ai-copilots-put-u-s-intelligence-data-access-under-a-new-audi-20260826-230233.html",
+    "timestamp": "20260826-230233",
+    "full_timestamp": "2026-08-26T23:02:33-07:00",
+    "summary": "As AI capabilities enter classified military networks, agencies face a harder accountability test: proving which records systems accessed, for what purpose, and under whose authority.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 US intelligence classified AI copilot audit data access",
+    "source_count": 12,
+    "tags": "intelligence oversight, classified AI, data governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
