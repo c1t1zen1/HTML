@@ -4888,5 +4888,18 @@
     "source_count": 12,
     "tags": "digital replicas, publicity rights, Congress",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 380,
+    "topic": "State Bar AI Rules Put Lawyers’ Client-Confidentiality Controls Under a New 2026 Practice Test",
+    "file": "html/article-0380-state-bar-ai-rules-put-lawyers-client-confidentiality-controls-under-a-n-20260827-020308.html",
+    "timestamp": "20260827-020308",
+    "full_timestamp": "2026-08-27T02:03:08-07:00",
+    "summary": "State-bar AI guidance increasingly names confidentiality as a lawyer’s duty, but the supplied evidence stops short of proving a uniform, technically specific control checklist.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 state bar AI rules lawyer client confidentiality legal practice news",
+    "source_count": 12,
+    "tags": "legal AI,bar rules,client confidentiality,law practice",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
