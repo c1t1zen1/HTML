@@ -4875,5 +4875,18 @@
     "source_count": 12,
     "tags": "intelligence oversight, classified AI, data governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 379,
+    "topic": "NO FAKES Act Puts Digital Replica Rights Ahead of Deepfake Takedowns",
+    "file": "html/article-0379-no-fakes-act-puts-digital-replica-rights-ahead-of-deepfake-takedowns-20260827-000401.html",
+    "timestamp": "20260827-000401",
+    "full_timestamp": "2026-08-27T00:04:01-07:00",
+    "summary": "The 2026 NO FAKES proposals would make authorization, licensing, and liability central to synthetic replicas while reshaping federal and state identity rights.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "NO FAKES Act digital replica rights Congress August 2026 latest",
+    "source_count": 12,
+    "tags": "digital replicas, publicity rights, Congress",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
