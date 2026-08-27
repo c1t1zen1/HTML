@@ -4810,5 +4810,18 @@
     "source_count": 12,
     "tags": "generative AI, financial reporting, SEC, audit controls",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 374,
+    "topic": "Instant-Payment Reimbursement Rules Put Banks’ AI Mule Detection Under New Pressure",
+    "file": "html/article-0374-instant-payment-reimbursement-rules-put-banks-ai-mule-detection-under-ne-20260826-190223.html",
+    "timestamp": "20260826-190223",
+    "full_timestamp": "2026-08-26T19:02:23-07:00",
+    "summary": "Faster-payment reimbursement exposure is pushing banks to detect mule risk before funds move, turning AI from investigative aid into an explainable, pre-payment control.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks AI mule account detection instant payment reimbursement rules",
+    "source_count": 10,
+    "tags": "instant payments, mule accounts, banking AI, fraud liability",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
