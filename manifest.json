@@ -4849,5 +4849,18 @@
     "source_count": 12,
     "tags": "macOS, local AI, App Store, notarization",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 377,
+    "topic": "LLM Trading Agents Put Hedge Funds’ Pre-Trade Controls Under a New Prompt-Injection Test",
+    "file": "html/article-0377-llm-trading-agents-put-hedge-funds-pre-trade-controls-under-a-new-prompt-20260826-220246.html",
+    "timestamp": "20260826-220246",
+    "full_timestamp": "2026-08-26T22:02:46-07:00",
+    "summary": "LLM trading workflows may widen prompt-injection attack paths beyond traditional pre-trade controls, making permissions, auditability, human approval, and emergency stops central to safe deployment.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 hedge fund LLM trading agents prompt injection pre-trade controls news",
+    "source_count": 12,
+    "tags": "LLM trading, hedge funds, cybersecurity, risk controls",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
