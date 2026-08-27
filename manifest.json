@@ -5005,5 +5005,18 @@
     "source_count": 10,
     "tags": "smart homes, cybersecurity, EU regulation, AI automation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 389,
+    "topic": "OpenAI GPT-OSS Quantization Puts Apple Silicon Mac Inference Under a Memory-Budget Test",
+    "file": "html/article-0389-openai-gpt-oss-quantization-puts-apple-silicon-mac-inference-under-a-mem-20260827-120320.html",
+    "timestamp": "20260827-120320",
+    "full_timestamp": "2026-08-27T12:03:20-07:00",
+    "summary": "GPT-OSS has an MLX-native MXFP4 path on Apple Silicon, but the supplied evidence tests availability and speed more convincingly than total unified-memory efficiency.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "2026 GPT-OSS MXFP4 MLX Apple Silicon Mac quantization updates",
+    "source_count": 12,
+    "tags": "GPT-OSS, MXFP4, MLX, Apple Silicon",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

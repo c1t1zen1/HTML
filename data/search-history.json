@@ -3388,5 +3388,11 @@
     "canonical_query": "eu cyber resilience act september 2026 reporting smart home devices ai hubs",
     "searched_at": "2026-08-27T11:02:04-07:00",
     "topic": "EU Cyber Resilience Act Reporting Deadline Puts AI Smart-Home Hubs Through a Vulnerability-Disclosure Test"
+  },
+  {
+    "query": "2026 GPT-OSS MXFP4 MLX Apple Silicon Mac quantization updates",
+    "canonical_query": "2026 gpt oss mxfp4 mlx apple silicon mac quantization updates",
+    "searched_at": "2026-08-27T12:02:02-07:00",
+    "topic": "OpenAI GPT-OSS Quantization Puts Apple Silicon Mac Inference Under a Memory-Budget Test"
   }
 ]
