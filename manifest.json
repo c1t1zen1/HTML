@@ -5265,5 +5265,18 @@
     "source_count": 0,
     "tags": "creator economy, AI video, TikTok, monetization",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 409,
+    "topic": "Google Gemini for Home’s Subscription Push Puts Smart-Home Automation Through an Ambient-Data Test",
+    "file": "html/article-0409-google-gemini-for-homes-subscription-push-puts-smart-home-automation-thr-20260828-100409.html",
+    "timestamp": "20260828-100409",
+    "full_timestamp": "2026-08-28T10:04:09-07:00",
+    "summary": "Google’s Gemini for Home ties richer automation, camera-triggered routines and household summaries to a Premium subscription, raising a sharper question: when does ambient context become a paid data boundary?",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Google Gemini for Home 2026 subscription privacy smart home automation",
+    "source_count": 12,
+    "tags": "Google Home, Gemini, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
