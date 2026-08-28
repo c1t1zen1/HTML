@@ -5109,5 +5109,18 @@
     "source_count": 12,
     "tags": "AI trading,brokerage APIs,market regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 397,
+    "topic": "Autonomous Coding Agents Put Open-Source Supply Chains Under a New Review Test",
+    "file": "html/article-0397-autonomous-coding-agents-put-open-source-supply-chains-under-a-new-revie-20260827-210256.html",
+    "timestamp": "20260827-210256",
+    "full_timestamp": "2026-08-27T21:02:56-07:00",
+    "summary": "With no supplied sources, the central review question remains unresolved: maintainers may need stronger verification before agent-generated code reaches widely used open-source dependencies.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 autonomous coding agents open source pull requests supply chain security",
+    "source_count": 0,
+    "tags": "coding agents, open source, supply chain, security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
