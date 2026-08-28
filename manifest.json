@@ -5239,5 +5239,18 @@
     "source_count": 0,
     "tags": "AI video, copyright, licensing, filmmaking",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 407,
+    "topic": "AI State-Law Preemption Fight Puts Washington Lobbying Influence Through a Federalism Test",
+    "file": "html/article-0407-ai-state-law-preemption-fight-puts-washington-lobbying-influence-through-20260828-080315.html",
+    "timestamp": "20260828-080315",
+    "full_timestamp": "2026-08-28T08:03:15-07:00",
+    "summary": "Washington’s AI preemption fight is testing whether federal lobbying can produce national uniformity without triggering constitutional challenges or erasing state-led safeguards.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "August 2026 AI state law preemption lobbying Washington Congress federalism",
+    "source_count": 12,
+    "tags": "AI policy, lobbying, federalism",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
