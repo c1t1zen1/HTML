@@ -5291,5 +5291,18 @@
     "source_count": 0,
     "tags": "SEC, hedge funds, generative AI, compliance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 411,
+    "topic": "MCP-Enabled Mac Assistants Put Local File Access Through a Permission Test",
+    "file": "html/article-0411-mcp-enabled-mac-assistants-put-local-file-access-through-a-permission-te-20260828-120238.html",
+    "timestamp": "20260828-120238",
+    "full_timestamp": "2026-08-28T12:02:38-07:00",
+    "summary": "MCP-enabled Mac assistants widen local access to files and apps; privacy depends on permission boundaries, approval prompts, and controls that follow data movement.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "2026 Mac AI assistants MCP local file access permissions privacy",
+    "source_count": 12,
+    "tags": "Mac AI, MCP, privacy, agent security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
