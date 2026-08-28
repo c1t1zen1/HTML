@@ -5187,5 +5187,18 @@
     "source_count": 12,
     "tags": "Apple,macOS,local AI,developer tools",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 403,
+    "topic": "Posthumous AI Replicas Put California Estate Rights Through a Digital-Identity Test",
+    "file": "html/article-0403-posthumous-ai-replicas-put-california-estate-rights-through-a-digital-id-20260828-030400.html",
+    "timestamp": "20260828-030400",
+    "full_timestamp": "2026-08-28T03:04:00-07:00",
+    "summary": "With no returned sources, the California estate-rights question remains open: unauthorized posthumous AI performances require legal evidence before claims about control, remedies, or limits.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "2026 California AB 1836 digital replica estate lawsuit actors",
+    "source_count": 0,
+    "tags": "digital replicas, publicity rights, synthetic media, entertainment law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
