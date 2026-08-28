@@ -5148,5 +5148,18 @@
     "source_count": 0,
     "tags": "AI avatars, live commerce, advertising regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 400,
+    "topic": "AI Voting Chatbots Put Election Offices Through a Voter-Information Accuracy Test",
+    "file": "html/article-0400-ai-voting-chatbots-put-election-offices-through-a-voter-information-accu-20260828-000347.html",
+    "timestamp": "20260828-000347",
+    "full_timestamp": "2026-08-28T00:03:47-07:00",
+    "summary": "Election chatbots can reject familiar disinformation yet still misstate voting rules, omit essential details, or point voters to broken sources—making accuracy, jurisdiction, and correction the real test.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election AI chatbots false voting information election officials response",
+    "source_count": 12,
+    "tags": "voter information, AI chatbots, election security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
