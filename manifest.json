@@ -5304,5 +5304,18 @@
     "source_count": 12,
     "tags": "Mac AI, MCP, privacy, agent security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 412,
+    "topic": "AI Video Editing Agents Put NLE Timeline Control Through a Human-Approval Test",
+    "file": "html/article-0412-ai-video-editing-agents-put-nle-timeline-control-through-a-human-approva-20260828-130216.html",
+    "timestamp": "20260828-130216",
+    "full_timestamp": "2026-08-28T13:02:16-07:00",
+    "summary": "AI editing agents may move the post-production debate from generated footage to professional timeline authority, but this assignment provides no sources to test that claim.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 AI video editing agents Premiere Pro timeline control human approval",
+    "source_count": 0,
+    "tags": "AI video editing, editing agents, Premiere Pro, workflow governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

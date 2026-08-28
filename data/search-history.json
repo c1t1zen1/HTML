@@ -3610,5 +3610,11 @@
     "canonical_query": "2026 mac ai assistants mcp local file access permissions privacy",
     "searched_at": "2026-08-28T12:01:24-07:00",
     "topic": "MCP-Enabled Mac Assistants Put Local File Access Through a Permission Test"
+  },
+  {
+    "query": "2026 AI video editing agents Premiere Pro timeline control human approval",
+    "canonical_query": "2026 ai video editing agents premiere pro timeline control human approval",
+    "searched_at": "2026-08-28T13:01:28-07:00",
+    "topic": "AI Video Editing Agents Put NLE Timeline Control Through a Human-Approval Test"
   }
 ]
