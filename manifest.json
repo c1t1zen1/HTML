@@ -5200,5 +5200,18 @@
     "source_count": 0,
     "tags": "digital replicas, publicity rights, synthetic media, entertainment law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 404,
+    "topic": "California AI Companion Chatbot Law Puts Teen Mental-Health Safeguards Through a Crisis-Response Test",
+    "file": "html/article-0404-california-ai-companion-chatbot-law-puts-teen-mental-health-safeguards-t-20260828-040353.html",
+    "timestamp": "20260828-040353",
+    "full_timestamp": "2026-08-28T04:03:53-07:00",
+    "summary": "California’s companion-chatbot safeguards are now active, but their real test is whether disclosure, breaks, content limits, and crisis protocols protect teens when conversations turn toward self-harm.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California SB 243 AI companion chatbot law mental health 2026",
+    "source_count": 12,
+    "tags": "AI companions, mental health, teen safety, California law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
