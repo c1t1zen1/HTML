@@ -5213,5 +5213,18 @@
     "source_count": 12,
     "tags": "AI companions, mental health, teen safety, California law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 405,
+    "topic": "Google Veo 3 Native Audio Forces Platforms to Rework Synthetic-Video Provenance Labels",
+    "file": "html/article-0405-google-veo-3-native-audio-forces-platforms-to-rework-synthetic-video-pro-20260828-050313.html",
+    "timestamp": "20260828-050313",
+    "full_timestamp": "2026-08-28T05:03:13-07:00",
+    "summary": "With no supplied sources, the claim about Veo 3 native audio and provenance-label changes remains unverified; responsible analysis must separate the premise from testable implications.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "Google Veo 3 native audio provenance labels platform policy 2026",
+    "source_count": 0,
+    "tags": "AI video, provenance, synthetic media",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
