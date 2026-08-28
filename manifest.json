@@ -5278,5 +5278,18 @@
     "source_count": 12,
     "tags": "Google Home, Gemini, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 410,
+    "topic": "SEC Exam Questions on Generative AI Put Hedge Funds’ Research Controls Through a Governance Test",
+    "file": "html/article-0410-sec-exam-questions-on-generative-ai-put-hedge-funds-research-controls-th-20260828-110215.html",
+    "timestamp": "20260828-110215",
+    "full_timestamp": "2026-08-28T11:02:15-07:00",
+    "summary": "With no supplied source evidence, this governance analysis cannot substantiate SEC exam questions, hedge-fund controls, or conclusions about generative AI research oversight.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 SEC examination priorities generative AI investment adviser hedge fund research controls",
+    "source_count": 0,
+    "tags": "SEC, hedge funds, generative AI, compliance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
