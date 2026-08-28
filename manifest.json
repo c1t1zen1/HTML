@@ -5330,5 +5330,18 @@
     "source_count": 12,
     "tags": "AI voice cloning, political advertising, 2026 elections",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 414,
+    "topic": "AI Investment Recommendations Put Retail Brokerages Through a Suitability-and-Disclosure Test",
+    "file": "html/article-0414-ai-investment-recommendations-put-retail-brokerages-through-a-suitabilit-20260828-150240.html",
+    "timestamp": "20260828-150240",
+    "full_timestamp": "2026-08-28T15:02:40-07:00",
+    "summary": "Consumer brokerage AI stock picks face an unresolved test: without evidence, readers cannot assess suitability, provenance, disclosures, or whether recommendations fit individual investors.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 regulators AI-generated investment recommendations retail brokerage apps suitability disclosure",
+    "source_count": 0,
+    "tags": "retail investing, AI regulation, brokerages",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
