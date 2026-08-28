@@ -5226,5 +5226,18 @@
     "source_count": 0,
     "tags": "AI video, provenance, synthetic media",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 406,
+    "topic": "AI Video Training-Data Licenses Put Filmmakers’ Consent Claims Through a Rights Test",
+    "file": "html/article-0406-ai-video-training-data-licenses-put-filmmakers-consent-claims-through-a-20260828-070302.html",
+    "timestamp": "20260828-070302",
+    "full_timestamp": "2026-08-28T07:03:02-07:00",
+    "summary": "With no supplied reporting, this rights test remains unresolved: readers cannot yet assess whether video-model training licenses secure filmmakers’ consent, compensation, or control.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 AI video training data licensing filmmakers consent agreement news",
+    "source_count": 0,
+    "tags": "AI video, copyright, licensing, filmmaking",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
