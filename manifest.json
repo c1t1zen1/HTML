@@ -5057,5 +5057,18 @@
     "source_count": 12,
     "tags": "voice cloning, account takeover, banking security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 393,
+    "topic": "Apple Intelligence’s Local-to-Cloud Handoff Puts Mac Privacy Claims Through a New Boundary Test",
+    "file": "html/article-0393-apple-intelligences-local-to-cloud-handoff-puts-mac-privacy-claims-throu-20260827-170359.html",
+    "timestamp": "20260827-170359",
+    "full_timestamp": "2026-08-27T17:03:59-07:00",
+    "summary": "Apple’s local-first AI promise faces its hardest privacy test when unanswered Mac prompts cross into Private Cloud Compute, where protection depends on the handoff’s boundaries.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Intelligence Mac on-device Private Cloud Compute handoff privacy 2026",
+    "source_count": 12,
+    "tags": "Apple Intelligence, Private Cloud Compute, data privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
