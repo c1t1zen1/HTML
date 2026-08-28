@@ -5161,5 +5161,18 @@
     "source_count": 12,
     "tags": "voter information, AI chatbots, election security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 401,
+    "topic": "State AI-Ad Disclaimer Laws Force 2026 Campaigns Into a Patchwork Accountability Test",
+    "file": "html/article-0401-state-ai-ad-disclaimer-laws-force-2026-campaigns-into-a-patchwork-accoun-20260828-010340.html",
+    "timestamp": "20260828-010340",
+    "full_timestamp": "2026-08-28T01:03:40-07:00",
+    "summary": "State AI-ad disclaimer laws may create a fragmented accountability test for 2026 campaigns, but the supplied evidence contains no sources to verify requirements, scope, or enforcement.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 state election AI ad disclaimer laws campaign enforcement",
+    "source_count": 0,
+    "tags": "political advertising, AI disclosure, state election law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
