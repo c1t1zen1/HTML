@@ -5343,5 +5343,18 @@
     "source_count": 0,
     "tags": "retail investing, AI regulation, brokerages",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 415,
+    "topic": "Federal Courts’ New AI Filing Rules Put Lawyers’ Disclosure Duties Through a Sanctions Test",
+    "file": "html/article-0415-federal-courts-new-ai-filing-rules-put-lawyers-disclosure-duties-through-20260828-160248.html",
+    "timestamp": "20260828-160248",
+    "full_timestamp": "2026-08-28T16:02:48-07:00",
+    "summary": "Federal judges are turning AI-assisted filing disclosure into an accountability test: lawyers face a fragmented rulebook, verification duties, and potential sanctions when submissions contain unverified errors.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 federal courts AI filing disclosure rules sanctions lawyers August",
+    "source_count": 12,
+    "tags": "courts, legal ethics, AI disclosure, sanctions",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
