@@ -5174,5 +5174,18 @@
     "source_count": 0,
     "tags": "political advertising, AI disclosure, state election law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 402,
+    "topic": "Apple’s Foundation Models API Puts Mac Local-AI Stacks Through a Portability Test",
+    "file": "html/article-0402-apples-foundation-models-api-puts-mac-local-ai-stacks-through-a-portabil-20260828-020400.html",
+    "timestamp": "20260828-020400",
+    "full_timestamp": "2026-08-28T02:04:00-07:00",
+    "summary": "Apple’s Foundation Models API broadens model integration, but the supplied evidence leaves the decisive portability questions—hardware coverage, runtime behavior, and replacement of local stacks—unanswered.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "2026 Apple Foundation Models API macOS local AI developer updates",
+    "source_count": 12,
+    "tags": "Apple,macOS,local AI,developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
