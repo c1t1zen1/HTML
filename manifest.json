@@ -5083,5 +5083,18 @@
     "source_count": 12,
     "tags": "AI dubbing, video localization, performer rights",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 395,
+    "topic": "Court AI-Disclosure Rules Put Lawyers’ Filing Workflows Under a New Verification Test",
+    "file": "html/article-0395-court-ai-disclosure-rules-put-lawyers-filing-workflows-under-a-new-verif-20260827-190313.html",
+    "timestamp": "20260827-190313",
+    "full_timestamp": "2026-08-27T19:03:13-07:00",
+    "summary": "Court-specific AI disclosure and verification mandates are shifting legal filing practice from optional drafting assistance toward documented human review, certification, and judge-aware compliance.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "August 2026 court rules AI-generated legal filings disclosure sanctions",
+    "source_count": 12,
+    "tags": "legal AI, courts, filing rules, professional responsibility",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
