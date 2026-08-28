@@ -5252,5 +5252,18 @@
     "source_count": 12,
     "tags": "AI policy, lobbying, federalism",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 408,
+    "topic": "TikTok Creator Rewards Puts AI Short-Form Videos Through a Monetization Quality Test",
+    "file": "html/article-0408-tiktok-creator-rewards-puts-ai-short-form-videos-through-a-monetization-20260828-090313.html",
+    "timestamp": "20260828-090313",
+    "full_timestamp": "2026-08-28T09:03:13-07:00",
+    "summary": "TikTok’s Creator Rewards program may test whether AI-heavy short videos deliver enough originality, effort, and viewer value to qualify for payouts, but the supplied evidence supports no firm conclusion.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok creator rewards AI-generated videos monetization policy 2026",
+    "source_count": 0,
+    "tags": "creator economy, AI video, TikTok, monetization",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
