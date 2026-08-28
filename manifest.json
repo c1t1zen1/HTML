@@ -5070,5 +5070,18 @@
     "source_count": 12,
     "tags": "Apple Intelligence, Private Cloud Compute, data privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 394,
+    "topic": "YouTube’s Auto-Dubbing Expansion Puts AI Video Localization Through a New Performer-Consent Test",
+    "file": "html/article-0394-youtubes-auto-dubbing-expansion-puts-ai-video-localization-through-a-new-20260827-180307.html",
+    "timestamp": "20260827-180307",
+    "full_timestamp": "2026-08-27T18:03:07-07:00",
+    "summary": "YouTube’s expanding AI dubbing may turn multilingual post-production into a faster growth lever, but performer consent and approval records could determine whether synthetic localization is publishable.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "YouTube auto dubbing 2026 performer consent AI video localization",
+    "source_count": 12,
+    "tags": "AI dubbing, video localization, performer rights",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
