@@ -5317,5 +5317,18 @@
     "source_count": 0,
     "tags": "AI video editing, editing agents, Premiere Pro, workflow governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 413,
+    "topic": "AI Voice Cloning in 2026 Primary Ads Puts Consent and Takedowns Through a Campaign Test",
+    "file": "html/article-0413-ai-voice-cloning-in-2026-primary-ads-puts-consent-and-takedowns-through-20260828-140249.html",
+    "timestamp": "20260828-140249",
+    "full_timestamp": "2026-08-28T14:02:49-07:00",
+    "summary": "Cloned candidate voices could turn 2026 primary advertising into a live test of consent, attribution, platform takedowns, and whether campaign speed outruns legal remedies.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 primary AI voice cloning political ads consent takedown",
+    "source_count": 12,
+    "tags": "AI voice cloning, political advertising, 2026 elections",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
