@@ -5135,5 +5135,18 @@
     "source_count": 12,
     "tags": "MLX, distributed inference, Apple Silicon",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 399,
+    "topic": "Live-Commerce AI Avatars Put Synthetic Sales Claims Through a New Disclosure Test",
+    "file": "html/article-0399-live-commerce-ai-avatars-put-synthetic-sales-claims-through-a-new-disclo-20260827-230256.html",
+    "timestamp": "20260827-230256",
+    "full_timestamp": "2026-08-27T23:02:56-07:00",
+    "summary": "Real-time virtual sales presenters may complicate advertising disclosure, endorsement transparency, and liability analysis, but the supplied evidence establishes no current rules or outcomes.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "2026 live commerce AI avatars disclosure regulation synthetic presenters",
+    "source_count": 0,
+    "tags": "AI avatars, live commerce, advertising regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
