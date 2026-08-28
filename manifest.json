@@ -5096,5 +5096,18 @@
     "source_count": 12,
     "tags": "legal AI, courts, filing rules, professional responsibility",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 396,
+    "topic": "AI Trading Agents Meet Brokerage APIs as Markets Test Autonomous Order Controls",
+    "file": "html/article-0396-ai-trading-agents-meet-brokerage-apis-as-markets-test-autonomous-order-c-20260827-200305.html",
+    "timestamp": "20260827-200305",
+    "full_timestamp": "2026-08-27T20:03:05-07:00",
+    "summary": "Brokerage APIs are becoming the control surface for AI trading agents, shifting the central question from forecast accuracy to authorization, monitoring, liability, and safe order execution.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 AI trading agents brokerage APIs autonomous orders supervision",
+    "source_count": 12,
+    "tags": "AI trading,brokerage APIs,market regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
