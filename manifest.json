@@ -5122,5 +5122,18 @@
     "source_count": 0,
     "tags": "coding agents, open source, supply chain, security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 398,
+    "topic": "MLX Multi-Mac Inference Puts Apple Silicon Clusters Through a Latency-and-Scaling Test",
+    "file": "html/article-0398-mlx-multi-mac-inference-puts-apple-silicon-clusters-through-a-latency-an-20260827-220317.html",
+    "timestamp": "20260827-220317",
+    "full_timestamp": "2026-08-27T22:03:17-07:00",
+    "summary": "MLX multi-Mac inference promises a path beyond one-machine limits, but the supplied evidence leaves unanswered how networking changes latency, synchronization, and useful scaling.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "MLX distributed inference across Apple Silicon Macs latency scaling August 2026",
+    "source_count": 12,
+    "tags": "MLX, distributed inference, Apple Silicon",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
