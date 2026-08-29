@@ -5525,5 +5525,18 @@
     "source_count": 12,
     "tags": "AI therapy, mental health, chatbot regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 429,
+    "topic": "AI Crypto Trading Bots Put Exchange API Permissions Through a Loss-Containment Test",
+    "file": "html/article-0429-ai-crypto-trading-bots-put-exchange-api-permissions-through-a-loss-conta-20260829-070301.html",
+    "timestamp": "20260829-070301",
+    "full_timestamp": "2026-08-29T07:03:01-07:00",
+    "summary": "With no supplied sources, this analysis cannot test whether scoped permissions, withdrawal limits, or emergency kill switches contain AI crypto-bot losses.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 crypto AI trading bots exchange API permission breaches withdrawal controls",
+    "source_count": 0,
+    "tags": "crypto trading bots, API security, exchange risk",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
