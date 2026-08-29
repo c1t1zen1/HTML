@@ -5616,5 +5616,18 @@
     "source_count": 12,
     "tags": "MLX, MXFP4, Apple Silicon, inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 436,
+    "topic": "MLX Swift’s 2026 Toolchain Push Puts Apple Silicon AI Development Through a Reproducibility Test",
+    "file": "html/article-0436-mlx-swifts-2026-toolchain-push-puts-apple-silicon-ai-development-through-20260829-150300.html",
+    "timestamp": "20260829-150300",
+    "full_timestamp": "2026-08-29T15:03:00-07:00",
+    "summary": "With no returned sources, MLX Swift’s claimed 2026 toolchain push cannot yet be tested for reproducibility; the responsible conclusion is an evidence gap, not a verdict.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "2026 MLX Swift Apple Silicon AI developer toolchain package updates",
+    "source_count": 0,
+    "tags": "MLX Swift,Apple Silicon,AI development,reproducibility",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

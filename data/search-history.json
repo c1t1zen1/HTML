@@ -3820,5 +3820,17 @@
     "canonical_query": "mlx mxfp4 metal kernels apple silicon quantized llm inference 2026",
     "searched_at": "2026-08-29T14:02:02-07:00",
     "topic": "MXFP4 on Apple Silicon Puts Quantized LLMs Through a Native-Kernel Reality Test"
+  },
+  {
+    "query": "2026 MLX Swift Apple Silicon AI developer toolchain package updates",
+    "canonical_query": "2026 mlx swift apple silicon ai developer toolchain package updates",
+    "searched_at": "2026-08-29T15:02:09-07:00",
+    "topic": "MLX Swift’s 2026 Toolchain Push Puts Apple Silicon AI Development Through a Reproducibility Test"
+  },
+  {
+    "query": "MLX Swift’s 2026 Toolchain Push Puts Apple Silicon AI Development Through a Reproducibility Test analysis developments",
+    "canonical_query": "mlx swift s 2026 toolchain push puts apple silicon ai development through a reproducibility test analysis developments",
+    "searched_at": "2026-08-29T15:02:10-07:00",
+    "topic": "MLX Swift’s 2026 Toolchain Push Puts Apple Silicon AI Development Through a Reproducibility Test"
   }
 ]
