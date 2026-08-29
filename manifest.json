@@ -5369,5 +5369,18 @@
     "source_count": 0,
     "tags": "AI video, enterprise privacy, data retention, content governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 417,
+    "topic": "Autonomous Coding Agents Put Bug-Bounty Rules Through a Human-Attribution Test",
+    "file": "html/article-0417-autonomous-coding-agents-put-bug-bounty-rules-through-a-human-attributio-20260828-180250.html",
+    "timestamp": "20260828-180250",
+    "full_timestamp": "2026-08-28T18:02:50-07:00",
+    "summary": "Autonomous coding agents can expand vulnerability discovery and patching, but bug-bounty systems still need a defensible answer to the human behind each submission.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 autonomous coding agents security patches bug bounty attribution policy",
+    "source_count": 12,
+    "tags": "coding agents, cybersecurity, bug bounty, software supply chain",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
