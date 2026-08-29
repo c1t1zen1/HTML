@@ -5356,5 +5356,18 @@
     "source_count": 12,
     "tags": "courts, legal ethics, AI disclosure, sanctions",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 416,
+    "topic": "Enterprise AI Video Platforms Put Confidential Footage Through a Deletion-and-Retention Test",
+    "file": "html/article-0416-enterprise-ai-video-platforms-put-confidential-footage-through-a-deletio-20260828-170320.html",
+    "timestamp": "20260828-170320",
+    "full_timestamp": "2026-08-28T17:03:20-07:00",
+    "summary": "Enterprise video platforms cannot be judged on retention, training reuse, or deletion controls until primary policy, contract, and technical evidence is supplied for comparison.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 enterprise generative video uploaded footage deletion retention privacy",
+    "source_count": 0,
+    "tags": "AI video, enterprise privacy, data retention, content governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
