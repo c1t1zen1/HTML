@@ -3688,5 +3688,17 @@
     "canonical_query": "2026 pentagon ai intelligence analysis classified procurement model provenance",
     "searched_at": "2026-08-28T22:01:35-07:00",
     "topic": "Pentagon AI Contracts Put Classified Intelligence Analysis Through a Provenance Test"
+  },
+  {
+    "query": "Xcode 26.3 coding agents Apple Silicon developers Claude Codex August 2026",
+    "canonical_query": "xcode 26 3 coding agents apple silicon developers claude codex august 2026",
+    "searched_at": "2026-08-28T23:01:52-07:00",
+    "topic": "Xcode 26.3’s Coding-Agent Support Puts Apple Silicon Developers Through a Model-Portability Test"
+  },
+  {
+    "query": "Xcode 26.3’s Coding-Agent Support Puts Apple Silicon Developers Through a Model-Portability Test analysis developments",
+    "canonical_query": "xcode 26 3 s coding agent support puts apple silicon developers through a model portability test analysis developments",
+    "searched_at": "2026-08-28T23:01:53-07:00",
+    "topic": "Xcode 26.3’s Coding-Agent Support Puts Apple Silicon Developers Through a Model-Portability Test"
   }
 ]

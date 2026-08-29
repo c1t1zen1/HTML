@@ -5434,5 +5434,18 @@
     "source_count": 12,
     "tags": "Pentagon AI, intelligence analysis, provenance, oversight",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 422,
+    "topic": "Xcode 26.3’s Coding-Agent Support Puts Apple Silicon Developers Through a Model-Portability Test",
+    "file": "html/article-0422-xcode-26-3s-coding-agent-support-puts-apple-silicon-developers-through-a-20260828-230244.html",
+    "timestamp": "20260828-230244",
+    "full_timestamp": "2026-08-28T23:02:44-07:00",
+    "summary": "With no supplied evidence, this analysis cannot verify whether Xcode 26.3 enables portable model workflows for Apple Silicon teams or merely changes integration points.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Xcode 26.3 coding agents Apple Silicon developers Claude Codex August 2026",
+    "source_count": 0,
+    "tags": "Xcode,Apple Silicon,coding agents,developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
