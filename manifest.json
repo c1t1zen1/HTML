@@ -5577,5 +5577,18 @@
     "source_count": 0,
     "tags": "AI coding agents, CI security, sandboxing, supply chain",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 433,
+    "topic": "AI Dubbing for Independent Films Puts Performer Consent Through a Multilingual-Likeness Test",
+    "file": "html/article-0433-ai-dubbing-for-independent-films-puts-performer-consent-through-a-multil-20260829-120256.html",
+    "timestamp": "20260829-120256",
+    "full_timestamp": "2026-08-29T12:02:56-07:00",
+    "summary": "AI dubbing could widen independent films’ reach, but voice cloning across languages turns localization into a consent, likeness, compensation, and documentation test.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 AI dubbing independent films performer consent multilingual likeness news",
+    "source_count": 12,
+    "tags": "AI dubbing, performer rights, film localization",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
