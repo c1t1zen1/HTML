@@ -5421,5 +5421,18 @@
     "source_count": 0,
     "tags": "local AI, macOS, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 421,
+    "topic": "Pentagon AI Contracts Put Classified Intelligence Analysis Through a Provenance Test",
+    "file": "html/article-0421-pentagon-ai-contracts-put-classified-intelligence-analysis-through-a-pro-20260828-220247.html",
+    "timestamp": "20260828-220247",
+    "full_timestamp": "2026-08-28T22:02:47-07:00",
+    "summary": "Pentagon’s classified-AI expansion raises a less visible question: whether procurement, architecture, and governance can preserve traceable intelligence sources and accountable analyst decisions.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 Pentagon AI intelligence analysis classified procurement model provenance",
+    "source_count": 12,
+    "tags": "Pentagon AI, intelligence analysis, provenance, oversight",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
