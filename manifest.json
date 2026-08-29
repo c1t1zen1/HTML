@@ -5538,5 +5538,18 @@
     "source_count": 0,
     "tags": "crypto trading bots, API security, exchange risk",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 430,
+    "topic": "MLX Multi-Mac Serving Could Put Quantized LLMs Through a Failover-and-Consistency Test",
+    "file": "html/article-0430-mlx-multi-mac-serving-could-put-quantized-llms-through-a-failover-and-co-20260829-090253.html",
+    "timestamp": "20260829-090253",
+    "full_timestamp": "2026-08-29T09:02:53-07:00",
+    "summary": "Distributed MLX inference should be judged not only by speed, but by consistency, failover behavior, and recovery evidence—none is established by the supplied search material.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "August 2026 MLX distributed inference quantized LLMs multiple Macs failover consistency",
+    "source_count": 0,
+    "tags": "MLX, quantization, distributed inference, Apple Silicon",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
