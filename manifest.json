@@ -5408,5 +5408,18 @@
     "source_count": 12,
     "tags": "film festivals, generative video, authorship, filmmaking",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 420,
+    "topic": "Local Mac AI Apps Add Cloud Fallbacks, Putting Privacy Claims Through a Routing-Transparency Test",
+    "file": "html/article-0420-local-mac-ai-apps-add-cloud-fallbacks-putting-privacy-claims-through-a-r-20260828-210249.html",
+    "timestamp": "20260828-210249",
+    "full_timestamp": "2026-08-28T21:02:49-07:00",
+    "summary": "Mac AI apps may blend on-device processing with cloud fallback, but without routing disclosures or source evidence, privacy claims remain impossible to independently evaluate.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Ollama Cloud LM Studio macOS local inference cloud fallback privacy August 2026",
+    "source_count": 0,
+    "tags": "local AI, macOS, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
