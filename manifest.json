@@ -5603,5 +5603,18 @@
     "source_count": 0,
     "tags": "AI avatars, livestream commerce, disclosure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 435,
+    "topic": "MXFP4 on Apple Silicon Puts Quantized LLMs Through a Native-Kernel Reality Test",
+    "file": "html/article-0435-mxfp4-on-apple-silicon-puts-quantized-llms-through-a-native-kernel-reali-20260829-140325.html",
+    "timestamp": "20260829-140325",
+    "full_timestamp": "2026-08-29T14:03:25-07:00",
+    "summary": "Emerging four-bit formats may fit Apple Silicon workflows, but supplied evidence still cannot prove MXFP4 receives native Metal kernels instead of fallback execution.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX MXFP4 Metal kernels Apple Silicon quantized LLM inference 2026",
+    "source_count": 12,
+    "tags": "MLX, MXFP4, Apple Silicon, inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
