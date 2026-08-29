@@ -5551,5 +5551,18 @@
     "source_count": 0,
     "tags": "MLX, quantization, distributed inference, Apple Silicon",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 431,
+    "topic": "AI De-Aging in 2026 Puts Hollywood Residuals Through a Synthetic-Performance Test",
+    "file": "html/article-0431-ai-de-aging-in-2026-puts-hollywood-residuals-through-a-synthetic-perform-20260829-100403.html",
+    "timestamp": "20260829-100403",
+    "full_timestamp": "2026-08-29T10:04:03-07:00",
+    "summary": "Hollywood’s 2026 labor deal reportedly adds payment and residual protections for hybrid digital replicas, but available evidence leaves de-aging formulas, attribution, and accounting mechanics unresolved.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 Hollywood AI de-aging actor residuals post-production union deal",
+    "source_count": 12,
+    "tags": "AI video editing, Hollywood, residuals, synthetic performances",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
