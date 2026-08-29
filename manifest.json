@@ -5473,5 +5473,18 @@
     "source_count": 12,
     "tags": "TAKE IT DOWN Act, deepfakes, platform liability, synthetic media",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 425,
+    "topic": "2026 Midterm AI Video Ads Put Platform Political Labels Through a Disclosure Test",
+    "file": "html/article-0425-2026-midterm-ai-video-ads-put-platform-political-labels-through-a-disclo-20260829-030233.html",
+    "timestamp": "20260829-030233",
+    "full_timestamp": "2026-08-29T03:02:33-07:00",
+    "summary": "With no source evidence returned, this article cannot verify how platforms label synthetic political videos in the 2026 midterms, leaving disclosure claims untested.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "2026 midterm elections AI-generated short-form political video platform labels",
+    "source_count": 0,
+    "tags": "political advertising, synthetic media, platform policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
