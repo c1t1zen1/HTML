@@ -5447,5 +5447,18 @@
     "source_count": 0,
     "tags": "Xcode,Apple Silicon,coding agents,developer tools",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 423,
+    "topic": "Sign-Language AI Avatars Put Public Broadcasters Through an Accessibility-Accuracy Test",
+    "file": "html/article-0423-sign-language-ai-avatars-put-public-broadcasters-through-an-accessibilit-20260829-010309.html",
+    "timestamp": "20260829-010309",
+    "full_timestamp": "2026-08-29T01:03:09-07:00",
+    "summary": "Synthetic sign-language presenters could expand accessible public broadcasting, but without evidence on translation accuracy, signer quality, governance, and audience outcomes, compliance remains unproven.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "2026 AI sign-language avatars public broadcasters accessibility compliance accuracy",
+    "source_count": 0,
+    "tags": "accessibility, broadcast media, sign language, AI avatars",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
