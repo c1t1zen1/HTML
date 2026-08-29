@@ -5460,5 +5460,18 @@
     "source_count": 0,
     "tags": "accessibility, broadcast media, sign language, AI avatars",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 424,
+    "topic": "TAKE IT DOWN Act Enforcement Puts Platforms’ Deepfake Removal Systems Through a Deadline Test",
+    "file": "html/article-0424-take-it-down-act-enforcement-puts-platforms-deepfake-removal-systems-thr-20260829-020402.html",
+    "timestamp": "20260829-020402",
+    "full_timestamp": "2026-08-29T02:04:02-07:00",
+    "summary": "The TAKE IT DOWN Act turns deepfake policy into an operational test: can covered platforms accept valid reports and remove synthetic intimate imagery within 48 hours?",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "TAKE IT DOWN Act 2026 deepfake removal deadline platform compliance",
+    "source_count": 12,
+    "tags": "TAKE IT DOWN Act, deepfakes, platform liability, synthetic media",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
