@@ -5395,5 +5395,18 @@
     "source_count": 0,
     "tags": "Apple Silicon, local inference, thermal limits, energy use",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 419,
+    "topic": "Film Festival AI-Entry Rules Put Generative Shorts Through an Originality Test",
+    "file": "html/article-0419-film-festival-ai-entry-rules-put-generative-shorts-through-an-originalit-20260828-200335.html",
+    "timestamp": "20260828-200335",
+    "full_timestamp": "2026-08-28T20:03:35-07:00",
+    "summary": "Film festivals are turning AI shorts into rule-bound authorship tests, asking creators to prove original scripts, meaningful AI use, rights clearance, contributor credit, and pipeline transparency.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 film festival AI entry rules generative short film originality",
+    "source_count": 12,
+    "tags": "film festivals, generative video, authorship, filmmaking",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
