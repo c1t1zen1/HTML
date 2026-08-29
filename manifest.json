@@ -5564,5 +5564,18 @@
     "source_count": 12,
     "tags": "AI video editing, Hollywood, residuals, synthetic performances",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 432,
+    "topic": "Autonomous Coding Agents Put CI Sandboxes Through a Secret-Exfiltration Test",
+    "file": "html/article-0432-autonomous-coding-agents-put-ci-sandboxes-through-a-secret-exfiltration-20260829-110239.html",
+    "timestamp": "20260829-110239",
+    "full_timestamp": "2026-08-29T11:02:39-07:00",
+    "summary": "With no supplied sources, the central question remains open: can autonomous coding environments isolate credentials from hostile repository instructions and pull-request content?",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 autonomous coding agents CI sandbox secret exfiltration security research",
+    "source_count": 0,
+    "tags": "AI coding agents, CI security, sandboxing, supply chain",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
