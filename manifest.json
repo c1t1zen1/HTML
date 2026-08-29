@@ -5512,5 +5512,18 @@
     "source_count": 0,
     "tags": "EU AI Act, election deepfakes, provenance, disclosure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 428,
+    "topic": "California’s Companion-Chatbot Law Puts AI Therapy Apps Through a Self-Harm Safeguard Test",
+    "file": "html/article-0428-californias-companion-chatbot-law-puts-ai-therapy-apps-through-a-self-ha-20260829-060247.html",
+    "timestamp": "20260829-060247",
+    "full_timestamp": "2026-08-29T06:02:47-07:00",
+    "summary": "California’s SB 243 turns chatbot self-harm safety from a disclosure issue into an operational test: maintain intervention protocols, provide crisis referrals, and publish what those protocols do.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California SB 243 2026 companion chatbot self-harm safeguards AI therapy apps",
+    "source_count": 12,
+    "tags": "AI therapy, mental health, chatbot regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
