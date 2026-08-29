@@ -5382,5 +5382,18 @@
     "source_count": 12,
     "tags": "coding agents, cybersecurity, bug bounty, software supply chain",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 418,
+    "topic": "Mac Mini AI Clusters Put Apple Silicon LLM Serving Through a Sustained-Power Test",
+    "file": "html/article-0418-mac-mini-ai-clusters-put-apple-silicon-llm-serving-through-a-sustained-p-20260828-190302.html",
+    "timestamp": "20260828-190302",
+    "full_timestamp": "2026-08-28T19:03:02-07:00",
+    "summary": "Mac mini AI clusters may promise resilient local LLM serving, but without measured evidence, thermal behavior, electricity demand, and uptime remain open questions.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Mac mini AI cluster sustained LLM serving thermals power 2026",
+    "source_count": 0,
+    "tags": "Apple Silicon, local inference, thermal limits, energy use",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
