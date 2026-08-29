@@ -5486,5 +5486,18 @@
     "source_count": 0,
     "tags": "political advertising, synthetic media, platform policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 426,
+    "topic": "AI Accounting Agents Put Corporate Close Automation Through an Audit-Trail Test",
+    "file": "html/article-0426-ai-accounting-agents-put-corporate-close-automation-through-an-audit-tra-20260829-040315.html",
+    "timestamp": "20260829-040315",
+    "full_timestamp": "2026-08-29T04:03:15-07:00",
+    "summary": "As accounting agents generate close entries and reconciliations, the decisive question is whether logged inputs, outputs, versions, permissions, and human approvals leave auditors independently reviewable evidence.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 generative AI accounting close audit trail financial reporting firms",
+    "source_count": 12,
+    "tags": "accounting AI, audit trail, financial close",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
