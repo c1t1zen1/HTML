@@ -5590,5 +5590,18 @@
     "source_count": 12,
     "tags": "AI dubbing, performer rights, film localization",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 434,
+    "topic": "China’s AI Avatar Livestream Hosts Put E-Commerce Platforms Through a Seller-Disclosure Test",
+    "file": "html/article-0434-chinas-ai-avatar-livestream-hosts-put-e-commerce-platforms-through-a-sel-20260829-130258.html",
+    "timestamp": "20260829-130258",
+    "full_timestamp": "2026-08-29T13:02:58-07:00",
+    "summary": "With no returned sources, this article cannot verify how Chinese platforms label AI livestream hosts, disclose seller substitution, or assign responsibility for avatar-delivered product claims.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "2026 China AI avatar livestream shopping seller disclosure enforcement",
+    "source_count": 0,
+    "tags": "AI avatars, livestream commerce, disclosure",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
