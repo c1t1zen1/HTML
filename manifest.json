@@ -5694,5 +5694,18 @@
     "source_count": 12,
     "tags": "AI surveillance, quantum computing, NSA, encryption",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 442,
+    "topic": "AI Short-Form Video Creators Face Platform Copyright Crackdown",
+    "file": "html/article-0442-ai-short-form-video-creators-face-platform-copyright-crackdown-20260901-060141.html",
+    "timestamp": "20260901-060141",
+    "full_timestamp": "2026-09-01T06:01:41-07:00",
+    "summary": "AI short-form creators brace as TikTok and rivals deploy automated copyright detection targeting AI-generated music, voices, and visuals, escalating takedowns and demonetization.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI video copyright enforcement 2026 creators",
+    "source_count": 12,
+    "tags": "AI copyright, short-form video, creator economy, content moderation",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
