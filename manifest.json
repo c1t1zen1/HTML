@@ -5655,5 +5655,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, LLM Inference, Neural Engine, Power Efficiency",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 439,
+    "topic": "OpenAI's New Video Model Puts Hollywood Through a Copyright Test",
+    "file": "html/article-0439-openai-s-new-video-model-puts-hollywood-through-a-copyright-test-20260901-030135.html",
+    "timestamp": "20260901-030135",
+    "full_timestamp": "2026-09-01T03:01:35-07:00",
+    "summary": "OpenAI's Sora 2 video model triggers immediate copyright lawsuits from Hollywood studios, testing fair use defenses and training-data transparency.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "OpenAI Sora 2 video model Hollywood copyright lawsuit 2026",
+    "source_count": 12,
+    "tags": "AI video generation, copyright law, OpenAI, Hollywood",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
