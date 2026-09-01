@@ -3850,5 +3850,11 @@
     "canonical_query": "openai sora 2 video model hollywood copyright lawsuit 2026",
     "searched_at": "2026-09-01T03:00:48-07:00",
     "topic": "OpenAI's New Video Model Puts Hollywood Through a Copyright Test"
+  },
+  {
+    "query": "2026 election AI deepfake misinformation detection real-time",
+    "canonical_query": "2026 election ai deepfake misinformation detection real time",
+    "searched_at": "2026-09-01T04:00:50-07:00",
+    "topic": "AI Misinformation Watchdogs Face Real-Time Election Deepfake Surge"
   }
 ]
