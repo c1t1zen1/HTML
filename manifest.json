@@ -5629,5 +5629,18 @@
     "source_count": 0,
     "tags": "MLX Swift,Apple Silicon,AI development,reproducibility",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 437,
+    "topic": "AI Fraud Detection in Banking Faces Real-Time Payment Pressure",
+    "file": "html/article-0437-ai-fraud-detection-in-banking-faces-real-time-payment-pressure-20260901-011512.html",
+    "timestamp": "20260901-011512",
+    "full_timestamp": "2026-09-01T01:15:12-07:00",
+    "summary": "As instant payment rails like FedNow and RTP expand in 2026, banks race to upgrade AI fraud detection to flag transactions within milliseconds, testing speed against accuracy.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "AI fraud detection real-time payments 2026 instant settlement",
+    "source_count": 12,
+    "tags": "AI fraud detection, real-time payments, banking security, instant settlement",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
