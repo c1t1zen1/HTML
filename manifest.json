@@ -5759,5 +5759,18 @@
     "source_count": 12,
     "tags": "AI lobbying, US policy, tech regulation, 2026",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 447,
+    "topic": "Mac Local AI Agent Stacks Put MCP Tool Permissions Through a Reproducibility Test",
+    "file": "html/article-0447-mac-local-ai-agent-stacks-put-mcp-tool-permissions-through-a-reproducibi-20260901-110309.html",
+    "timestamp": "20260901-110309",
+    "full_timestamp": "2026-09-01T11:03:09-07:00",
+    "summary": "Mac-local agent stacks face an unanswered reproducibility question: the supplied record contains no sources to test MCP permission safety across runtimes, so conclusions must remain provisional.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "2026 macOS local AI agents MCP tool permissions Ollama LM Studio updates",
+    "source_count": 0,
+    "tags": "macOS, local AI, MCP, agent tooling",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

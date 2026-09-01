@@ -3892,5 +3892,17 @@
     "canonical_query": "ai lobbying spending 2026 washington policy",
     "searched_at": "2026-09-01T10:00:57-07:00",
     "topic": "AI Lobbying Spending Surges Past $100M in 2026 Race"
+  },
+  {
+    "query": "2026 macOS local AI agents MCP tool permissions Ollama LM Studio updates",
+    "canonical_query": "2026 macos local ai agents mcp tool permissions ollama lm studio updates",
+    "searched_at": "2026-09-01T11:02:28-07:00",
+    "topic": "Mac Local AI Agent Stacks Put MCP Tool Permissions Through a Reproducibility Test"
+  },
+  {
+    "query": "Mac Local AI Agent Stacks Put MCP Tool Permissions Through a Reproducibility Test analysis developments",
+    "canonical_query": "mac local ai agent stacks put mcp tool permissions through a reproducibility test analysis developments",
+    "searched_at": "2026-09-01T11:02:29-07:00",
+    "topic": "Mac Local AI Agent Stacks Put MCP Tool Permissions Through a Reproducibility Test"
   }
 ]
