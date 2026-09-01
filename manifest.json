@@ -5811,5 +5811,18 @@
     "source_count": 12,
     "tags": "financial reporting,AI governance,auditing,SEC",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 451,
+    "topic": "AI Campaign Voice Calls Put 2026 Fundraising Through Consent and Caller-ID Enforcement Test",
+    "file": "html/article-0451-ai-campaign-voice-calls-put-2026-fundraising-through-consent-and-caller-20260901-150317.html",
+    "timestamp": "20260901-150317",
+    "full_timestamp": "2026-09-01T15:03:17-07:00",
+    "summary": "Synthetic-voice fundraising calls face a dual test: whether campaigns secure meaningful consent and whether caller identification, disclosure, and enforcement mechanisms can keep outreach accountable.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 midterm campaigns AI voice fundraising calls consent caller ID rules",
+    "source_count": 0,
+    "tags": "AI campaigns, fundraising, robocalls, election law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
