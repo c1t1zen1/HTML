@@ -5681,5 +5681,18 @@
     "source_count": 0,
     "tags": "AI misinformation, election integrity, deepfake detection, 2026 elections",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 441,
+    "topic": "NSA's AI Surveillance Pipeline Faces Quantum-Resistant Encryption Test",
+    "file": "html/article-0441-nsa-s-ai-surveillance-pipeline-faces-quantum-resistant-encryption-test-20260901-050143.html",
+    "timestamp": "20260901-050143",
+    "full_timestamp": "2026-09-01T05:01:43-07:00",
+    "summary": "NSA's CNSA 2.0 pushes AI surveillance systems toward quantum-resistant encryption, with deadlines from 2026 to 2035, as intelligence agencies race to protect collected data.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "NSA AI surveillance quantum-resistant encryption 2026",
+    "source_count": 12,
+    "tags": "AI surveillance, quantum computing, NSA, encryption",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
