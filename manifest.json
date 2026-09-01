@@ -5798,5 +5798,18 @@
     "source_count": 0,
     "tags": "AI trading, market regulation, algorithmic execution",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 450,
+    "topic": "Generative AI Earnings Reports Put Audit Trails Through a Regulatory Evidence Test",
+    "file": "html/article-0450-generative-ai-earnings-reports-put-audit-trails-through-a-regulatory-evi-20260901-140337.html",
+    "timestamp": "20260901-140337",
+    "full_timestamp": "2026-09-01T14:03:37-07:00",
+    "summary": "As GenAI enters financial reporting workflows, the decisive audit question is not output quality alone but whether companies can demonstrate provenance, human review, and control operation.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 generative AI financial reporting audit evidence PCAOB SEC earnings",
+    "source_count": 12,
+    "tags": "financial reporting,AI governance,auditing,SEC",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
