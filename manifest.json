@@ -5746,5 +5746,18 @@
     "source_count": 12,
     "tags": "macOS 26, Safari, Private AI, local LLMs",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 446,
+    "topic": "AI Lobbying Spending Surges Past $100M in 2026 Race",
+    "file": "html/article-0446-ai-lobbying-spending-surges-past-100m-in-2026-race-20260901-100144.html",
+    "timestamp": "20260901-100144",
+    "full_timestamp": "2026-09-01T10:01:44-07:00",
+    "summary": "AI companies nearly doubled lobbying spending in 2026, with OpenAI and Anthropic leading a surge past $100 million as federal regulation looms.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI lobbying spending 2026 Washington policy",
+    "source_count": 12,
+    "tags": "AI lobbying, US policy, tech regulation, 2026",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
