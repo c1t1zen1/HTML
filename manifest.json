@@ -5785,5 +5785,18 @@
     "source_count": 12,
     "tags": "Google Home, Gemini, smart homes, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 449,
+    "topic": "Autonomous AI Trading Agents Face Market-Abuse Rules as Order Execution Expands",
+    "file": "html/article-0449-autonomous-ai-trading-agents-face-market-abuse-rules-as-order-execution-20260901-130304.html",
+    "timestamp": "20260901-130304",
+    "full_timestamp": "2026-09-01T13:03:04-07:00",
+    "summary": "Autonomous trading systems may widen accountability gaps as they execute and revise orders, but assessing market-abuse exposure requires verified legal, regulatory, and operational evidence.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 autonomous AI trading agents market abuse regulatory scrutiny order execution",
+    "source_count": 0,
+    "tags": "AI trading, market regulation, algorithmic execution",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
