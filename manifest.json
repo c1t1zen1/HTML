@@ -5707,5 +5707,18 @@
     "source_count": 12,
     "tags": "AI copyright, short-form video, creator economy, content moderation",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 443,
+    "topic": "Texas Deepfake Revenge Porn Law Faces First AI-Generated Evidence Challenges",
+    "file": "html/article-0443-texas-deepfake-revenge-porn-law-faces-first-ai-generated-evidence-challe-20260901-070156.html",
+    "timestamp": "20260901-070156",
+    "full_timestamp": "2026-09-01T07:01:56-07:00",
+    "summary": "Texas's 2025 deepfake revenge porn law faces first court challenges over AI-generated evidence admissibility and consent verification.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "Texas deepfake revenge porn law AI-generated evidence 2026",
+    "source_count": 12,
+    "tags": "deepfake legislation, synthetic media law, Texas AI law, digital forensics",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
