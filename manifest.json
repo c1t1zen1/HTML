@@ -5772,5 +5772,18 @@
     "source_count": 0,
     "tags": "macOS, local AI, MCP, agent tooling",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 448,
+    "topic": "Gemini-Powered Google Home Automation Puts Household AI Permissions Through a Shared-Account Test",
+    "file": "html/article-0448-gemini-powered-google-home-automation-puts-household-ai-permissions-thro-20260901-120333.html",
+    "timestamp": "20260901-120333",
+    "full_timestamp": "2026-09-01T12:03:33-07:00",
+    "summary": "Google’s Gemini-powered Home promises conversational control and automation, but shared homes expose unresolved questions about voice identity, consent boundaries, and conflicting commands.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Google Home Gemini 2026 household AI permissions automation shared accounts",
+    "source_count": 12,
+    "tags": "Google Home, Gemini, smart homes, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
