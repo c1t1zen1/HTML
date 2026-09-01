@@ -5733,5 +5733,18 @@
     "source_count": 12,
     "tags": "LLM, hedge funds, CFTC, model governance",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 445,
+    "topic": "macOS 26 Safari Private AI Puts Local LLMs Through a Cross-Device Privacy Test",
+    "file": "html/article-0445-macos-26-safari-private-ai-puts-local-llms-through-a-cross-device-privac-20260901-090145.html",
+    "timestamp": "20260901-090145",
+    "full_timestamp": "2026-09-01T09:01:45-07:00",
+    "summary": "Apple's macOS 26 Private AI extends Safari on-device intelligence to local LLMs, testing cross-device privacy guarantees for model state and user data.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "macOS 26 Safari Private AI local LLM cross-device sync privacy 2026 latest",
+    "source_count": 12,
+    "tags": "macOS 26, Safari, Private AI, local LLMs",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
