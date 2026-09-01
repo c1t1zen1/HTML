@@ -5720,5 +5720,18 @@
     "source_count": 12,
     "tags": "deepfake legislation, synthetic media law, Texas AI law, digital forensics",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 444,
+    "topic": "LLM-Powered Alpha Signals Face CFTC Model-Governance Scrutiny",
+    "file": "html/article-0444-llm-powered-alpha-signals-face-cftc-model-governance-scrutiny-20260901-080139.html",
+    "timestamp": "20260901-080139",
+    "full_timestamp": "2026-09-01T08:01:39-07:00",
+    "summary": "CFTC model-governance rules expected by 2026 will force hedge funds to document, validate, and audit LLMs generating alpha, testing the compliance readiness of AI-driven trading.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "CFTC AI model governance hedge funds LLM alpha 2026",
+    "source_count": 12,
+    "tags": "LLM, hedge funds, CFTC, model governance",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
