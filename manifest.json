@@ -5642,5 +5642,18 @@
     "source_count": 12,
     "tags": "AI fraud detection, real-time payments, banking security, instant settlement",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 438,
+    "topic": "Apple M4 Ultra Neural Engine Puts LLM Inference Through a Power-Efficiency Test",
+    "file": "html/article-0438-apple-m4-ultra-neural-engine-puts-llm-inference-through-a-power-efficien-20260901-020335.html",
+    "timestamp": "20260901-020335",
+    "full_timestamp": "2026-09-01T02:03:35-07:00",
+    "summary": "Apple's M4 Ultra Neural Engine claims 38 TOPS, but real-world LLM inference depends more on memory bandwidth and sustained power efficiency than raw compute.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M4 Ultra neural engine LLM inference power efficiency 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM Inference, Neural Engine, Power Efficiency",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
