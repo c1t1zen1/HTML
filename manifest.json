@@ -5824,5 +5824,18 @@
     "source_count": 0,
     "tags": "AI campaigns, fundraising, robocalls, election law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 452,
+    "topic": "Courts Test Whether AI-Hallucinated Citations Trigger Lawyer Discipline in 2026",
+    "file": "html/article-0452-courts-test-whether-ai-hallucinated-citations-trigger-lawyer-discipline-20260901-160239.html",
+    "timestamp": "20260901-160239",
+    "full_timestamp": "2026-09-01T16:02:39-07:00",
+    "summary": "Courts are treating AI-generated legal hallucinations as a lawyer-accountability problem, with sanctions, referrals, and stricter duties to verify every authority before filing.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 court sanctions attorneys AI hallucinated citations legal filings bar ethics",
+    "source_count": 12,
+    "tags": "legal ethics,AI hallucinations,law practice,courts",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
