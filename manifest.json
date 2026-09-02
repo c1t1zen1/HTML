@@ -5941,5 +5941,18 @@
     "source_count": 12,
     "tags": "AI deepfakes, election security, political advertising, disinformation",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 461,
+    "topic": "AI Deepfake Audio Detection Tools Face 2026 Election Stress Test",
+    "file": "html/article-0461-ai-deepfake-audio-detection-tools-face-2026-election-stress-test-20260902-030242.html",
+    "timestamp": "20260902-030242",
+    "full_timestamp": "2026-09-02T03:02:42-07:00",
+    "summary": "As 2026 elections approach, real-time AI deepfake audio detection tools face their first major test in identifying synthetic voice manipulation in campaign communications.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "AI deepfake audio detection election 2026 stress test",
+    "source_count": 0,
+    "tags": "AI misinformation, election security, deepfake detection, 2026 elections",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
