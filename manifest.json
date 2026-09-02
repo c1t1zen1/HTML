@@ -5889,5 +5889,18 @@
     "source_count": 0,
     "tags": "Palantir, Project Maven, military AI, oversight",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 457,
+    "topic": "EU AI Act Rules Put Virtual Presenters’ Synthetic Disclosure Duties to the Test",
+    "file": "html/article-0457-eu-ai-act-rules-put-virtual-presenters-synthetic-disclosure-duties-to-th-20260901-220304.html",
+    "timestamp": "20260901-220304",
+    "full_timestamp": "2026-09-01T22:03:04-07:00",
+    "summary": "From 2 August 2026, Article 50 transparency rules will test whether synthetic presenters are clearly disclosed at exposure, forcing broadcasters and brands to operationalize scope, placement, and timing.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "EU AI Act August 2026 transparency rules AI virtual presenters disclosure",
+    "source_count": 12,
+    "tags": "EU AI Act, virtual presenters, AI disclosure",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
