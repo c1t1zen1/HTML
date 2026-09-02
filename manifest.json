@@ -6084,5 +6084,18 @@
     "source_count": 12,
     "tags": "banking fraud, AI regulation, instant payments",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 472,
+    "topic": "AI Legal Filings Put Federal Courts’ New Disclosure Rules Through a Verification Test",
+    "file": "html/article-0472-ai-legal-filings-put-federal-courts-new-disclosure-rules-through-a-verif-20260902-150248.html",
+    "timestamp": "20260902-150248",
+    "full_timestamp": "2026-09-02T15:02:48-07:00",
+    "summary": "With no source evidence supplied, this verification test cannot establish whether federal courts impose AI-filing disclosures or citation checks, leaving procedural adoption unresolved.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 federal courts AI disclosure rules lawyer filings legal citations",
+    "source_count": 0,
+    "tags": "legal AI, courts, compliance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
