@@ -6006,5 +6006,18 @@
     "source_count": 0,
     "tags": "macOS 26.1, Local AI, Privacy Sandbox, App Store Review",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 466,
+    "topic": "AI Video Editors Face SAG-AFTRA Voice Licensing Clampdown in 2026",
+    "file": "html/article-0466-ai-video-editors-face-sag-aftra-voice-licensing-clampdown-in-2026-20260902-080102.html",
+    "timestamp": "20260902-080102",
+    "full_timestamp": "2026-09-02T08:01:02-07:00",
+    "summary": "SAG-AFTRA's 2026 enforcement of voice licensing rights targets AI video editors synthesizing celebrity voices without consent, reshaping post-production legal risks.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "SAG-AFTRA AI voice licensing video editing tools 2026",
+    "source_count": 12,
+    "tags": "AI video editing, SAG-AFTRA, voice licensing, synthetic media",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
