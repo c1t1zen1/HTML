@@ -6019,5 +6019,18 @@
     "source_count": 12,
     "tags": "AI video editing, SAG-AFTRA, voice licensing, synthetic media",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 467,
+    "topic": "AI Crypto Trading Bots Face SEC Market-Making Compliance Test",
+    "file": "html/article-0467-ai-crypto-trading-bots-face-sec-market-making-compliance-test-20260902-090052.html",
+    "timestamp": "20260902-090052",
+    "full_timestamp": "2026-09-02T09:00:52-07:00",
+    "summary": "AI crypto trading bots face SEC scrutiny over potential unregistered market-making, testing compliance frameworks as regulators target algorithmic liquidity provision in digital asset markets.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "SEC AI crypto trading bots market making compliance 2026",
+    "source_count": 0,
+    "tags": "AI trading, crypto regulation, SEC enforcement, market making",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
