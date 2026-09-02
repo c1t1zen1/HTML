@@ -5863,5 +5863,18 @@
     "source_count": 0,
     "tags": "smart homes, energy management, data privacy, demand response",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 455,
+    "topic": "Short-Form AI Video Labels Face a Recommendation-Feed Visibility Test",
+    "file": "html/article-0455-short-form-ai-video-labels-face-a-recommendation-feed-visibility-test-20260901-200229.html",
+    "timestamp": "20260901-200229",
+    "full_timestamp": "2026-09-01T20:02:29-07:00",
+    "summary": "TikTok’s AI labels are entering a recommendation-feed test: platform guidance says users can tune exposure, while supplied evidence does not establish whether disclosure itself changes distribution.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI-generated video labels recommendation feed visibility 2026",
+    "source_count": 12,
+    "tags": "TikTok, content labeling, recommendation systems",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
