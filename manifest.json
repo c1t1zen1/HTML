@@ -5993,5 +5993,18 @@
     "source_count": 12,
     "tags": "AI microtargeting, voter privacy, 2026 election, campaign regulation",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 465,
+    "topic": "macOS 26.1 Local AI Privacy Sandbox Faces App Store Review Scrutiny",
+    "file": "html/article-0465-macos-26-1-local-ai-privacy-sandbox-faces-app-store-review-scrutiny-20260902-070101.html",
+    "timestamp": "20260902-070101",
+    "full_timestamp": "2026-09-02T07:01:01-07:00",
+    "summary": "macOS 26.1 tightens on-device AI privacy controls while developers report new App Store review friction around local model distribution and entitlements.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "macOS 26.1 Local AI privacy sandbox App Store review 2026 latest",
+    "source_count": 0,
+    "tags": "macOS 26.1, Local AI, Privacy Sandbox, App Store Review",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
