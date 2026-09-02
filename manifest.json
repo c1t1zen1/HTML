@@ -5954,5 +5954,18 @@
     "source_count": 0,
     "tags": "AI misinformation, election security, deepfake detection, 2026 elections",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 462,
+    "topic": "AI Therapy Chatbots Face HIPAA Audit Scrutiny in 2026",
+    "file": "html/article-0462-ai-therapy-chatbots-face-hipaa-audit-scrutiny-in-2026-20260902-040113.html",
+    "timestamp": "20260902-040113",
+    "full_timestamp": "2026-09-02T04:01:13-07:00",
+    "summary": "U.S. regulators are shifting from teen-safety lawsuits to formal HIPAA audits of AI therapy chatbot companies, expanding oversight to include automated systems handling protected health information.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "AI mental health chatbots HIPAA compliance audit 2026",
+    "source_count": 12,
+    "tags": "AI therapy, HIPAA, mental health, healthcare regulation",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
