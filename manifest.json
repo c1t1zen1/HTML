@@ -6032,5 +6032,18 @@
     "source_count": 0,
     "tags": "AI trading, crypto regulation, SEC enforcement, market making",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 468,
+    "topic": "Apple M-Series Silicon Pushes On-Device LLM Inference to Edge in 2026",
+    "file": "html/article-0468-apple-m-series-silicon-pushes-on-device-llm-inference-to-edge-in-2026-20260902-100141.html",
+    "timestamp": "20260902-100141",
+    "full_timestamp": "2026-09-02T10:01:41-07:00",
+    "summary": "Apple's M-series silicon enables production-scale on-device LLM inference by 2026, shifting workflows from cloud-only models while raising new regulatory and technical questions.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M-series silicon on-device LLM inference 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM Inference, Edge AI",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
