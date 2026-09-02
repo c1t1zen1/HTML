@@ -6045,5 +6045,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, LLM Inference, Edge AI",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 469,
+    "topic": "Autonomous Coding Agents Put Open-Source Pull Requests Through Provenance Test",
+    "file": "html/article-0469-autonomous-coding-agents-put-open-source-pull-requests-through-provenanc-20260902-120248.html",
+    "timestamp": "20260902-120248",
+    "full_timestamp": "2026-09-02T12:02:48-07:00",
+    "summary": "Autonomous coding agents are scaling open-source contributions, but merge workflows, incomplete disclosure, and uneven attribution make provenance a governance test, not merely a detection problem.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 AI coding agents signed commits open source pull requests provenance",
+    "source_count": 12,
+    "tags": "coding agents,open source,software supply chain,provenance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

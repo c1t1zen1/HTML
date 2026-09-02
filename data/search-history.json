@@ -4078,5 +4078,23 @@
     "canonical_query": "apple m series silicon on device llm inference 2026",
     "searched_at": "2026-09-02T10:00:30-07:00",
     "topic": "Apple M-Series Silicon Pushes On-Device LLM Inference to Edge in 2026"
+  },
+  {
+    "query": "2026 Apple Foundation Models API Xcode coding tools production developer adoption",
+    "canonical_query": "2026 apple foundation models api xcode coding tools production developer adoption",
+    "searched_at": "2026-09-02T11:02:15-07:00",
+    "topic": "Apple Foundation Models APIs Face a Third-Party Coding Tool Adoption Test in 2026"
+  },
+  {
+    "query": "Apple Foundation Models APIs Face a Third-Party Coding Tool Adoption Test in 2026 analysis developments",
+    "canonical_query": "apple foundation models apis face a third party coding tool adoption test in 2026 analysis developments",
+    "searched_at": "2026-09-02T11:02:16-07:00",
+    "topic": "Apple Foundation Models APIs Face a Third-Party Coding Tool Adoption Test in 2026"
+  },
+  {
+    "query": "2026 AI coding agents signed commits open source pull requests provenance",
+    "canonical_query": "2026 ai coding agents signed commits open source pull requests provenance",
+    "searched_at": "2026-09-02T12:01:48-07:00",
+    "topic": "Autonomous Coding Agents Put Open-Source Pull Requests Through Provenance Test"
   }
 ]
