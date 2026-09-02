@@ -5876,5 +5876,18 @@
     "source_count": 12,
     "tags": "TikTok, content labeling, recommendation systems",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 456,
+    "topic": "Palantir’s Maven Expansion Puts AI-Generated Targeting Through a Human-Authorization Test",
+    "file": "html/article-0456-palantirs-maven-expansion-puts-ai-generated-targeting-through-a-human-au-20260901-210220.html",
+    "timestamp": "20260901-210220",
+    "full_timestamp": "2026-09-01T21:02:20-07:00",
+    "summary": "With no supplied sources, the central question remains unresolved: whether Palantir’s Maven expansion would require documented human authorization, traceable accountability, and review of AI-assisted targeting decisions.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "Palantir Maven Smart System 2026 human review intelligence targeting oversight",
+    "source_count": 0,
+    "tags": "Palantir, Project Maven, military AI, oversight",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
