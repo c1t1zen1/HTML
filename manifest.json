@@ -6071,5 +6071,18 @@
     "source_count": 0,
     "tags": "MLX, quantization, Apple Silicon, inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 471,
+    "topic": "AI Scam Detection Meets Mandatory APP Reimbursement as UK Banks Tune Payment Friction",
+    "file": "html/article-0471-ai-scam-detection-meets-mandatory-app-reimbursement-as-uk-banks-tune-pay-20260902-140407.html",
+    "timestamp": "20260902-140407",
+    "full_timestamp": "2026-09-02T14:04:07-07:00",
+    "summary": "Mandatory APP reimbursement is pushing UK banks toward faster AI scam intervention—but every warning, pause, or challenge risks adding friction, false positives, and customer resistance.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 UK banks AI scam detection APP reimbursement instant payments",
+    "source_count": 12,
+    "tags": "banking fraud, AI regulation, instant payments",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
