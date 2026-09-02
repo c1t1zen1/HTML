@@ -5915,5 +5915,18 @@
     "source_count": 0,
     "tags": "AI policy, lobbying, federal preemption",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 459,
+    "topic": "macOS 26 Local AI Model Context Protocol Sandbox Escape Test",
+    "file": "html/article-0459-macos-26-local-ai-model-context-protocol-sandbox-escape-test-20260902-010145.html",
+    "timestamp": "20260902-010145",
+    "full_timestamp": "2026-09-02T01:01:45-07:00",
+    "summary": "macOS 26's Model Context Protocol sandbox escape vulnerability exposes local AI agents to permission breaches, creating a critical gap in Apple's local AI security stack.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS 26 MCP sandbox escape local AI tool security vulnerability 2026",
+    "source_count": 0,
+    "tags": "macOS 26, MCP, sandbox escape, local AI security",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
