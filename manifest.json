@@ -5928,5 +5928,18 @@
     "source_count": 0,
     "tags": "macOS 26, MCP, sandbox escape, local AI security",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 460,
+    "topic": "AI Video Deepfakes Target 2026 Election Ads in New Disinformation Wave",
+    "file": "html/article-0460-ai-video-deepfakes-target-2026-election-ads-in-new-disinformation-wave-20260902-020102.html",
+    "timestamp": "20260902-020102",
+    "full_timestamp": "2026-09-02T02:01:02-07:00",
+    "summary": "AI-generated deepfake video ads are surfacing in 2026 election campaigns, raising alarms about disinformation, detection limits, and regulatory gaps.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI generated deepfake video election advertising 2026 disinformation",
+    "source_count": 12,
+    "tags": "AI deepfakes, election security, political advertising, disinformation",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
