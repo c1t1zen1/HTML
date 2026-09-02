@@ -5902,5 +5902,18 @@
     "source_count": 12,
     "tags": "EU AI Act, virtual presenters, AI disclosure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 458,
+    "topic": "AI Lobbyists Push Federal Preemption as State Rules Create a 2026 Compliance Fault Line",
+    "file": "html/article-0458-ai-lobbyists-push-federal-preemption-as-state-rules-create-a-2026-compli-20260901-230224.html",
+    "timestamp": "20260901-230224",
+    "full_timestamp": "2026-09-01T23:02:24-07:00",
+    "summary": "With no returned sources, the preemption fight cannot be verified; this article maps the unanswered questions rather than asserting a 2026 compliance fault line.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "2026 AI lobbying federal preemption state laws Congress August",
+    "source_count": 0,
+    "tags": "AI policy, lobbying, federal preemption",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
