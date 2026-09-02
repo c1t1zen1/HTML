@@ -6097,5 +6097,18 @@
     "source_count": 0,
     "tags": "legal AI, courts, compliance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 473,
+    "topic": "TAKE IT DOWN Act’s 48-Hour Rule Puts Platforms’ AI Deepfake Removal Systems to the Test",
+    "file": "html/article-0473-take-it-down-acts-48-hour-rule-puts-platforms-ai-deepfake-removal-system-20260902-160345.html",
+    "timestamp": "20260902-160345",
+    "full_timestamp": "2026-09-02T16:03:45-07:00",
+    "summary": "The TAKE IT DOWN Act turns deepfake compliance into an operational race: covered platforms must receive valid NCII reports, remove qualifying material, and address known identical copies within 48 hours.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "TAKE IT DOWN Act May 2026 AI deepfake removal deadline platforms",
+    "source_count": 12,
+    "tags": "TAKE IT DOWN Act, platform moderation, intimate-image abuse, AI law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
