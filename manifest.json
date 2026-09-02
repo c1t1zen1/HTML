@@ -5837,5 +5837,18 @@
     "source_count": 12,
     "tags": "legal ethics,AI hallucinations,law practice,courts",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 453,
+    "topic": "AI Therapy Chatbots Face Teen-Safety Lawsuits as Mental-Health Duty of Care Hardens",
+    "file": "html/article-0453-ai-therapy-chatbots-face-teen-safety-lawsuits-as-mental-health-duty-of-c-20260901-170218.html",
+    "timestamp": "20260901-170218",
+    "full_timestamp": "2026-09-01T17:02:18-07:00",
+    "summary": "With no source evidence supplied, claims about teen-safety lawsuits and a hardening mental-health duty of care remain unverified, not established findings.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "2026 AI therapy chatbot teen suicide lawsuits duty of care",
+    "source_count": 0,
+    "tags": "AI therapy,chatbot safety,mental health law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
