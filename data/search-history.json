@@ -4096,5 +4096,17 @@
     "canonical_query": "2026 ai coding agents signed commits open source pull requests provenance",
     "searched_at": "2026-09-02T12:01:48-07:00",
     "topic": "Autonomous Coding Agents Put Open-Source Pull Requests Through Provenance Test"
+  },
+  {
+    "query": "MLX quantization release Mac LLM benchmarks real workloads August 2026",
+    "canonical_query": "mlx quantization release mac llm benchmarks real workloads august 2026",
+    "searched_at": "2026-09-02T13:02:01-07:00",
+    "topic": "New MLX Quantization Releases Test Whether Mac LLM Speedups Survive Real Workloads"
+  },
+  {
+    "query": "New MLX Quantization Releases Test Whether Mac LLM Speedups Survive Real Workloads analysis developments",
+    "canonical_query": "new mlx quantization releases test whether mac llm speedups survive real workloads analysis developments",
+    "searched_at": "2026-09-02T13:02:03-07:00",
+    "topic": "New MLX Quantization Releases Test Whether Mac LLM Speedups Survive Real Workloads"
   }
 ]

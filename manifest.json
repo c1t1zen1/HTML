@@ -6058,5 +6058,18 @@
     "source_count": 12,
     "tags": "coding agents,open source,software supply chain,provenance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 470,
+    "topic": "New MLX Quantization Releases Test Whether Mac LLM Speedups Survive Real Workloads",
+    "file": "html/article-0470-new-mlx-quantization-releases-test-whether-mac-llm-speedups-survive-real-20260902-130247.html",
+    "timestamp": "20260902-130247",
+    "full_timestamp": "2026-09-02T13:02:47-07:00",
+    "summary": "Recent MLX quantization changes cannot yet be judged against sustained, context-heavy Mac inference because the supplied research packet contains no source evidence beyond the assignment itself.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX quantization release Mac LLM benchmarks real workloads August 2026",
+    "source_count": 0,
+    "tags": "MLX, quantization, Apple Silicon, inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
