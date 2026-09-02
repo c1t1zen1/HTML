@@ -5850,5 +5850,18 @@
     "source_count": 0,
     "tags": "AI therapy,chatbot safety,mental health law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 454,
+    "topic": "AI Smart Homes Put Utility Data Sharing Through a Demand-Response Governance Test",
+    "file": "html/article-0454-ai-smart-homes-put-utility-data-sharing-through-a-demand-response-govern-20260901-190211.html",
+    "timestamp": "20260901-190211",
+    "full_timestamp": "2026-09-01T19:02:11-07:00",
+    "summary": "With no source evidence supplied, this analysis cannot verify how AI-managed household devices share utility data, leaving governance questions open for documented research.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "2026 AI smart home energy management utility data sharing demand response",
+    "source_count": 0,
+    "tags": "smart homes, energy management, data privacy, demand response",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
