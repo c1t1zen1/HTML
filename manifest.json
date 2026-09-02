@@ -5967,5 +5967,18 @@
     "source_count": 12,
     "tags": "AI therapy, HIPAA, mental health, healthcare regulation",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 463,
+    "topic": "Hedge Funds Deploy LLM-Powered Sentiment Engines for Real-Time Earnings Calls",
+    "file": "html/article-0463-hedge-funds-deploy-llm-powered-sentiment-engines-for-real-time-earnings-20260902-050108.html",
+    "timestamp": "20260902-050108",
+    "full_timestamp": "2026-09-02T05:01:08-07:00",
+    "summary": "Hedge funds are deploying LLM-powered sentiment engines to parse real-time earnings calls, aiming to extract trading signals faster than traditional methods.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "LLM sentiment analysis hedge funds earnings calls 2026",
+    "source_count": 0,
+    "tags": "LLM, hedge funds, sentiment analysis, trading",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
