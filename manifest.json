@@ -6175,5 +6175,18 @@
     "source_count": 0,
     "tags": "smart homes, cybersecurity, EU regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 479,
+    "topic": "AI Crypto Trading Bots Hit Exchange API Limits as Autonomous Execution Claims Meet Real-World Latency",
+    "file": "html/article-0479-ai-crypto-trading-bots-hit-exchange-api-limits-as-autonomous-execution-c-20260902-230328.html",
+    "timestamp": "20260902-230328",
+    "full_timestamp": "2026-09-02T23:03:28-07:00",
+    "summary": "With no supplied sources, this investigation cannot yet test whether exchange throttling, API reliability, or execution latency materially weaken AI crypto trading bots’ autonomous performance claims.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "crypto exchanges autonomous trading agents API limits latency 2026",
+    "source_count": 0,
+    "tags": "algorithmic trading, crypto exchanges, APIs, performance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
