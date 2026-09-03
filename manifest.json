@@ -6369,5 +6369,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, LLM Inference, M4 Ultra",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 481,
+    "topic": "Mac Quantized LLMs Hit Long-Context Memory Walls as Local Apps Scale",
+    "file": "html/article-0481-mac-quantized-llms-hit-long-context-memory-walls-as-local-apps-scale-20260903-040346.html",
+    "timestamp": "20260903-040346",
+    "full_timestamp": "2026-09-03T04:03:46-07:00",
+    "summary": "On Apple silicon, larger context windows can turn a model that technically fits into a memory-pressure problem, with KV cache, workspace, compression, and swap deciding usability.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "2026 Mac quantized LLM long context memory pressure swap performance",
+    "source_count": 12,
+    "tags": "quantization, unified memory, long context",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
