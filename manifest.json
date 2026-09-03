@@ -6408,5 +6408,18 @@
     "source_count": 12,
     "tags": "financial reporting,AI governance,SOX compliance,audit",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 484,
+    "topic": "U.S. Spy Agencies’ AI Data-Sharing Push Faces Classified-Information Auditability Test",
+    "file": "html/article-0484-u-s-spy-agencies-ai-data-sharing-push-faces-classified-information-audit-20260903-110317.html",
+    "timestamp": "20260903-110317",
+    "full_timestamp": "2026-09-03T11:03:17-07:00",
+    "summary": "As U.S. agencies expand classified AI use, new evaluation and information-handling rules will test whether intelligence can remain attributable, compartmented, and contestable across security boundaries.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 U.S. intelligence AI data sharing classified information auditability",
+    "source_count": 12,
+    "tags": "intelligence, surveillance, classified data, AI governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
