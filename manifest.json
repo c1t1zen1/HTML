@@ -6110,5 +6110,18 @@
     "source_count": 12,
     "tags": "TAKE IT DOWN Act, platform moderation, intimate-image abuse, AI law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 474,
+    "topic": "AI Financial Filing Agents Make XBRL Tagging the Next Reporting-Control Fault Line",
+    "file": "html/article-0474-ai-financial-filing-agents-make-xbrl-tagging-the-next-reporting-control-20260902-170336.html",
+    "timestamp": "20260902-170336",
+    "full_timestamp": "2026-09-02T17:03:36-07:00",
+    "summary": "With no supplied sources, this article can frame the accountability question around AI-selected XBRL tags without asserting evidence about controls, adoption, errors, or regulatory consequences.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 XBRL automation AI filing agents taxonomy errors corporate disclosures",
+    "source_count": 0,
+    "tags": "XBRL, financial filings, accounting AI, disclosure controls",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
