@@ -6395,5 +6395,18 @@
     "source_count": 12,
     "tags": "AI therapy, mental health, chatbot safety, California regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 483,
+    "topic": "AI Financial Reporting Copilots Face SOX Audit-Trail Test as Disclosure Automation Expands",
+    "file": "html/article-0483-ai-financial-reporting-copilots-face-sox-audit-trail-test-as-disclosure-20260903-090349.html",
+    "timestamp": "20260903-090349",
+    "full_timestamp": "2026-09-03T09:03:49-07:00",
+    "summary": "As disclosure automation expands, the control question moves beyond XBRL accuracy: can finance teams reconstruct AI-influenced decisions, human review, assertions, and evidence under scrutiny?",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 SEC SOX AI-generated financial disclosures audit trail human oversight",
+    "source_count": 12,
+    "tags": "financial reporting,AI governance,SOX compliance,audit",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
