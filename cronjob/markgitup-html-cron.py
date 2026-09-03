@@ -3,12 +3,13 @@
 
 Pipeline:
 1. Pick one of the 24 durable topic ideas.
-2. Discover the active local model, then give it one long inference window for a fresh, news-focused angle and query.
-3. If local inference fails or times out, retry the same request through GPT 5.6 Codex Luna.
-4. Run several SearXNG searches and deduplicate the evidence.
-5. Use the same local-then-Codex chain for structured article synthesis.
-6. Render safe, deterministic HTML from that structured response.
-7. Reset-free append to manifest, regenerate the portal, and push the portal repo.
+2. Discover the local model and select a model-aware payload.
+3. Wait up to 20 minutes for local inference; stream DeepSeek V4 progress and write a status sidecar.
+4. If local inference fails or times out, retry the same request through GPT 5.6 Luna.
+5. Run several SearXNG searches and deduplicate the evidence. If fewer than two source URLs are found, discard the angle and select another topic family.
+6. Use the same local-then-Codex chain for structured article synthesis.
+7. Render safe, deterministic HTML from that structured response.
+8. Reset-free append to manifest, regenerate the portal, and push the portal repo.
 
 If both inference paths fail, the run aborts before writing or publishing anything.
 The LLM never receives permission to emit HTML, JavaScript, or executable content.
@@ -26,6 +27,7 @@ import re
 import shutil
 import subprocess
 import sys
+import threading
 import time
 import unicodedata
 from dataclasses import dataclass
@@ -74,15 +76,32 @@ AI_API_URL = os.getenv(
 AI_MODEL = os.getenv("MARKGITUP_MODEL", "local-llm")
 CODEX_MODEL = os.getenv("MARKGITUP_CODEX_MODEL", "gpt-5.6-luna")
 CODEX_PROVIDER = os.getenv("MARKGITUP_CODEX_PROVIDER", "openai-codex")
-LOCAL_INFERENCE_BUDGET_SECONDS = 30 * 60
-LOCAL_INFERENCE_ATTEMPTS = 1
+LOCAL_DISCOVERY_ATTEMPTS = 2
+LOCAL_DISCOVERY_TIMEOUT_SECONDS = 15
+LOCAL_DISCOVERY_RETRY_DELAY_SECONDS = 45
+# Large local models may need many minutes for a full JSON article response.
+LOCAL_INFERENCE_BUDGET_SECONDS = 60 * 60
+LOCAL_INFERENCE_ATTEMPTS = 2
+LOCAL_INFERENCE_TIMEOUT_SECONDS = 20 * 60
+LOCAL_INFERENCE_RETRY_DELAY_SECONDS = 30
+LOCAL_STATUS_HEARTBEAT_SECONDS = 30
 PORTAL_DIR = Path(os.getenv("MARKGITUP_PORTAL_DIR", "/home/pi/Documents/HTML-Portal"))
+LOCAL_STATUS_PATH = Path(
+    os.getenv(
+        "MARKGITUP_STATUS_PATH",
+        "/home/pi/.hermes/cron/markgitup-local-inference-status.json",
+    )
+)
 HTML_DIR = PORTAL_DIR / "html"
 MANIFEST_PATH = PORTAL_DIR / "manifest.json"
 TOPIC_CYCLE_PATH = PORTAL_DIR / "data" / "topic-cycle.json"
 SEARCH_HISTORY_PATH = PORTAL_DIR / "data" / "search-history.json"
 COOLDOWN_DAYS = int(os.getenv("MARKGITUP_COOLDOWN_DAYS", "3"))
 MAX_ANGLE_RETRIES = int(os.getenv("MARKGITUP_ANGLE_RETRIES", "3"))
+# A post needs more than one independently returned source URL. Low/zero-source
+# searches are discarded and the run selects another unused topic family.
+MINIMUM_SOURCES = max(2, int(os.getenv("MARKGITUP_MINIMUM_SOURCES", "2")))
+MAX_SOURCE_RETRIES = max(1, int(os.getenv("MARKGITUP_SOURCE_RETRIES", "6")))
 REPEAT_STOPWORDS = {
     "latest", "news", "developments", "analysis", "the", "and", "for", "of", "in",
     "on", "to", "with", "a", "an", "use", "using", "new", "update",
@@ -128,17 +147,43 @@ def parse_model_ids(response_data: dict[str, Any]) -> list[str]:
     return list(dict.fromkeys(model_ids))
 
 
+def is_deepseek_v4_model(model_id: str) -> bool:
+    """Return whether a discovered model uses DeepSeek V4 controls."""
+    normalized = clean_text(model_id, 200).lower()
+    return normalized == "deepseek-v4" or normalized.startswith("deepseek-v4-")
+
+
 def local_chat_payload(
     messages: list[dict[str, str]], max_tokens: int, model_id: str
 ) -> dict[str, Any]:
-    """Build a local request using the model ID discovered from /v1/models."""
-    return {
+    """Build a model-compatible local request.
+
+    Legacy local models retain the llama.cpp/Nemotron request controls. DeepSeek
+    V4 gets its native thinking-disable control and streaming so long-running
+    reasoning remains observable until completion.
+    """
+    payload: dict[str, Any] = {
         "model": model_id,
         "messages": messages,
-        "temperature": 0.45,
         "max_tokens": max_tokens,
-        "chat_template_kwargs": {"enable_thinking": False},
     }
+    if is_deepseek_v4_model(model_id):
+        payload.update(
+            {
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "thinking": {"type": "disabled"},
+                "stream": True,
+            }
+        )
+    else:
+        payload.update(
+            {
+                "temperature": 0.45,
+                "chat_template_kwargs": {"enable_thinking": False},
+            }
+        )
+    return payload
 
 
 def local_timeout_seconds(now: float, deadline: float) -> int:
@@ -146,30 +191,45 @@ def local_timeout_seconds(now: float, deadline: float) -> int:
     return max(1, int(deadline - now))
 
 
-def discover_local_model() -> str:
-    """Discover the active local model ID before any research inference."""
+def discover_local_model() -> str | None:
+    """Discover the local model, returning ``None`` after two failed probes."""
     models_url = AI_API_URL.rsplit("/chat/completions", 1)[0] + "/models"
-    request = Request(models_url, headers={"Accept": "application/json"})
-    try:
-        with urlopen(request, timeout=30) as response:
-            response_data = json.loads(response.read().decode("utf-8"))
-        model_ids = parse_model_ids(response_data)
-    except Exception as exc:
-        raise MarkgitupError(f"local model discovery failed at {models_url}: {exc}") from exc
+    for attempt in range(1, LOCAL_DISCOVERY_ATTEMPTS + 1):
+        request = Request(models_url, headers={"Accept": "application/json"})
+        try:
+            with urlopen(request, timeout=LOCAL_DISCOVERY_TIMEOUT_SECONDS) as response:
+                response_data = json.loads(response.read().decode("utf-8"))
+            model_ids = parse_model_ids(response_data)
+        except Exception as exc:
+            print(
+                f"local model discovery attempt {attempt}/{LOCAL_DISCOVERY_ATTEMPTS} failed at "
+                f"{models_url}: {exc}",
+                file=sys.stderr,
+            )
+            if attempt < LOCAL_DISCOVERY_ATTEMPTS:
+                time.sleep(LOCAL_DISCOVERY_RETRY_DELAY_SECONDS)
+            continue
 
-    configured = os.getenv("MARKGITUP_MODEL", "").strip()
-    if configured and configured != "local-llm" and configured in model_ids:
-        selected = configured
-    elif len(model_ids) == 1:
-        selected = model_ids[0]
-    else:
-        selected = sorted(model_ids)[0]
-        print(
-            f"multiple local models advertised; selecting {selected!r} deterministically",
-            file=sys.stderr,
-        )
-    print(f"Discovered local model: {selected}")
-    return selected
+        configured = os.getenv("MARKGITUP_MODEL", "").strip()
+        if configured and configured != "local-llm" and configured in model_ids:
+            selected = configured
+        elif len(model_ids) == 1:
+            selected = model_ids[0]
+        else:
+            selected = sorted(model_ids)[0]
+            print(
+                f"multiple local models advertised; selecting {selected!r} deterministically",
+                file=sys.stderr,
+            )
+        print(f"Discovered local model: {selected}")
+        return selected
+
+    print(
+        f"local model unavailable after {LOCAL_DISCOVERY_ATTEMPTS} discovery attempts; "
+        "starting Codex fallback",
+        file=sys.stderr,
+    )
+    return None
 
 
 def model_names_text(model_names: set[str]) -> str:
@@ -190,6 +250,24 @@ def now_local() -> datetime:
 def clean_text(value: Any, limit: int = 500) -> str:
     text = re.sub(r"\s+", " ", str(value or "")).strip()
     return text[:limit].rstrip()
+
+
+def has_minimum_sources(results: list[dict[str, Any]]) -> bool:
+    """Return whether search returned the minimum number of source records."""
+    return len(results) >= MINIMUM_SOURCES
+
+
+def manifest_source_count(entry: dict[str, Any]) -> int:
+    """Read a manifest source count conservatively for portal filtering."""
+    try:
+        return int(entry.get("source_count", 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def is_publishable_manifest_entry(entry: dict[str, Any]) -> bool:
+    """Keep archived or under-sourced records out of the public index."""
+    return not entry.get("archived") and manifest_source_count(entry) >= MINIMUM_SOURCES
 
 
 def slugify(value: str, limit: int = 72) -> str:
@@ -262,53 +340,247 @@ def codex_chat(messages: list[dict[str, str]], max_tokens: int, label: str) -> s
         raise MarkgitupError(f"Codex request failed: {exc}") from exc
 
 
+def write_local_status(
+    *,
+    state: str,
+    label: str,
+    model_id: str,
+    started_monotonic: float,
+    stats: dict[str, int],
+    error: str | None = None,
+) -> None:
+    """Persist inspectable local-inference state without credentials or prompts."""
+    payload = {
+        "state": state,
+        "label": label,
+        "model": model_id,
+        "pid": os.getpid(),
+        "updated_at": now_local().isoformat(timespec="seconds"),
+        "elapsed_seconds": round(max(0.0, time.monotonic() - started_monotonic), 1),
+        "content_chars": stats.get("content_chars", 0),
+        "reasoning_chars": stats.get("reasoning_chars", 0),
+    }
+    if error:
+        payload["error"] = clean_text(error, 500)
+    try:
+        atomic_write(LOCAL_STATUS_PATH, json.dumps(payload, indent=2) + "\n")
+    except OSError:
+        # Status visibility must never break the publication pipeline.
+        pass
+
+
+def local_status_heartbeat(
+    stop: threading.Event,
+    *,
+    label: str,
+    model_id: str,
+    started_monotonic: float,
+    stats: dict[str, int],
+) -> None:
+    """Report long-running local work while the HTTP response is still open."""
+    while not stop.wait(LOCAL_STATUS_HEARTBEAT_SECONDS):
+        elapsed = round(max(0.0, time.monotonic() - started_monotonic), 1)
+        write_local_status(
+            state="running",
+            label=label,
+            model_id=model_id,
+            started_monotonic=started_monotonic,
+            stats=stats,
+        )
+        print(
+            f"{label}: local model {model_id} still running after {elapsed:.0f}s "
+            f"(content_chars={stats.get('content_chars', 0)}, "
+            f"reasoning_chars={stats.get('reasoning_chars', 0)})",
+            flush=True,
+        )
+
+
+def read_streaming_completion(response: Any, stats: dict[str, int]) -> dict[str, Any]:
+    """Collect an OpenAI SSE completion, including any reasoning deltas."""
+    content_parts: list[str] = []
+    reasoning_parts: list[str] = []
+    model_name = ""
+    non_sse_lines: list[str] = []
+    saw_sse = False
+    for raw_line in response:
+        line = (
+            raw_line.decode("utf-8", errors="replace")
+            if isinstance(raw_line, bytes)
+            else str(raw_line)
+        )
+        line = line.strip()
+        if not line:
+            continue
+        if not line.startswith("data:"):
+            non_sse_lines.append(line)
+            continue
+        payload_text = line[5:].strip()
+        if payload_text == "[DONE]":
+            break
+        try:
+            chunk = json.loads(payload_text)
+        except json.JSONDecodeError:
+            continue
+        saw_sse = True
+        model_name = clean_text(chunk.get("model"), 200) or model_name
+        for choice in chunk.get("choices") or []:
+            if not isinstance(choice, dict):
+                continue
+            delta = choice.get("delta") or {}
+            if not isinstance(delta, dict):
+                continue
+            content = delta.get("content")
+            reasoning = (
+                delta.get("reasoning_content")
+                or delta.get("reasoning")
+                or delta.get("thinking")
+            )
+            if content:
+                content_parts.append(str(content))
+                stats["content_chars"] = stats.get("content_chars", 0) + len(str(content))
+            if reasoning:
+                reasoning_parts.append(str(reasoning))
+                stats["reasoning_chars"] = stats.get("reasoning_chars", 0) + len(str(reasoning))
+
+    if not saw_sse and non_sse_lines:
+        try:
+            return json.loads("\n".join(non_sse_lines))
+        except json.JSONDecodeError:
+            pass
+    return {
+        "model": model_name,
+        "choices": [
+            {
+                "message": {
+                    "content": "".join(content_parts),
+                    "reasoning_content": "".join(reasoning_parts),
+                }
+            }
+        ],
+    }
+
+
+def is_timeout_error(exc: Exception) -> bool:
+    """Identify socket/request timeouts, including wrapped urllib errors."""
+    if isinstance(exc, TimeoutError):
+        return True
+    reason = getattr(exc, "reason", None)
+    if isinstance(reason, TimeoutError):
+        return True
+    return "timed out" in str(exc).lower() or "timeout" in str(exc).lower()
+
+
 def ai_chat(
     messages: list[dict[str, str]],
     max_tokens: int,
     label: str,
-    local_model_id: str,
+    local_model_id: str | None,
     local_deadline: float,
     expected: str | None = None,
 ) -> tuple[AIResponse, Any]:
-    """Try one local inference window, then one GPT 5.6 Codex fallback.
+    """Wait for local inference, then use one GPT 5.6 Luna fallback.
 
-    Returns (response, parsed_json). The local path is accepted only when its
-    content parses as the expected JSON shape. A reasoning-only or non-JSON
-    response is treated as a failed local attempt so the Codex fallback runs;
-    otherwise a reasoning model's narration would abort the whole run.
+    Local generation gets a long bounded wait. Transport failures may retry,
+    but a generation timeout is not retried immediately because that would
+    start another long inference and delay the fallback unnecessarily.
     """
-    payload = local_chat_payload(messages, max_tokens, local_model_id)
-    request_data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-    headers = {"Content-Type": "application/json", "Accept": "application/json"}
     last_error: Exception | None = None
-    for attempt in range(1, LOCAL_INFERENCE_ATTEMPTS + 1):
-        try:
-            request = Request(AI_API_URL, data=request_data, headers=headers, method="POST")
-            with urlopen(
-                request,
-                timeout=local_timeout_seconds(time.monotonic(), local_deadline),
-            ) as response:
-                response_data = json.loads(response.read().decode("utf-8"))
-            choice = (response_data.get("choices") or [{}])[0]
-            message = choice.get("message") or {}
-            content_parts = [message.get("content"), message.get("reasoning_content")]
-            content = "\n".join(str(part) for part in content_parts if part)
-            if not content.strip():
-                raise MarkgitupError("empty model response")
-            print(f"{label}: model response received on attempt {attempt}")
-            response_model = clean_text(response_data.get("model"), 200) or local_model_id
+    last_stats: dict[str, int] = {"content_chars": 0, "reasoning_chars": 0}
+    last_started = time.monotonic()
+    if local_model_id:
+        payload = local_chat_payload(messages, max_tokens, local_model_id)
+        request_data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        headers = {"Content-Type": "application/json", "Accept": "application/json"}
+        for attempt in range(1, LOCAL_INFERENCE_ATTEMPTS + 1):
+            started = time.monotonic()
+            last_started = started
+            stats: dict[str, int] = {"content_chars": 0, "reasoning_chars": 0}
+            last_stats = stats
+            remaining = local_timeout_seconds(time.monotonic(), local_deadline)
+            timeout = min(remaining, LOCAL_INFERENCE_TIMEOUT_SECONDS)
+            stop = threading.Event()
+            heartbeat = threading.Thread(
+                target=local_status_heartbeat,
+                args=(stop,),
+                kwargs={
+                    "label": label,
+                    "model_id": local_model_id,
+                    "started_monotonic": started,
+                    "stats": stats,
+                },
+                daemon=True,
+            )
+            write_local_status(
+                state="running",
+                label=label,
+                model_id=local_model_id,
+                started_monotonic=started,
+                stats=stats,
+            )
+            print(
+                f"{label}: local inference started with {local_model_id}; "
+                f"waiting up to {timeout}s before fallback",
+                flush=True,
+            )
+            heartbeat.start()
             try:
+                request = Request(AI_API_URL, data=request_data, headers=headers, method="POST")
+                with urlopen(request, timeout=timeout) as response:
+                    if is_deepseek_v4_model(local_model_id):
+                        response_data = read_streaming_completion(response, stats)
+                    else:
+                        response_data = json.loads(response.read().decode("utf-8"))
+                choice = (response_data.get("choices") or [{}])[0]
+                message = choice.get("message") or {}
+                content_parts = [message.get("content"), message.get("reasoning_content")]
+                content = "\n".join(str(part) for part in content_parts if part)
+                if not content.strip():
+                    raise MarkgitupError("empty model response")
+                response_model = clean_text(response_data.get("model"), 200) or local_model_id
                 data = json_from_response(content.strip(), expected)
-            except MarkgitupError as parse_err:
-                # Reasoning-only / non-JSON output is not usable; route to Codex.
-                last_error = parse_err
-                print(f"{label}: local response not parseable JSON; trying Codex fallback", file=sys.stderr)
+                write_local_status(
+                    state="completed",
+                    label=label,
+                    model_id=response_model,
+                    started_monotonic=started,
+                    stats=stats,
+                )
+                print(f"{label}: local model response received on attempt {attempt}", flush=True)
+                return AIResponse(content.strip(), "local", response_model), data
+            except Exception as exc:  # network, malformed, and model-server errors are retryable
+                last_error = exc
+                write_local_status(
+                    state="failed",
+                    label=label,
+                    model_id=local_model_id,
+                    started_monotonic=started,
+                    stats=stats,
+                    error=str(exc),
+                )
+                print(
+                    f"{label}: attempt {attempt}/{LOCAL_INFERENCE_ATTEMPTS} failed: {exc}",
+                    file=sys.stderr,
+                )
+                if attempt < LOCAL_INFERENCE_ATTEMPTS and not is_timeout_error(exc):
+                    time.sleep(LOCAL_INFERENCE_RETRY_DELAY_SECONDS)
+            finally:
+                stop.set()
+                heartbeat.join(timeout=1)
+            if is_timeout_error(last_error or MarkgitupError("unknown local failure")):
                 break
-            return AIResponse(content.strip(), "local", response_model), data
-        except Exception as exc:  # network and model-server errors are retryable
-            last_error = exc
-            print(f"{label}: attempt {attempt}/{LOCAL_INFERENCE_ATTEMPTS} failed: {exc}", file=sys.stderr)
+    else:
+        last_error = MarkgitupError("local model discovery unavailable")
+        print(f"{label}: local model unavailable; trying Codex fallback", file=sys.stderr)
 
+    if local_model_id:
+        write_local_status(
+            state="fallback",
+            label=label,
+            model_id=local_model_id,
+            started_monotonic=last_started,
+            stats=last_stats,
+            error=str(last_error) if last_error else None,
+        )
     print(f"{label}: local inference unavailable; trying Codex fallback", file=sys.stderr)
     try:
         content = codex_chat(messages, max_tokens, label)
@@ -316,7 +588,7 @@ def ai_chat(
         return AIResponse(content, "fallback", friendly_model_name(CODEX_MODEL)), data
     except MarkgitupError as codex_error:
         raise MarkgitupError(
-            f"{label}: local inference failed after {LOCAL_INFERENCE_BUDGET_SECONDS}s ({last_error}); "
+            f"{label}: local inference failed after {LOCAL_INFERENCE_ATTEMPTS} attempts ({last_error}); "
             f"Codex fallback failed ({codex_error})"
         ) from codex_error
 
@@ -433,7 +705,7 @@ def repeat_match(candidate: str, history: list[dict[str, Any]], cooldown_days: i
 
 
 def choose_angle(
-    topic: str, manifest: list[dict[str, Any]], local_model_id: str, local_deadline: float
+    topic: str, manifest: list[dict[str, Any]], local_model_id: str | None, local_deadline: float
 ) -> tuple[dict[str, str], set[str]]:
     previous = "\n".join(
         f"- {clean_text(item.get('topic'), 140)}"
@@ -558,6 +830,50 @@ def deep_search(title: str, query: str) -> list[dict[str, Any]]:
     return results
 
 
+def find_source_backed_research(
+    manifest: list[dict[str, Any]],
+    local_model_id: str | None,
+    local_deadline: float,
+) -> tuple[str, dict[str, str], list[dict[str, Any]], set[str]]:
+    """Find a new topic angle with enough evidence to publish.
+
+    Each failed low-source search consumes its selected topic in the durable
+    topic cycle and starts over with another original idea. The caller only
+    receives a publishable result; exhausting retries aborts the run before
+    article, manifest, or index writes.
+    """
+    used_models: set[str] = set()
+    last_topic = ""
+    last_count = 0
+    for attempt in range(1, MAX_SOURCE_RETRIES + 1):
+        original_topic = choose_topic()
+        last_topic = original_topic
+        angle, angle_models = choose_angle(
+            original_topic, manifest, local_model_id, local_deadline
+        )
+        used_models.update(angle_models)
+        title = angle["title"]
+        print(f"Source search attempt {attempt}/{MAX_SOURCE_RETRIES}")
+        print(f"Selected topic family: {original_topic}")
+        print(f"New research angle: {title}")
+        print(f"Search query: {angle['search_query']}")
+        results = deep_search(title, angle["search_query"])
+        last_count = len(results)
+        print(f"Deep search collected {last_count} unique sources")
+        if has_minimum_sources(results):
+            return original_topic, angle, results, used_models
+        print(
+            f"Source gate rejected {last_count} source(s) for {original_topic!r}; "
+            f"need at least {MINIMUM_SOURCES} sources. Selecting a new topic family.",
+            file=sys.stderr,
+        )
+
+    raise MarkgitupError(
+        f"source gate exhausted {MAX_SOURCE_RETRIES} topic attempts; last topic "
+        f"{last_topic!r} returned {last_count} source(s), need at least {MINIMUM_SOURCES} sources"
+    )
+
+
 def source_context(results: list[dict[str, Any]]) -> str:
     rows = []
     for index, result in enumerate(results, 1):
@@ -573,9 +889,14 @@ def synthesize_article(
     original_topic: str,
     angle: dict[str, str],
     results: list[dict[str, Any]],
-    local_model_id: str,
+    local_model_id: str | None,
     local_deadline: float,
 ) -> tuple[dict[str, Any], set[str]]:
+    if not has_minimum_sources(results):
+        raise MarkgitupError(
+            f"article synthesis requires at least {MINIMUM_SOURCES} sources; "
+            f"received {len(results)}"
+        )
     prompt = f"""You are the senior researcher writing one rigorous web article.
 Original topic family: {original_topic}
 New assignment headline: {title}
@@ -726,7 +1047,11 @@ a {{ color:var(--cyan); }} .skip {{ position:absolute; left:-999px; }} .skip:foc
 
 
 def render_index(manifest: list[dict[str, Any]]) -> str:
-    data = sorted(manifest, key=lambda item: item.get("full_timestamp", ""), reverse=True)
+    data = sorted(
+        (item for item in manifest if is_publishable_manifest_entry(item)),
+        key=lambda item: item.get("full_timestamp", ""),
+        reverse=True,
+    )
     serialized = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     generated_at = now_local().strftime("%B %-d, %Y · %-I:%M %p %Z")
     return f'''<!DOCTYPE html>
@@ -736,7 +1061,7 @@ def render_index(manifest: list[dict[str, Any]]) -> str:
 [data-theme="light"] {{ --ink:#122238;--muted:#49627f;--dim:#71819a;--bg:#f3f7fb;--surface:#fff;--surface2:#e8f0f7;--line:#cad9e8;--cyan:#087d91;--lime:#4f7800;--orange:#a34c00; }}
 *{{box-sizing:border-box}}body{{margin:0;color:var(--ink);background:radial-gradient(circle at 80% -5%,#193455 0,transparent 34%),var(--bg);font:16px/1.65 Inter,ui-sans-serif,system-ui,sans-serif;transition:background .2s,color .2s}}a{{color:var(--cyan)}}.shell{{max-width:1220px;margin:auto;padding:22px 28px 76px}}.topbar{{display:flex;justify-content:space-between;align-items:center;gap:16px}}.brand{{color:var(--ink);font-weight:800;letter-spacing:.05em;text-decoration:none}}.brand span{{color:var(--cyan)}}button,.search{{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px}}button{{cursor:pointer;padding:9px 12px}}.hero{{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,.6fr);gap:30px;align-items:end;padding:84px 0 54px;border-bottom:1px solid var(--line)}}.eyebrow,.kicker{{color:var(--lime);font-size:.72rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}}h1{{font-size:clamp(3.2rem,8vw,7.8rem);line-height:.9;letter-spacing:-.075em;max-width:800px;margin:18px 0 26px}}.hero p{{color:var(--muted);max-width:690px;font-size:1.12rem}}.hero-note{{border-left:2px solid var(--cyan);padding:4px 0 4px 20px;color:var(--muted)}}.hero-note strong{{display:block;color:var(--ink);font-size:2.6rem;line-height:1}}.controls{{display:flex;gap:12px;align-items:center;margin:30px 0 20px;flex-wrap:wrap}}.search{{flex:1;min-width:240px;padding:12px 15px;outline:none}}.search:focus{{border-color:var(--cyan);box-shadow:0 0 0 3px rgba(94,231,237,.12)}}.latest{{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin:22px 0 34px}}.latest:has(> :only-child){{grid-template-columns:1fr}}.feature,.card{{background:linear-gradient(145deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:20px}}.feature{{padding:30px;position:relative;overflow:hidden}}.feature::before{{content:"";position:absolute;width:220px;height:220px;right:-70px;top:-80px;border-radius:50%;background:radial-gradient(circle,var(--cyan),transparent 67%);opacity:.22}}.feature>*{{position:relative}}.feature h2{{max-width:700px;font-size:clamp(1.7rem,3.4vw,3rem);line-height:1.05;letter-spacing:-.04em;margin:12px 0}}.feature a{{text-decoration:none}}.feature p,.card p{{color:var(--muted)}}.feature-meta,.card-meta{{color:var(--dim);font-size:.8rem}}.section-head{{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:42px 0 15px}}.section-head h2{{margin:0;font-size:1.6rem;letter-spacing:-.03em}}.grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:16px}}.card{{padding:22px;min-height:240px;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s,border-color .2s}}.card:hover{{transform:translateY(-5px);box-shadow:0 18px 45px rgba(0,0,0,.22);border-color:var(--cyan)}}.card h3{{margin:12px 0 10px;font-size:1.25rem;line-height:1.2;letter-spacing:-.025em}}.card h3 a{{color:var(--ink);text-decoration:none}}.card h3 a:hover{{color:var(--cyan)}}.card p{{font-size:.92rem;line-height:1.5;margin:0 0 18px}}.card-foot{{margin-top:auto;display:flex;justify-content:space-between;gap:10px;align-items:end;border-top:1px solid var(--line);padding-top:14px}}.tag{{color:var(--lime);font-size:.72rem}}.empty,.error{{padding:28px;border:1px dashed var(--line);border-radius:16px;color:var(--muted)}}footer{{border-top:1px solid var(--line);color:var(--dim);font-size:.8rem;padding-top:24px;margin-top:60px}}@media(max-width:780px){{.shell{{padding-left:18px;padding-right:18px}}.hero,.latest{{grid-template-columns:1fr}}.hero{{padding-top:55px}}h1{{font-size:clamp(3.3rem,19vw,6rem)}}}}
 </style></head><body><main class="shell"><div class="topbar"><a class="brand" href="index.html">MARK<span>GITUP</span></a><button id="theme" type="button" aria-label="Toggle theme">☼</button></div><header class="hero"><div><div class="eyebrow">The hourly research desk</div><h1>Signals worth following.</h1><p>Fresh angles on technology, policy, markets, and culture. Each edition starts with a broad idea, finds a sharper live signal, then maps the evidence, upside, risk, and what to watch next.</p></div><div class="hero-note"><strong id="count">{len(data)}</strong>articles in the new edition<br><span>Last build: {html.escape(generated_at)}</span></div></header><div class="controls"><input class="search" id="search" type="search" placeholder="Filter the desk by title, topic, or tag…" autocomplete="off"><span id="status" class="feature-meta"></span></div><section id="featured" class="latest" aria-label="Latest research"></section><div class="section-head"><h2>All dispatches</h2><span class="feature-meta">Newest first · open any card</span></div><section id="grid" class="grid" aria-live="polite"></section><footer>Markgitup · AI-assisted, source-linked research · Generated hourly from a local LLM and SearXNG</footer></main><script>
-const entries={serialized};const grid=document.querySelector('#grid'),featured=document.querySelector('#featured'),status=document.querySelector('#status'),count=document.querySelector('#count'),allHead=document.querySelector('.section-head');
+const entries={serialized}.filter(entry=>!entry.archived && Number(entry.source_count||0)>={MINIMUM_SOURCES});const grid=document.querySelector('#grid'),featured=document.querySelector('#featured'),status=document.querySelector('#status'),count=document.querySelector('#count'),allHead=document.querySelector('.section-head');
 const formatDate=(v)=>new Date(v).toLocaleString();
 function card(entry,feature=false){{const a=document.createElement(feature?'article':'article');a.className=feature?'feature':'card';const kicker=document.createElement('div');kicker.className='kicker';kicker.textContent=`Article ${{String(entry.article_number||'').padStart(4,'0')}} · ${{entry.source_count||0}} sources`;a.append(kicker);const h=document.createElement('h2');if(!feature){{const h3=document.createElement('h3');const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h3.append(link);a.append(h3)}}else{{const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h.append(link);a.append(h)}}const p=document.createElement('p');p.textContent=entry.summary||'Source-linked research synthesis.';a.append(p);const foot=document.createElement('div');foot.className=feature?'feature-meta':'card-foot';foot.textContent=`${{formatDate(entry.full_timestamp)}} · ${{entry.original_topic||'Research'}}`;a.append(foot);return a}}
 function render(query=''){{const q=query.toLowerCase().trim();const filtered=entries.filter(e=>[e.topic,e.summary,e.original_topic,e.tags].join(' ').toLowerCase().includes(q));featured.replaceChildren();grid.replaceChildren();status.textContent=`${{filtered.length}} result${{filtered.length===1?'':'s'}}`;if(!q&&entries[0])featured.append(card(entries[0],true));const rest=q?filtered:filtered.slice(1);allHead.style.display=rest.length?'flex':'none';if(!rest.length&&!featured.children.length){{const empty=document.createElement('div');empty.className='empty';empty.textContent='No dispatches match that filter yet.';grid.append(empty)}}else rest.forEach(e=>grid.append(card(e)))}}
@@ -789,14 +1114,10 @@ def main() -> int:
     manifest = load_manifest()
     local_model_id = discover_local_model()
     local_deadline = time.monotonic() + LOCAL_INFERENCE_BUDGET_SECONDS
-    original_topic = choose_topic()
-    angle, angle_models = choose_angle(original_topic, manifest, local_model_id, local_deadline)
+    original_topic, angle, results, angle_models = find_source_backed_research(
+        manifest, local_model_id, local_deadline
+    )
     title = angle["title"]
-    print(f"Selected topic family: {original_topic}")
-    print(f"New research angle: {title}")
-    print(f"Search query: {angle['search_query']}")
-    results = deep_search(title, angle["search_query"])
-    print(f"Deep search collected {len(results)} unique sources")
     article, article_models = synthesize_article(
         title, original_topic, angle, results, local_model_id, local_deadline
     )
@@ -838,7 +1159,7 @@ def main() -> int:
     manifest.append(entry)
     atomic_write(MANIFEST_PATH, json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     atomic_write(PORTAL_DIR / "index.html", render_index(manifest))
-    atomic_write(PORTAL_DIR / "README.md", """# Markgitup Research Desk\n\nHourly source-led research portal. Each dispatch starts from one of 24 topic families, finds a new current angle, gathers evidence through SearXNG, and publishes a linked synthesis.\n\n## Runtime\n\n- Schedule: hourly (`0 * * * *`)\n- Local model: discovered dynamically from `/v1/models` at `192.168.0.219:8080/v1`\n- Local inference budget: one attempt, 30 minutes\n- Fallback LLM: GPT 5.6 Codex Luna through Hermes `openai-codex`\n- Failure policy: no post is written when both inference paths fail\n- Search: local SearXNG at `127.0.0.1:8888`\n- Output: GitHub Pages via `main`\n""")
+    atomic_write(PORTAL_DIR / "README.md", """# Markgitup Research Desk\n\nHourly source-led research portal. Each dispatch starts from one of 24 topic families, finds a new current angle, gathers evidence through SearXNG, and publishes a linked synthesis.\n\n## Runtime\n\n- Schedule: hourly (`0 * * * *`)\n- Local model: discovered dynamically from `/v1/models` at `192.168.0.219:8080/v1`\n- Local inference: DeepSeek V4 uses native thinking-disabled streaming; other models retain the legacy payload; each response waits up to 20 minutes\n- Local status: `/home/pi/.hermes/cron/markgitup-local-inference-status.json`\n- Fallback LLM: GPT 5.6 Luna through Hermes `openai-codex`\n- Failure policy: no post is written when both inference paths fail\n- Search: local SearXNG at `127.0.0.1:8888`\n- Source gate: publish only after at least 2 sources; low-source searches select another unused topic family (up to 6 attempts)\n- Output: GitHub Pages via `main`\n""")
     if not args.no_push:
         publish(title, article_rel)
     print(f"Published article {article_number:04d}: {article_rel}")

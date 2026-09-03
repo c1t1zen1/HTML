@@ -549,7 +549,7 @@
   {
     "article_number": 44,
     "topic": "US Intelligence Agencies Deploy AI for Real-Time Satellite Imagery Analysis",
-    "file": "html/article-0044-us-intelligence-agencies-deploy-ai-for-real-time-satellite-imagery-analy-20260810-000133.html",
+    "file": "BAD/article-0044-us-intelligence-agencies-deploy-ai-for-real-time-satellite-imagery-analy-20260810-000133.html",
     "timestamp": "20260810-000133",
     "full_timestamp": "2026-08-10T00:01:33-07:00",
     "summary": "Explore how AI transforms satellite data into immediate intelligence for national security decisions.",
@@ -570,7 +570,11 @@
       "funding trends in defense AI for persistent surveillance and threat detection"
     ],
     "source_count": 0,
-    "tags": "AI surveillance, satellite imagery, national security, real-time analytics"
+    "tags": "AI surveillance, satellite imagery, national security, real-time analytics",
+    "original_file": "html/article-0044-us-intelligence-agencies-deploy-ai-for-real-time-satellite-imagery-analy-20260810-000133.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 45,
@@ -5113,7 +5117,7 @@
   {
     "article_number": 397,
     "topic": "Autonomous Coding Agents Put Open-Source Supply Chains Under a New Review Test",
-    "file": "html/article-0397-autonomous-coding-agents-put-open-source-supply-chains-under-a-new-revie-20260827-210256.html",
+    "file": "BAD/article-0397-autonomous-coding-agents-put-open-source-supply-chains-under-a-new-revie-20260827-210256.html",
     "timestamp": "20260827-210256",
     "full_timestamp": "2026-08-27T21:02:56-07:00",
     "summary": "With no supplied sources, the central review question remains unresolved: maintainers may need stronger verification before agent-generated code reaches widely used open-source dependencies.",
@@ -5121,7 +5125,11 @@
     "search_query": "2026 autonomous coding agents open source pull requests supply chain security",
     "source_count": 0,
     "tags": "coding agents, open source, supply chain, security",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0397-autonomous-coding-agents-put-open-source-supply-chains-under-a-new-revie-20260827-210256.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 398,
@@ -5139,7 +5147,7 @@
   {
     "article_number": 399,
     "topic": "Live-Commerce AI Avatars Put Synthetic Sales Claims Through a New Disclosure Test",
-    "file": "html/article-0399-live-commerce-ai-avatars-put-synthetic-sales-claims-through-a-new-disclo-20260827-230256.html",
+    "file": "BAD/article-0399-live-commerce-ai-avatars-put-synthetic-sales-claims-through-a-new-disclo-20260827-230256.html",
     "timestamp": "20260827-230256",
     "full_timestamp": "2026-08-27T23:02:56-07:00",
     "summary": "Real-time virtual sales presenters may complicate advertising disclosure, endorsement transparency, and liability analysis, but the supplied evidence establishes no current rules or outcomes.",
@@ -5147,7 +5155,11 @@
     "search_query": "2026 live commerce AI avatars disclosure regulation synthetic presenters",
     "source_count": 0,
     "tags": "AI avatars, live commerce, advertising regulation",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0399-live-commerce-ai-avatars-put-synthetic-sales-claims-through-a-new-disclo-20260827-230256.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 400,
@@ -5165,7 +5177,7 @@
   {
     "article_number": 401,
     "topic": "State AI-Ad Disclaimer Laws Force 2026 Campaigns Into a Patchwork Accountability Test",
-    "file": "html/article-0401-state-ai-ad-disclaimer-laws-force-2026-campaigns-into-a-patchwork-accoun-20260828-010340.html",
+    "file": "BAD/article-0401-state-ai-ad-disclaimer-laws-force-2026-campaigns-into-a-patchwork-accoun-20260828-010340.html",
     "timestamp": "20260828-010340",
     "full_timestamp": "2026-08-28T01:03:40-07:00",
     "summary": "State AI-ad disclaimer laws may create a fragmented accountability test for 2026 campaigns, but the supplied evidence contains no sources to verify requirements, scope, or enforcement.",
@@ -5173,7 +5185,11 @@
     "search_query": "2026 state election AI ad disclaimer laws campaign enforcement",
     "source_count": 0,
     "tags": "political advertising, AI disclosure, state election law",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0401-state-ai-ad-disclaimer-laws-force-2026-campaigns-into-a-patchwork-accoun-20260828-010340.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 402,
@@ -5191,7 +5207,7 @@
   {
     "article_number": 403,
     "topic": "Posthumous AI Replicas Put California Estate Rights Through a Digital-Identity Test",
-    "file": "html/article-0403-posthumous-ai-replicas-put-california-estate-rights-through-a-digital-id-20260828-030400.html",
+    "file": "BAD/article-0403-posthumous-ai-replicas-put-california-estate-rights-through-a-digital-id-20260828-030400.html",
     "timestamp": "20260828-030400",
     "full_timestamp": "2026-08-28T03:04:00-07:00",
     "summary": "With no returned sources, the California estate-rights question remains open: unauthorized posthumous AI performances require legal evidence before claims about control, remedies, or limits.",
@@ -5199,7 +5215,11 @@
     "search_query": "2026 California AB 1836 digital replica estate lawsuit actors",
     "source_count": 0,
     "tags": "digital replicas, publicity rights, synthetic media, entertainment law",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0403-posthumous-ai-replicas-put-california-estate-rights-through-a-digital-id-20260828-030400.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 404,
@@ -5217,7 +5237,7 @@
   {
     "article_number": 405,
     "topic": "Google Veo 3 Native Audio Forces Platforms to Rework Synthetic-Video Provenance Labels",
-    "file": "html/article-0405-google-veo-3-native-audio-forces-platforms-to-rework-synthetic-video-pro-20260828-050313.html",
+    "file": "BAD/article-0405-google-veo-3-native-audio-forces-platforms-to-rework-synthetic-video-pro-20260828-050313.html",
     "timestamp": "20260828-050313",
     "full_timestamp": "2026-08-28T05:03:13-07:00",
     "summary": "With no supplied sources, the claim about Veo 3 native audio and provenance-label changes remains unverified; responsible analysis must separate the premise from testable implications.",
@@ -5225,12 +5245,16 @@
     "search_query": "Google Veo 3 native audio provenance labels platform policy 2026",
     "source_count": 0,
     "tags": "AI video, provenance, synthetic media",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0405-google-veo-3-native-audio-forces-platforms-to-rework-synthetic-video-pro-20260828-050313.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 406,
     "topic": "AI Video Training-Data Licenses Put Filmmakers’ Consent Claims Through a Rights Test",
-    "file": "html/article-0406-ai-video-training-data-licenses-put-filmmakers-consent-claims-through-a-20260828-070302.html",
+    "file": "BAD/article-0406-ai-video-training-data-licenses-put-filmmakers-consent-claims-through-a-20260828-070302.html",
     "timestamp": "20260828-070302",
     "full_timestamp": "2026-08-28T07:03:02-07:00",
     "summary": "With no supplied reporting, this rights test remains unresolved: readers cannot yet assess whether video-model training licenses secure filmmakers’ consent, compensation, or control.",
@@ -5238,7 +5262,11 @@
     "search_query": "2026 AI video training data licensing filmmakers consent agreement news",
     "source_count": 0,
     "tags": "AI video, copyright, licensing, filmmaking",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0406-ai-video-training-data-licenses-put-filmmakers-consent-claims-through-a-20260828-070302.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 407,
@@ -5256,7 +5284,7 @@
   {
     "article_number": 408,
     "topic": "TikTok Creator Rewards Puts AI Short-Form Videos Through a Monetization Quality Test",
-    "file": "html/article-0408-tiktok-creator-rewards-puts-ai-short-form-videos-through-a-monetization-20260828-090313.html",
+    "file": "BAD/article-0408-tiktok-creator-rewards-puts-ai-short-form-videos-through-a-monetization-20260828-090313.html",
     "timestamp": "20260828-090313",
     "full_timestamp": "2026-08-28T09:03:13-07:00",
     "summary": "TikTok’s Creator Rewards program may test whether AI-heavy short videos deliver enough originality, effort, and viewer value to qualify for payouts, but the supplied evidence supports no firm conclusion.",
@@ -5264,7 +5292,11 @@
     "search_query": "TikTok creator rewards AI-generated videos monetization policy 2026",
     "source_count": 0,
     "tags": "creator economy, AI video, TikTok, monetization",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0408-tiktok-creator-rewards-puts-ai-short-form-videos-through-a-monetization-20260828-090313.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 409,
@@ -5282,7 +5314,7 @@
   {
     "article_number": 410,
     "topic": "SEC Exam Questions on Generative AI Put Hedge Funds’ Research Controls Through a Governance Test",
-    "file": "html/article-0410-sec-exam-questions-on-generative-ai-put-hedge-funds-research-controls-th-20260828-110215.html",
+    "file": "BAD/article-0410-sec-exam-questions-on-generative-ai-put-hedge-funds-research-controls-th-20260828-110215.html",
     "timestamp": "20260828-110215",
     "full_timestamp": "2026-08-28T11:02:15-07:00",
     "summary": "With no supplied source evidence, this governance analysis cannot substantiate SEC exam questions, hedge-fund controls, or conclusions about generative AI research oversight.",
@@ -5290,7 +5322,11 @@
     "search_query": "2026 SEC examination priorities generative AI investment adviser hedge fund research controls",
     "source_count": 0,
     "tags": "SEC, hedge funds, generative AI, compliance",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0410-sec-exam-questions-on-generative-ai-put-hedge-funds-research-controls-th-20260828-110215.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 411,
@@ -5308,7 +5344,7 @@
   {
     "article_number": 412,
     "topic": "AI Video Editing Agents Put NLE Timeline Control Through a Human-Approval Test",
-    "file": "html/article-0412-ai-video-editing-agents-put-nle-timeline-control-through-a-human-approva-20260828-130216.html",
+    "file": "BAD/article-0412-ai-video-editing-agents-put-nle-timeline-control-through-a-human-approva-20260828-130216.html",
     "timestamp": "20260828-130216",
     "full_timestamp": "2026-08-28T13:02:16-07:00",
     "summary": "AI editing agents may move the post-production debate from generated footage to professional timeline authority, but this assignment provides no sources to test that claim.",
@@ -5316,7 +5352,11 @@
     "search_query": "2026 AI video editing agents Premiere Pro timeline control human approval",
     "source_count": 0,
     "tags": "AI video editing, editing agents, Premiere Pro, workflow governance",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0412-ai-video-editing-agents-put-nle-timeline-control-through-a-human-approva-20260828-130216.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 413,
@@ -5334,7 +5374,7 @@
   {
     "article_number": 414,
     "topic": "AI Investment Recommendations Put Retail Brokerages Through a Suitability-and-Disclosure Test",
-    "file": "html/article-0414-ai-investment-recommendations-put-retail-brokerages-through-a-suitabilit-20260828-150240.html",
+    "file": "BAD/article-0414-ai-investment-recommendations-put-retail-brokerages-through-a-suitabilit-20260828-150240.html",
     "timestamp": "20260828-150240",
     "full_timestamp": "2026-08-28T15:02:40-07:00",
     "summary": "Consumer brokerage AI stock picks face an unresolved test: without evidence, readers cannot assess suitability, provenance, disclosures, or whether recommendations fit individual investors.",
@@ -5342,7 +5382,11 @@
     "search_query": "2026 regulators AI-generated investment recommendations retail brokerage apps suitability disclosure",
     "source_count": 0,
     "tags": "retail investing, AI regulation, brokerages",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0414-ai-investment-recommendations-put-retail-brokerages-through-a-suitabilit-20260828-150240.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 415,
@@ -5360,7 +5404,7 @@
   {
     "article_number": 416,
     "topic": "Enterprise AI Video Platforms Put Confidential Footage Through a Deletion-and-Retention Test",
-    "file": "html/article-0416-enterprise-ai-video-platforms-put-confidential-footage-through-a-deletio-20260828-170320.html",
+    "file": "BAD/article-0416-enterprise-ai-video-platforms-put-confidential-footage-through-a-deletio-20260828-170320.html",
     "timestamp": "20260828-170320",
     "full_timestamp": "2026-08-28T17:03:20-07:00",
     "summary": "Enterprise video platforms cannot be judged on retention, training reuse, or deletion controls until primary policy, contract, and technical evidence is supplied for comparison.",
@@ -5368,7 +5412,11 @@
     "search_query": "2026 enterprise generative video uploaded footage deletion retention privacy",
     "source_count": 0,
     "tags": "AI video, enterprise privacy, data retention, content governance",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0416-enterprise-ai-video-platforms-put-confidential-footage-through-a-deletio-20260828-170320.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 417,
@@ -5386,7 +5434,7 @@
   {
     "article_number": 418,
     "topic": "Mac Mini AI Clusters Put Apple Silicon LLM Serving Through a Sustained-Power Test",
-    "file": "html/article-0418-mac-mini-ai-clusters-put-apple-silicon-llm-serving-through-a-sustained-p-20260828-190302.html",
+    "file": "BAD/article-0418-mac-mini-ai-clusters-put-apple-silicon-llm-serving-through-a-sustained-p-20260828-190302.html",
     "timestamp": "20260828-190302",
     "full_timestamp": "2026-08-28T19:03:02-07:00",
     "summary": "Mac mini AI clusters may promise resilient local LLM serving, but without measured evidence, thermal behavior, electricity demand, and uptime remain open questions.",
@@ -5394,7 +5442,11 @@
     "search_query": "Mac mini AI cluster sustained LLM serving thermals power 2026",
     "source_count": 0,
     "tags": "Apple Silicon, local inference, thermal limits, energy use",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0418-mac-mini-ai-clusters-put-apple-silicon-llm-serving-through-a-sustained-p-20260828-190302.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 419,
@@ -5412,7 +5464,7 @@
   {
     "article_number": 420,
     "topic": "Local Mac AI Apps Add Cloud Fallbacks, Putting Privacy Claims Through a Routing-Transparency Test",
-    "file": "html/article-0420-local-mac-ai-apps-add-cloud-fallbacks-putting-privacy-claims-through-a-r-20260828-210249.html",
+    "file": "BAD/article-0420-local-mac-ai-apps-add-cloud-fallbacks-putting-privacy-claims-through-a-r-20260828-210249.html",
     "timestamp": "20260828-210249",
     "full_timestamp": "2026-08-28T21:02:49-07:00",
     "summary": "Mac AI apps may blend on-device processing with cloud fallback, but without routing disclosures or source evidence, privacy claims remain impossible to independently evaluate.",
@@ -5420,7 +5472,11 @@
     "search_query": "Ollama Cloud LM Studio macOS local inference cloud fallback privacy August 2026",
     "source_count": 0,
     "tags": "local AI, macOS, privacy",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0420-local-mac-ai-apps-add-cloud-fallbacks-putting-privacy-claims-through-a-r-20260828-210249.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 421,
@@ -5438,7 +5494,7 @@
   {
     "article_number": 422,
     "topic": "Xcode 26.3’s Coding-Agent Support Puts Apple Silicon Developers Through a Model-Portability Test",
-    "file": "html/article-0422-xcode-26-3s-coding-agent-support-puts-apple-silicon-developers-through-a-20260828-230244.html",
+    "file": "BAD/article-0422-xcode-26-3s-coding-agent-support-puts-apple-silicon-developers-through-a-20260828-230244.html",
     "timestamp": "20260828-230244",
     "full_timestamp": "2026-08-28T23:02:44-07:00",
     "summary": "With no supplied evidence, this analysis cannot verify whether Xcode 26.3 enables portable model workflows for Apple Silicon teams or merely changes integration points.",
@@ -5446,12 +5502,16 @@
     "search_query": "Xcode 26.3 coding agents Apple Silicon developers Claude Codex August 2026",
     "source_count": 0,
     "tags": "Xcode,Apple Silicon,coding agents,developer tools",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0422-xcode-26-3s-coding-agent-support-puts-apple-silicon-developers-through-a-20260828-230244.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 423,
     "topic": "Sign-Language AI Avatars Put Public Broadcasters Through an Accessibility-Accuracy Test",
-    "file": "html/article-0423-sign-language-ai-avatars-put-public-broadcasters-through-an-accessibilit-20260829-010309.html",
+    "file": "BAD/article-0423-sign-language-ai-avatars-put-public-broadcasters-through-an-accessibilit-20260829-010309.html",
     "timestamp": "20260829-010309",
     "full_timestamp": "2026-08-29T01:03:09-07:00",
     "summary": "Synthetic sign-language presenters could expand accessible public broadcasting, but without evidence on translation accuracy, signer quality, governance, and audience outcomes, compliance remains unproven.",
@@ -5459,7 +5519,11 @@
     "search_query": "2026 AI sign-language avatars public broadcasters accessibility compliance accuracy",
     "source_count": 0,
     "tags": "accessibility, broadcast media, sign language, AI avatars",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0423-sign-language-ai-avatars-put-public-broadcasters-through-an-accessibilit-20260829-010309.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 424,
@@ -5477,7 +5541,7 @@
   {
     "article_number": 425,
     "topic": "2026 Midterm AI Video Ads Put Platform Political Labels Through a Disclosure Test",
-    "file": "html/article-0425-2026-midterm-ai-video-ads-put-platform-political-labels-through-a-disclo-20260829-030233.html",
+    "file": "BAD/article-0425-2026-midterm-ai-video-ads-put-platform-political-labels-through-a-disclo-20260829-030233.html",
     "timestamp": "20260829-030233",
     "full_timestamp": "2026-08-29T03:02:33-07:00",
     "summary": "With no source evidence returned, this article cannot verify how platforms label synthetic political videos in the 2026 midterms, leaving disclosure claims untested.",
@@ -5485,7 +5549,11 @@
     "search_query": "2026 midterm elections AI-generated short-form political video platform labels",
     "source_count": 0,
     "tags": "political advertising, synthetic media, platform policy",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0425-2026-midterm-ai-video-ads-put-platform-political-labels-through-a-disclo-20260829-030233.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 426,
@@ -5503,7 +5571,7 @@
   {
     "article_number": 427,
     "topic": "EU AI Act Transparency Rules Put Election Deepfakes Through a Provenance-and-Disclosure Test",
-    "file": "html/article-0427-eu-ai-act-transparency-rules-put-election-deepfakes-through-a-provenance-20260829-050232.html",
+    "file": "BAD/article-0427-eu-ai-act-transparency-rules-put-election-deepfakes-through-a-provenance-20260829-050232.html",
     "timestamp": "20260829-050232",
     "full_timestamp": "2026-08-29T05:02:32-07:00",
     "summary": "The EU deepfake transparency question remains unresolved here: without supplied sources, this article can define the test but cannot verify obligations, enforcement, traceability, or election effects.",
@@ -5511,7 +5579,11 @@
     "search_query": "August 2026 EU AI Act Article 50 election deepfake transparency obligations",
     "source_count": 0,
     "tags": "EU AI Act, election deepfakes, provenance, disclosure",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0427-eu-ai-act-transparency-rules-put-election-deepfakes-through-a-provenance-20260829-050232.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 428,
@@ -5529,7 +5601,7 @@
   {
     "article_number": 429,
     "topic": "AI Crypto Trading Bots Put Exchange API Permissions Through a Loss-Containment Test",
-    "file": "html/article-0429-ai-crypto-trading-bots-put-exchange-api-permissions-through-a-loss-conta-20260829-070301.html",
+    "file": "BAD/article-0429-ai-crypto-trading-bots-put-exchange-api-permissions-through-a-loss-conta-20260829-070301.html",
     "timestamp": "20260829-070301",
     "full_timestamp": "2026-08-29T07:03:01-07:00",
     "summary": "With no supplied sources, this analysis cannot test whether scoped permissions, withdrawal limits, or emergency kill switches contain AI crypto-bot losses.",
@@ -5537,12 +5609,16 @@
     "search_query": "2026 crypto AI trading bots exchange API permission breaches withdrawal controls",
     "source_count": 0,
     "tags": "crypto trading bots, API security, exchange risk",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0429-ai-crypto-trading-bots-put-exchange-api-permissions-through-a-loss-conta-20260829-070301.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 430,
     "topic": "MLX Multi-Mac Serving Could Put Quantized LLMs Through a Failover-and-Consistency Test",
-    "file": "html/article-0430-mlx-multi-mac-serving-could-put-quantized-llms-through-a-failover-and-co-20260829-090253.html",
+    "file": "BAD/article-0430-mlx-multi-mac-serving-could-put-quantized-llms-through-a-failover-and-co-20260829-090253.html",
     "timestamp": "20260829-090253",
     "full_timestamp": "2026-08-29T09:02:53-07:00",
     "summary": "Distributed MLX inference should be judged not only by speed, but by consistency, failover behavior, and recovery evidence—none is established by the supplied search material.",
@@ -5550,7 +5626,11 @@
     "search_query": "August 2026 MLX distributed inference quantized LLMs multiple Macs failover consistency",
     "source_count": 0,
     "tags": "MLX, quantization, distributed inference, Apple Silicon",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0430-mlx-multi-mac-serving-could-put-quantized-llms-through-a-failover-and-co-20260829-090253.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 431,
@@ -5568,7 +5648,7 @@
   {
     "article_number": 432,
     "topic": "Autonomous Coding Agents Put CI Sandboxes Through a Secret-Exfiltration Test",
-    "file": "html/article-0432-autonomous-coding-agents-put-ci-sandboxes-through-a-secret-exfiltration-20260829-110239.html",
+    "file": "BAD/article-0432-autonomous-coding-agents-put-ci-sandboxes-through-a-secret-exfiltration-20260829-110239.html",
     "timestamp": "20260829-110239",
     "full_timestamp": "2026-08-29T11:02:39-07:00",
     "summary": "With no supplied sources, the central question remains open: can autonomous coding environments isolate credentials from hostile repository instructions and pull-request content?",
@@ -5576,7 +5656,11 @@
     "search_query": "2026 autonomous coding agents CI sandbox secret exfiltration security research",
     "source_count": 0,
     "tags": "AI coding agents, CI security, sandboxing, supply chain",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0432-autonomous-coding-agents-put-ci-sandboxes-through-a-secret-exfiltration-20260829-110239.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 433,
@@ -5594,7 +5678,7 @@
   {
     "article_number": 434,
     "topic": "China’s AI Avatar Livestream Hosts Put E-Commerce Platforms Through a Seller-Disclosure Test",
-    "file": "html/article-0434-chinas-ai-avatar-livestream-hosts-put-e-commerce-platforms-through-a-sel-20260829-130258.html",
+    "file": "BAD/article-0434-chinas-ai-avatar-livestream-hosts-put-e-commerce-platforms-through-a-sel-20260829-130258.html",
     "timestamp": "20260829-130258",
     "full_timestamp": "2026-08-29T13:02:58-07:00",
     "summary": "With no returned sources, this article cannot verify how Chinese platforms label AI livestream hosts, disclose seller substitution, or assign responsibility for avatar-delivered product claims.",
@@ -5602,7 +5686,11 @@
     "search_query": "2026 China AI avatar livestream shopping seller disclosure enforcement",
     "source_count": 0,
     "tags": "AI avatars, livestream commerce, disclosure",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0434-chinas-ai-avatar-livestream-hosts-put-e-commerce-platforms-through-a-sel-20260829-130258.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 435,
@@ -5620,7 +5708,7 @@
   {
     "article_number": 436,
     "topic": "MLX Swift’s 2026 Toolchain Push Puts Apple Silicon AI Development Through a Reproducibility Test",
-    "file": "html/article-0436-mlx-swifts-2026-toolchain-push-puts-apple-silicon-ai-development-through-20260829-150300.html",
+    "file": "BAD/article-0436-mlx-swifts-2026-toolchain-push-puts-apple-silicon-ai-development-through-20260829-150300.html",
     "timestamp": "20260829-150300",
     "full_timestamp": "2026-08-29T15:03:00-07:00",
     "summary": "With no returned sources, MLX Swift’s claimed 2026 toolchain push cannot yet be tested for reproducibility; the responsible conclusion is an evidence gap, not a verdict.",
@@ -5628,7 +5716,11 @@
     "search_query": "2026 MLX Swift Apple Silicon AI developer toolchain package updates",
     "source_count": 0,
     "tags": "MLX Swift,Apple Silicon,AI development,reproducibility",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0436-mlx-swifts-2026-toolchain-push-puts-apple-silicon-ai-development-through-20260829-150300.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 437,
@@ -5672,7 +5764,7 @@
   {
     "article_number": 440,
     "topic": "AI Misinformation Watchdogs Face Real-Time Election Deepfake Surge",
-    "file": "html/article-0440-ai-misinformation-watchdogs-face-real-time-election-deepfake-surge-20260901-040124.html",
+    "file": "BAD/article-0440-ai-misinformation-watchdogs-face-real-time-election-deepfake-surge-20260901-040124.html",
     "timestamp": "20260901-040124",
     "full_timestamp": "2026-09-01T04:01:24-07:00",
     "summary": "Automated misinformation detection systems are being stress-tested in real-time during 2026 elections as AI-generated deepfakes surge, exposing gaps in speed, accuracy, and scalability.",
@@ -5680,7 +5772,11 @@
     "search_query": "2026 election AI deepfake misinformation detection real-time",
     "source_count": 0,
     "tags": "AI misinformation, election integrity, deepfake detection, 2026 elections",
-    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf",
+    "original_file": "html/article-0440-ai-misinformation-watchdogs-face-real-time-election-deepfake-surge-20260901-040124.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 441,
@@ -5763,7 +5859,7 @@
   {
     "article_number": 447,
     "topic": "Mac Local AI Agent Stacks Put MCP Tool Permissions Through a Reproducibility Test",
-    "file": "html/article-0447-mac-local-ai-agent-stacks-put-mcp-tool-permissions-through-a-reproducibi-20260901-110309.html",
+    "file": "BAD/article-0447-mac-local-ai-agent-stacks-put-mcp-tool-permissions-through-a-reproducibi-20260901-110309.html",
     "timestamp": "20260901-110309",
     "full_timestamp": "2026-09-01T11:03:09-07:00",
     "summary": "Mac-local agent stacks face an unanswered reproducibility question: the supplied record contains no sources to test MCP permission safety across runtimes, so conclusions must remain provisional.",
@@ -5771,7 +5867,11 @@
     "search_query": "2026 macOS local AI agents MCP tool permissions Ollama LM Studio updates",
     "source_count": 0,
     "tags": "macOS, local AI, MCP, agent tooling",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0447-mac-local-ai-agent-stacks-put-mcp-tool-permissions-through-a-reproducibi-20260901-110309.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 448,
@@ -5789,7 +5889,7 @@
   {
     "article_number": 449,
     "topic": "Autonomous AI Trading Agents Face Market-Abuse Rules as Order Execution Expands",
-    "file": "html/article-0449-autonomous-ai-trading-agents-face-market-abuse-rules-as-order-execution-20260901-130304.html",
+    "file": "BAD/article-0449-autonomous-ai-trading-agents-face-market-abuse-rules-as-order-execution-20260901-130304.html",
     "timestamp": "20260901-130304",
     "full_timestamp": "2026-09-01T13:03:04-07:00",
     "summary": "Autonomous trading systems may widen accountability gaps as they execute and revise orders, but assessing market-abuse exposure requires verified legal, regulatory, and operational evidence.",
@@ -5797,7 +5897,11 @@
     "search_query": "2026 autonomous AI trading agents market abuse regulatory scrutiny order execution",
     "source_count": 0,
     "tags": "AI trading, market regulation, algorithmic execution",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0449-autonomous-ai-trading-agents-face-market-abuse-rules-as-order-execution-20260901-130304.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 450,
@@ -5815,7 +5919,7 @@
   {
     "article_number": 451,
     "topic": "AI Campaign Voice Calls Put 2026 Fundraising Through Consent and Caller-ID Enforcement Test",
-    "file": "html/article-0451-ai-campaign-voice-calls-put-2026-fundraising-through-consent-and-caller-20260901-150317.html",
+    "file": "BAD/article-0451-ai-campaign-voice-calls-put-2026-fundraising-through-consent-and-caller-20260901-150317.html",
     "timestamp": "20260901-150317",
     "full_timestamp": "2026-09-01T15:03:17-07:00",
     "summary": "Synthetic-voice fundraising calls face a dual test: whether campaigns secure meaningful consent and whether caller identification, disclosure, and enforcement mechanisms can keep outreach accountable.",
@@ -5823,7 +5927,11 @@
     "search_query": "2026 midterm campaigns AI voice fundraising calls consent caller ID rules",
     "source_count": 0,
     "tags": "AI campaigns, fundraising, robocalls, election law",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0451-ai-campaign-voice-calls-put-2026-fundraising-through-consent-and-caller-20260901-150317.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 452,
@@ -5841,7 +5949,7 @@
   {
     "article_number": 453,
     "topic": "AI Therapy Chatbots Face Teen-Safety Lawsuits as Mental-Health Duty of Care Hardens",
-    "file": "html/article-0453-ai-therapy-chatbots-face-teen-safety-lawsuits-as-mental-health-duty-of-c-20260901-170218.html",
+    "file": "BAD/article-0453-ai-therapy-chatbots-face-teen-safety-lawsuits-as-mental-health-duty-of-c-20260901-170218.html",
     "timestamp": "20260901-170218",
     "full_timestamp": "2026-09-01T17:02:18-07:00",
     "summary": "With no source evidence supplied, claims about teen-safety lawsuits and a hardening mental-health duty of care remain unverified, not established findings.",
@@ -5849,12 +5957,16 @@
     "search_query": "2026 AI therapy chatbot teen suicide lawsuits duty of care",
     "source_count": 0,
     "tags": "AI therapy,chatbot safety,mental health law",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0453-ai-therapy-chatbots-face-teen-safety-lawsuits-as-mental-health-duty-of-c-20260901-170218.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 454,
     "topic": "AI Smart Homes Put Utility Data Sharing Through a Demand-Response Governance Test",
-    "file": "html/article-0454-ai-smart-homes-put-utility-data-sharing-through-a-demand-response-govern-20260901-190211.html",
+    "file": "BAD/article-0454-ai-smart-homes-put-utility-data-sharing-through-a-demand-response-govern-20260901-190211.html",
     "timestamp": "20260901-190211",
     "full_timestamp": "2026-09-01T19:02:11-07:00",
     "summary": "With no source evidence supplied, this analysis cannot verify how AI-managed household devices share utility data, leaving governance questions open for documented research.",
@@ -5862,7 +5974,11 @@
     "search_query": "2026 AI smart home energy management utility data sharing demand response",
     "source_count": 0,
     "tags": "smart homes, energy management, data privacy, demand response",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0454-ai-smart-homes-put-utility-data-sharing-through-a-demand-response-govern-20260901-190211.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 455,
@@ -5880,7 +5996,7 @@
   {
     "article_number": 456,
     "topic": "Palantir’s Maven Expansion Puts AI-Generated Targeting Through a Human-Authorization Test",
-    "file": "html/article-0456-palantirs-maven-expansion-puts-ai-generated-targeting-through-a-human-au-20260901-210220.html",
+    "file": "BAD/article-0456-palantirs-maven-expansion-puts-ai-generated-targeting-through-a-human-au-20260901-210220.html",
     "timestamp": "20260901-210220",
     "full_timestamp": "2026-09-01T21:02:20-07:00",
     "summary": "With no supplied sources, the central question remains unresolved: whether Palantir’s Maven expansion would require documented human authorization, traceable accountability, and review of AI-assisted targeting decisions.",
@@ -5888,7 +6004,11 @@
     "search_query": "Palantir Maven Smart System 2026 human review intelligence targeting oversight",
     "source_count": 0,
     "tags": "Palantir, Project Maven, military AI, oversight",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0456-palantirs-maven-expansion-puts-ai-generated-targeting-through-a-human-au-20260901-210220.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 457,
@@ -5906,7 +6026,7 @@
   {
     "article_number": 458,
     "topic": "AI Lobbyists Push Federal Preemption as State Rules Create a 2026 Compliance Fault Line",
-    "file": "html/article-0458-ai-lobbyists-push-federal-preemption-as-state-rules-create-a-2026-compli-20260901-230224.html",
+    "file": "BAD/article-0458-ai-lobbyists-push-federal-preemption-as-state-rules-create-a-2026-compli-20260901-230224.html",
     "timestamp": "20260901-230224",
     "full_timestamp": "2026-09-01T23:02:24-07:00",
     "summary": "With no returned sources, the preemption fight cannot be verified; this article maps the unanswered questions rather than asserting a 2026 compliance fault line.",
@@ -5914,12 +6034,16 @@
     "search_query": "2026 AI lobbying federal preemption state laws Congress August",
     "source_count": 0,
     "tags": "AI policy, lobbying, federal preemption",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0458-ai-lobbyists-push-federal-preemption-as-state-rules-create-a-2026-compli-20260901-230224.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 459,
     "topic": "macOS 26 Local AI Model Context Protocol Sandbox Escape Test",
-    "file": "html/article-0459-macos-26-local-ai-model-context-protocol-sandbox-escape-test-20260902-010145.html",
+    "file": "BAD/article-0459-macos-26-local-ai-model-context-protocol-sandbox-escape-test-20260902-010145.html",
     "timestamp": "20260902-010145",
     "full_timestamp": "2026-09-02T01:01:45-07:00",
     "summary": "macOS 26's Model Context Protocol sandbox escape vulnerability exposes local AI agents to permission breaches, creating a critical gap in Apple's local AI security stack.",
@@ -5927,7 +6051,11 @@
     "search_query": "macOS 26 MCP sandbox escape local AI tool security vulnerability 2026",
     "source_count": 0,
     "tags": "macOS 26, MCP, sandbox escape, local AI security",
-    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf",
+    "original_file": "html/article-0459-macos-26-local-ai-model-context-protocol-sandbox-escape-test-20260902-010145.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 460,
@@ -5945,7 +6073,7 @@
   {
     "article_number": 461,
     "topic": "AI Deepfake Audio Detection Tools Face 2026 Election Stress Test",
-    "file": "html/article-0461-ai-deepfake-audio-detection-tools-face-2026-election-stress-test-20260902-030242.html",
+    "file": "BAD/article-0461-ai-deepfake-audio-detection-tools-face-2026-election-stress-test-20260902-030242.html",
     "timestamp": "20260902-030242",
     "full_timestamp": "2026-09-02T03:02:42-07:00",
     "summary": "As 2026 elections approach, real-time AI deepfake audio detection tools face their first major test in identifying synthetic voice manipulation in campaign communications.",
@@ -5953,7 +6081,11 @@
     "search_query": "AI deepfake audio detection election 2026 stress test",
     "source_count": 0,
     "tags": "AI misinformation, election security, deepfake detection, 2026 elections",
-    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf",
+    "original_file": "html/article-0461-ai-deepfake-audio-detection-tools-face-2026-election-stress-test-20260902-030242.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 462,
@@ -5971,7 +6103,7 @@
   {
     "article_number": 463,
     "topic": "Hedge Funds Deploy LLM-Powered Sentiment Engines for Real-Time Earnings Calls",
-    "file": "html/article-0463-hedge-funds-deploy-llm-powered-sentiment-engines-for-real-time-earnings-20260902-050108.html",
+    "file": "BAD/article-0463-hedge-funds-deploy-llm-powered-sentiment-engines-for-real-time-earnings-20260902-050108.html",
     "timestamp": "20260902-050108",
     "full_timestamp": "2026-09-02T05:01:08-07:00",
     "summary": "Hedge funds are deploying LLM-powered sentiment engines to parse real-time earnings calls, aiming to extract trading signals faster than traditional methods.",
@@ -5979,7 +6111,11 @@
     "search_query": "LLM sentiment analysis hedge funds earnings calls 2026",
     "source_count": 0,
     "tags": "LLM, hedge funds, sentiment analysis, trading",
-    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf",
+    "original_file": "html/article-0463-hedge-funds-deploy-llm-powered-sentiment-engines-for-real-time-earnings-20260902-050108.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 464,
@@ -5997,7 +6133,7 @@
   {
     "article_number": 465,
     "topic": "macOS 26.1 Local AI Privacy Sandbox Faces App Store Review Scrutiny",
-    "file": "html/article-0465-macos-26-1-local-ai-privacy-sandbox-faces-app-store-review-scrutiny-20260902-070101.html",
+    "file": "BAD/article-0465-macos-26-1-local-ai-privacy-sandbox-faces-app-store-review-scrutiny-20260902-070101.html",
     "timestamp": "20260902-070101",
     "full_timestamp": "2026-09-02T07:01:01-07:00",
     "summary": "macOS 26.1 tightens on-device AI privacy controls while developers report new App Store review friction around local model distribution and entitlements.",
@@ -6005,7 +6141,11 @@
     "search_query": "macOS 26.1 Local AI privacy sandbox App Store review 2026 latest",
     "source_count": 0,
     "tags": "macOS 26.1, Local AI, Privacy Sandbox, App Store Review",
-    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf",
+    "original_file": "html/article-0465-macos-26-1-local-ai-privacy-sandbox-faces-app-store-review-scrutiny-20260902-070101.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 466,
@@ -6023,7 +6163,7 @@
   {
     "article_number": 467,
     "topic": "AI Crypto Trading Bots Face SEC Market-Making Compliance Test",
-    "file": "html/article-0467-ai-crypto-trading-bots-face-sec-market-making-compliance-test-20260902-090052.html",
+    "file": "BAD/article-0467-ai-crypto-trading-bots-face-sec-market-making-compliance-test-20260902-090052.html",
     "timestamp": "20260902-090052",
     "full_timestamp": "2026-09-02T09:00:52-07:00",
     "summary": "AI crypto trading bots face SEC scrutiny over potential unregistered market-making, testing compliance frameworks as regulators target algorithmic liquidity provision in digital asset markets.",
@@ -6031,7 +6171,11 @@
     "search_query": "SEC AI crypto trading bots market making compliance 2026",
     "source_count": 0,
     "tags": "AI trading, crypto regulation, SEC enforcement, market making",
-    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf",
+    "original_file": "html/article-0467-ai-crypto-trading-bots-face-sec-market-making-compliance-test-20260902-090052.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 468,
@@ -6062,7 +6206,7 @@
   {
     "article_number": 470,
     "topic": "New MLX Quantization Releases Test Whether Mac LLM Speedups Survive Real Workloads",
-    "file": "html/article-0470-new-mlx-quantization-releases-test-whether-mac-llm-speedups-survive-real-20260902-130247.html",
+    "file": "BAD/article-0470-new-mlx-quantization-releases-test-whether-mac-llm-speedups-survive-real-20260902-130247.html",
     "timestamp": "20260902-130247",
     "full_timestamp": "2026-09-02T13:02:47-07:00",
     "summary": "Recent MLX quantization changes cannot yet be judged against sustained, context-heavy Mac inference because the supplied research packet contains no source evidence beyond the assignment itself.",
@@ -6070,7 +6214,11 @@
     "search_query": "MLX quantization release Mac LLM benchmarks real workloads August 2026",
     "source_count": 0,
     "tags": "MLX, quantization, Apple Silicon, inference",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0470-new-mlx-quantization-releases-test-whether-mac-llm-speedups-survive-real-20260902-130247.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 471,
@@ -6088,7 +6236,7 @@
   {
     "article_number": 472,
     "topic": "AI Legal Filings Put Federal Courts’ New Disclosure Rules Through a Verification Test",
-    "file": "html/article-0472-ai-legal-filings-put-federal-courts-new-disclosure-rules-through-a-verif-20260902-150248.html",
+    "file": "BAD/article-0472-ai-legal-filings-put-federal-courts-new-disclosure-rules-through-a-verif-20260902-150248.html",
     "timestamp": "20260902-150248",
     "full_timestamp": "2026-09-02T15:02:48-07:00",
     "summary": "With no source evidence supplied, this verification test cannot establish whether federal courts impose AI-filing disclosures or citation checks, leaving procedural adoption unresolved.",
@@ -6096,7 +6244,11 @@
     "search_query": "2026 federal courts AI disclosure rules lawyer filings legal citations",
     "source_count": 0,
     "tags": "legal AI, courts, compliance",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0472-ai-legal-filings-put-federal-courts-new-disclosure-rules-through-a-verif-20260902-150248.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 473,
@@ -6114,7 +6266,7 @@
   {
     "article_number": 474,
     "topic": "AI Financial Filing Agents Make XBRL Tagging the Next Reporting-Control Fault Line",
-    "file": "html/article-0474-ai-financial-filing-agents-make-xbrl-tagging-the-next-reporting-control-20260902-170336.html",
+    "file": "BAD/article-0474-ai-financial-filing-agents-make-xbrl-tagging-the-next-reporting-control-20260902-170336.html",
     "timestamp": "20260902-170336",
     "full_timestamp": "2026-09-02T17:03:36-07:00",
     "summary": "With no supplied sources, this article can frame the accountability question around AI-selected XBRL tags without asserting evidence about controls, adoption, errors, or regulatory consequences.",
@@ -6122,7 +6274,11 @@
     "search_query": "2026 XBRL automation AI filing agents taxonomy errors corporate disclosures",
     "source_count": 0,
     "tags": "XBRL, financial filings, accounting AI, disclosure controls",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0474-ai-financial-filing-agents-make-xbrl-tagging-the-next-reporting-control-20260902-170336.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 475,
@@ -6140,7 +6296,7 @@
   {
     "article_number": 476,
     "topic": "AI Lobbyists Turn Federal Data-Center Permitting Into Washington’s Next Infrastructure Fight",
-    "file": "html/article-0476-ai-lobbyists-turn-federal-data-center-permitting-into-washingtons-next-i-20260902-190254.html",
+    "file": "BAD/article-0476-ai-lobbyists-turn-federal-data-center-permitting-into-washingtons-next-i-20260902-190254.html",
     "timestamp": "20260902-190254",
     "full_timestamp": "2026-09-02T19:02:54-07:00",
     "summary": "With no returned sources, the federal permitting fight over AI data centers cannot yet be documented; this analysis defines the questions, evidence gaps, and signals to monitor.",
@@ -6148,7 +6304,11 @@
     "search_query": "AI data center permitting lobbying Washington Congress 2026",
     "source_count": 0,
     "tags": "AI lobbying, data centers, permitting",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0476-ai-lobbyists-turn-federal-data-center-permitting-into-washingtons-next-i-20260902-190254.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 477,
@@ -6166,7 +6326,7 @@
   {
     "article_number": 478,
     "topic": "AI Smart Home Assistants Face EU Cyber Resilience Act Compliance Test as 2026 Reporting Rules Begin",
-    "file": "html/article-0478-ai-smart-home-assistants-face-eu-cyber-resilience-act-compliance-test-as-20260902-210250.html",
+    "file": "BAD/article-0478-ai-smart-home-assistants-face-eu-cyber-resilience-act-compliance-test-as-20260902-210250.html",
     "timestamp": "20260902-210250",
     "full_timestamp": "2026-09-02T21:02:50-07:00",
     "summary": "Mandatory vulnerability reporting could expose whether AI-enabled home devices have durable security processes, but the supplied evidence is too thin to establish compliance deadlines, duties, or outcomes.",
@@ -6174,12 +6334,16 @@
     "search_query": "EU Cyber Resilience Act September 2026 smart home AI assistants vulnerability reporting",
     "source_count": 0,
     "tags": "smart homes, cybersecurity, EU regulation",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0478-ai-smart-home-assistants-face-eu-cyber-resilience-act-compliance-test-as-20260902-210250.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   },
   {
     "article_number": 479,
     "topic": "AI Crypto Trading Bots Hit Exchange API Limits as Autonomous Execution Claims Meet Real-World Latency",
-    "file": "html/article-0479-ai-crypto-trading-bots-hit-exchange-api-limits-as-autonomous-execution-c-20260902-230328.html",
+    "file": "BAD/article-0479-ai-crypto-trading-bots-hit-exchange-api-limits-as-autonomous-execution-c-20260902-230328.html",
     "timestamp": "20260902-230328",
     "full_timestamp": "2026-09-02T23:03:28-07:00",
     "summary": "With no supplied sources, this investigation cannot yet test whether exchange throttling, API reliability, or execution latency materially weaken AI crypto trading bots’ autonomous performance claims.",
@@ -6187,6 +6351,10 @@
     "search_query": "crypto exchanges autonomous trading agents API limits latency 2026",
     "source_count": 0,
     "tags": "algorithmic trading, crypto exchanges, APIs, performance",
-    "model_names": "GPT 5.6 Luna"
+    "model_names": "GPT 5.6 Luna",
+    "original_file": "html/article-0479-ai-crypto-trading-bots-hit-exchange-api-limits-as-autonomous-execution-c-20260902-230328.html",
+    "archived": true,
+    "archive_reason": "zero source results",
+    "archived_at": "2026-09-03T00:10:35-07:00"
   }
 ]

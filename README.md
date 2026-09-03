@@ -11,4 +11,5 @@ Hourly source-led research portal. Each dispatch starts from one of 24 topic fam
 - Fallback LLM: GPT 5.6 Luna through Hermes `openai-codex`
 - Failure policy: no post is written when both inference paths fail
 - Search: local SearXNG at `127.0.0.1:8888`
+- Source gate: publish only after at least 2 sources; low-source searches select another unused topic family (up to 6 attempts)
 - Output: GitHub Pages via `main`
