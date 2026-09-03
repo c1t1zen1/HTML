@@ -6421,5 +6421,18 @@
     "source_count": 12,
     "tags": "intelligence, surveillance, classified data, AI governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 485,
+    "topic": "Synthetic Satellite Imagery Forces U.S. Intelligence to Rebuild Geospatial AI Verification",
+    "file": "html/article-0485-synthetic-satellite-imagery-forces-u-s-intelligence-to-rebuild-geospatia-20260903-130251.html",
+    "timestamp": "20260903-130251",
+    "full_timestamp": "2026-09-03T13:02:51-07:00",
+    "summary": "Synthetic satellite imagery is turning geospatial AI verification into a frontline intelligence requirement, testing provenance, cross-checking, and confidence before imagery informs surveillance or targeting.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 synthetic satellite imagery U.S. intelligence geospatial AI verification",
+    "source_count": 12,
+    "tags": "geospatial AI, satellite imagery, intelligence, surveillance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
