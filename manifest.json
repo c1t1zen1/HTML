@@ -6136,5 +6136,18 @@
     "source_count": 12,
     "tags": "AI investing, FINRA, retail trading, investor protection",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 476,
+    "topic": "AI Lobbyists Turn Federal Data-Center Permitting Into Washington’s Next Infrastructure Fight",
+    "file": "html/article-0476-ai-lobbyists-turn-federal-data-center-permitting-into-washingtons-next-i-20260902-190254.html",
+    "timestamp": "20260902-190254",
+    "full_timestamp": "2026-09-02T19:02:54-07:00",
+    "summary": "With no returned sources, the federal permitting fight over AI data centers cannot yet be documented; this analysis defines the questions, evidence gaps, and signals to monitor.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI data center permitting lobbying Washington Congress 2026",
+    "source_count": 0,
+    "tags": "AI lobbying, data centers, permitting",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
