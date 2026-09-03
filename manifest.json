@@ -6382,5 +6382,18 @@
     "source_count": 12,
     "tags": "quantization, unified memory, long context",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 482,
+    "topic": "California’s 2026 Companion-Chatbot Rules Put AI Therapy Crisis Protocols Under Scrutiny",
+    "file": "html/article-0482-californias-2026-companion-chatbot-rules-put-ai-therapy-crisis-protocols-20260903-060321.html",
+    "timestamp": "20260903-060321",
+    "full_timestamp": "2026-09-03T06:03:21-07:00",
+    "summary": "California’s SB 243 makes companion-chatbot safety an operational compliance question for AI therapy: prevent harmful outputs, trigger crisis referrals, publish protocols, and disclose non-human status.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California SB 243 2026 AI therapy chatbot suicide response requirements",
+    "source_count": 12,
+    "tags": "AI therapy, mental health, chatbot safety, California regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
