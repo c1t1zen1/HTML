@@ -6162,5 +6162,18 @@
     "source_count": 12,
     "tags": "AI video, copyright, EU AI Act",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 478,
+    "topic": "AI Smart Home Assistants Face EU Cyber Resilience Act Compliance Test as 2026 Reporting Rules Begin",
+    "file": "html/article-0478-ai-smart-home-assistants-face-eu-cyber-resilience-act-compliance-test-as-20260902-210250.html",
+    "timestamp": "20260902-210250",
+    "full_timestamp": "2026-09-02T21:02:50-07:00",
+    "summary": "Mandatory vulnerability reporting could expose whether AI-enabled home devices have durable security processes, but the supplied evidence is too thin to establish compliance deadlines, duties, or outcomes.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "EU Cyber Resilience Act September 2026 smart home AI assistants vulnerability reporting",
+    "source_count": 0,
+    "tags": "smart homes, cybersecurity, EU regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
