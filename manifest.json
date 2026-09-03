@@ -6123,5 +6123,18 @@
     "source_count": 0,
     "tags": "XBRL, financial filings, accounting AI, disclosure controls",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 475,
+    "topic": "AI Stock-Picking Apps Face FINRA Suitability Test as Retail Forecasting Tools Scale",
+    "file": "html/article-0475-ai-stock-picking-apps-face-finra-suitability-test-as-retail-forecasting-20260902-180301.html",
+    "timestamp": "20260902-180301",
+    "full_timestamp": "2026-09-02T18:03:01-07:00",
+    "summary": "As AI stock forecasts reach retail investors, the central question is whether marketing, advice, automation, and registration status create suitability, supervision, and disclosure exposure.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 FINRA AI stock prediction apps suitability investor protection",
+    "source_count": 12,
+    "tags": "AI investing, FINRA, retail trading, investor protection",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
