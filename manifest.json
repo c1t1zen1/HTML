@@ -6460,5 +6460,18 @@
     "source_count": 12,
     "tags": "Safari, WebGPU, on-device AI, macOS",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 488,
+    "topic": "AI Video Benchmarks Face Temporal-Consistency Test as Short Clips Hide Long-Form Failures",
+    "file": "html/article-0488-ai-video-benchmarks-face-temporal-consistency-test-as-short-clips-hide-l-20260903-210301.html",
+    "timestamp": "20260903-210301",
+    "full_timestamp": "2026-09-03T21:03:01-07:00",
+    "summary": "Short-clip leaderboards may reward spectacle while hiding drift, flicker, and identity loss; long-form benchmarks could expose whether video models sustain coherent worlds across extended scenes.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video generation benchmark temporal consistency long-form evaluation leaderboard",
+    "source_count": 12,
+    "tags": "video generation,benchmarks,temporal consistency",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
