@@ -6525,5 +6525,18 @@
     "source_count": 12,
     "tags": "deepfake, election law, federal preemption, AI regulation",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 493,
+    "topic": "AI Fraud Models Face Explainability Gap as EU AI Act High-Risk Rules Take Effect",
+    "file": "html/article-0493-ai-fraud-models-face-explainability-gap-as-eu-ai-act-high-risk-rules-tak-20260904-070138.html",
+    "timestamp": "20260904-070138",
+    "full_timestamp": "2026-09-04T07:01:38-07:00",
+    "summary": "As EU AI Act high-risk mandates take effect in 2026, banks face operational friction providing human-readable explanations for AI-driven transaction rejections.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "EU AI Act high-risk fraud detection banking compliance September 2026",
+    "source_count": 12,
+    "tags": "AI Fraud, EU AI Act, Banking Compliance, Explainable AI",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
