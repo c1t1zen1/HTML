@@ -6512,5 +6512,18 @@
     "source_count": 12,
     "tags": "AI auditing, SEC regulation, SOX compliance, financial controls",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 492,
+    "topic": "State Deepfake Election Laws Face Federal Preemption Test as AI Act Standards Clash",
+    "file": "html/article-0492-state-deepfake-election-laws-face-federal-preemption-test-as-ai-act-stan-20260904-050408.html",
+    "timestamp": "20260904-050408",
+    "full_timestamp": "2026-09-04T05:04:08-07:00",
+    "summary": "Recent federal court rulings striking down state deepfake election laws highlight a growing conflict with federal preemption efforts and evolving AI regulatory standards.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "state deepfake election laws federal preemption 2026 court rulings",
+    "source_count": 12,
+    "tags": "deepfake, election law, federal preemption, AI regulation",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
