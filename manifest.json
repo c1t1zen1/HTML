@@ -6434,5 +6434,18 @@
     "source_count": 12,
     "tags": "geospatial AI, satellite imagery, intelligence, surveillance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 486,
+    "topic": "Apple’s Foundation Models API Faces Local-Data Leakage Test as Mac AI Apps Expand",
+    "file": "html/article-0486-apples-foundation-models-api-faces-local-data-leakage-test-as-mac-ai-app-20260903-170333.html",
+    "timestamp": "20260903-170333",
+    "full_timestamp": "2026-09-03T17:03:33-07:00",
+    "summary": "Apple’s local Foundation Models API promises offline, on-device inference, but expanding Mac apps make privacy depend on data paths, fallbacks, permissions, and vendor behavior beyond Apple’s model boundary.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Foundation Models Mac privacy data leakage developer apps 2026",
+    "source_count": 12,
+    "tags": "Apple, Mac AI, privacy, developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
