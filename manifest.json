@@ -6447,5 +6447,18 @@
     "source_count": 12,
     "tags": "Apple, Mac AI, privacy, developer tools",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 487,
+    "topic": "Mac Local AI Moves Into the Browser as Safari WebGPU Performance Faces 2026 Test",
+    "file": "html/article-0487-mac-local-ai-moves-into-the-browser-as-safari-webgpu-performance-faces-2-20260903-190339.html",
+    "timestamp": "20260903-190339",
+    "full_timestamp": "2026-09-03T19:03:39-07:00",
+    "summary": "Browser-native inference could make Mac local AI as easy as opening a tab, but Safari’s disputed WebGPU rollout and unverified performance claims make 2026 a test, not a verdict.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Safari WebGPU local AI inference macOS browser models 2026 developer news",
+    "source_count": 12,
+    "tags": "Safari, WebGPU, on-device AI, macOS",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
