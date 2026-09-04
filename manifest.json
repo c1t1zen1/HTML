@@ -6499,5 +6499,18 @@
     "source_count": 12,
     "tags": "AI video avatars, live broadcasting, lip-sync latency, virtual presenters",
     "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
+  },
+  {
+    "article_number": 491,
+    "topic": "AI Audit Agents Face SEC Scrutiny Over Real-Time Financial Controls",
+    "file": "html/article-0491-ai-audit-agents-face-sec-scrutiny-over-real-time-financial-controls-20260904-030229.html",
+    "timestamp": "20260904-030229",
+    "full_timestamp": "2026-09-04T03:02:29-07:00",
+    "summary": "SEC scrutiny of AI audit agents challenges real-time SOX compliance claims, raising auditor independence and evidence-gathering questions for automated controls.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC AI audit agents real-time financial controls 2026",
+    "source_count": 12,
+    "tags": "AI auditing, SEC regulation, SOX compliance, financial controls",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
