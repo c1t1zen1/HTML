@@ -6486,5 +6486,18 @@
     "source_count": 12,
     "tags": "AI investing, prediction markets, stock forecasting",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 490,
+    "topic": "AI Video Avatars Face Real-Time Lip-Sync Latency Test in Live Broadcasts",
+    "file": "html/article-0490-ai-video-avatars-face-real-time-lip-sync-latency-test-in-live-broadcasts-20260904-010113.html",
+    "timestamp": "20260904-010113",
+    "full_timestamp": "2026-09-04T01:01:13-07:00",
+    "summary": "AI avatars in live broadcasts face a real-time lip-sync latency bottleneck, with end-to-end delays of one to eight seconds limiting their use in 24/7 news and sports coverage.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "AI video avatar live broadcast lip sync latency 2026",
+    "source_count": 12,
+    "tags": "AI video avatars, live broadcasting, lip-sync latency, virtual presenters",
+    "model_names": "/Users/c1t1zen/models/laguna-s-2.1-q6xl/UD-Q6_K_XL/Laguna-S-2.1-UD-Q6_K_XL-00001-of-00004.gguf"
   }
 ]
