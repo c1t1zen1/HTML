@@ -6473,5 +6473,18 @@
     "source_count": 12,
     "tags": "video generation,benchmarks,temporal consistency",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 489,
+    "topic": "Prediction-Market Data Puts AI Stock Forecasts Through a New Reliability Test",
+    "file": "html/article-0489-prediction-market-data-puts-ai-stock-forecasts-through-a-new-reliability-20260903-230330.html",
+    "timestamp": "20260903-230330",
+    "full_timestamp": "2026-09-03T23:03:30-07:00",
+    "summary": "Prediction-market odds are entering AI equity analysis, but their value depends on calibration, contract wording, timing, and proof that event probabilities improve stock-focused decisions.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 AI stock forecasts prediction markets Kalshi contract data reliability",
+    "source_count": 12,
+    "tags": "AI investing, prediction markets, stock forecasting",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
