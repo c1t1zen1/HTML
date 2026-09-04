@@ -5362,5 +5362,77 @@
     "canonical_query": "us intelligence ai hallucination threat assessment errors 2026",
     "searched_at": "2026-09-04T11:00:34-07:00",
     "topic": "US Intelligence Faces AI Hallucination Crisis in Critical Threat Assessments"
+  },
+  {
+    "query": "autonomous coding agents SWE-Bench security vulnerabilities supply chain 2026",
+    "canonical_query": "autonomous coding agents swe bench security vulnerabilities supply chain 2026",
+    "searched_at": "2026-09-04T12:00:36-07:00",
+    "topic": "Autonomous Coding Agents Face Supply Chain Integrity Test as SWE-Bench Vulnerabilities Expose Security Gaps"
+  },
+  {
+    "query": "SAG-AFTRA AI digital twin consent violations 2026",
+    "canonical_query": "sag aftra ai digital twin consent violations 2026",
+    "searched_at": "2026-09-04T12:00:46-07:00",
+    "topic": "AI Video Tools Face Union Contract Breach Claims Over Digital Twin Usage"
+  },
+  {
+    "query": "AI Video Tools Face Union Contract Breach Claims Over Digital Twin Usage analysis developments",
+    "canonical_query": "ai video tools face union contract breach claims over digital twin usage analysis developments",
+    "searched_at": "2026-09-04T12:00:48-07:00",
+    "topic": "AI Video Tools Face Union Contract Breach Claims Over Digital Twin Usage"
+  },
+  {
+    "query": "FTC deepfake voice cloning enforcement actions 2026",
+    "canonical_query": "ftc deepfake voice cloning enforcement actions 2026",
+    "searched_at": "2026-09-04T12:00:52-07:00",
+    "topic": "FTC Deepfake Enforcement Targets AI Voice Cloning in Robocall Fraud Crackdown"
+  },
+  {
+    "query": "FTC Deepfake Enforcement Targets AI Voice Cloning in Robocall Fraud Crackdown analysis developments",
+    "canonical_query": "ftc deepfake enforcement targets ai voice cloning in robocall fraud crackdown analysis developments",
+    "searched_at": "2026-09-04T12:00:53-07:00",
+    "topic": "FTC Deepfake Enforcement Targets AI Voice Cloning in Robocall Fraud Crackdown"
+  },
+  {
+    "query": "Apple M5 Mac Studio local LLM clustering performance 2026",
+    "canonical_query": "apple m5 mac studio local llm clustering performance 2026",
+    "searched_at": "2026-09-04T12:01:02-07:00",
+    "topic": "Apple M5 Chip Efficiency Gains Face Scrutiny in Multi-Node Local AI Clustering"
+  },
+  {
+    "query": "Apple M5 Chip Efficiency Gains Face Scrutiny in Multi-Node Local AI Clustering analysis developments",
+    "canonical_query": "apple m5 chip efficiency gains face scrutiny in multi node local ai clustering analysis developments",
+    "searched_at": "2026-09-04T12:01:03-07:00",
+    "topic": "Apple M5 Chip Efficiency Gains Face Scrutiny in Multi-Node Local AI Clustering"
+  },
+  {
+    "query": "Apple CoreML 2026 breaking changes legacy AI tools compatibility",
+    "canonical_query": "apple coreml 2026 breaking changes legacy ai tools compatibility",
+    "searched_at": "2026-09-04T12:01:07-07:00",
+    "topic": "Apple’s CoreML 2026 Update Forces Legacy AI Toolchains Into Obsolescence"
+  },
+  {
+    "query": "Apple’s CoreML 2026 Update Forces Legacy AI Toolchains Into Obsolescence analysis developments",
+    "canonical_query": "apple s coreml 2026 update forces legacy ai toolchains into obsolescence analysis developments",
+    "searched_at": "2026-09-04T12:01:08-07:00",
+    "topic": "Apple’s CoreML 2026 Update Forces Legacy AI Toolchains Into Obsolescence"
+  },
+  {
+    "query": "Apple Private Cloud Compute local processing EU data residency 2026",
+    "canonical_query": "apple private cloud compute local processing eu data residency 2026",
+    "searched_at": "2026-09-04T12:01:12-07:00",
+    "topic": "Apple’s Private Cloud Compute Faces Local-First Shift as EU Data Residency Rules Tighten"
+  },
+  {
+    "query": "Apple’s Private Cloud Compute Faces Local-First Shift as EU Data Residency Rules Tighten analysis developments",
+    "canonical_query": "apple s private cloud compute faces local first shift as eu data residency rules tighten analysis developments",
+    "searched_at": "2026-09-04T12:01:13-07:00",
+    "topic": "Apple’s Private Cloud Compute Faces Local-First Shift as EU Data Residency Rules Tighten"
+  },
+  {
+    "query": "FTC enforcement AI voter micro-targeting data privacy 2026",
+    "canonical_query": "ftc enforcement ai voter micro targeting data privacy 2026",
+    "searched_at": "2026-09-04T13:00:44-07:00",
+    "topic": "AI Micro-Targeting Tools Face FTC Scrutiny Over Voter Data Privacy in 2026 Midterms"
   }
 ]
