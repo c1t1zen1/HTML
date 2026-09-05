@@ -6694,5 +6694,18 @@
     "source_count": 12,
     "tags": "C2PA, provenance, post-production",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 506,
+    "topic": "Autonomous Coding Agents Face Production-Permission Test as Enterprises Restrict Autonomous Merges",
+    "file": "html/article-0506-autonomous-coding-agents-face-production-permission-test-as-enterprises-20260905-090313.html",
+    "timestamp": "20260905-090313",
+    "full_timestamp": "2026-09-05T09:03:13-07:00",
+    "summary": "Enterprise coding agents are moving from code generation to permissioned production work, making merge authority, review gates, identity, and rollback the decisive adoption test.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 coding agents production permissions autonomous merges enterprise software supply chain",
+    "source_count": 12,
+    "tags": "coding agents, software supply chain, access control, autonomous development",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
