@@ -6707,5 +6707,18 @@
     "source_count": 12,
     "tags": "coding agents, software supply chain, access control, autonomous development",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 507,
+    "topic": "Commercial Data Brokers Put AI Intelligence Surveillance Under a New Consent Test",
+    "file": "html/article-0507-commercial-data-brokers-put-ai-intelligence-surveillance-under-a-new-con-20260905-110205.html",
+    "timestamp": "20260905-110205",
+    "full_timestamp": "2026-09-05T11:02:05-07:00",
+    "summary": "Commercially brokered data is forcing a new surveillance question: whether AI analysis can bypass consent, minimization, and oversight safeguards simply because information was purchased.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 US intelligence AI commercially available information data brokers privacy",
+    "source_count": 12,
+    "tags": "data brokers, intelligence oversight, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
