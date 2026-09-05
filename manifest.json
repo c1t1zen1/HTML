@@ -6733,5 +6733,18 @@
     "source_count": 12,
     "tags": "AI Lobbying, State Policy, AI Governance, 2026",
     "model_names": "/Users/c1t1zen/llama.cpp/models/Spark-X2.5-4B.gguf"
+  },
+  {
+    "article_number": 509,
+    "topic": "Bar Regulators Reassess AI Competence Duties as Law Firms Deploy Autonomous Workflows",
+    "file": "html/article-0509-bar-regulators-reassess-ai-competence-duties-as-law-firms-deploy-autonom-20260905-150322.html",
+    "timestamp": "20260905-150322",
+    "full_timestamp": "2026-09-05T15:03:22-07:00",
+    "summary": "As law firms deploy autonomous workflows, bar regulators are sharpening competence, confidentiality, supervision, and disclosure expectations—raising malpractice exposure when human judgment fails.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 bar regulators AI competence duties malpractice rules autonomous legal workflows",
+    "source_count": 12,
+    "tags": "bar regulation, legal ethics, malpractice, autonomous AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
