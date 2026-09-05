@@ -6603,5 +6603,18 @@
     "source_count": 12,
     "tags": "AI therapy,FDA regulation,clinical evidence,mental health",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 499,
+    "topic": "AI Searches of Section 702 Data Face Constitutional Test as U.S. Surveillance Rules Shift",
+    "file": "html/article-0499-ai-searches-of-section-702-data-face-constitutional-test-as-u-s-surveill-20260904-190307.html",
+    "timestamp": "20260904-190307",
+    "full_timestamp": "2026-09-04T19:03:07-07:00",
+    "summary": "As Section 702 rules shift, AI-assisted retrieval could blur the line between foreign-intelligence collection and searches of Americans’ communications, testing minimization, oversight, and constitutional limits.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 Section 702 AI search tools FBI query privacy oversight",
+    "source_count": 12,
+    "tags": "Section 702, privacy, AI surveillance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
