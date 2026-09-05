@@ -6681,5 +6681,18 @@
     "source_count": 12,
     "tags": "MLX, GGUF, Apple silicon, local inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 505,
+    "topic": "AI Video Editing Faces Provenance-Break Test as C2PA Metadata Collides With Generative Post-Production",
+    "file": "html/article-0505-ai-video-editing-faces-provenance-break-test-as-c2pa-metadata-collides-w-20260905-070315.html",
+    "timestamp": "20260905-070315",
+    "full_timestamp": "2026-09-05T07:03:15-07:00",
+    "summary": "C2PA promises a cryptographically signed edit history, but the supplied evidence leaves the hardest question unresolved: whether credentials survive AI-assisted compositing, transformation, and finishing.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "C2PA provenance metadata generative video editing post-production 2026 Adobe",
+    "source_count": 12,
+    "tags": "C2PA, provenance, post-production",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
