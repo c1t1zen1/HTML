@@ -6668,5 +6668,18 @@
     "source_count": 12,
     "tags": "AI Trading, Crypto Markets, Algorithmic Risk, Market Liquidity",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 504,
+    "topic": "Apple Silicon Local AI Stacks Face Model-Portability Test Across MLX, GGUF, and Swift",
+    "file": "html/article-0504-apple-silicon-local-ai-stacks-face-model-portability-test-across-mlx-ggu-20260905-050354.html",
+    "timestamp": "20260905-050354",
+    "full_timestamp": "2026-09-05T05:03:54-07:00",
+    "summary": "Apple Silicon’s local-AI ecosystem is splitting across MLX, GGUF, and Swift, making portability, model availability, and runtime choice central to practical deployment.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "MLX GGUF Swift macOS local inference interoperability 2026",
+    "source_count": 12,
+    "tags": "MLX, GGUF, Apple silicon, local inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
