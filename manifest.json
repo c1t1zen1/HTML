@@ -6720,5 +6720,18 @@
     "source_count": 12,
     "tags": "data brokers, intelligence oversight, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 508,
+    "topic": "AI Lobbying Targets State AI Safety Task Forces in 2026 Policy Push",
+    "file": "html/article-0508-ai-lobbying-targets-state-ai-safety-task-forces-in-2026-policy-push-20260905-130043.html",
+    "timestamp": "20260905-130043",
+    "full_timestamp": "2026-09-05T13:00:43-07:00",
+    "summary": "2026 AI lobbying shifts to targeting state AI safety task forces amid accelerating local AI governance and federal preemption efforts.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI lobbying targets state AI safety task forces 2026 policy push",
+    "source_count": 12,
+    "tags": "AI Lobbying, State Policy, AI Governance, 2026",
+    "model_names": "/Users/c1t1zen/llama.cpp/models/Spark-X2.5-4B.gguf"
   }
 ]
