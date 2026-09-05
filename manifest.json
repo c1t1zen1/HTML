@@ -6590,5 +6590,18 @@
     "source_count": 12,
     "tags": "AI infrastructure, energy policy, lobbying",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 498,
+    "topic": "AI Therapy Apps Face FDA Device-Classification Test as Clinical Claims Expand",
+    "file": "html/article-0498-ai-therapy-apps-face-fda-device-classification-test-as-clinical-claims-e-20260904-170248.html",
+    "timestamp": "20260904-170248",
+    "full_timestamp": "2026-09-04T17:02:48-07:00",
+    "summary": "As AI therapy apps move from wellness language toward diagnosis and treatment claims, intended use, clinical evidence, software exclusions, and device lineage become decisive FDA questions.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "2026 FDA AI mental health apps device classification clinical evidence",
+    "source_count": 12,
+    "tags": "AI therapy,FDA regulation,clinical evidence,mental health",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
