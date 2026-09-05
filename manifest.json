@@ -6616,5 +6616,18 @@
     "source_count": 12,
     "tags": "Section 702, privacy, AI surveillance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 500,
+    "topic": "AI Video Models Face Native-Audio Reliability Test as Generated Dialogue Enters Production",
+    "file": "html/article-0500-ai-video-models-face-native-audio-reliability-test-as-generated-dialogue-20260904-210342.html",
+    "timestamp": "20260904-210342",
+    "full_timestamp": "2026-09-04T21:03:42-07:00",
+    "summary": "AI video models increasingly generate dialogue, music, ambience, and effects with the picture—but production depends on whether that native audio remains synchronized, intelligible, and repeatable.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video models native audio generation filmmaking dialogue sound effects",
+    "source_count": 12,
+    "tags": "native audio, filmmaking, generative video",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
