@@ -6642,5 +6642,18 @@
     "source_count": 12,
     "tags": "AI Video, Labor Rights, SAG-AFTRA, Content Creation",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 502,
+    "topic": "Hedge Funds Face AI Model Drift Crisis as Market Regimes Shift in 2026",
+    "file": "html/article-0502-hedge-funds-face-ai-model-drift-crisis-as-market-regimes-shift-in-2026-20260905-010138.html",
+    "timestamp": "20260905-010138",
+    "full_timestamp": "2026-09-05T01:01:38-07:00",
+    "summary": "Hedge funds face model drift as LLM trading strategies fail during market regime shifts, revealing gaps in current AI financial applications.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "LLM trading model drift volatility hedge fund performance 2026",
+    "source_count": 12,
+    "tags": "Hedge Funds, LLMs, Model Drift, Trading",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
