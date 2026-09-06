@@ -6811,5 +6811,18 @@
     "source_count": 12,
     "tags": "copyright, AI video, film production",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 515,
+    "topic": "Banks Face AI Anti-Money-Laundering Audit Test as AMLA Builds Common Supervisory Rules",
+    "file": "html/article-0515-banks-face-ai-anti-money-laundering-audit-test-as-amla-builds-common-sup-20260906-060258.html",
+    "timestamp": "20260906-060258",
+    "full_timestamp": "2026-09-06T06:02:58-07:00",
+    "summary": "Banks entering AMLA’s supervisory orbit must prove AI-generated alerts are risk-based, explainable, independently validated, and governed—while turning noisy detection into defensible decisions.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 AMLA transaction monitoring model governance false positives bank supervision",
+    "source_count": 12,
+    "tags": "AMLA, anti-money laundering, transaction monitoring",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
