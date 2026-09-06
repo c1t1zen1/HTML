@@ -6759,5 +6759,18 @@
     "source_count": 12,
     "tags": "instant payments, mule accounts, fraud liability",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 511,
+    "topic": "AI Fraud Detection Faces Agentic-Commerce Test as Autonomous Checkout Expands Across Bank-Linked Payments",
+    "file": "html/article-0511-ai-fraud-detection-faces-agentic-commerce-test-as-autonomous-checkout-ex-20260905-210238.html",
+    "timestamp": "20260905-210238",
+    "full_timestamp": "2026-09-05T21:02:38-07:00",
+    "summary": "As AI agents gain payment authority, banks must detect not only suspicious transactions but whether the software, user, and permission behind each purchase remain legitimate.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 agentic commerce bank payments fraud detection autonomous AI agents security",
+    "source_count": 12,
+    "tags": "agentic commerce, payment security, account takeover",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
