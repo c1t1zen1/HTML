@@ -6837,5 +6837,18 @@
     "source_count": 12,
     "tags": "smart homes, privacy, ambient AI, cybersecurity",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 517,
+    "topic": "AI Therapy Companions Face California Crisis-Protocol Test as New Chatbot Rules Take Effect",
+    "file": "html/article-0517-ai-therapy-companions-face-california-crisis-protocol-test-as-new-chatbo-20260906-100240.html",
+    "timestamp": "20260906-100240",
+    "full_timestamp": "2026-09-06T10:02:40-07:00",
+    "summary": "California’s SB 243 sets a crisis-response baseline for AI companions, testing whether self-harm interactions receive stronger safeguards than ordinary wellness-app conversations.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California SB 243 AI companion chatbots crisis protocols 2026 enforcement",
+    "source_count": 12,
+    "tags": "AI therapy, chatbot safety, California law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
