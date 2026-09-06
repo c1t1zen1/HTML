@@ -6850,5 +6850,18 @@
     "source_count": 12,
     "tags": "AI therapy, chatbot safety, California law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 518,
+    "topic": "Fake Voter-Registration Sites Offer Election Integrity’s Next AI Impersonation Test",
+    "file": "html/article-0518-fake-voter-registration-sites-offer-election-integritys-next-ai-imperson-20260906-120301.html",
+    "timestamp": "20260906-120301",
+    "full_timestamp": "2026-09-06T12:03:01-07:00",
+    "summary": "Fake registration pages could turn election impersonation into direct voter-access fraud, combining official-looking domains, phishing, and AI-generated trust signals before the 2026 midterms.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election officials AI impersonation fake voter registration websites scam response",
+    "source_count": 12,
+    "tags": "election security, AI impersonation, voter registration",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
