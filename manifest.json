@@ -6772,5 +6772,18 @@
     "source_count": 12,
     "tags": "agentic commerce, payment security, account takeover",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 512,
+    "topic": "US Surveillance AI Faces New Section 702 Data Integrity Audit Mandate",
+    "file": "html/article-0512-us-surveillance-ai-faces-new-section-702-data-integrity-audit-mandate-20260905-230241.html",
+    "timestamp": "20260905-230241",
+    "full_timestamp": "2026-09-05T23:02:41-07:00",
+    "summary": "Analysis of the newly enacted Section 702 data integrity audit mandate targeting AI-driven U.S. intelligence surveillance systems, grounded in official and legal sources.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "Section 702 surveillance AI data integrity audit mandate 2026",
+    "source_count": 12,
+    "tags": "Section 702, AI Surveillance, Data Integrity, Intelligence Audit",
+    "model_names": "/Users/c1t1zen/llama.cpp/models/Spark-X2.5-4B.gguf"
   }
 ]
