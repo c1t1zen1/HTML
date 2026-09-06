@@ -6785,5 +6785,18 @@
     "source_count": 12,
     "tags": "Section 702, AI Surveillance, Data Integrity, Intelligence Audit",
     "model_names": "/Users/c1t1zen/llama.cpp/models/Spark-X2.5-4B.gguf"
+  },
+  {
+    "article_number": 513,
+    "topic": "AI Campaign Chatbots Face Disclosure Mandates Under New FTC Guidelines",
+    "file": "html/article-0513-ai-campaign-chatbots-face-disclosure-mandates-under-new-ftc-guidelines-20260906-010456.html",
+    "timestamp": "20260906-010456",
+    "full_timestamp": "2026-09-06T01:04:56-07:00",
+    "summary": "New FTC actions and state laws mandate disclosure for AI chatbots in elections, distinguishing interactive agents from static ads with steep per-violation penalties.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "FTC AI chatbot political campaign disclosure rules 2026",
+    "source_count": 12,
+    "tags": "AI chatbots, FTC, election regulation, political campaigns",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
