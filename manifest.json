@@ -6824,5 +6824,18 @@
     "source_count": 12,
     "tags": "AMLA, anti-money laundering, transaction monitoring",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 516,
+    "topic": "Alexa+ Smart Homes Face Ambient-Data Consent Test as Agents Coordinate Cameras, Locks, and Appliances",
+    "file": "html/article-0516-alexa-smart-homes-face-ambient-data-consent-test-as-agents-coordinate-ca-20260906-080234.html",
+    "timestamp": "20260906-080234",
+    "full_timestamp": "2026-09-06T08:02:34-07:00",
+    "summary": "As Alexa-linked homes connect locks, cameras, and appliances, the central question shifts from wake-word privacy to whether every resident understands—and can control—an agent’s ambient decisions.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "2026 Alexa+ smart home ambient data privacy consent cameras locks appliances",
+    "source_count": 12,
+    "tags": "smart homes, privacy, ambient AI, cybersecurity",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
