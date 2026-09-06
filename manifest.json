@@ -6863,5 +6863,18 @@
     "source_count": 12,
     "tags": "election security, AI impersonation, voter registration",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 519,
+    "topic": "Apple Silicon LLM Inference Faces Multi-Mac Scaling Test as Developers Test MLX Distributed Inference",
+    "file": "html/article-0519-apple-silicon-llm-inference-faces-multi-mac-scaling-test-as-developers-t-20260906-140300.html",
+    "timestamp": "20260906-140300",
+    "full_timestamp": "2026-09-06T14:03:00-07:00",
+    "summary": "MLX distributed inference could turn multiple M-series Macs into a larger local serving pool, but current evidence leaves networking, throughput, compatibility, and production reliability unresolved.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "MLX distributed inference Apple Silicon 2026 multi-Mac serving developments",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, distributed inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
