@@ -6798,5 +6798,18 @@
     "source_count": 12,
     "tags": "AI chatbots, FTC, election regulation, political campaigns",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 514,
+    "topic": "AI Video Editing Faces Copyrightability Test as Courts Define Human Control Over Generated Cuts",
+    "file": "html/article-0514-ai-video-editing-faces-copyrightability-test-as-courts-define-human-cont-20260906-040544.html",
+    "timestamp": "20260906-040544",
+    "full_timestamp": "2026-09-06T04:05:44-07:00",
+    "summary": "Courts have left pure AI authorship unprotected, but editors’ selection, arrangement, and human revisions may determine whether an AI-shaped final cut earns copyright.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 US court AI-generated film human authorship copyright editing",
+    "source_count": 12,
+    "tags": "copyright, AI video, film production",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
