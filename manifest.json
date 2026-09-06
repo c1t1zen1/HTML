@@ -6746,5 +6746,18 @@
     "source_count": 12,
     "tags": "bar regulation, legal ethics, malpractice, autonomous AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 510,
+    "topic": "AI Fraud Detection Faces Reimbursement Liability Test as Europe’s Instant Payments Rules Mature",
+    "file": "html/article-0510-ai-fraud-detection-faces-reimbursement-liability-test-as-europes-instant-20260905-190238.html",
+    "timestamp": "20260905-190238",
+    "full_timestamp": "2026-09-05T19:02:38-07:00",
+    "summary": "Europe’s instant-payment rules are turning behavioral AI into a timing, accuracy, and accountability test: stop mule transfers rapidly, protect legitimate customers, and withstand reimbursement scrutiny.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks AI mule account detection instant payments reimbursement liability Europe",
+    "source_count": 12,
+    "tags": "instant payments, mule accounts, fraud liability",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
