@@ -6876,5 +6876,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, distributed inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 520,
+    "topic": "Courts Turn AI-Hallucinated Citations Into a New Sanctions Test for Lawyers",
+    "file": "html/article-0520-courts-turn-ai-hallucinated-citations-into-a-new-sanctions-test-for-lawy-20260906-160306.html",
+    "timestamp": "20260906-160306",
+    "full_timestamp": "2026-09-06T16:03:06-07:00",
+    "summary": "Courts are treating fabricated authorities as a lawyer-accountability problem, pairing sanctions and appellate scrutiny with a tougher expectation that every cited case survives human verification.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 lawyers sanctioned for AI-generated citations court filings appellate rulings",
+    "source_count": 12,
+    "tags": "court sanctions, AI hallucinations, legal ethics",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
