@@ -6954,5 +6954,18 @@
     "source_count": 12,
     "tags": "privacy, FTC, chatbots, mental health",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 526,
+    "topic": "AI Video Localization Faces Lip-Sync Quality Test as Studios Expand Multilingual Post-Production",
+    "file": "html/article-0526-ai-video-localization-faces-lip-sync-quality-test-as-studios-expand-mult-20260907-040348.html",
+    "timestamp": "20260907-040348",
+    "full_timestamp": "2026-09-07T04:03:48-07:00",
+    "summary": "As studios push multilingual post-production, AI dubbing must prove more than speed: translation, voice fidelity, and mouth movement now require repeatable, use-case-specific quality control.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 AI video localization dubbing lip sync post-production studio rollout",
+    "source_count": 12,
+    "tags": "video localization, AI dubbing, lip sync, post-production",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
