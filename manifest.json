@@ -6915,5 +6915,18 @@
     "source_count": 12,
     "tags": "quantization, MLX, Apple Silicon, inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 523,
+    "topic": "EU AI Act Article 50 Deepfake Rules Meet First Compliance Deadline After August 2026 Rollout",
+    "file": "html/article-0523-eu-ai-act-article-50-deepfake-rules-meet-first-compliance-deadline-after-20260906-220251.html",
+    "timestamp": "20260906-220251",
+    "full_timestamp": "2026-09-06T22:02:51-07:00",
+    "summary": "EU AI Act Article 50 transparency duties begin 2 August 2026, turning deepfake labels and machine-readable markings into a practical compliance test while transitional rules and guidance remain central.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "EU AI Act Article 50 transparency rules August 2026 deepfake labeling compliance",
+    "source_count": 12,
+    "tags": "EU AI Act, deepfakes, transparency, compliance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
