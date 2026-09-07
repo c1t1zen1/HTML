@@ -6902,5 +6902,18 @@
     "source_count": 12,
     "tags": "AI trading, crypto exchanges, API security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 522,
+    "topic": "Apple Silicon Quantized LLMs Face Accuracy-Drift Test as Four-Bit Kernels Mature",
+    "file": "html/article-0522-apple-silicon-quantized-llms-face-accuracy-drift-test-as-four-bit-kernel-20260906-200234.html",
+    "timestamp": "20260906-200234",
+    "full_timestamp": "2026-09-06T20:02:34-07:00",
+    "summary": "Apple Silicon’s four-bit kernels are getting faster, but the supplied evidence still does not establish whether lower-bit execution preserves answer quality across real Mac workloads.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX 4-bit quantization accuracy benchmark Apple Silicon 2026",
+    "source_count": 12,
+    "tags": "quantization, MLX, Apple Silicon, inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
