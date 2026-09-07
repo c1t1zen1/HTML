@@ -6967,5 +6967,18 @@
     "source_count": 12,
     "tags": "video localization, AI dubbing, lip sync, post-production",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 527,
+    "topic": "ICE AI Surveillance Faces Due-Process Test as Facial Recognition Expands Immigration Enforcement",
+    "file": "html/article-0527-ice-ai-surveillance-faces-due-process-test-as-facial-recognition-expands-20260907-060401.html",
+    "timestamp": "20260907-060401",
+    "full_timestamp": "2026-09-07T06:04:01-07:00",
+    "summary": "ICE’s expanding biometric surveillance system faces a due-process test: whether error-prone identification, broad data access, and limited oversight can coexist with lawful immigration enforcement.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 ICE AI surveillance facial recognition due process immigration enforcement",
+    "source_count": 12,
+    "tags": "ICE, facial recognition, immigration, surveillance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
