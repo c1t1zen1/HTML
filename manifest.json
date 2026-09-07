@@ -7006,5 +7006,18 @@
     "source_count": 12,
     "tags": "C2PA, provenance, post-production",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 530,
+    "topic": "AI Video Models Face Physical-Consistency Test as World Simulators Target Robotics Training",
+    "file": "html/article-0530-ai-video-models-face-physical-consistency-test-as-world-simulators-targe-20260907-120422.html",
+    "timestamp": "20260907-120422",
+    "full_timestamp": "2026-09-07T12:04:22-07:00",
+    "summary": "Video generators are moving toward world simulators for robotics, but visual realism still falls short of proven, persistent physical consistency needed for dependable training and planning.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video world models physical consistency robotics simulation",
+    "source_count": 12,
+    "tags": "AI video, world models, robotics, simulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
