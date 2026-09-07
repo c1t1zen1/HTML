@@ -6993,5 +6993,18 @@
     "source_count": 12,
     "tags": "MLX, long-context, unified-memory, Mac inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 529,
+    "topic": "AI Video Editors Face Provenance-Chain Test as C2PA Credentials Reach Professional Post Workflows",
+    "file": "html/article-0529-ai-video-editors-face-provenance-chain-test-as-c2pa-credentials-reach-pr-20260907-100409.html",
+    "timestamp": "20260907-100409",
+    "full_timestamp": "2026-09-07T10:04:09-07:00",
+    "summary": "C2PA-enabled editing promises durable provenance across professional video workflows, but fragmented tool support, import behavior, signing limits, and independent verification determine whether histories actually survive.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "C2PA Content Credentials Premiere Pro DaVinci Resolve 2026 professional video editing",
+    "source_count": 12,
+    "tags": "C2PA, provenance, post-production",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
