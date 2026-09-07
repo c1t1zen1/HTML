@@ -6889,5 +6889,18 @@
     "source_count": 12,
     "tags": "court sanctions, AI hallucinations, legal ethics",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 521,
+    "topic": "Crypto Exchanges Put AI Trading Bots Through an API Permission and Kill-Switch Test",
+    "file": "html/article-0521-crypto-exchanges-put-ai-trading-bots-through-an-api-permission-and-kill-20260906-180304.html",
+    "timestamp": "20260906-180304",
+    "full_timestamp": "2026-09-06T18:03:04-07:00",
+    "summary": "Exchange APIs can reduce bot blast radius with trade-only keys, disabled withdrawals, limits, monitoring, and kill switches—but supplied evidence mostly shows guidance, not universal enforcement.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 crypto exchanges AI trading bot API permissions kill switches",
+    "source_count": 12,
+    "tags": "AI trading, crypto exchanges, API security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
