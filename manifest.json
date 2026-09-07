@@ -6941,5 +6941,18 @@
     "source_count": 12,
     "tags": "labor, performer rights, residuals",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 525,
+    "topic": "Mental Health Chatbots Face FTC Privacy Test as Regulators Scrutinize Sensitive Conversation Data",
+    "file": "html/article-0525-mental-health-chatbots-face-ftc-privacy-test-as-regulators-scrutinize-se-20260907-020346.html",
+    "timestamp": "20260907-020346",
+    "full_timestamp": "2026-09-07T02:03:46-07:00",
+    "summary": "Mental-health chatbots are entering a privacy test as FTC inquiries, health-data enforcement, and emerging state rules examine conversational collection, retention, disclosure, monetization, and safeguards.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "2026 FTC mental health chatbot sensitive conversation data privacy enforcement",
+    "source_count": 12,
+    "tags": "privacy, FTC, chatbots, mental health",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
