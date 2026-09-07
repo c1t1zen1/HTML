@@ -6928,5 +6928,18 @@
     "source_count": 12,
     "tags": "EU AI Act, deepfakes, transparency, compliance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 524,
+    "topic": "AI Video Production Faces Performer-Consent and Residuals Test in 2026 Contract Talks",
+    "file": "html/article-0524-ai-video-production-faces-performer-consent-and-residuals-test-in-2026-c-20260907-000352.html",
+    "timestamp": "20260907-000352",
+    "full_timestamp": "2026-09-07T00:03:52-07:00",
+    "summary": "SAG-AFTRA’s 2026 deal puts digital replicas, synthetics, hybrid performances, and streaming compensation at the center of a test over consent, control, and reuse.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 SAG-AFTRA contract talks AI generated video performer residuals",
+    "source_count": 12,
+    "tags": "labor, performer rights, residuals",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
