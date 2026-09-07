@@ -6980,5 +6980,18 @@
     "source_count": 12,
     "tags": "ICE, facial recognition, immigration, surveillance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 528,
+    "topic": "Apple Silicon LLM Inference Faces Long-Context Memory Ceiling as Mac Agents Retain More History",
+    "file": "html/article-0528-apple-silicon-llm-inference-faces-long-context-memory-ceiling-as-mac-age-20260907-080544.html",
+    "timestamp": "20260907-080544",
+    "full_timestamp": "2026-09-07T08:05:44-07:00",
+    "summary": "Unified memory helps Apple Silicon keep model weights accessible, but sustained pressure, page movement, model size, quantization, and runtime choices may constrain long-context Mac agents.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "MLX long context unified memory pressure Mac local LLM 2026",
+    "source_count": 12,
+    "tags": "MLX, long-context, unified-memory, Mac inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
