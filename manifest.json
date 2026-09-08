@@ -7032,5 +7032,18 @@
     "source_count": 12,
     "tags": "AI avatars, live commerce, platform liability",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 532,
+    "topic": "AI Crypto Trading Bots Face Data-Poisoning Test as Meme-Coin Signals Distort Autonomous Returns",
+    "file": "html/article-0532-ai-crypto-trading-bots-face-data-poisoning-test-as-meme-coin-signals-dis-20260907-170411.html",
+    "timestamp": "20260907-170411",
+    "full_timestamp": "2026-09-07T17:04:11-07:00",
+    "summary": "AI crypto bots increasingly trade on social and on-chain cues, but supplied evidence points to a harder question: can autonomous systems distinguish genuine momentum from contaminated signals?",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 crypto AI bot data poisoning social sentiment memecoin trading",
+    "source_count": 12,
+    "tags": "crypto, AI trading, data poisoning, memecoins",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
