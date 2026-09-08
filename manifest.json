@@ -7136,5 +7136,18 @@
     "source_count": 12,
     "tags": "Google Home, Gemini, smart home, permissions",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 540,
+    "topic": "AI Stock Research Agents Face Fiduciary-Duty Test as Brokerages Pilot Autonomous Investor Advice",
+    "file": "html/article-0540-ai-stock-research-agents-face-fiduciary-duty-test-as-brokerages-pilot-au-20260908-100307.html",
+    "timestamp": "20260908-100307",
+    "full_timestamp": "2026-09-08T10:03:07-07:00",
+    "summary": "As brokerages pilot autonomous investor advice, fiduciary and suitability duties follow the recommendation—forcing firms to govern client fit, incentives, supervision, and evidence.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 brokerages AI research agents fiduciary duty investor recommendations",
+    "source_count": 12,
+    "tags": "AI agents, fiduciary duty, brokerages, retail investing",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
