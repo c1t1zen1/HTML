@@ -7071,5 +7071,18 @@
     "source_count": 12,
     "tags": "hedge funds,AI regulation,SEC,disclosures",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 535,
+    "topic": "AI Video Editors Face Training-Data Copyright Test as Studios Audit Generative Post-Production Tools",
+    "file": "html/article-0535-ai-video-editors-face-training-data-copyright-test-as-studios-audit-gene-20260907-230230.html",
+    "timestamp": "20260907-230230",
+    "full_timestamp": "2026-09-07T23:02:30-07:00",
+    "summary": "Studios evaluating AI editing tools face a harder question than who made the final video: can vendors document, defend, and update the rights provenance of training material?",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 AI video editing training data copyright lawsuits studio post-production tools",
+    "source_count": 12,
+    "tags": "copyright,training data,post-production,studios",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
