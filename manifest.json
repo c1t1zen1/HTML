@@ -7045,5 +7045,18 @@
     "source_count": 12,
     "tags": "crypto, AI trading, data poisoning, memecoins",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 533,
+    "topic": "AI Crypto Trading Bots Face Funding-Rate Stress Test in Perpetual Markets",
+    "file": "html/article-0533-ai-crypto-trading-bots-face-funding-rate-stress-test-in-perpetual-market-20260907-190404.html",
+    "timestamp": "20260907-190404",
+    "full_timestamp": "2026-09-07T19:04:04-07:00",
+    "summary": "Funding-rate and futures-basis shocks test whether AI crypto trading bots can preserve returns, exposing leverage, liquidation, volatility, and evidence-quality weaknesses behind optimistic performance claims.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 autonomous crypto trading agents perpetual funding basis volatility performance",
+    "source_count": 12,
+    "tags": "crypto trading,AI agents,perpetual futures,performance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
