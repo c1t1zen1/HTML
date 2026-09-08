@@ -7149,5 +7149,18 @@
     "source_count": 12,
     "tags": "AI agents, fiduciary duty, brokerages, retail investing",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 541,
+    "topic": "Smart Home Energy Agents Face Grid-Interoperability Test as Utilities Expand Flexible-Demand Programs",
+    "file": "html/article-0541-smart-home-energy-agents-face-grid-interoperability-test-as-utilities-ex-20260908-120338.html",
+    "timestamp": "20260908-120338",
+    "full_timestamp": "2026-09-08T12:03:38-07:00",
+    "summary": "AI-driven home energy agents must prove they can translate utility grid signals into dependable, interoperable demand response without undermining participation or reliability.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "2026 utilities pilot AI smart home demand response flexible load control",
+    "source_count": 12,
+    "tags": "smart homes, energy management, demand response",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
