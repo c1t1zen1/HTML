@@ -7162,5 +7162,18 @@
     "source_count": 12,
     "tags": "smart homes, energy management, demand response",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 542,
+    "topic": "Autonomous Coding Agents Face Repository-Permission Test as Enterprises Restrict Agentic Write Access",
+    "file": "html/article-0542-autonomous-coding-agents-face-repository-permission-test-as-enterprises-20260908-150236.html",
+    "timestamp": "20260908-150236",
+    "full_timestamp": "2026-09-08T15:02:36-07:00",
+    "summary": "As coding agents gain production write access, enterprises face a measurable governance test: least privilege, audited actions, time-limited credentials, and revocation that works under attack.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 autonomous coding agents repository permissions enterprise security incidents",
+    "source_count": 12,
+    "tags": "coding-agents,security,access-control",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
