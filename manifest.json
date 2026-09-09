@@ -7201,5 +7201,18 @@
     "source_count": 12,
     "tags": "campaigns, voter targeting, political advertising",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 545,
+    "topic": "AI Therapy Chatbots Face Crisis-Response Compliance Test as California Companion Rules Take Effect",
+    "file": "html/article-0545-ai-therapy-chatbots-face-crisis-response-compliance-test-as-california-c-20260908-230249.html",
+    "timestamp": "20260908-230249",
+    "full_timestamp": "2026-09-08T23:02:49-07:00",
+    "summary": "California’s active companion-chatbot rules shift scrutiny from therapeutic promises to operational proof: AI disclosure, crisis referral, self-harm safeguards, minor protections, and maintained response protocols.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California AI companion chatbot law 2026 therapy crisis response compliance",
+    "source_count": 12,
+    "tags": "AI therapy, companion chatbots, regulation, crisis safety",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
