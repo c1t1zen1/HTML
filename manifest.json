@@ -7292,5 +7292,18 @@
     "source_count": 12,
     "tags": "AI Video, Live Broadcasting, Latency, Sports Tech",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 552,
+    "topic": "Hedge Funds Face Model-Explainability Test as SEC Demands Audit Trails for AI-Driven Trades",
+    "file": "html/article-0552-hedge-funds-face-model-explainability-test-as-sec-demands-audit-trails-f-20260909-130056.html",
+    "timestamp": "20260909-130056",
+    "full_timestamp": "2026-09-09T13:00:56-07:00",
+    "summary": "Hedge funds face intensifying SEC scrutiny requiring auditable AI logic, as regulators leverage existing rules to demand transparency in algorithmic trading decisions.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "SEC AI hedge fund model explainability audit rules 2026",
+    "source_count": 12,
+    "tags": "AI regulation, hedge funds, model explainability, SEC",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
