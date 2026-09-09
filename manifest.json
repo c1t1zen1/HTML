@@ -7240,5 +7240,18 @@
     "source_count": 12,
     "tags": "Local AI, EU AI Act, On-Device Privacy, Model Governance",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 548,
+    "topic": "AI Video Editors Face Watermark Compliance Test as C2PA Standards Mandate Provenance",
+    "file": "html/article-0548-ai-video-editors-face-watermark-compliance-test-as-c2pa-standards-mandat-20260909-050124.html",
+    "timestamp": "20260909-050124",
+    "full_timestamp": "2026-09-09T05:01:24-07:00",
+    "summary": "New EU regulations and C2PA conformance standards are forcing video editors to integrate cryptographic provenance, creating a mandatory compliance layer for AI-generated content.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "C2PA video editing software compliance requirements 2026",
+    "source_count": 12,
+    "tags": "AI Video, C2PA, Content Provenance, Media Compliance",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
