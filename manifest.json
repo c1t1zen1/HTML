@@ -7214,5 +7214,18 @@
     "source_count": 12,
     "tags": "AI therapy, companion chatbots, regulation, crisis safety",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 546,
+    "topic": "Smart Home Agents Face Local-First Privacy Test as Edge AI Chips Gain Autonomy",
+    "file": "html/article-0546-smart-home-agents-face-local-first-privacy-test-as-edge-ai-chips-gain-au-20260909-010135.html",
+    "timestamp": "20260909-010135",
+    "full_timestamp": "2026-09-09T01:01:35-07:00",
+    "summary": "Smart home automation shifts to on-device AI in 2026, prioritizing data sovereignty and low latency while introducing new cybersecurity challenges for local hubs.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "local first smart home AI privacy edge computing 2026",
+    "source_count": 12,
+    "tags": "Smart Home, Edge AI, Privacy, Local LLMs",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
