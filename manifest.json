@@ -7188,5 +7188,18 @@
     "source_count": 12,
     "tags": "deepfakes, market manipulation, hedge funds, trading",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 544,
+    "topic": "AI Campaign Targeting Faces Synthetic-Voter Audit as 2026 Midterms Intensify Predictive Persuasion",
+    "file": "html/article-0544-ai-campaign-targeting-faces-synthetic-voter-audit-as-2026-midterms-inten-20260908-210325.html",
+    "timestamp": "20260908-210325",
+    "full_timestamp": "2026-09-08T21:03:25-07:00",
+    "summary": "Campaigns are moving from broad voter segments toward AI-modeled audiences and simulated voters, raising questions about evidence, accountability, privacy, bias, and real-world predictive value.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 midterm campaigns synthetic voter models AI ad targeting",
+    "source_count": 12,
+    "tags": "campaigns, voter targeting, political advertising",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
