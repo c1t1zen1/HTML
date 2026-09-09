@@ -7175,5 +7175,18 @@
     "source_count": 12,
     "tags": "coding-agents,security,access-control",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 543,
+    "topic": "AI Trading Desks Face Deepfake Earnings-Call Test as Synthetic Audio Threatens Market Integrity",
+    "file": "html/article-0543-ai-trading-desks-face-deepfake-earnings-call-test-as-synthetic-audio-thr-20260908-190300.html",
+    "timestamp": "20260908-190300",
+    "full_timestamp": "2026-09-08T19:03:00-07:00",
+    "summary": "Synthetic earnings-call audio and video could turn familiar market disclosures into an authenticity problem, forcing AI trading desks to verify provenance before models react.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 deepfake earnings calls market manipulation hedge funds trading regulators",
+    "source_count": 12,
+    "tags": "deepfakes, market manipulation, hedge funds, trading",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
