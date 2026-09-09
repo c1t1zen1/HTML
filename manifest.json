@@ -7227,5 +7227,18 @@
     "source_count": 12,
     "tags": "Smart Home, Edge AI, Privacy, Local LLMs",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 547,
+    "topic": "Local AI Models Face Model-Card Verification Test as EU AI Act Enforcement Targets On-Device Systems",
+    "file": "html/article-0547-local-ai-models-face-model-card-verification-test-as-eu-ai-act-enforceme-20260909-030140.html",
+    "timestamp": "20260909-030140",
+    "full_timestamp": "2026-09-09T03:01:40-07:00",
+    "summary": "EU AI Act enforcement begins August 2026, targeting on-device AI with strict transparency and model-card verification standards previously associated with cloud systems.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "EU AI Act enforcement local AI models on-device compliance 2026",
+    "source_count": 12,
+    "tags": "Local AI, EU AI Act, On-Device Privacy, Model Governance",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
