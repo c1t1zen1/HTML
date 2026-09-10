@@ -7396,5 +7396,18 @@
     "source_count": 12,
     "tags": "MLX, Apple Silicon, local inference, unified memory",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 560,
+    "topic": "AI Filmmaking Faces Digital-Replica Consent Test in SAG-AFTRA’s 2026 Contract Negotiations",
+    "file": "html/article-0560-ai-filmmaking-faces-digital-replica-consent-test-in-sag-aftras-2026-cont-20260910-110343.html",
+    "timestamp": "20260910-110343",
+    "full_timestamp": "2026-09-10T11:03:43-07:00",
+    "summary": "SAG-AFTRA’s 2026 AI test is whether consent, payment, and control over digital replicas become enforceable production terms—not merely promises surrounding synthetic performance.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "SAG-AFTRA 2026 contract negotiations digital replicas AI video actors consent",
+    "source_count": 12,
+    "tags": "digital replicas, labor, SAG-AFTRA, filmmaking",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
