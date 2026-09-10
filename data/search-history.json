@@ -9430,5 +9430,65 @@
     "canonical_query": "sec comment letters ai generated md a disclosure 2026",
     "searched_at": "2026-09-10T01:00:16-07:00",
     "topic": "Generative AI Summaries Face Materiality Test as SEC Targets Narrative Disclosure Risks"
+  },
+  {
+    "query": "AI crypto trading bots slippage control DEX aggregator regulations 2026",
+    "canonical_query": "ai crypto trading bots slippage control dex aggregator regulations 2026",
+    "searched_at": "2026-09-10T02:00:11-07:00",
+    "topic": "AI Crypto Bots Face Liquidity-Fragmentation Test as DEX Aggregators Tighten Slippage Controls"
+  },
+  {
+    "query": "Apple M4 energy efficiency LLM inference watts per token 2026",
+    "canonical_query": "apple m4 energy efficiency llm inference watts per token 2026",
+    "searched_at": "2026-09-10T02:00:24-07:00",
+    "topic": "Apple Silicon Faces Token-Per-Watt Test as Edge AI Efficiency Standards Tighten"
+  },
+  {
+    "query": "Apple Silicon Faces Token-Per-Watt Test as Edge AI Efficiency Standards Tighten analysis developments",
+    "canonical_query": "apple silicon faces token per watt test as edge ai efficiency standards tighten analysis developments",
+    "searched_at": "2026-09-10T02:00:25-07:00",
+    "topic": "Apple Silicon Faces Token-Per-Watt Test as Edge AI Efficiency Standards Tighten"
+  },
+  {
+    "query": "banking AI fraud detection prompt injection vulnerabilities 2026",
+    "canonical_query": "banking ai fraud detection prompt injection vulnerabilities 2026",
+    "searched_at": "2026-09-10T02:00:34-07:00",
+    "topic": "Banking Fraud Detection Faces Prompt-Injection Test as Agentic Assistants Expand"
+  },
+  {
+    "query": "Banking Fraud Detection Faces Prompt-Injection Test as Agentic Assistants Expand analysis developments",
+    "canonical_query": "banking fraud detection faces prompt injection test as agentic assistants expand analysis developments",
+    "searched_at": "2026-09-10T02:00:35-07:00",
+    "topic": "Banking Fraud Detection Faces Prompt-Injection Test as Agentic Assistants Expand"
+  },
+  {
+    "query": "AI coding agent copyright infringement legal liability lawsuits 2026",
+    "canonical_query": "ai coding agent copyright infringement legal liability lawsuits 2026",
+    "searched_at": "2026-09-10T02:00:42-07:00",
+    "topic": "Autonomous Coding Agents Face Legal Liability Test as Courts Weigh AI-Generated Copyright Infringement"
+  },
+  {
+    "query": "Autonomous Coding Agents Face Legal Liability Test as Courts Weigh AI-Generated Copyright Infringement analysis developments",
+    "canonical_query": "autonomous coding agents face legal liability test as courts weigh ai generated copyright infringement analysis developments",
+    "searched_at": "2026-09-10T02:00:44-07:00",
+    "topic": "Autonomous Coding Agents Face Legal Liability Test as Courts Weigh AI-Generated Copyright Infringement"
+  },
+  {
+    "query": "AI video generation raw sensor data provenance audit Hollywood 2026",
+    "canonical_query": "ai video generation raw sensor data provenance audit hollywood 2026",
+    "searched_at": "2026-09-10T02:00:56-07:00",
+    "topic": "AI Video Generation Models Face Sensor-Data Audit as Hollywood Demands Raw Footage Provenance"
+  },
+  {
+    "query": "macOS Sequoia 16.2 Apple Intelligence local LLM routing privacy enforcement 2026 latest",
+    "canonical_query": "macos sequoia 16 2 apple intelligence local llm routing privacy enforcement 2026 latest",
+    "searched_at": "2026-09-10T02:01:08-07:00",
+    "topic": "Apple Intelligence Faces Local-First Test as macOS Sequoia 16.2 Enforces On-Device LLM Routing"
+  },
+  {
+    "query": "Apple Intelligence EU AI Act on-device processing disclosure requirements 2026",
+    "canonical_query": "apple intelligence eu ai act on device processing disclosure requirements 2026",
+    "searched_at": "2026-09-10T03:00:13-07:00",
+    "topic": "Apple Intelligence Faces Local-First Privacy Test as EU Mandates On-Device AI Disclosure"
   }
 ]
