@@ -7344,5 +7344,18 @@
     "source_count": 12,
     "tags": "AI lobbying, 2026 midterms, political spending, AI regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 556,
+    "topic": "Generative AI Summaries Face Materiality Test as SEC Targets Narrative Disclosure Risks",
+    "file": "html/article-0556-generative-ai-summaries-face-materiality-test-as-sec-targets-narrative-d-20260910-010111.html",
+    "timestamp": "20260910-010111",
+    "full_timestamp": "2026-09-10T01:01:11-07:00",
+    "summary": "SEC scrutiny of AI-generated MD&A sections intensifies under existing materiality standards, focusing on narrative accuracy rather than new regulatory frameworks.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC comment letters AI generated MD&A disclosure 2026",
+    "source_count": 12,
+    "tags": "SEC, Generative AI, MD&A, Disclosure",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
