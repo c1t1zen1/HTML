@@ -7409,5 +7409,18 @@
     "source_count": 12,
     "tags": "digital replicas, labor, SAG-AFTRA, filmmaking",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 561,
+    "topic": "Bank Fraud AI Faces Real-Time Payment Liability Test Under APP Reimbursement Rules",
+    "file": "html/article-0561-bank-fraud-ai-faces-real-time-payment-liability-test-under-app-reimburse-20260910-130356.html",
+    "timestamp": "20260910-130356",
+    "full_timestamp": "2026-09-10T13:03:56-07:00",
+    "summary": "Banks are testing whether real-time AI can spot mule-account networks and APP payment anomalies before funds move, turning detection speed into a practical defense against reimbursement liability.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks AI real-time payment fraud detection authorized push payment reimbursement",
+    "source_count": 12,
+    "tags": "banking fraud, instant payments, APP scams, AI governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
