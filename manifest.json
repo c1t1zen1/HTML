@@ -7331,5 +7331,18 @@
     "source_count": 12,
     "tags": "synthetic data, hedge funds, data governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 555,
+    "topic": "AI Lobbying Enters 2026 Midterms as Industry PACs Recast Regulation as Competitiveness",
+    "file": "html/article-0555-ai-lobbying-enters-2026-midterms-as-industry-pacs-recast-regulation-as-c-20260909-230317.html",
+    "timestamp": "20260909-230317",
+    "full_timestamp": "2026-09-09T23:03:17-07:00",
+    "summary": "AI-linked PACs are moving from lobbying alone to midterm spending, presenting regulation as a competitiveness question while pro-regulation candidates organize a counter-message.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "2026 AI industry PAC lobbying midterm elections regulation competitiveness Washington",
+    "source_count": 12,
+    "tags": "AI lobbying, 2026 midterms, political spending, AI regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
