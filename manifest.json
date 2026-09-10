@@ -7318,5 +7318,18 @@
     "source_count": 12,
     "tags": "Short Form Video, AI Ethics, Social Media, Algorithmic Transparency",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 554,
+    "topic": "Hedge Funds Face AI Data-Lineage Test as Synthetic Market Data Enters Trading Pipelines",
+    "file": "html/article-0554-hedge-funds-face-ai-data-lineage-test-as-synthetic-market-data-enters-tr-20260909-223132.html",
+    "timestamp": "20260909-223132",
+    "full_timestamp": "2026-09-09T22:31:32-07:00",
+    "summary": "Hedge funds are moving toward AI-ready and real-time data, but supplied evidence points to a harder governance question: can firms prove synthetic inputs stayed traceable?",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge funds synthetic market data trading models 2026 data lineage",
+    "source_count": 12,
+    "tags": "synthetic data, hedge funds, data governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
