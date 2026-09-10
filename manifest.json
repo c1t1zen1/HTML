@@ -7383,5 +7383,18 @@
     "source_count": 12,
     "tags": "prediction markets, event contracts, LLM trading",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 559,
+    "topic": "Apple Silicon LLM Inference Faces MLX Distributed-Scaling Test as Reasoning Models Outgrow Unified Memory",
+    "file": "html/article-0559-apple-silicon-llm-inference-faces-mlx-distributed-scaling-test-as-reason-20260910-090241.html",
+    "timestamp": "20260910-090241",
+    "full_timestamp": "2026-09-10T09:02:41-07:00",
+    "summary": "MLX may extend Apple Silicon inference beyond one Mac, but the supplied evidence tests bandwidth and cache behavior more clearly than true multi-system scaling.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "2026 MLX distributed inference Apple Silicon reasoning models unified memory benchmarks",
+    "source_count": 12,
+    "tags": "MLX, Apple Silicon, local inference, unified memory",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
