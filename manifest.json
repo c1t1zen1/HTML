@@ -7422,5 +7422,18 @@
     "source_count": 12,
     "tags": "banking fraud, instant payments, APP scams, AI governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 562,
+    "topic": "Autonomous Coding Agents Face Pull-Request Prompt-Injection Test as Secret-Exfiltration Risks Escalate",
+    "file": "html/article-0562-autonomous-coding-agents-face-pull-request-prompt-injection-test-as-secr-20260910-190300.html",
+    "timestamp": "20260910-190300",
+    "full_timestamp": "2026-09-10T19:03:00-07:00",
+    "summary": "Malicious GitHub metadata is emerging as a supply-chain attack surface, enabling autonomous coding agents to expose credentials, manipulate trusted repositories, and propagate compromised changes.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "2026 autonomous coding agents pull request prompt injection secret exfiltration security",
+    "source_count": 12,
+    "tags": "coding agents, prompt injection, software supply chain",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
