@@ -10630,5 +10630,71 @@
     "canonical_query": "sec ai financial report narrative disclosure audit trail 2026",
     "searched_at": "2026-09-11T13:00:33-07:00",
     "topic": "AI Financial Reports Face Audit-Trail Test as SEC Probes Narrative Disclosures"
+  },
+  {
+    "query": "EU AI Act video editing watermark provenance 2026",
+    "canonical_query": "eu ai act video editing watermark provenance 2026",
+    "searched_at": "2026-09-11T14:00:35-07:00",
+    "topic": "AI Video Editors Face EU Content-Origin Watermark Mandate"
+  },
+  {
+    "query": "AI Video Editors Face EU Content-Origin Watermark Mandate analysis developments",
+    "canonical_query": "ai video editors face eu content origin watermark mandate analysis developments",
+    "searched_at": "2026-09-11T14:00:35-07:00",
+    "topic": "AI Video Editors Face EU Content-Origin Watermark Mandate"
+  },
+  {
+    "query": "Apple Intelligence on-device training EU data minimization 2026",
+    "canonical_query": "apple intelligence on device training eu data minimization 2026",
+    "searched_at": "2026-09-11T14:00:40-07:00",
+    "topic": "Apple Intelligence On-Device Training Faces EU Data-Minimization Test"
+  },
+  {
+    "query": "Apple Silicon NPU memory-side scaling cache coherence LLM inference 2026",
+    "canonical_query": "apple silicon npu memory side scaling cache coherence llm inference 2026",
+    "searched_at": "2026-09-11T14:00:45-07:00",
+    "topic": "Apple Silicon LLM Inference Faces Cache-Coherence Tax as NPU Memory-Side Scaling Stalls"
+  },
+  {
+    "query": "EU AI Act biometric data AI video avatars consent ruling 2026",
+    "canonical_query": "eu ai act biometric data ai video avatars consent ruling 2026",
+    "searched_at": "2026-09-11T14:00:58-07:00",
+    "topic": "AI Video Avatars Face Deepfake Consent Test in EU Biometric Watchdog Rulings"
+  },
+  {
+    "query": "AI Video Avatars Face Deepfake Consent Test in EU Biometric Watchdog Rulings analysis developments",
+    "canonical_query": "ai video avatars face deepfake consent test in eu biometric watchdog rulings analysis developments",
+    "searched_at": "2026-09-11T14:00:59-07:00",
+    "topic": "AI Video Avatars Face Deepfake Consent Test in EU Biometric Watchdog Rulings"
+  },
+  {
+    "query": "AI crypto trading bots Ethereum Pectra gas verifier burn 2026",
+    "canonical_query": "ai crypto trading bots ethereum pectra gas verifier burn 2026",
+    "searched_at": "2026-09-11T14:01:04-07:00",
+    "topic": "AI Crypto Bots Face Verifier-Burn Test as Ethereum’s Pectra Upgrade Alters Gas Economics"
+  },
+  {
+    "query": "AI Crypto Bots Face Verifier-Burn Test as Ethereum’s Pectra Upgrade Alters Gas Economics analysis developments",
+    "canonical_query": "ai crypto bots face verifier burn test as ethereum s pectra upgrade alters gas economics analysis developments",
+    "searched_at": "2026-09-11T14:01:06-07:00",
+    "topic": "AI Crypto Bots Face Verifier-Burn Test as Ethereum’s Pectra Upgrade Alters Gas Economics"
+  },
+  {
+    "query": "AI chatbot suicide risk triage state licensure hotline 2026",
+    "canonical_query": "ai chatbot suicide risk triage state licensure hotline 2026",
+    "searched_at": "2026-09-11T14:01:15-07:00",
+    "topic": "AI Suicide-Risk Triage Faces State-Licensure Test as Chatbots Flag Hotline Calls"
+  },
+  {
+    "query": "AI Suicide-Risk Triage Faces State-Licensure Test as Chatbots Flag Hotline Calls analysis developments",
+    "canonical_query": "ai suicide risk triage faces state licensure test as chatbots flag hotline calls analysis developments",
+    "searched_at": "2026-09-11T14:01:16-07:00",
+    "topic": "AI Suicide-Risk Triage Faces State-Licensure Test as Chatbots Flag Hotline Calls"
+  },
+  {
+    "query": "Apple Silicon NPU sustained inference thermal throttling 2026",
+    "canonical_query": "apple silicon npu sustained inference thermal throttling 2026",
+    "searched_at": "2026-09-11T15:00:36-07:00",
+    "topic": "Mac LLM Inference Faces Thermal Throttling Test as NPU Sustained-Mode Limits Emerge"
   }
 ]

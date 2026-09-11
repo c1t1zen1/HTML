@@ -7539,5 +7539,18 @@
     "source_count": 12,
     "tags": "financial reporting, SEC, generative AI, audit trail",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 571,
+    "topic": "Mac LLM Inference Faces Thermal Throttling Test as NPU Sustained-Mode Limits Emerge",
+    "file": "html/article-0571-mac-llm-inference-faces-thermal-throttling-test-as-npu-sustained-mode-li-20260911-150134.html",
+    "timestamp": "20260911-150134",
+    "full_timestamp": "2026-09-11T15:01:34-07:00",
+    "summary": "Apple Silicon NPUs face sustained-inference thermal limits as new 2026 tests reveal down-clocking after minutes, not just memory-bandwidth ceilings.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "Apple Silicon NPU sustained inference thermal throttling 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, NPU, thermal throttling, LLM inference",
+    "model_names": "deepseek-v4-flash"
   }
 ]
