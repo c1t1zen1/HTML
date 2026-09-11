@@ -7474,5 +7474,18 @@
     "source_count": 12,
     "tags": "model-drift, FCA, bias-audit, real-time-monitoring",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 566,
+    "topic": "Mac LLMs Face Memory-Bandwidth Tax as NPU Offloads Weights to DRAM",
+    "file": "html/article-0566-mac-llms-face-memory-bandwidth-tax-as-npu-offloads-weights-to-dram-20260911-050121.html",
+    "timestamp": "20260911-050121",
+    "full_timestamp": "2026-09-11T05:01:21-07:00",
+    "summary": "Apple's NPU must stream weights from unified DRAM, making memory bandwidth the new bottleneck for local LLM inference.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "Apple Silicon Neural Processing Unit weight offloading DRAM bandwidth bottleneck 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, NPU offload, memory bandwidth, LLM inference",
+    "model_names": "deepseek-v4-flash"
   }
 ]
