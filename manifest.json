@@ -7526,5 +7526,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, NPU DMA, LLM Inference, Memory Controller",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 570,
+    "topic": "AI Financial Reports Face Audit-Trail Test as SEC Probes Narrative Disclosures",
+    "file": "html/article-0570-ai-financial-reports-face-audit-trail-test-as-sec-probes-narrative-discl-20260911-130130.html",
+    "timestamp": "20260911-130130",
+    "full_timestamp": "2026-09-11T13:01:30-07:00",
+    "summary": "SEC examiners now probe whether AI-generated narrative disclosures can be audited, pushing firms toward explainable AI and immutable audit trails.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "SEC AI financial report narrative disclosure audit trail 2026",
+    "source_count": 12,
+    "tags": "financial reporting, SEC, generative AI, audit trail",
+    "model_names": "deepseek-v4-flash"
   }
 ]

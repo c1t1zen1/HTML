@@ -10558,5 +10558,77 @@
     "canonical_query": "apple silicon npu dma weight streaming llm inference bottleneck 2026",
     "searched_at": "2026-09-11T11:00:30-07:00",
     "topic": "Apple Silicon LLM Inference Faces Weight-Streaming Stall as NPU DMA Bypasses Unified Memory"
+  },
+  {
+    "query": "AI campaign ads disclosure requirements 2026 midterms",
+    "canonical_query": "ai campaign ads disclosure requirements 2026 midterms",
+    "searched_at": "2026-09-11T12:00:28-07:00",
+    "topic": "AI Campaign Ads Face Real-Time Fabrication Disclosure Test in 2026 Midterms"
+  },
+  {
+    "query": "AI Campaign Ads Face Real-Time Fabrication Disclosure Test in 2026 Midterms analysis developments",
+    "canonical_query": "ai campaign ads face real time fabrication disclosure test in 2026 midterms analysis developments",
+    "searched_at": "2026-09-11T12:00:29-07:00",
+    "topic": "AI Campaign Ads Face Real-Time Fabrication Disclosure Test in 2026 Midterms"
+  },
+  {
+    "query": "AI election chatbot jailbreak misinformation 2026 polling",
+    "canonical_query": "ai election chatbot jailbreak misinformation 2026 polling",
+    "searched_at": "2026-09-11T12:00:33-07:00",
+    "topic": "AI Election Chatbots Face Jailbreak Test as State Polls Go Live"
+  },
+  {
+    "query": "AI Election Chatbots Face Jailbreak Test as State Polls Go Live analysis developments",
+    "canonical_query": "ai election chatbots face jailbreak test as state polls go live analysis developments",
+    "searched_at": "2026-09-11T12:00:34-07:00",
+    "topic": "AI Election Chatbots Face Jailbreak Test as State Polls Go Live"
+  },
+  {
+    "query": "Apple Silicon NPU memory controller security local AI 2026",
+    "canonical_query": "apple silicon npu memory controller security local ai 2026",
+    "searched_at": "2026-09-11T12:00:39-07:00",
+    "topic": "Apple Silicon NPU Memory-Controller Race Exposes Local-AI Security Gaps"
+  },
+  {
+    "query": "macOS NPU DMA unified memory bandwidth kernel panic 2026",
+    "canonical_query": "macos npu dma unified memory bandwidth kernel panic 2026",
+    "searched_at": "2026-09-11T12:00:43-07:00",
+    "topic": "macOS Local AI Faces Kernel-Panic Test as NPU DMA Contention Hits Memory Bandwidth"
+  },
+  {
+    "query": "macOS Local AI Faces Kernel-Panic Test as NPU DMA Contention Hits Memory Bandwidth analysis developments",
+    "canonical_query": "macos local ai faces kernel panic test as npu dma contention hits memory bandwidth analysis developments",
+    "searched_at": "2026-09-11T12:00:44-07:00",
+    "topic": "macOS Local AI Faces Kernel-Panic Test as NPU DMA Contention Hits Memory Bandwidth"
+  },
+  {
+    "query": "AI video synthetic media EU labeling deadline 2026 enforcement",
+    "canonical_query": "ai video synthetic media eu labeling deadline 2026 enforcement",
+    "searched_at": "2026-09-11T12:00:52-07:00",
+    "topic": "AI Video Models Face EU Deepfake Labeling Deadline as Synthetic Media Floods Platforms"
+  },
+  {
+    "query": "AI Video Models Face EU Deepfake Labeling Deadline as Synthetic Media Floods Platforms analysis developments",
+    "canonical_query": "ai video models face eu deepfake labeling deadline as synthetic media floods platforms analysis developments",
+    "searched_at": "2026-09-11T12:00:53-07:00",
+    "topic": "AI Video Models Face EU Deepfake Labeling Deadline as Synthetic Media Floods Platforms"
+  },
+  {
+    "query": "UK FCA bank fraud AI human-in-the-loop override 2026",
+    "canonical_query": "uk fca bank fraud ai human in the loop override 2026",
+    "searched_at": "2026-09-11T12:00:57-07:00",
+    "topic": "Bank Fraud AI Faces Real-Time Override Test as UK Regulators Demand Human-in-the-Loop"
+  },
+  {
+    "query": "Bank Fraud AI Faces Real-Time Override Test as UK Regulators Demand Human-in-the-Loop analysis developments",
+    "canonical_query": "bank fraud ai faces real time override test as uk regulators demand human in the loop analysis developments",
+    "searched_at": "2026-09-11T12:00:58-07:00",
+    "topic": "Bank Fraud AI Faces Real-Time Override Test as UK Regulators Demand Human-in-the-Loop"
+  },
+  {
+    "query": "SEC AI financial report narrative disclosure audit trail 2026",
+    "canonical_query": "sec ai financial report narrative disclosure audit trail 2026",
+    "searched_at": "2026-09-11T13:00:33-07:00",
+    "topic": "AI Financial Reports Face Audit-Trail Test as SEC Probes Narrative Disclosures"
   }
 ]
