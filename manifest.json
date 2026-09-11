@@ -7461,5 +7461,18 @@
     "source_count": 12,
     "tags": "crypto trading, MEV, Ethereum, AI agents",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 565,
+    "topic": "Bank Fraud AI Faces Model-Drift Audit Test as FCA Orders Real-Time Bias Monitoring",
+    "file": "html/article-0565-bank-fraud-ai-faces-model-drift-audit-test-as-fca-orders-real-time-bias-20260911-030101.html",
+    "timestamp": "20260911-030101",
+    "full_timestamp": "2026-09-11T03:01:01-07:00",
+    "summary": "UK regulators now demand real-time drift and bias audits for bank fraud AI, shifting compliance from accuracy to continuous model governance.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "FCA model drift monitoring AI fraud detection bias 2026",
+    "source_count": 12,
+    "tags": "model-drift, FCA, bias-audit, real-time-monitoring",
+    "model_names": "deepseek-v4-flash"
   }
 ]
