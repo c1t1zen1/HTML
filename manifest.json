@@ -7500,5 +7500,18 @@
     "source_count": 12,
     "tags": "FDA, AI therapy, regulatory, liability",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 568,
+    "topic": "Smart-Home Sensors Face EU Data-Grouping Test as Consent Rules Tighten",
+    "file": "html/article-0568-smart-home-sensors-face-eu-data-grouping-test-as-consent-rules-tighten-20260911-090132.html",
+    "timestamp": "20260911-090132",
+    "full_timestamp": "2026-09-11T09:01:32-07:00",
+    "summary": "EU Data Act's September 2026 'access by design' rules force smart-home sensor data to be grouped by purpose for consent, reshaping AI automation.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "EU smart home sensor data consent grouping 2026 ruling",
+    "source_count": 12,
+    "tags": "smart-home, EU regulation, sensor data, consent",
+    "model_names": "deepseek-v4-flash"
   }
 ]
