@@ -7513,5 +7513,18 @@
     "source_count": 12,
     "tags": "smart-home, EU regulation, sensor data, consent",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 569,
+    "topic": "Apple Silicon LLM Inference Faces Weight-Streaming Stall as NPU DMA Bypasses Unified Memory",
+    "file": "html/article-0569-apple-silicon-llm-inference-faces-weight-streaming-stall-as-npu-dma-bypa-20260911-110125.html",
+    "timestamp": "20260911-110125",
+    "full_timestamp": "2026-09-11T11:01:25-07:00",
+    "summary": "Apple Silicon's NPU DMA weight-streaming path introduces memory-controller contention that stalls long-context LLM inference despite unified-memory bandwidth gains.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple Silicon NPU DMA weight streaming LLM inference bottleneck 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, NPU DMA, LLM Inference, Memory Controller",
+    "model_names": "deepseek-v4-flash"
   }
 ]
