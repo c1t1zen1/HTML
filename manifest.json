@@ -7435,5 +7435,18 @@
     "source_count": 12,
     "tags": "coding agents, prompt injection, software supply chain",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 563,
+    "topic": "TikTok AI Shorts Face Election-Deepfake Enforcement Test as 2026 Midterms Intensify Platform Scrutiny",
+    "file": "html/article-0563-tiktok-ai-shorts-face-election-deepfake-enforcement-test-as-2026-midterm-20260910-210328.html",
+    "timestamp": "20260910-210328",
+    "full_timestamp": "2026-09-10T21:03:28-07:00",
+    "summary": "TikTok’s election-deepfake test will turn less on whether synthetic videos can be labeled than on whether reports, review, fact-checking, and state rules can produce timely containment.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "TikTok AI-generated video deepfake policy 2026 midterm election enforcement",
+    "source_count": 12,
+    "tags": "TikTok, deepfakes, elections, content moderation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
