@@ -7487,5 +7487,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, NPU offload, memory bandwidth, LLM inference",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 567,
+    "topic": "AI Therapy Bots Face Liability Test as FDA Weighs Prescription-Grade Guidance",
+    "file": "html/article-0567-ai-therapy-bots-face-liability-test-as-fda-weighs-prescription-grade-gui-20260911-070110.html",
+    "timestamp": "20260911-070110",
+    "full_timestamp": "2026-09-11T07:01:10-07:00",
+    "summary": "FDA weighs whether AI therapy bots with clinical claims are prescription devices, shifting liability from disclaimers to medical-device oversight.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "FDA AI therapy chatbot prescription-grade guidance 2026",
+    "source_count": 12,
+    "tags": "FDA, AI therapy, regulatory, liability",
+    "model_names": "deepseek-v4-flash"
   }
 ]
