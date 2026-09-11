@@ -7448,5 +7448,18 @@
     "source_count": 12,
     "tags": "TikTok, deepfakes, elections, content moderation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 564,
+    "topic": "AI Crypto Trading Bots Face MEV Transparency Test as Ethereum’s Glamsterdam Upgrade Reshapes Execution",
+    "file": "html/article-0564-ai-crypto-trading-bots-face-mev-transparency-test-as-ethereums-glamsterd-20260910-230351.html",
+    "timestamp": "20260910-230351",
+    "full_timestamp": "2026-09-10T23:03:51-07:00",
+    "summary": "Ethereum’s Glamsterdam evidence points to changing MEV and execution conditions, but supplied sources offer no audited AI-bot returns proving whether historical performance survives the upgrade.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "Ethereum Glamsterdam upgrade MEV AI trading bots performance 2026",
+    "source_count": 12,
+    "tags": "crypto trading, MEV, Ethereum, AI agents",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
