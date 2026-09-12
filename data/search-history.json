@@ -10954,5 +10954,71 @@
     "canonical_query": "deepfake voice biometric banking fraud detection 2026",
     "searched_at": "2026-09-12T00:00:54-07:00",
     "topic": "AI Fraud Detection Faces Deepfake Voice Biometric Spoof Test in Banking"
+  },
+  {
+    "query": "SEC AI trading bots best execution audit 2026",
+    "canonical_query": "sec ai trading bots best execution audit 2026",
+    "searched_at": "2026-09-12T01:00:55-07:00",
+    "topic": "AI Stock Bots Face SEC Best-Execution Audit as Order Routing Opaque"
+  },
+  {
+    "query": "AI Stock Bots Face SEC Best-Execution Audit as Order Routing Opaque analysis developments",
+    "canonical_query": "ai stock bots face sec best execution audit as order routing opaque analysis developments",
+    "searched_at": "2026-09-12T01:00:56-07:00",
+    "topic": "AI Stock Bots Face SEC Best-Execution Audit as Order Routing Opaque"
+  },
+  {
+    "query": "Apple Silicon NPU kernel scheduling jitter LLM preemption real-time 2026",
+    "canonical_query": "apple silicon npu kernel scheduling jitter llm preemption real time 2026",
+    "searched_at": "2026-09-12T01:01:06-07:00",
+    "topic": "Apple Silicon NPU Faces Kernel-Scheduling Jitter as LLM Preemption Tests Real-Time Limits"
+  },
+  {
+    "query": "Apple Silicon NPU LLM inference power capping MLX energy scheduling 2026 latest",
+    "canonical_query": "apple silicon npu llm inference power capping mlx energy scheduling 2026 latest",
+    "searched_at": "2026-09-12T01:01:15-07:00",
+    "topic": "Apple Silicon NPU LLM Inference Faces Power-Cap Test as MLX Schedules Energy Budgets"
+  },
+  {
+    "query": "Apple Silicon NPU LLM Inference Faces Power-Cap Test as MLX Schedules Energy Budgets analysis developments",
+    "canonical_query": "apple silicon npu llm inference faces power cap test as mlx schedules energy budgets analysis developments",
+    "searched_at": "2026-09-12T01:01:16-07:00",
+    "topic": "Apple Silicon NPU LLM Inference Faces Power-Cap Test as MLX Schedules Energy Budgets"
+  },
+  {
+    "query": "Thunderbolt 6 eGPU LLM inference PCIe bandwidth bottleneck 2026",
+    "canonical_query": "thunderbolt 6 egpu llm inference pcie bandwidth bottleneck 2026",
+    "searched_at": "2026-09-12T01:01:30-07:00",
+    "topic": "Mac LLM Inference Hits PCIe Bottleneck as Thunderbolt 6 eGPU Offload Tests Stall"
+  },
+  {
+    "query": "Mac LLM Inference Hits PCIe Bottleneck as Thunderbolt 6 eGPU Offload Tests Stall analysis developments",
+    "canonical_query": "mac llm inference hits pcie bottleneck as thunderbolt 6 egpu offload tests stall analysis developments",
+    "searched_at": "2026-09-12T01:01:31-07:00",
+    "topic": "Mac LLM Inference Hits PCIe Bottleneck as Thunderbolt 6 eGPU Offload Tests Stall"
+  },
+  {
+    "query": "AI video watermark stripping runtime EU AI Act enforcement September 2026",
+    "canonical_query": "ai video watermark stripping runtime eu ai act enforcement september 2026",
+    "searched_at": "2026-09-12T01:01:46-07:00",
+    "topic": "AI Video Models Face Runtime Watermark-Stripping Test as EU Rules Tighten"
+  },
+  {
+    "query": "EU AI Act biometric surveillance bias audit 2026",
+    "canonical_query": "eu ai act biometric surveillance bias audit 2026",
+    "searched_at": "2026-09-12T01:01:51-07:00",
+    "topic": "AI Surveillance Faces Algorithmic Bias Audit as EU AI Act Deadline Nears"
+  },
+  {
+    "query": "AI Surveillance Faces Algorithmic Bias Audit as EU AI Act Deadline Nears analysis developments",
+    "canonical_query": "ai surveillance faces algorithmic bias audit as eu ai act deadline nears analysis developments",
+    "searched_at": "2026-09-12T01:01:52-07:00",
+    "topic": "AI Surveillance Faces Algorithmic Bias Audit as EU AI Act Deadline Nears"
+  },
+  {
+    "query": "SMPTE frame-accurate metadata AI video editing 2026",
+    "canonical_query": "smpte frame accurate metadata ai video editing 2026",
+    "searched_at": "2026-09-12T02:01:04-07:00",
+    "topic": "AI Video Editors Face Frame-Accuracy Audit as SMPTE Probes Metadata Drift"
   }
 ]

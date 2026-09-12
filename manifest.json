@@ -7604,5 +7604,18 @@
     "source_count": 12,
     "tags": "AI fraud detection, voice biometrics, deepfake, banking security",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 576,
+    "topic": "AI Video Editors Face Frame-Accuracy Audit as SMPTE Probes Metadata Drift",
+    "file": "html/article-0576-ai-video-editors-face-frame-accuracy-audit-as-smpte-probes-metadata-drif-20260912-020151.html",
+    "timestamp": "20260912-020151",
+    "full_timestamp": "2026-09-12T02:01:51-07:00",
+    "summary": "SMPTE's 2026 metadata-drift probe forces AI video editors to prove frame-accurate timecode, exposing a new audit standard for broadcast workflows.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "SMPTE frame-accurate metadata AI video editing 2026",
+    "source_count": 12,
+    "tags": "SMPTE, metadata, AI video editing, broadcast",
+    "model_names": "deepseek-v4-flash"
   }
 ]
