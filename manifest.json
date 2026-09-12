@@ -7552,5 +7552,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, NPU, thermal throttling, LLM inference",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 572,
+    "topic": "AI Video Model Training Faces Data-Mining Test as EU Opt-Out Deadline Looms",
+    "file": "html/article-0572-ai-video-model-training-faces-data-mining-test-as-eu-opt-out-deadline-lo-20260911-170138.html",
+    "timestamp": "20260911-170138",
+    "full_timestamp": "2026-09-11T17:01:38-07:00",
+    "summary": "EU AI Act data-mining opt-out rules now force AI video firms to audit training pipelines and purge scraped visual data by August 2026.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "AI video model training EU data-mining opt-out deadline 2026",
+    "source_count": 12,
+    "tags": "EU AI Act, data-mining, video training, compliance",
+    "model_names": "deepseek-v4-flash"
   }
 ]
