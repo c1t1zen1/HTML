@@ -7630,5 +7630,18 @@
     "source_count": 12,
     "tags": "SEC regulation, AI explainability, stock prediction, compliance",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 578,
+    "topic": "AI Code Agents Face SBOM-Update Deadline as CISA Mandates Dependency Verification",
+    "file": "html/article-0578-ai-code-agents-face-sbom-update-deadline-as-cisa-mandates-dependency-ver-20260912-070203.html",
+    "timestamp": "20260912-070203",
+    "full_timestamp": "2026-09-12T07:02:03-07:00",
+    "summary": "CISA's 2026 SBOM baseline adds required hashes and AI coverage, forcing AI code agents to verify dependencies before merge.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "CISA SBOM AI coding agents dependency verification 2026",
+    "source_count": 12,
+    "tags": "SBOM, CISA, AI coding agents, supply chain",
+    "model_names": "deepseek-v4-flash"
   }
 ]

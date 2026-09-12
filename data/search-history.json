@@ -11086,5 +11086,11 @@
     "canonical_query": "sec ai explainability rule black box stock prediction compliance 2026",
     "searched_at": "2026-09-12T04:01:02-07:00",
     "topic": "AI Stock Prediction Faces SEC Explainability Rule as Black-Box Models Enter Compliance"
+  },
+  {
+    "query": "CISA SBOM AI coding agents dependency verification 2026",
+    "canonical_query": "cisa sbom ai coding agents dependency verification 2026",
+    "searched_at": "2026-09-12T07:01:06-07:00",
+    "topic": "AI Code Agents Face SBOM-Update Deadline as CISA Mandates Dependency Verification"
   }
 ]
