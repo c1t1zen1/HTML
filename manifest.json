@@ -7591,5 +7591,18 @@
     "source_count": 12,
     "tags": "AI trading bots, CME settlement latency, derivatives, high-frequency trading",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 575,
+    "topic": "AI Fraud Detection Faces Deepfake Voice Biometric Spoof Test in Banking",
+    "file": "html/article-0575-ai-fraud-detection-faces-deepfake-voice-biometric-spoof-test-in-banking-20260912-000137.html",
+    "timestamp": "20260912-000137",
+    "full_timestamp": "2026-09-12T00:01:37-07:00",
+    "summary": "Deepfake voice spoofs are testing bank voice biometrics, pushing anti-spoofing and layered AI checks in 2026.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "deepfake voice biometric banking fraud detection 2026",
+    "source_count": 12,
+    "tags": "AI fraud detection, voice biometrics, deepfake, banking security",
+    "model_names": "deepseek-v4-flash"
   }
 ]
