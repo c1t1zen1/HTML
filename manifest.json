@@ -7578,5 +7578,18 @@
     "source_count": 12,
     "tags": "election law, AI disclosure, First Amendment, 2026 midterms",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 574,
+    "topic": "AI Trading Bots Face Settlement-Latency Test as CME Upgrades Derivatives",
+    "file": "html/article-0574-ai-trading-bots-face-settlement-latency-test-as-cme-upgrades-derivatives-20260911-220145.html",
+    "timestamp": "20260911-220145",
+    "full_timestamp": "2026-09-11T22:01:45-07:00",
+    "summary": "CME's 2026 settlement-speed upgrades force AI trading bots to prove latency, not just speed.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "CME settlement latency AI trading bots 2026 upgrade",
+    "source_count": 12,
+    "tags": "AI trading bots, CME settlement latency, derivatives, high-frequency trading",
+    "model_names": "deepseek-v4-flash"
   }
 ]
