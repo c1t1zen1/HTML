@@ -11020,5 +11020,71 @@
     "canonical_query": "smpte frame accurate metadata ai video editing 2026",
     "searched_at": "2026-09-12T02:01:04-07:00",
     "topic": "AI Video Editors Face Frame-Accuracy Audit as SMPTE Probes Metadata Drift"
+  },
+  {
+    "query": "AI deepfake detection election ads 2026 midterms real-time verification",
+    "canonical_query": "ai deepfake detection election ads 2026 midterms real time verification",
+    "searched_at": "2026-09-12T03:00:57-07:00",
+    "topic": "AI Deepfake Detectors Face Real-Time Election Ad Verification Deadline"
+  },
+  {
+    "query": "OMB AI lobbying disclosure rule 2026 algorithmic impact",
+    "canonical_query": "omb ai lobbying disclosure rule 2026 algorithmic impact",
+    "searched_at": "2026-09-12T03:01:02-07:00",
+    "topic": "AI Lobbying Faces Disclosure Deadline as OMB Eyes Algorithmic Impact Rule"
+  },
+  {
+    "query": "macOS local AI memory swap SSD wear 2026",
+    "canonical_query": "macos local ai memory swap ssd wear 2026",
+    "searched_at": "2026-09-12T03:01:06-07:00",
+    "topic": "Mac Local AI Faces SSD Wear Test as Unified Memory Swap Loads"
+  },
+  {
+    "query": "Mac Local AI Faces SSD Wear Test as Unified Memory Swap Loads analysis developments",
+    "canonical_query": "mac local ai faces ssd wear test as unified memory swap loads analysis developments",
+    "searched_at": "2026-09-12T03:01:07-07:00",
+    "topic": "Mac Local AI Faces SSD Wear Test as Unified Memory Swap Loads"
+  },
+  {
+    "query": "UK Solicitors Regulation Authority AI billing overbilling audit 2026",
+    "canonical_query": "uk solicitors regulation authority ai billing overbilling audit 2026",
+    "searched_at": "2026-09-12T03:01:17-07:00",
+    "topic": "AI Legal Billing Audits Face Escrow Rule as UK SRA Targets Overbilling"
+  },
+  {
+    "query": "AI Legal Billing Audits Face Escrow Rule as UK SRA Targets Overbilling analysis developments",
+    "canonical_query": "ai legal billing audits face escrow rule as uk sra targets overbilling analysis developments",
+    "searched_at": "2026-09-12T03:01:18-07:00",
+    "topic": "AI Legal Billing Audits Face Escrow Rule as UK SRA Targets Overbilling"
+  },
+  {
+    "query": "deepfake watermark removal metadata stripping social media recompression 2026 enforcement",
+    "canonical_query": "deepfake watermark removal metadata stripping social media recompression 2026 enforcement",
+    "searched_at": "2026-09-12T03:01:28-07:00",
+    "topic": "EU Deepfake Watermark Stripping Faces Metadata-Integrity Test as Apps Recompress Video"
+  },
+  {
+    "query": "EU Deepfake Watermark Stripping Faces Metadata-Integrity Test as Apps Recompress Video analysis developments",
+    "canonical_query": "eu deepfake watermark stripping faces metadata integrity test as apps recompress video analysis developments",
+    "searched_at": "2026-09-12T03:01:28-07:00",
+    "topic": "EU Deepfake Watermark Stripping Faces Metadata-Integrity Test as Apps Recompress Video"
+  },
+  {
+    "query": "SEC AI hedge fund advisor disclosure rule 2026",
+    "canonical_query": "sec ai hedge fund advisor disclosure rule 2026",
+    "searched_at": "2026-09-12T03:01:34-07:00",
+    "topic": "LLM Hedge Funds Face SEC Disclosure Test as AI Advisors File"
+  },
+  {
+    "query": "LLM Hedge Funds Face SEC Disclosure Test as AI Advisors File analysis developments",
+    "canonical_query": "llm hedge funds face sec disclosure test as ai advisors file analysis developments",
+    "searched_at": "2026-09-12T03:01:35-07:00",
+    "topic": "LLM Hedge Funds Face SEC Disclosure Test as AI Advisors File"
+  },
+  {
+    "query": "SEC AI explainability rule black-box stock prediction compliance 2026",
+    "canonical_query": "sec ai explainability rule black box stock prediction compliance 2026",
+    "searched_at": "2026-09-12T04:01:02-07:00",
+    "topic": "AI Stock Prediction Faces SEC Explainability Rule as Black-Box Models Enter Compliance"
   }
 ]

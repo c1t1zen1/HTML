@@ -7617,5 +7617,18 @@
     "source_count": 12,
     "tags": "SMPTE, metadata, AI video editing, broadcast",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 577,
+    "topic": "AI Stock Prediction Faces SEC Explainability Rule as Black-Box Models Enter Compliance",
+    "file": "html/article-0577-ai-stock-prediction-faces-sec-explainability-rule-as-black-box-models-en-20260912-040155.html",
+    "timestamp": "20260912-040155",
+    "full_timestamp": "2026-09-12T04:01:55-07:00",
+    "summary": "SEC's emerging explainability mandate is pushing AI stock prediction from black-box models to interpretable systems, reshaping compliance and risk management.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "SEC AI explainability rule black-box stock prediction compliance 2026",
+    "source_count": 12,
+    "tags": "SEC regulation, AI explainability, stock prediction, compliance",
+    "model_names": "deepseek-v4-flash"
   }
 ]
