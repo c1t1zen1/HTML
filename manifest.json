@@ -7656,5 +7656,18 @@
     "source_count": 12,
     "tags": "AI avatars, EU AI Act, consent, virtual presenters",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 580,
+    "topic": "AI Fraud Systems Face Adversarial Perturbation Audit as Banks Map Evasion Tactics",
+    "file": "html/article-0580-ai-fraud-systems-face-adversarial-perturbation-audit-as-banks-map-evasio-20260912-110102.html",
+    "timestamp": "20260912-110102",
+    "full_timestamp": "2026-09-12T11:01:02-07:00",
+    "summary": "Banks are auditing fraud AI against adversarial perturbation, mapping imperceptible evasion tactics that slip past models.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "adversarial perturbations fraud detection evasion tactics banks 2026",
+    "source_count": 12,
+    "tags": "adversarial ML, fraud detection, bank security, model robustness",
+    "model_names": "deepseek-v4-flash"
   }
 ]
