@@ -7643,5 +7643,18 @@
     "source_count": 12,
     "tags": "SBOM, CISA, AI coding agents, supply chain",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 579,
+    "topic": "AI Avatar Presenters Face Deepfake Consent Audit as EU AI Act Takes Effect",
+    "file": "html/article-0579-ai-avatar-presenters-face-deepfake-consent-audit-as-eu-ai-act-takes-effe-20260912-090046.html",
+    "timestamp": "20260912-090046",
+    "full_timestamp": "2026-09-12T09:00:46-07:00",
+    "summary": "EU AI Act transparency rules hit avatar presenters on 2 August 2026, forcing deepfake consent audits for cloned likenesses.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "EU AI Act AI avatar consent requirement 2026 enforcement",
+    "source_count": 12,
+    "tags": "AI avatars, EU AI Act, consent, virtual presenters",
+    "model_names": "deepseek-v4-flash"
   }
 ]

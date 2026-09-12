@@ -11092,5 +11092,23 @@
     "canonical_query": "cisa sbom ai coding agents dependency verification 2026",
     "searched_at": "2026-09-12T07:01:06-07:00",
     "topic": "AI Code Agents Face SBOM-Update Deadline as CISA Mandates Dependency Verification"
+  },
+  {
+    "query": "FCC AI political ad ID verification deepfake metadata 2026",
+    "canonical_query": "fcc ai political ad id verification deepfake metadata 2026",
+    "searched_at": "2026-09-12T08:01:07-07:00",
+    "topic": "AI Political Ad Disclosure Faces FCC ID Verification Test as Deepfake Ads Evade Metadata Checks"
+  },
+  {
+    "query": "AI Political Ad Disclosure Faces FCC ID Verification Test as Deepfake Ads Evade Metadata Checks analysis developments",
+    "canonical_query": "ai political ad disclosure faces fcc id verification test as deepfake ads evade metadata checks analysis developments",
+    "searched_at": "2026-09-12T08:01:08-07:00",
+    "topic": "AI Political Ad Disclosure Faces FCC ID Verification Test as Deepfake Ads Evade Metadata Checks"
+  },
+  {
+    "query": "EU AI Act AI avatar consent requirement 2026 enforcement",
+    "canonical_query": "eu ai act ai avatar consent requirement 2026 enforcement",
+    "searched_at": "2026-09-12T09:00:05-07:00",
+    "topic": "AI Avatar Presenters Face Deepfake Consent Audit as EU AI Act Takes Effect"
   }
 ]
