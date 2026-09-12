@@ -7565,5 +7565,18 @@
     "source_count": 12,
     "tags": "EU AI Act, data-mining, video training, compliance",
     "model_names": "deepseek-v4-flash"
+  },
+  {
+    "article_number": 573,
+    "topic": "AI Election Ads Face Court Injunction Test as State Laws Collide with Speech",
+    "file": "html/article-0573-ai-election-ads-face-court-injunction-test-as-state-laws-collide-with-sp-20260911-200156.html",
+    "timestamp": "20260911-200156",
+    "full_timestamp": "2026-09-11T20:01:56-07:00",
+    "summary": "As courts strike down AI-ad disclosure laws in California, Hawaii, and elsewhere, a constitutional collision over deepfake election speech heads toward the 2026 midterms.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "AI election ad disclosure laws First Amendment court ruling 2026",
+    "source_count": 12,
+    "tags": "election law, AI disclosure, First Amendment, 2026 midterms",
+    "model_names": "deepseek-v4-flash"
   }
 ]
