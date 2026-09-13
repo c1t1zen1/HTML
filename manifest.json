@@ -7812,5 +7812,18 @@
     "source_count": 12,
     "tags": "macOS AI, Apple, on-device inference, developer tools",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 592,
+    "topic": "AI Virtual Presenters Face Union Contract Test as SAG-AFTRA Reopens Digital Replica Rules",
+    "file": "html/article-0592-ai-virtual-presenters-face-union-contract-test-as-sag-aftra-reopens-digi-20260913-150218.html",
+    "timestamp": "20260913-150218",
+    "full_timestamp": "2026-09-13T15:02:18-07:00",
+    "summary": "SAG-AFTRA’s evolving AI agreements put performer likeness, payment, licensing authority, and synthetic substitution at the center of virtual-presenter deployment.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "SAG-AFTRA 2026 digital replica negotiations AI avatar presenters",
+    "source_count": 12,
+    "tags": "AI avatars, digital replicas, SAG-AFTRA, labor",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
