@@ -7799,5 +7799,18 @@
     "source_count": 12,
     "tags": "instant payments, fraud liability, EU banking",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 591,
+    "topic": "macOS Local AI Stacks Face API Lock-In Test as Developers Weigh Apple’s Foundation Models Framework",
+    "file": "html/article-0591-macos-local-ai-stacks-face-api-lock-in-test-as-developers-weigh-apples-f-20260913-130243.html",
+    "timestamp": "20260913-130243",
+    "full_timestamp": "2026-09-13T13:02:43-07:00",
+    "summary": "Apple’s Foundation Models framework could challenge Ollama, MLX, and llama.cpp on integration and cost, but supplied evidence does not yet prove developer migration or model-quality superiority.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "Apple Foundation Models framework macOS local AI developer adoption September 2026",
+    "source_count": 12,
+    "tags": "macOS AI, Apple, on-device inference, developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
