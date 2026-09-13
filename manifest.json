@@ -7773,5 +7773,18 @@
     "source_count": 12,
     "tags": "smart homes, AI assistants, home automation, safety",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 589,
+    "topic": "AI Video Models Face Data-Center Power Test as Hyperscalers Expand Generative Compute",
+    "file": "html/article-0589-ai-video-models-face-data-center-power-test-as-hyperscalers-expand-gener-20260913-070419.html",
+    "timestamp": "20260913-070419",
+    "full_timestamp": "2026-09-13T07:04:19-07:00",
+    "summary": "AI video’s next constraint may be physical: hyperscalers are expanding GPUs, power contracts, cooling capacity, and chip supply while forecasts diverge on the scale of the squeeze.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video generation data center electricity demand hyperscaler GPU expansion news",
+    "source_count": 12,
+    "tags": "AI video, data centers, GPUs, energy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
