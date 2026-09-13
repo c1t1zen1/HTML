@@ -7786,5 +7786,18 @@
     "source_count": 12,
     "tags": "AI video, data centers, GPUs, energy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 590,
+    "topic": "AI Fraud Scoring Faces Instant-Payment Liability Test as EU Reimbursement Rules Tighten",
+    "file": "html/article-0590-ai-fraud-scoring-faces-instant-payment-liability-test-as-eu-reimbursemen-20260913-110321.html",
+    "timestamp": "20260913-110321",
+    "full_timestamp": "2026-09-13T11:03:21-07:00",
+    "summary": "As instant payments shrink intervention windows, EU banks must prove that AI fraud scores support timely decisions, fair reimbursement, explainable controls, and defensible liability allocation.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 EU instant payments fraud reimbursement AI detection bank liability",
+    "source_count": 12,
+    "tags": "instant payments, fraud liability, EU banking",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
