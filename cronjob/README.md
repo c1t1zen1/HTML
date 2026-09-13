@@ -9,6 +9,7 @@ Versioned archive of the Markgitup publisher and its regression tests. This dire
 - Schedule: hourly, `0 * * * *`
 - Portal state: `../data/search-history.json` and `../data/topic-cycle.json`
 - Target branch: `main`
+- Portal `README.md`: hand-maintained. The publisher no longer generates it, so documentation edits survive hourly runs.
 
 `markgitup-html-cron.py` in this archive must be byte-identical to the canonical development script. Edit the canonical file first, run tests, synchronize this archive, then publish the portal repository. Do not edit or execute the archived copy as the scheduler path.
 
