@@ -1,0 +1,19 @@
+# Published output is machine-generated. Marking it keeps GitHub's language
+# stats pointed at the publisher (Python) instead of 500+ rendered articles,
+# and collapses these files in diffs so hourly commits stay reviewable.
+html/**        linguist-generated=true
+BAD/**         linguist-generated=true
+index.html     linguist-generated=true
+manifest.json  linguist-generated=true
+data/*.json    linguist-generated=true
+
+# Screenshots for the README are not source either.
+docs/**        linguist-documentation=true
+
+# Normalise line endings for the things people actually edit.
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.html  text eol=lf
+*.svg   text eol=lf
+*.png   binary
