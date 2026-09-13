@@ -7721,5 +7721,18 @@
     "source_count": 12,
     "tags": "AI Avatars, Real-Time Streaming, Latency Standards, Interactive Media",
     "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
+  },
+  {
+    "article_number": 585,
+    "topic": "AI Crypto Bots Face Exchange Liquidity Test as CFTC Proposes Unified Market Rules",
+    "file": "html/article-0585-ai-crypto-bots-face-exchange-liquidity-test-as-cftc-proposes-unified-mar-20260912-230138.html",
+    "timestamp": "20260912-230138",
+    "full_timestamp": "2026-09-12T23:01:38-07:00",
+    "summary": "CFTC and SEC joint initiatives aim to unify crypto oversight, potentially reshaping liquidity structures that AI arbitrage bots depend on for profit.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "CFTC unified crypto market rules AI trading bots liquidity 2026",
+    "source_count": 12,
+    "tags": "AI Trading, Crypto Regulation, CFTC, Market Liquidity",
+    "model_names": "/Users/c1t1zen/models/qwen3.8-flash-next-iq4xs/UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf"
   }
 ]
