@@ -7929,5 +7929,18 @@
     "source_count": 5,
     "tags": "financial reporting, auditing, AI governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 601,
+    "topic": "AI Video Editors Face Edit-History Disclosure Test as Broadcasters Demand Provenance",
+    "file": "html/article-0601-ai-video-editors-face-edit-history-disclosure-test-as-broadcasters-deman-20260914-050244.html",
+    "timestamp": "20260914-050244",
+    "full_timestamp": "2026-09-14T05:02:44-07:00",
+    "summary": "Broadcasters may soon demand machine-readable edit histories that separate AI interventions from human judgment, but fragmented standards, legacy systems, and uneven platform support complicate verification.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "2026 broadcasters AI video editing edit history provenance requirements",
+    "source_count": 12,
+    "tags": "AI video editing, provenance, broadcasting",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
