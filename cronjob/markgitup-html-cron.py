@@ -1159,7 +1159,8 @@ def main() -> int:
     manifest.append(entry)
     atomic_write(MANIFEST_PATH, json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     atomic_write(PORTAL_DIR / "index.html", render_index(manifest))
-    atomic_write(PORTAL_DIR / "README.md", """# Markgitup Research Desk\n\nHourly source-led research portal. Each dispatch starts from one of 24 topic families, finds a new current angle, gathers evidence through SearXNG, and publishes a linked synthesis.\n\n## Runtime\n\n- Schedule: hourly (`0 * * * *`)\n- Local model: discovered dynamically from `/v1/models` at `192.168.0.219:8080/v1`\n- Local inference: DeepSeek V4 uses native thinking-disabled streaming; other models retain the legacy payload; each response waits up to 20 minutes\n- Local status: `/home/pi/.hermes/cron/markgitup-local-inference-status.json`\n- Fallback LLM: GPT 5.6 Luna through Hermes `openai-codex`\n- Failure policy: no post is written when both inference paths fail\n- Search: local SearXNG at `127.0.0.1:8888`\n- Source gate: publish only after at least 2 sources; low-source searches select another unused topic family (up to 6 attempts)\n- Output: GitHub Pages via `main`\n""")
+    # README.md is hand-maintained documentation, not generated output. The
+    # publisher deliberately leaves it alone so edits survive hourly runs.
     if not args.no_push:
         publish(title, article_rel)
     print(f"Published article {article_number:04d}: {article_rel}")
