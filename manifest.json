@@ -7981,5 +7981,18 @@
     "source_count": 12,
     "tags": "synthetic media, provenance, campaign ads, elections",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 605,
+    "topic": "AI Stock-Picking Apps Face Autonomous-Advice Liability Test as Brokerages Pilot Agentic Portfolio Features",
+    "file": "html/article-0605-ai-stock-picking-apps-face-autonomous-advice-liability-test-as-brokerage-20260914-100301.html",
+    "timestamp": "20260914-100301",
+    "full_timestamp": "2026-09-14T10:03:01-07:00",
+    "summary": "AI investing tools are moving from market forecasts toward portfolio oversight and trade execution, raising fresh questions about suitability, accountability, and retail investor protection.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 brokerages pilot agentic AI portfolio advice trading tools liability",
+    "source_count": 8,
+    "tags": "agentic AI, stock prediction, brokerages, regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
