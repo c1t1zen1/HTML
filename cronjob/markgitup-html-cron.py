@@ -98,10 +98,11 @@ TOPIC_CYCLE_PATH = PORTAL_DIR / "data" / "topic-cycle.json"
 SEARCH_HISTORY_PATH = PORTAL_DIR / "data" / "search-history.json"
 COOLDOWN_DAYS = int(os.getenv("MARKGITUP_COOLDOWN_DAYS", "3"))
 MAX_ANGLE_RETRIES = int(os.getenv("MARKGITUP_ANGLE_RETRIES", "3"))
+ARTICLE_SCHEMA_RETRIES = max(1, int(os.getenv("MARKGITUP_ARTICLE_SCHEMA_RETRIES", "3")))
 # A post needs more than one independently returned source URL. Low/zero-source
-# searches are discarded and the run selects another unused topic family.
+# searches are discarded and the run tries every topic family before aborting.
 MINIMUM_SOURCES = max(2, int(os.getenv("MARKGITUP_MINIMUM_SOURCES", "2")))
-MAX_SOURCE_RETRIES = max(1, int(os.getenv("MARKGITUP_SOURCE_RETRIES", "6")))
+MAX_SOURCE_RETRIES = max(1, int(os.getenv("MARKGITUP_SOURCE_RETRIES", str(len(TOPICS)))))
 REPEAT_STOPWORDS = {
     "latest", "news", "developments", "analysis", "the", "and", "for", "of", "in",
     "on", "to", "with", "a", "an", "use", "using", "new", "update",
@@ -848,9 +849,17 @@ def find_source_backed_research(
     for attempt in range(1, MAX_SOURCE_RETRIES + 1):
         original_topic = choose_topic()
         last_topic = original_topic
-        angle, angle_models = choose_angle(
-            original_topic, manifest, local_model_id, local_deadline
-        )
+        try:
+            angle, angle_models = choose_angle(
+                original_topic, manifest, local_model_id, local_deadline
+            )
+        except MarkgitupError as exc:
+            print(
+                f"Source search attempt {attempt}/{MAX_SOURCE_RETRIES}: "
+                f"angle unusable for {original_topic!r} ({exc}); selecting a new topic family.",
+                file=sys.stderr,
+            )
+            continue
         used_models.update(angle_models)
         title = angle["title"]
         print(f"Source search attempt {attempt}/{MAX_SOURCE_RETRIES}")
@@ -926,13 +935,44 @@ organizations, quotes, dates, or source URLs. Use cautious language when evidenc
         {"role": "system", "content": "You are a source-disciplined research editor. Return valid JSON only."},
         {"role": "user", "content": prompt},
     ]
-    response, data = ai_chat(messages, 9000, "article synthesis", local_model_id, local_deadline, expected="object")
-    if not isinstance(data, dict):
-        raise MarkgitupError("article response was not an object")
     required = ["dek", "overview", "sections", "conclusion", "upside", "risks", "watch_next", "takeaways"]
-    if any(key not in data for key in required):
-        raise MarkgitupError("article response omitted required fields")
-    return data, {response.model_name}
+    missing: list[str] = []
+    for attempt in range(1, ARTICLE_SCHEMA_RETRIES + 1):
+        response, data = ai_chat(
+            messages,
+            9000,
+            f"article synthesis (schema attempt {attempt})",
+            local_model_id,
+            local_deadline,
+            expected="object",
+        )
+        if isinstance(data, dict):
+            missing = [key for key in required if key not in data]
+            if not missing:
+                return data, {response.model_name}
+        else:
+            missing = ["JSON object"]
+        if attempt < ARTICLE_SCHEMA_RETRIES:
+            detail = ", ".join(missing)
+            print(
+                f"article synthesis schema attempt {attempt}/{ARTICLE_SCHEMA_RETRIES} "
+                f"was incomplete ({detail}); requesting a corrected JSON response",
+                file=sys.stderr,
+            )
+            messages.append(
+                {
+                    "role": "user",
+                    "content": (
+                        "Your previous response was incomplete. Return one complete JSON object only, "
+                        f"including every required field. Missing: {detail}. Do not omit any fields, "
+                        "do not use Markdown, and do not add commentary."
+                    ),
+                }
+            )
+    raise MarkgitupError(
+        "article response omitted required fields after "
+        f"{ARTICLE_SCHEMA_RETRIES} schema attempts: {', '.join(missing)}"
+    )
 
 
 def safe_url(url: str) -> str:
@@ -1082,11 +1122,41 @@ def git(*args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
     )
 
 
+def synchronize_portal() -> None:
+    """Fast-forward a clean portal checkout; fail closed on divergent history."""
+    fetched = git("fetch", "origin", check=False)
+    if fetched.returncode:
+        raise MarkgitupError(f"git fetch failed: {clean_text(fetched.stderr, 500)}")
+    status = git("status", "--porcelain", check=False)
+    local_head = git("rev-parse", "HEAD").stdout.strip()
+    remote_head = git("rev-parse", "origin/main").stdout.strip()
+    if local_head == remote_head:
+        return
+    remote_contains_local = git(
+        "merge-base", "--is-ancestor", "HEAD", "origin/main", check=False
+    ).returncode == 0
+    if remote_contains_local:
+        if status.stdout.strip():
+            raise MarkgitupError(
+                "portal is behind origin/main with generated local changes; "
+                "repair the checkout before publishing"
+            )
+        git("merge", "--ff-only", "origin/main")
+        print("git: fast-forwarded portal to origin/main")
+        return
+    local_contains_remote = git(
+        "merge-base", "--is-ancestor", "origin/main", "HEAD", check=False
+    ).returncode == 0
+    if local_contains_remote:
+        return
+    raise MarkgitupError(
+        "portal history diverged from origin/main; refusing to overwrite remote changes"
+    )
+
+
 def publish(title: str, article_file: str) -> None:
     try:
-        fetch = git("fetch", "origin", check=False)
-        if fetch.returncode:
-            print(f"git fetch warning: {clean_text(fetch.stderr, 300)}", file=sys.stderr)
+        synchronize_portal()
         status = git("status", "--porcelain", check=False)
         if status.stdout.strip():
             print(f"git working tree before publish: {clean_text(status.stdout, 300)}", file=sys.stderr)
@@ -1110,6 +1180,7 @@ def main() -> int:
     args = parser.parse_args()
     if not PORTAL_DIR.exists():
         raise MarkgitupError(f"portal directory does not exist: {PORTAL_DIR}")
+    synchronize_portal()
     HTML_DIR.mkdir(parents=True, exist_ok=True)
     manifest = load_manifest()
     local_model_id = discover_local_model()
@@ -1159,8 +1230,6 @@ def main() -> int:
     manifest.append(entry)
     atomic_write(MANIFEST_PATH, json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     atomic_write(PORTAL_DIR / "index.html", render_index(manifest))
-    # README.md is hand-maintained documentation, not generated output. The
-    # publisher deliberately leaves it alone so edits survive hourly runs.
     if not args.no_push:
         publish(title, article_rel)
     print(f"Published article {article_number:04d}: {article_rel}")

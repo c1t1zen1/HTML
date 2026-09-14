@@ -3,12 +3,13 @@
 
 import importlib.util
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock, call, patch
 
 
 SCRIPT = Path(__file__).with_name("markgitup-html-cron.py")
@@ -106,6 +107,41 @@ class ModelCreditFooterTests(unittest.TestCase):
         self.assertEqual(choose_angle.call_count, 2)
         self.assertEqual(deep_search.call_count, 2)
 
+    def test_source_gate_checks_every_topic_family_by_default(self):
+        self.assertEqual(MODULE.MAX_SOURCE_RETRIES, len(MODULE.TOPICS))
+
+    def test_source_gate_skips_topic_whose_angle_repeats(self):
+        source_backed_angle = {
+            "title": "Source-backed angle",
+            "search_query": "source-backed query 2026",
+            "angle": "second",
+            "tags": "AI",
+        }
+        results = [
+            {"url": "https://example.com/one", "domain": "example.com"},
+            {"url": "https://example.org/two", "domain": "example.org"},
+        ]
+        with patch.object(MODULE, "MAX_SOURCE_RETRIES", 2):
+            with patch.object(MODULE, "choose_topic", side_effect=["Repeated Topic", "Fresh Topic"]):
+                with patch.object(
+                    MODULE,
+                    "choose_angle",
+                    side_effect=[
+                        MODULE.MarkgitupError("angle selection kept repeating recent searches"),
+                        (source_backed_angle, {"GPT 5.6 Luna"}),
+                    ],
+                ):
+                    with patch.object(MODULE, "deep_search", return_value=results) as deep_search:
+                        topic, angle, found, models = MODULE.find_source_backed_research(
+                            [], None, 999999
+                        )
+
+        self.assertEqual(topic, "Fresh Topic")
+        self.assertEqual(angle, source_backed_angle)
+        self.assertEqual(found, results)
+        self.assertEqual(models, {"GPT 5.6 Luna"})
+        deep_search.assert_called_once_with("Source-backed angle", "source-backed query 2026")
+
     def test_source_gate_aborts_after_exhausting_topic_retries(self):
         with patch.object(MODULE, "MAX_SOURCE_RETRIES", 2):
             with patch.object(MODULE, "choose_topic", side_effect=["Topic A", "Topic B"]):
@@ -123,6 +159,50 @@ class ModelCreditFooterTests(unittest.TestCase):
 
         self.assertIn("at least 2 sources", str(raised.exception))
 
+    def test_article_synthesis_retries_invalid_schema(self):
+        incomplete = {"dek": "Missing editorial fields."}
+        complete = {
+            "dek": "Complete response.",
+            "overview": "Overview.",
+            "sections": [],
+            "conclusion": "Conclusion.",
+            "upside": [],
+            "risks": [],
+            "watch_next": [],
+            "takeaways": [],
+        }
+        results = [
+            {
+                "url": "https://example.com/one",
+                "domain": "example.com",
+                "title": "Source one",
+                "content": "Evidence one.",
+            },
+            {
+                "url": "https://example.org/two",
+                "domain": "example.org",
+                "title": "Source two",
+                "content": "Evidence two.",
+            },
+        ]
+        responses = [
+            (MODULE.AIResponse("{}", "fallback", "GPT 5.6 Luna"), incomplete),
+            (MODULE.AIResponse("{}", "fallback", "GPT 5.6 Luna"), complete),
+        ]
+        with patch.object(MODULE, "ai_chat", side_effect=responses) as mocked_ai:
+            article, models = MODULE.synthesize_article(
+                "Test headline",
+                "AI research",
+                {"angle": "test", "tags": "AI"},
+                results,
+                None,
+                999999,
+            )
+
+        self.assertEqual(article, complete)
+        self.assertEqual(models, {"GPT 5.6 Luna"})
+        self.assertEqual(mocked_ai.call_count, 2)
+
     def test_article_synthesis_rejects_insufficient_sources_before_ai(self):
         with patch.object(MODULE, "ai_chat") as mocked_ai:
             with self.assertRaises(MODULE.MarkgitupError):
@@ -136,6 +216,79 @@ class ModelCreditFooterTests(unittest.TestCase):
                 )
 
         mocked_ai.assert_not_called()
+
+    def test_main_does_not_rewrite_readme(self):
+        article = {
+            "dek": "Complete response.",
+            "overview": "Overview.",
+            "sections": [],
+            "conclusion": "Conclusion.",
+            "upside": [],
+            "risks": [],
+            "watch_next": [],
+            "takeaways": [],
+        }
+        angle = {
+            "title": "Test headline",
+            "search_query": "test query 2026",
+            "angle": "test angle",
+            "tags": "AI",
+        }
+        results = [
+            {"url": "https://example.com/one", "domain": "example.com", "title": "One", "content": "One"},
+            {"url": "https://example.org/two", "domain": "example.org", "title": "Two", "content": "Two"},
+        ]
+        with tempfile.TemporaryDirectory(prefix="markgitup-main-") as directory:
+            portal = Path(directory)
+            with (
+                patch.object(MODULE, "PORTAL_DIR", portal),
+                patch.object(MODULE, "HTML_DIR", portal / "html"),
+                patch.object(MODULE, "MANIFEST_PATH", portal / "manifest.json"),
+                patch.object(MODULE, "load_manifest", return_value=[]),
+                patch.object(MODULE, "synchronize_portal") as mocked_sync,
+                patch.object(MODULE, "discover_local_model", return_value=None),
+                patch.object(
+                    MODULE,
+                    "find_source_backed_research",
+                    return_value=("AI research", angle, results, {"GPT 5.6 Luna"}),
+                ),
+                patch.object(MODULE, "synthesize_article", return_value=(article, {"GPT 5.6 Luna"})),
+                patch.object(MODULE, "atomic_write") as mocked_write,
+                patch.object(sys, "argv", ["markgitup-html-cron.py", "--no-push"]),
+            ):
+                self.assertEqual(MODULE.main(), 0)
+
+        mocked_sync.assert_called_once_with()
+        written_paths = [call.args[0] for call in mocked_write.call_args_list]
+        self.assertNotIn(portal / "README.md", written_paths)
+
+    def test_synchronize_portal_fast_forwards_a_clean_behind_branch(self):
+        completed = subprocess.CompletedProcess
+        with patch.object(
+            MODULE,
+            "git",
+            side_effect=[
+                completed([], 0, "", ""),
+                completed([], 0, "", ""),
+                completed([], 0, "local-head\n", ""),
+                completed([], 0, "remote-head\n", ""),
+                completed([], 0, "", ""),
+                completed([], 0, "", ""),
+            ],
+        ) as mocked_git:
+            MODULE.synchronize_portal()
+
+        self.assertEqual(
+            mocked_git.call_args_list,
+            [
+                call("fetch", "origin", check=False),
+                call("status", "--porcelain", check=False),
+                call("rev-parse", "HEAD"),
+                call("rev-parse", "origin/main"),
+                call("merge-base", "--is-ancestor", "HEAD", "origin/main", check=False),
+                call("merge", "--ff-only", "origin/main"),
+            ],
+        )
 
     def test_render_index_omits_archived_and_under_sourced_entries(self):
         rendered = MODULE.render_index(
