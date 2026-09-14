@@ -8033,5 +8033,18 @@
     "source_count": 12,
     "tags": "crypto bots, tax reporting, 1099-DA, performance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 609,
+    "topic": "AI Smart-Home Devices Face EU Cybersecurity Reporting Test as CRA Incident Rules Take Effect",
+    "file": "html/article-0609-ai-smart-home-devices-face-eu-cybersecurity-reporting-test-as-cra-incide-20260914-150219.html",
+    "timestamp": "20260914-150219",
+    "full_timestamp": "2026-09-14T15:02:19-07:00",
+    "summary": "From 11 September 2026, makers of connected home products face CRA reporting duties for actively exploited vulnerabilities and severe incidents, years before the Act’s broader obligations begin.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "EU Cyber Resilience Act September 2026 reporting smart home AI devices",
+    "source_count": 12,
+    "tags": "smart homes, cybersecurity, EU regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
