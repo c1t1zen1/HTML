@@ -7942,5 +7942,18 @@
     "source_count": 12,
     "tags": "AI video editing, provenance, broadcasting",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 602,
+    "topic": "AI Legal Assistants Face Privilege-Waiver Test as Courts Reassess Client Data Protections",
+    "file": "html/article-0602-ai-legal-assistants-face-privilege-waiver-test-as-courts-reassess-client-20260914-060356.html",
+    "timestamp": "20260914-060356",
+    "full_timestamp": "2026-09-14T06:03:56-07:00",
+    "summary": "Courts are beginning to test whether AI prompts, outputs, and chats remain protected when lawyers use generative tools in case preparation and discovery.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 courts AI legal assistant privilege waiver client data ruling",
+    "source_count": 2,
+    "tags": "legal AI, attorney-client privilege, data privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
