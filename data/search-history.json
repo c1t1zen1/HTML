@@ -12688,5 +12688,35 @@
     "canonical_query": "m5 mac local llm mlx llama cpp core ml benchmarks 2026",
     "searched_at": "2026-09-14T07:02:10-07:00",
     "topic": "Mac Local AI Stacks Face M5 Memory-Bandwidth Test as Developers Rebenchmark MLX, llama.cpp, and Core ML"
+  },
+  {
+    "query": "2026 MLX llama.cpp quantized KV cache long context Mac Apple Silicon",
+    "canonical_query": "2026 mlx llama cpp quantized kv cache long context mac apple silicon",
+    "searched_at": "2026-09-14T08:02:06-07:00",
+    "topic": "Mac Quantized LLMs Face Long-Context Memory Test as KV-Cache Support Expands"
+  },
+  {
+    "query": "Mac Quantized LLMs Face Long-Context Memory Test as KV-Cache Support Expands analysis developments",
+    "canonical_query": "mac quantized llms face long context memory test as kv cache support expands analysis developments",
+    "searched_at": "2026-09-14T08:02:11-07:00",
+    "topic": "Mac Quantized LLMs Face Long-Context Memory Test as KV-Cache Support Expands"
+  },
+  {
+    "query": "2026 TikTok Shop AI-generated video ads synthetic product demonstrations policy",
+    "canonical_query": "2026 tiktok shop ai generated video ads synthetic product demonstrations policy",
+    "searched_at": "2026-09-14T08:02:59-07:00",
+    "topic": "AI Short-Video Ads Face Synthetic-Demonstration Test as TikTok Shop Confronts Creator Commerce Rules"
+  },
+  {
+    "query": "AI Short-Video Ads Face Synthetic-Demonstration Test as TikTok Shop Confronts Creator Commerce Rules analysis developments",
+    "canonical_query": "ai short video ads face synthetic demonstration test as tiktok shop confronts creator commerce rules analysis developments",
+    "searched_at": "2026-09-14T08:03:00-07:00",
+    "topic": "AI Short-Video Ads Face Synthetic-Demonstration Test as TikTok Shop Confronts Creator Commerce Rules"
+  },
+  {
+    "query": "2026 midterm synthetic campaign media provenance labels platform rules",
+    "canonical_query": "2026 midterm synthetic campaign media provenance labels platform rules",
+    "searched_at": "2026-09-14T09:02:37-07:00",
+    "topic": "AI Campaign Content Faces Provenance Audit Test as Platforms Rework 2026 Midterm Election Labels"
   }
 ]

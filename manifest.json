@@ -7968,5 +7968,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, llama.cpp, local inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 604,
+    "topic": "AI Campaign Content Faces Provenance Audit Test as Platforms Rework 2026 Midterm Election Labels",
+    "file": "html/article-0604-ai-campaign-content-faces-provenance-audit-test-as-platforms-rework-2026-20260914-090332.html",
+    "timestamp": "20260914-090332",
+    "full_timestamp": "2026-09-14T09:03:32-07:00",
+    "summary": "As platforms tighten AI labels ahead of the 2026 midterms, provenance systems face a harder test: showing where campaign visuals came from, not merely flagging them.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 midterm synthetic campaign media provenance labels platform rules",
+    "source_count": 12,
+    "tags": "synthetic media, provenance, campaign ads, elections",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
