@@ -7903,5 +7903,18 @@
     "source_count": 12,
     "tags": "Maven Smart System, military AI, intelligence, data governance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 599,
+    "topic": "AI Virtual Presenters Face Election Disclosure Test as Regulators Revisit Synthetic Spokespeople Rules",
+    "file": "html/article-0599-ai-virtual-presenters-face-election-disclosure-test-as-regulators-revisi-20260914-030323.html",
+    "timestamp": "20260914-030323",
+    "full_timestamp": "2026-09-14T03:03:23-07:00",
+    "summary": "Campaign avatar spokespeople are entering a fragmented disclosure regime, where state ad labels, proposed federal restrictions, and weakly defined provenance could determine voter trust.",
+    "original_topic": "AI Video Avatars & Virtual Presenters",
+    "search_query": "2026 election AI avatar campaign disclosure rules virtual presenter news",
+    "source_count": 12,
+    "tags": "AI avatars, election technology, political advertising",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
