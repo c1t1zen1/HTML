@@ -7994,5 +7994,18 @@
     "source_count": 8,
     "tags": "agentic AI, stock prediction, brokerages, regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 606,
+    "topic": "ChatGPT Mental-Health Lawsuits Face Discovery Test Over Safety Warnings and Model Logs",
+    "file": "html/article-0606-chatgpt-mental-health-lawsuits-face-discovery-test-over-safety-warnings-20260914-110350.html",
+    "timestamp": "20260914-110350",
+    "full_timestamp": "2026-09-14T11:03:50-07:00",
+    "summary": "As wrongful-death suits allege harmful ChatGPT interactions, discovery may test what warnings, safety interventions, and model logs existed—and whether records support or undermine those claims.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "ChatGPT wrongful death lawsuit discovery safety warnings model logs 2026",
+    "source_count": 12,
+    "tags": "AI litigation,mental health,model safety,discovery",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
