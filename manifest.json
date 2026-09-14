@@ -8020,5 +8020,18 @@
     "source_count": 4,
     "tags": "AI elections, campaign technology, news verification",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 608,
+    "topic": "AI Crypto Trading Bots Face Tax-Lot Reporting Test as 1099-DA Forms Reach Traders",
+    "file": "html/article-0608-ai-crypto-trading-bots-face-tax-lot-reporting-test-as-1099-da-forms-reac-20260914-140429.html",
+    "timestamp": "20260914-140429",
+    "full_timestamp": "2026-09-14T14:04:29-07:00",
+    "summary": "AI crypto bots may post attractive gross returns, but 1099-DA basis gaps, incomplete activity records, and taxable swaps could decide whether performance survives reconciliation.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 1099-DA crypto broker reporting automated trading bot tax performance",
+    "source_count": 12,
+    "tags": "crypto bots, tax reporting, 1099-DA, performance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
