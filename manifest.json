@@ -7825,5 +7825,18 @@
     "source_count": 12,
     "tags": "AI avatars, digital replicas, SAG-AFTRA, labor",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 593,
+    "topic": "AI Crypto Bots Face MEV Profitability Test as Uniswap v4 Hooks Reshape DeFi Execution",
+    "file": "html/article-0593-ai-crypto-bots-face-mev-profitability-test-as-uniswap-v4-hooks-reshape-d-20260913-210302.html",
+    "timestamp": "20260913-210302",
+    "full_timestamp": "2026-09-13T21:03:02-07:00",
+    "summary": "Uniswap v4 hooks make DeFi execution programmable, but autonomous bots must prove that gross opportunities survive gas, slippage, ordering, competition, and MEV extraction.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "AI crypto trading agents MEV profitability benchmark Uniswap v4 hooks 2026",
+    "source_count": 12,
+    "tags": "DeFi, MEV, trading bots, performance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
