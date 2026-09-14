@@ -34,8 +34,9 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote, urlparse
+from urllib.parse import parse_qs, quote, urlparse
 from urllib.request import Request, urlopen
+from xml.etree import ElementTree
 
 TOPICS = [
     "AI in US Elections & Campaigns",
@@ -68,6 +69,10 @@ TOPICS = [
 SEARXNG_URL = os.getenv(
     "MARKGITUP_SEARXNG_URL",
     "http://127.0.0.1:8888/search?q={}&format=json",
+)
+BING_NEWS_RSS_URL = os.getenv(
+    "MARKGITUP_BING_NEWS_RSS_URL",
+    "https://www.bing.com/news/search?q={}&format=rss",
 )
 AI_API_URL = os.getenv(
     "MARKGITUP_AI_API_URL",
@@ -781,6 +786,34 @@ def search_searxng(query: str) -> list[dict[str, Any]]:
     return results if isinstance(results, list) else []
 
 
+def search_bing_news_rss(query: str) -> list[dict[str, Any]]:
+    """Return direct publisher links from Bing News RSS when SearXNG is empty."""
+    url = BING_NEWS_RSS_URL.format(quote(query))
+    request = Request(url, headers={"User-Agent": "Mozilla/5.0 (MarkgitupResearch/2.1)"})
+    with urlopen(request, timeout=35) as response:
+        feed = ElementTree.fromstring(response.read())
+    results: list[dict[str, Any]] = []
+    for item in feed.findall(".//item"):
+        title = clean_text(item.findtext("title"), 220)
+        rss_link = clean_text(item.findtext("link"), 1200)
+        redirect_target = parse_qs(urlparse(rss_link).query).get("url", [rss_link])[0]
+        article_url = clean_text(redirect_target, 1200)
+        if not title or not article_url.startswith(("http://", "https://")):
+            continue
+        description = item.findtext("description") or ""
+        description = re.sub(r"<[^>]+>", " ", html.unescape(description))
+        results.append(
+            {
+                "title": title,
+                "url": article_url,
+                "content": clean_text(description, 700) or "No snippet supplied.",
+                "publishedDate": clean_text(item.findtext("pubDate"), 80),
+                "engine": "bing_news_rss",
+            }
+        )
+    return results
+
+
 def deep_search(title: str, query: str) -> list[dict[str, Any]]:
     queries = [query, f"{query} latest news", f"{title} analysis developments"]
     history = load_search_history()
@@ -809,7 +842,17 @@ def deep_search(title: str, query: str) -> list[dict[str, Any]]:
             print(f"SearXNG: {len(found)} results for {search_query!r}")
         except Exception as exc:
             print(f"SearXNG: query failed for {search_query!r}: {exc}", file=sys.stderr)
-            continue
+            found = []
+        if not found:
+            try:
+                found = search_bing_news_rss(search_query)
+                print(f"Bing News RSS: {len(found)} results for {search_query!r}")
+            except Exception as exc:
+                print(
+                    f"Bing News RSS: query failed for {search_query!r}: {exc}",
+                    file=sys.stderr,
+                )
+                continue
         for item in found:
             url = str(item.get("url") or "").strip()
             if not url.startswith(("http://", "https://")) or url in seen:

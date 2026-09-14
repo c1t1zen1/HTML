@@ -71,6 +71,30 @@ class ModelCreditFooterTests(unittest.TestCase):
             )
         )
 
+    def test_deep_search_falls_back_to_bing_news_when_searx_is_empty(self):
+        fallback_results = [
+            {
+                "title": f"Fallback source {index}",
+                "url": f"https://example{index}.com/article",
+                "content": "Fallback evidence.",
+                "engine": "bing_news_rss",
+            }
+            for index in range(12)
+        ]
+        with patch.object(MODULE, "load_search_history", return_value=[]):
+            with patch.object(MODULE, "atomic_write"):
+                with patch.object(MODULE, "search_searxng", return_value=[]) as searx:
+                    with patch.object(
+                        MODULE, "search_bing_news_rss", return_value=fallback_results
+                    ) as bing:
+                        results = MODULE.deep_search("Fresh title", "fresh query 2026")
+
+        self.assertEqual(len(results), 12)
+        self.assertEqual([item["url"] for item in results], [item["url"] for item in fallback_results])
+        self.assertTrue(all(item["engine"] == "bing_news_rss" for item in results))
+        searx.assert_called_once_with("fresh query 2026")
+        bing.assert_called_once_with("fresh query 2026")
+
     def test_source_gate_retries_with_a_new_topic_after_zero_results(self):
         first_angle = {
             "title": "Unsearchable angle",
