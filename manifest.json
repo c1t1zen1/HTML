@@ -7851,5 +7851,18 @@
     "source_count": 10,
     "tags": "EU AI Act, synthetic media, transparency, labeling",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 595,
+    "topic": "AI Export Lobbying Faces Chip-Access Test as Washington Reconsiders Model-Compute Controls",
+    "file": "html/article-0595-ai-export-lobbying-faces-chip-access-test-as-washington-reconsiders-mode-20260913-230310.html",
+    "timestamp": "20260913-230310",
+    "full_timestamp": "2026-09-13T23:03:10-07:00",
+    "summary": "Washington’s AI export debate is shifting from diffusion limits to chip access, licensing, monitoring, overseas deployment, and the national-security costs of changing course.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "AI export control exemptions chipmakers Washington September 2026",
+    "source_count": 12,
+    "tags": "export controls, chips, national security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
