@@ -7877,5 +7877,18 @@
     "source_count": 5,
     "tags": "film festivals, generative video, filmmaking, policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 597,
+    "topic": "LLM Trading Agents Face SEC Recordkeeping Test as Hedge Funds Automate Investment Decisions",
+    "file": "html/article-0597-llm-trading-agents-face-sec-recordkeeping-test-as-hedge-funds-automate-i-20260914-010346.html",
+    "timestamp": "20260914-010346",
+    "full_timestamp": "2026-09-14T01:03:46-07:00",
+    "summary": "As LLM agents move from research aids toward investment decisions, existing SEC and supervisory duties face a basic test: can firms preserve, reconstruct, and oversee machine-driven judgment?",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "SEC 2026 recordkeeping rules autonomous AI investment agents hedge funds",
+    "source_count": 12,
+    "tags": "SEC oversight,AI agents,recordkeeping",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
