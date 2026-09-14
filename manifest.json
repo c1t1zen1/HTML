@@ -7955,5 +7955,18 @@
     "source_count": 2,
     "tags": "legal AI, attorney-client privilege, data privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 603,
+    "topic": "Mac Local AI Stacks Face M5 Memory-Bandwidth Test as Developers Rebenchmark MLX, llama.cpp, and Core ML",
+    "file": "html/article-0603-mac-local-ai-stacks-face-m5-memory-bandwidth-test-as-developers-rebenchm-20260914-070336.html",
+    "timestamp": "20260914-070336",
+    "full_timestamp": "2026-09-14T07:03:36-07:00",
+    "summary": "Apple’s M5 may accelerate prompts without transforming decode economics, making memory bandwidth, unified-memory capacity, workload shape, and reproducible tests more important than headline accelerator claims.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "M5 Mac local LLM MLX llama.cpp Core ML benchmarks 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, llama.cpp, local inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]

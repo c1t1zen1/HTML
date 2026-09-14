@@ -12682,5 +12682,11 @@
     "canonical_query": "2026 courts ai legal assistant privilege waiver client data ruling",
     "searched_at": "2026-09-14T06:02:54-07:00",
     "topic": "AI Legal Assistants Face Privilege-Waiver Test as Courts Reassess Client Data Protections"
+  },
+  {
+    "query": "M5 Mac local LLM MLX llama.cpp Core ML benchmarks 2026",
+    "canonical_query": "m5 mac local llm mlx llama cpp core ml benchmarks 2026",
+    "searched_at": "2026-09-14T07:02:10-07:00",
+    "topic": "Mac Local AI Stacks Face M5 Memory-Bandwidth Test as Developers Rebenchmark MLX, llama.cpp, and Core ML"
   }
 ]
