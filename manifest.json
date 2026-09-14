@@ -8046,5 +8046,18 @@
     "source_count": 12,
     "tags": "smart homes, cybersecurity, EU regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 610,
+    "topic": "Hedge-Fund AI Faces Data-License Test as Courts Revisit Web-Scraped Market Research",
+    "file": "html/article-0610-hedge-fund-ai-faces-data-license-test-as-courts-revisit-web-scraped-mark-20260914-160221.html",
+    "timestamp": "20260914-160221",
+    "full_timestamp": "2026-09-14T16:02:21-07:00",
+    "summary": "Hedge funds are expanding AI ambitions, but the supplied evidence says little about whether scraped news, filings, or alternative data can be lawfully used for model training.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 hedge funds AI web scraping data licensing court ruling market research",
+    "source_count": 3,
+    "tags": "hedge funds, alternative data, AI regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
