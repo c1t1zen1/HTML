@@ -7864,5 +7864,18 @@
     "source_count": 12,
     "tags": "export controls, chips, national security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 596,
+    "topic": "AI-Generated Shorts Face Festival Eligibility Test as 2026 Competitions Define Human-Creative Requirements",
+    "file": "html/article-0596-ai-generated-shorts-face-festival-eligibility-test-as-2026-competitions-20260914-000305.html",
+    "timestamp": "20260914-000305",
+    "full_timestamp": "2026-09-14T00:03:05-07:00",
+    "summary": "Festival visibility for AI-made shorts is growing, but the supplied evidence leaves the decisive question unresolved: how much human authorship competitions will require.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 film festival AI-generated short film eligibility human creativity rules",
+    "source_count": 5,
+    "tags": "film festivals, generative video, filmmaking, policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
