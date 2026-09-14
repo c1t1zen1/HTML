@@ -7916,5 +7916,18 @@
     "source_count": 12,
     "tags": "AI avatars, election technology, political advertising",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 600,
+    "topic": "AI Financial Reporting Faces Audit-Evidence Test as Auditors Challenge Machine-Generated Management Narratives",
+    "file": "html/article-0600-ai-financial-reporting-faces-audit-evidence-test-as-auditors-challenge-m-20260914-040239.html",
+    "timestamp": "20260914-040239",
+    "full_timestamp": "2026-09-14T04:02:39-07:00",
+    "summary": "AI financial reporting enters an audit-evidence test as machine-generated narratives raise unresolved questions about reproducibility, accountability, human oversight, and public trust.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 auditors challenge AI-generated financial reporting audit evidence requirements",
+    "source_count": 5,
+    "tags": "financial reporting, auditing, AI governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
