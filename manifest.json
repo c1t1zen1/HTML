@@ -7890,5 +7890,18 @@
     "source_count": 12,
     "tags": "SEC oversight,AI agents,recordkeeping",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 598,
+    "topic": "Palantir's Maven AI Faces Battlefield-Data Governance Test as Pentagon Expands Intelligence Deployment",
+    "file": "html/article-0598-palantir-s-maven-ai-faces-battlefield-data-governance-test-as-pentagon-e-20260914-020616.html",
+    "timestamp": "20260914-020616",
+    "full_timestamp": "2026-09-14T02:06:16-07:00",
+    "summary": "Maven’s expansion raises a governance question: can battlefield data, AI-generated priorities, and human decisions remain traceable as Pentagon adoption broadens?",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "Palantir Maven Smart System 2026 Pentagon battlefield data governance deployment",
+    "source_count": 12,
+    "tags": "Maven Smart System, military AI, intelligence, data governance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
