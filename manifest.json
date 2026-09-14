@@ -7838,5 +7838,18 @@
     "source_count": 12,
     "tags": "DeFi, MEV, trading bots, performance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 594,
+    "topic": "Synthetic Media Platforms Face August AI Act Labeling Deadline as EU Transparency Rules Activate",
+    "file": "html/article-0594-synthetic-media-platforms-face-august-ai-act-labeling-deadline-as-eu-tra-20260913-225127.html",
+    "timestamp": "20260913-225127",
+    "full_timestamp": "2026-09-13T22:51:27-07:00",
+    "summary": "The EU’s August 2 Article 50 trigger moves synthetic-media compliance toward visible disclosure and machine-readable provenance, while early enforcement silence leaves implementation pressure unresolved.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "EU AI Act Article 50 August 2026 synthetic content labeling obligations platforms",
+    "source_count": 10,
+    "tags": "EU AI Act, synthetic media, transparency, labeling",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
