@@ -8111,5 +8111,18 @@
     "source_count": 2,
     "tags": "copyright, AI video, filmmaking, creators",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 615,
+    "topic": "Apple Silicon LLM Inference Faces Mac-Cluster Economics Test Beyond Cloud GPUs",
+    "file": "html/article-0615-apple-silicon-llm-inference-faces-mac-cluster-economics-test-beyond-clou-20260914-210315.html",
+    "timestamp": "20260914-210315",
+    "full_timestamp": "2026-09-14T21:03:15-07:00",
+    "summary": "Clustered Mac minis may cut recurring cloud spend for sustained, low-concurrency inference, but sparse evidence shows throughput, networking, operations, and production scale can erase apparent savings.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "2026 Mac mini Apple Silicon LLM inference clusters cloud GPU costs",
+    "source_count": 12,
+    "tags": "Apple Silicon, Mac mini, LLM inference, AI infrastructure",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
