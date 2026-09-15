@@ -8241,5 +8241,18 @@
     "source_count": 12,
     "tags": "deepfakes, banking fraud, real-time payments",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 625,
+    "topic": "AI-Built SEC Filings Face XBRL Tagging Test as Finance Teams Automate 10-K Production",
+    "file": "html/article-0625-ai-built-sec-filings-face-xbrl-tagging-test-as-finance-teams-automate-10-20260915-080413.html",
+    "timestamp": "20260915-080413",
+    "full_timestamp": "2026-09-15T08:04:13-07:00",
+    "summary": "As finance teams automate 10-K production, the decisive question is not prose quality alone but whether AI workflows preserve Inline XBRL accuracy, reviewability, and filing controls.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "AI-generated SEC filings XBRL tagging automation 10-K 2026",
+    "source_count": 3,
+    "tags": "SEC filings, XBRL, financial automation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
