@@ -8176,5 +8176,18 @@
     "source_count": 12,
     "tags": "AI trading,FINRA,model risk",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 620,
+    "topic": "AI Companion Platforms Face California Safety-Plan Test Under 2026 Self-Harm Rules",
+    "file": "html/article-0620-ai-companion-platforms-face-california-safety-plan-test-under-2026-self-20260915-020625.html",
+    "timestamp": "20260915-020625",
+    "full_timestamp": "2026-09-15T02:06:25-07:00",
+    "summary": "California’s Adam’s Law and related child-safety measures could push companion platforms toward self-harm screening, age checks, audits, and less compulsive engagement—but implementation timing remains unsettled.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "California 2026 AI companion chatbot self-harm safety rules platforms",
+    "source_count": 12,
+    "tags": "AI companions, mental health, California law",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
