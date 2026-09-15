@@ -8215,5 +8215,18 @@
     "source_count": 12,
     "tags": "legal practice, court rules, AI disclosure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 623,
+    "topic": "Apple Silicon AI Coding Tools Face MCP Supply-Chain Test as Malicious Servers Target Developers",
+    "file": "html/article-0623-apple-silicon-ai-coding-tools-face-mcp-supply-chain-test-as-malicious-se-20260915-060634.html",
+    "timestamp": "20260915-060634",
+    "full_timestamp": "2026-09-15T06:06:34-07:00",
+    "summary": "As AI coding tools gain deeper access to developer workflows, malicious MCP servers and AI skills expose a supply-chain question Apple’s expanding tool ecosystem cannot ignore.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "2026 malicious MCP servers Apple Silicon AI coding tools developer security",
+    "source_count": 9,
+    "tags": "Apple Silicon, AI coding, MCP security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
