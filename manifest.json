@@ -8306,5 +8306,18 @@
     "source_count": 3,
     "tags": "campaigns, chatbots, TCPA, midterms",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 630,
+    "topic": "Apple Silicon Local AI Apps Face Foundation Models Framework Adoption Test on macOS Tahoe 26",
+    "file": "html/article-0630-apple-silicon-local-ai-apps-face-foundation-models-framework-adoption-te-20260915-130419.html",
+    "timestamp": "20260915-130419",
+    "full_timestamp": "2026-09-15T13:04:19-07:00",
+    "summary": "Apple’s Foundation Models framework could consolidate Mac AI development, but supplied evidence shows platform reach and API ambition—not proof developers will abandon fragmented local runtimes.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "macOS Tahoe 26 Foundation Models framework local model app adoption developers 2026 latest",
+    "source_count": 12,
+    "tags": "macOS, developer tools, local AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
