@@ -8228,5 +8228,18 @@
     "source_count": 9,
     "tags": "Apple Silicon, AI coding, MCP security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 624,
+    "topic": "Bank AI Fraud Detection Faces Deepfake Payment Test as Real-Time Transfers Shrink Response Windows",
+    "file": "html/article-0624-bank-ai-fraud-detection-faces-deepfake-payment-test-as-real-time-transfe-20260915-070305.html",
+    "timestamp": "20260915-070305",
+    "full_timestamp": "2026-09-15T07:03:05-07:00",
+    "summary": "Deepfakes and instant payments are compressing fraud response windows, pushing banks toward layered AI detection, stronger payment authentication, and clearer reimbursement decisions without blanket customer friction.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks real-time payments AI deepfake fraud detection reimbursement rules",
+    "source_count": 12,
+    "tags": "deepfakes, banking fraud, real-time payments",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
