@@ -8150,5 +8150,18 @@
     "source_count": 12,
     "tags": "model licensing, quantization, Apple Silicon",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 618,
+    "topic": "AI Short-Form Video Faces Monetization Test as Platforms Reassess Mass-Produced Creator Content",
+    "file": "html/article-0618-ai-short-form-video-faces-monetization-test-as-platforms-reassess-mass-p-20260915-000320.html",
+    "timestamp": "20260915-000320",
+    "full_timestamp": "2026-09-15T00:03:20-07:00",
+    "summary": "As AI makes short-form video cheaper to produce, platforms are testing whether originality, effort, and audience safety—not raw volume—should determine creator monetization and eligibility.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "2026 YouTube TikTok Meta AI short video monetization mass-produced content policy",
+    "source_count": 12,
+    "tags": "AI video, creator economy, platform policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
