@@ -8072,5 +8072,18 @@
     "source_count": 12,
     "tags": "Apple Intelligence, local AI, privacy, Mac agents",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 612,
+    "topic": "Apple Silicon AI Coding Tools Face EU Interoperability Test Over Apple Intelligence API Access",
+    "file": "html/article-0612-apple-silicon-ai-coding-tools-face-eu-interoperability-test-over-apple-i-20260914-180215.html",
+    "timestamp": "20260914-180215",
+    "full_timestamp": "2026-09-14T18:02:15-07:00",
+    "summary": "EU court rulings and Apple’s EU product delays sharpen the question of whether interoperability pressure will reach on-device intelligence APIs used by third-party coding tools.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "EU DMA Apple Intelligence developer APIs interoperability 2026 coding tools",
+    "source_count": 4,
+    "tags": "Apple Silicon, Apple Intelligence, EU DMA, developer tools",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
