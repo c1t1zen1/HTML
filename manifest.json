@@ -8137,5 +8137,18 @@
     "source_count": 2,
     "tags": "AI video, stock footage, licensing, training data",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 617,
+    "topic": "Mac Quantized LLM Apps Face Open-Model License Test as Developers Bundle Weights",
+    "file": "html/article-0617-mac-quantized-llm-apps-face-open-model-license-test-as-developers-bundle-20260914-230256.html",
+    "timestamp": "20260914-230256",
+    "full_timestamp": "2026-09-14T23:02:56-07:00",
+    "summary": "Mac AI apps increasingly face a practical licensing question: whether quantized open-model weights can be redistributed offline, not merely downloaded, converted, and run.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "Apple Silicon local AI apps bundled model weights open model licenses 2026",
+    "source_count": 12,
+    "tags": "model licensing, quantization, Apple Silicon",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
