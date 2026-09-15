@@ -8202,5 +8202,18 @@
     "source_count": 12,
     "tags": "MEV, autonomous wallets, crypto performance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 622,
+    "topic": "Lawyer AI Disclosure Rules Face Courtroom Test as Judges Target Hallucinated Filings",
+    "file": "html/article-0622-lawyer-ai-disclosure-rules-face-courtroom-test-as-judges-target-hallucin-20260915-040308.html",
+    "timestamp": "20260915-040308",
+    "full_timestamp": "2026-09-15T04:03:08-07:00",
+    "summary": "California’s proposed AI rules and recent sanctions cases are shifting courtroom AI from private workflow choice toward visible disclosure, verification, and lawyer accountability.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 court rules lawyers disclose generative AI filings sanctions",
+    "source_count": 12,
+    "tags": "legal practice, court rules, AI disclosure",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
