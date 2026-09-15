@@ -8293,5 +8293,18 @@
     "source_count": 12,
     "tags": "political ads,watermarking,election law,deepfakes",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 629,
+    "topic": "AI Campaign Chatbots Face TCPA Consent Test as Midterms Automate Voter Contact",
+    "file": "html/article-0629-ai-campaign-chatbots-face-tcpa-consent-test-as-midterms-automate-voter-c-20260915-120441.html",
+    "timestamp": "20260915-120441",
+    "full_timestamp": "2026-09-15T12:04:41-07:00",
+    "summary": "Campaign AI is moving from visible ads toward harder-to-audit voter contact, but the supplied evidence leaves TCPA consent, automation, and accountability questions unresolved.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 campaign AI chatbots TCPA consent voter text messages",
+    "source_count": 3,
+    "tags": "campaigns, chatbots, TCPA, midterms",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
