@@ -8059,5 +8059,18 @@
     "source_count": 3,
     "tags": "hedge funds, alternative data, AI regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 611,
+    "topic": "Mac AI Apps Face Foundation-Model Privacy Test as Developers Expand On-Device Agent Workflows",
+    "file": "html/article-0611-mac-ai-apps-face-foundation-model-privacy-test-as-developers-expand-on-d-20260914-170212.html",
+    "timestamp": "20260914-170212",
+    "full_timestamp": "2026-09-14T17:02:12-07:00",
+    "summary": "Apple’s local-model privacy claim now faces a harder test: whether Mac apps can preserve data boundaries across persistent, agentic workflows, not merely run inference on-device.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Foundation Models Mac privacy controls on-device agents 2026",
+    "source_count": 12,
+    "tags": "Apple Intelligence, local AI, privacy, Mac agents",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
