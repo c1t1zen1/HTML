@@ -8319,5 +8319,18 @@
     "source_count": 12,
     "tags": "macOS, developer tools, local AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 631,
+    "topic": "AI Crypto Trading Bots Face Live Track-Record Test as Agents Market Outperformance Claims",
+    "file": "html/article-0631-ai-crypto-trading-bots-face-live-track-record-test-as-agents-market-outp-20260915-140318.html",
+    "timestamp": "20260915-140318",
+    "full_timestamp": "2026-09-15T14:03:18-07:00",
+    "summary": "AI crypto trading bots are moving from polished automation pitches to a harder question: can autonomous agents prove live, net-of-fees outperformance under independent scrutiny?",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 AI crypto trading bots live performance track records fees",
+    "source_count": 8,
+    "tags": "AI trading, crypto, performance, autonomous agents",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
