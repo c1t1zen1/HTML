@@ -8280,5 +8280,18 @@
     "source_count": 9,
     "tags": "AI therapy, EU regulation, medical devices, mental health",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 628,
+    "topic": "Political Deepfake Ads Face 2026 Midterm Disclosure Test as States Split on Watermarks",
+    "file": "html/article-0628-political-deepfake-ads-face-2026-midterm-disclosure-test-as-states-split-20260915-110410.html",
+    "timestamp": "20260915-110410",
+    "full_timestamp": "2026-09-15T11:04:10-07:00",
+    "summary": "The 2026 midterms will test whether state disclosure rules can produce clear political-ad labels while watermark mandates and constitutional challenges pull compliance in different directions.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "2026 midterm AI political ad disclosure laws state watermarking court challenge",
+    "source_count": 12,
+    "tags": "political ads,watermarking,election law,deepfakes",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
