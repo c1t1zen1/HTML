@@ -8345,5 +8345,18 @@
     "source_count": 12,
     "tags": "hedge funds,LLM trading,model risk,market regimes",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 633,
+    "topic": "AI Data-Center Lobbying Faces Federal Grid-Permitting Test as Hyperscalers Seek Faster Power",
+    "file": "html/article-0633-ai-data-center-lobbying-faces-federal-grid-permitting-test-as-hyperscale-20260915-160451.html",
+    "timestamp": "20260915-160451",
+    "full_timestamp": "2026-09-15T16:04:51-07:00",
+    "summary": "A federal push to speed AI data-center power access is colliding with FERC cost-allocation questions, permitting changes, grid reliability pressures, and a widening fight over who pays.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "2026 Washington AI data center lobbying FERC grid interconnection power permits",
+    "source_count": 12,
+    "tags": "AI infrastructure, energy policy, lobbying",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
