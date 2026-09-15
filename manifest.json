@@ -8085,5 +8085,18 @@
     "source_count": 4,
     "tags": "Apple Silicon, Apple Intelligence, EU DMA, developer tools",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 613,
+    "topic": "AI Video Models Face Actor-Likeness Licensing Test as Studios Expand Digital-Replica Production",
+    "file": "html/article-0613-ai-video-models-face-actor-likeness-licensing-test-as-studios-expand-dig-20260914-190509.html",
+    "timestamp": "20260914-190509",
+    "full_timestamp": "2026-09-14T19:05:09-07:00",
+    "summary": "As studios explore digital replicas, the decisive test is shifting from whether video models can imitate performers to who can authorize, limit, and profit from that likeness.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video models actor likeness licensing studios digital replicas union contracts",
+    "source_count": 12,
+    "tags": "AI video, digital replicas, actor rights, licensing",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
