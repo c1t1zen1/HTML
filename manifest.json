@@ -8124,5 +8124,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, Mac mini, LLM inference, AI infrastructure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 616,
+    "topic": "AI Video Editing Faces Training-Footage Licensing Test as Stock Libraries Negotiate New Rights",
+    "file": "html/article-0616-ai-video-editing-faces-training-footage-licensing-test-as-stock-librarie-20260914-220623.html",
+    "timestamp": "20260914-220623",
+    "full_timestamp": "2026-09-14T22:06:23-07:00",
+    "summary": "Stock libraries face an AI-rights test, but supplied evidence shows market pressure and a collapsed Getty-Shutterstock deal—not compensation, licensing terms, or training-use limits.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "Getty Shutterstock AI video training licensing deals 2026",
+    "source_count": 2,
+    "tags": "AI video, stock footage, licensing, training data",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
