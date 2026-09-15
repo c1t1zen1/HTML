@@ -8332,5 +8332,18 @@
     "source_count": 8,
     "tags": "AI trading, crypto, performance, autonomous agents",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 632,
+    "topic": "Hedge Funds Put LLM Trading Strategies Through Regime-Shift Stress Tests",
+    "file": "html/article-0632-hedge-funds-put-llm-trading-strategies-through-regime-shift-stress-tests-20260915-150411.html",
+    "timestamp": "20260915-150411",
+    "full_timestamp": "2026-09-15T15:04:11-07:00",
+    "summary": "As AI-linked trades reverse, the central test for LLM trading systems is not headline returns but whether signals, risk controls, and assumptions survive regime change.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge fund AI trading regime shift losses benchmark overfitting 2026",
+    "source_count": 12,
+    "tags": "hedge funds,LLM trading,model risk,market regimes",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
