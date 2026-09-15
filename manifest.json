@@ -8163,5 +8163,18 @@
     "source_count": 12,
     "tags": "AI video, creator economy, platform policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 619,
+    "topic": "AI Trading Tools Face FINRA Supervision Test as Brokerages Revisit Model-Risk Controls",
+    "file": "html/article-0619-ai-trading-tools-face-finra-supervision-test-as-brokerages-revisit-model-20260915-010246.html",
+    "timestamp": "20260915-010246",
+    "full_timestamp": "2026-09-15T01:02:46-07:00",
+    "summary": "FINRA’s latest guidance puts AI trading systems under a practical supervision test: can brokerages govern models, preserve records, monitor performance and prove controls work?",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "FINRA 2026 AI trading supervision model risk brokerage guidance",
+    "source_count": 12,
+    "tags": "AI trading,FINRA,model risk",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
