@@ -8189,5 +8189,18 @@
     "source_count": 12,
     "tags": "AI companions, mental health, California law",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 621,
+    "topic": "AI Crypto Trading Bots Face MEV Protection Test as Autonomous Wallets Reshape On-Chain Execution",
+    "file": "html/article-0621-ai-crypto-trading-bots-face-mev-protection-test-as-autonomous-wallets-re-20260915-030319.html",
+    "timestamp": "20260915-030319",
+    "full_timestamp": "2026-09-15T03:03:19-07:00",
+    "summary": "Autonomous crypto wallets can automate strategy, but public mempools, execution leakage, hostile dependencies, and adversarial bots can turn model accuracy into realized losses.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 AI crypto trading bots MEV sandwich attacks autonomous wallets performance",
+    "source_count": 12,
+    "tags": "MEV, autonomous wallets, crypto performance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
