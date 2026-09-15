@@ -8267,5 +8267,18 @@
     "source_count": 12,
     "tags": "voice cloning, election security, voter information",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 627,
+    "topic": "AI Therapy Chatbots Face EU Medical-Device Test as Regulators Define Clinical-Use Boundaries",
+    "file": "html/article-0627-ai-therapy-chatbots-face-eu-medical-device-test-as-regulators-define-cli-20260915-100401.html",
+    "timestamp": "20260915-100401",
+    "full_timestamp": "2026-09-15T10:04:01-07:00",
+    "summary": "EU policymakers face a boundary test: whether therapy chatbots making clinical claims enter medical-device-style scrutiny, while AI Act transparency and high-risk timelines remain unsettled.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "2026 EU AI Act mental health chatbot medical device classification regulators",
+    "source_count": 9,
+    "tags": "AI therapy, EU regulation, medical devices, mental health",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
