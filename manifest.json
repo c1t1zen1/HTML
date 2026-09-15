@@ -8254,5 +8254,18 @@
     "source_count": 3,
     "tags": "SEC filings, XBRL, financial automation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 626,
+    "topic": "Election Offices Face AI Voice-Impersonation Test as Voters Verify Official Ballot Guidance",
+    "file": "html/article-0626-election-offices-face-ai-voice-impersonation-test-as-voters-verify-offic-20260915-090345.html",
+    "timestamp": "20260915-090345",
+    "full_timestamp": "2026-09-15T09:03:45-07:00",
+    "summary": "AI voice impersonation could turn routine ballot guidance into voter misdirection, making independent verification, trusted election-office contacts, and rapid reporting central defenses against synthetic authority.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election county clerk AI voice clone spoofed calls voter guidance",
+    "source_count": 12,
+    "tags": "voice cloning, election security, voter information",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
