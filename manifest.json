@@ -8501,5 +8501,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, local inference, Mac Studio, AI infrastructure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 645,
+    "topic": "AI Mental-Health Chatbots Face Civil-Liability Test as Lawsuits Probe Alleged Harm and Safety Claims",
+    "file": "html/article-0645-ai-mental-health-chatbots-face-civil-liability-test-as-lawsuits-probe-al-20260916-040322.html",
+    "timestamp": "20260916-040322",
+    "full_timestamp": "2026-09-16T04:03:22-07:00",
+    "summary": "Lawsuits are moving AI mental-health chatbots from safety debate to courtroom scrutiny, where alleged harms, product claims, discovery records, and uncertain legal theories may shape accountability.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "2026 AI chatbot mental health wrongful death lawsuits safety claims",
+    "source_count": 12,
+    "tags": "AI safety, litigation, mental health",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
