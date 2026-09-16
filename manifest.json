@@ -8462,5 +8462,18 @@
     "source_count": 12,
     "tags": "coding agents, GitHub, repository security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 642,
+    "topic": "AI Video Editing Tools Face Professional-Workflow Integration Test as Creators Demand Seamless VFX Pipelines",
+    "file": "html/article-0642-ai-video-editing-tools-face-professional-workflow-integration-test-as-cr-20260916-010131.html",
+    "timestamp": "20260916-010131",
+    "full_timestamp": "2026-09-16T01:01:31-07:00",
+    "summary": "AI video editing tools scramble to prove pipeline compatibility as professional creators demand seamless VFX integration",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI video editing software Adobe DaVinci Resolve integration 2026",
+    "source_count": 12,
+    "tags": "AI video,editing software,professional filmmaking,workflow",
+    "model_names": "MiniMax-M2.5"
   }
 ]
