@@ -8384,5 +8384,18 @@
     "source_count": 8,
     "tags": "copyright,training data,video models,media licensing",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 636,
+    "topic": "Hollywood AI Video Productions Face Digital-Replica Consent Test as 2026 Labor Talks Approach",
+    "file": "html/article-0636-hollywood-ai-video-productions-face-digital-replica-consent-test-as-2026-20260915-190223.html",
+    "timestamp": "20260915-190223",
+    "full_timestamp": "2026-09-15T19:02:23-07:00",
+    "summary": "As 2026 SAG-AFTRA bargaining produces stronger synthetic-performer limits, Hollywood faces a practical test: whether consent, compensation, security, and control become enforceable production rules.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "2026 SAG-AFTRA contract talks AI digital replicas film production performers",
+    "source_count": 12,
+    "tags": "digital replicas, SAG-AFTRA, film production",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
