@@ -8579,5 +8579,18 @@
     "source_count": 10,
     "tags": "AI policy, federalism, lobbying",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 651,
+    "topic": "Hedge-Fund LLMs Face DORA Third-Party-Risk Test as EU AI Vendor Oversight Expands",
+    "file": "html/article-0651-hedge-fund-llms-face-dora-third-party-risk-test-as-eu-ai-vendor-oversigh-20260916-110325.html",
+    "timestamp": "20260916-110325",
+    "full_timestamp": "2026-09-16T11:03:25-07:00",
+    "summary": "Trading firms using LLM vendors face a resilience test: document critical dependencies, control concentration, preserve exit options, and prepare for expanding EU third-party oversight.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "2026 DORA hedge funds LLM vendors third party AI oversight",
+    "source_count": 12,
+    "tags": "DORA, hedge funds, AI governance, operational resilience",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
