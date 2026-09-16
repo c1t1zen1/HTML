@@ -8618,5 +8618,18 @@
     "source_count": 12,
     "tags": "TAKE IT DOWN Act, deepfakes, platform liability, FTC",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 654,
+    "topic": "EU Instant-Payment Fraud Screening Faces Latency Test as Banks Deploy Real-Time AI Checks",
+    "file": "html/article-0654-eu-instant-payment-fraud-screening-faces-latency-test-as-banks-deploy-re-20260916-150308.html",
+    "timestamp": "20260916-150308",
+    "full_timestamp": "2026-09-16T15:03:08-07:00",
+    "summary": "Europe’s instant-payment rulebook is forcing a harder question than whether AI can spot fraud: can banks screen risk quickly enough without undermining near-immediate execution?",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 EU instant payments AI fraud detection verification of payee banks",
+    "source_count": 12,
+    "tags": "instant payments, fraud detection, banking AI, EU regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
