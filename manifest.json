@@ -8514,5 +8514,18 @@
     "source_count": 12,
     "tags": "AI safety, litigation, mental health",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 646,
+    "topic": "Autonomous Crypto Trading Agents Face Exchange-Surveillance Test as API Markets Tighten",
+    "file": "html/article-0646-autonomous-crypto-trading-agents-face-exchange-surveillance-test-as-api-20260916-060418.html",
+    "timestamp": "20260916-060418",
+    "full_timestamp": "2026-09-16T06:04:18-07:00",
+    "summary": "As crypto exchanges open trading APIs to autonomous agents, surveillance must link permissions, execution anomalies, and manipulation controls without confusing automation with accountability.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "2026 crypto exchange autonomous trading agents API surveillance market manipulation",
+    "source_count": 6,
+    "tags": "autonomous agents, crypto exchanges, market surveillance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
