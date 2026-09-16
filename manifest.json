@@ -8631,5 +8631,18 @@
     "source_count": 12,
     "tags": "instant payments, fraud detection, banking AI, EU regulation",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 655,
+    "topic": "Apple Foundation Models Apps Face Privacy-Manifest Test as On-Device AI Ships",
+    "file": "html/article-0655-apple-foundation-models-apps-face-privacy-manifest-test-as-on-device-ai-20260916-160342.html",
+    "timestamp": "20260916-160342",
+    "full_timestamp": "2026-09-16T16:03:42-07:00",
+    "summary": "Apple’s expanding Foundation Models story mixes local and cloud execution, but the supplied evidence does not show whether Mac apps must disclose routing or offer user controls.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple Foundation Models framework privacy security audit macOS developers 2026",
+    "source_count": 9,
+    "tags": "Apple Intelligence, privacy, Foundation Models, macOS",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
