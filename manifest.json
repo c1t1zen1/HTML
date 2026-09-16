@@ -8605,5 +8605,18 @@
     "source_count": 2,
     "tags": "smart homes, energy AI, demand response, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 653,
+    "topic": "TAKE IT DOWN Act Faces Platform-Compliance Test as AI Intimate Images Reach U.S. Enforcement",
+    "file": "html/article-0653-take-it-down-act-faces-platform-compliance-test-as-ai-intimate-images-re-20260916-130328.html",
+    "timestamp": "20260916-130328",
+    "full_timestamp": "2026-09-16T13:03:28-07:00",
+    "summary": "The TAKE IT DOWN Act puts U.S. platforms on a 48-hour clock for reported nonconsensual intimate imagery, including AI-generated forgeries, making compliance systems the enforcement test.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "TAKE IT DOWN Act AI intimate images platform compliance FTC 2026",
+    "source_count": 12,
+    "tags": "TAKE IT DOWN Act, deepfakes, platform liability, FTC",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
