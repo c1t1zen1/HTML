@@ -8397,5 +8397,18 @@
     "source_count": 12,
     "tags": "digital replicas, SAG-AFTRA, film production",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 637,
+    "topic": "Army’s TITAN AI Ground Station Faces Rules-of-Engagement Test as Sensor Fusion Moves Toward Fielding",
+    "file": "html/article-0637-armys-titan-ai-ground-station-faces-rules-of-engagement-test-as-sensor-f-20260915-200315.html",
+    "timestamp": "20260915-200315",
+    "full_timestamp": "2026-09-15T20:03:15-07:00",
+    "summary": "The Army’s eight-system TITAN award signals a production transition, but the supplied evidence leaves rules of engagement, human control, and auditability unresolved.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "2026 Army TITAN AI ground station fielding rules of engagement oversight",
+    "source_count": 5,
+    "tags": "TITAN, battlefield AI, sensor fusion, oversight",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
