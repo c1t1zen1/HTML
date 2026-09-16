@@ -8410,5 +8410,18 @@
     "source_count": 5,
     "tags": "TITAN, battlefield AI, sensor fusion, oversight",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 638,
+    "topic": "M5 Neural Accelerators Face MLX Developer-Tool Test as Apple Silicon Local AI Moves Beyond GPU Tuning",
+    "file": "html/article-0638-m5-neural-accelerators-face-mlx-developer-tool-test-as-apple-silicon-loc-20260915-210253.html",
+    "timestamp": "20260915-210253",
+    "full_timestamp": "2026-09-15T21:02:53-07:00",
+    "summary": "Apple’s M5 Neural Accelerators are becoming a developer-tool question: MLX and Ollama show targeting signals, but workload-specific gains and decode limits remain unsettled.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "MLX M5 Neural Accelerators Apple Silicon developer tools 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, Neural Accelerators, Local AI",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
