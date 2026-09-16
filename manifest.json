@@ -8436,5 +8436,18 @@
     "source_count": 5,
     "tags": "macOS, local AI, computer use, privacy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 640,
+    "topic": "Brokerage AI Research Agents Face Earnings-Forecast Audit as Investors Demand Traceable Stock Calls",
+    "file": "html/article-0640-brokerage-ai-research-agents-face-earnings-forecast-audit-as-investors-d-20260915-230238.html",
+    "timestamp": "20260915-230238",
+    "full_timestamp": "2026-09-15T23:02:38-07:00",
+    "summary": "AI-generated stock calls will be judged not only by outcomes, but by whether investors can reconstruct the filings, figures, assumptions, approvals, and updates behind each forecast.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "2026 brokerage AI research agents earnings forecasts disclosure audit",
+    "source_count": 12,
+    "tags": "AI investing,brokerages,earnings forecasts,disclosure",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
