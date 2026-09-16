@@ -8475,5 +8475,18 @@
     "source_count": 12,
     "tags": "AI video,editing software,professional filmmaking,workflow",
     "model_names": "MiniMax-M2.5"
+  },
+  {
+    "article_number": 643,
+    "topic": "AI Answer Engines Face Election-Information Accuracy Test as 2026 Voters Check Ballot Rules",
+    "file": "html/article-0643-ai-answer-engines-face-election-information-accuracy-test-as-2026-voters-20260916-020441.html",
+    "timestamp": "20260916-020441",
+    "full_timestamp": "2026-09-16T02:04:41-07:00",
+    "summary": "As voters ask AI about 2026 elections, incomplete, outdated, and user-variable answers could turn routine ballot guidance into an election-integrity test.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "2026 election AI answer engines ballot rules misinformation accuracy",
+    "source_count": 6,
+    "tags": "AI search, election integrity, voter information",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
