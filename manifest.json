@@ -8358,5 +8358,18 @@
     "source_count": 12,
     "tags": "AI infrastructure, energy policy, lobbying",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 634,
+    "topic": "Mac Local AI Apps Face Cloud-Fallback Disclosure Test as Privacy Claims Meet Hybrid Inference",
+    "file": "html/article-0634-mac-local-ai-apps-face-cloud-fallback-disclosure-test-as-privacy-claims-20260915-170400.html",
+    "timestamp": "20260915-170400",
+    "full_timestamp": "2026-09-15T17:04:00-07:00",
+    "summary": "Mac apps marketed as local face a practical privacy test: do they disclose cloud fallback, what leaves the device, and whether telemetry accompanies hybrid inference?",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "2026 Mac local AI apps cloud fallback privacy disclosure Apple",
+    "source_count": 12,
+    "tags": "local AI, Mac privacy, cloud inference",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
