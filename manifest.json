@@ -8423,5 +8423,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, Neural Accelerators, Local AI",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 639,
+    "topic": "Mac Local AI Agents Face Accessibility-Permission Test as Computer Use Reaches Desktop Workflows",
+    "file": "html/article-0639-mac-local-ai-agents-face-accessibility-permission-test-as-computer-use-r-20260915-220227.html",
+    "timestamp": "20260915-220227",
+    "full_timestamp": "2026-09-15T22:02:27-07:00",
+    "summary": "Local agents are moving toward hands-on Mac workflows, but the supplied evidence leaves the decisive question unanswered: how automation handles Accessibility consent.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS local AI computer-use agents Accessibility permission enterprise controls 2026",
+    "source_count": 5,
+    "tags": "macOS, local AI, computer use, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
