@@ -8553,5 +8553,18 @@
     "source_count": 2,
     "tags": "generative AI, XBRL, SEC, audit",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 649,
+    "topic": "AI Stock-Picking Apps Face SEC Adviser-Boundary Test as Retail Forecasts Become Personalized",
+    "file": "html/article-0649-ai-stock-picking-apps-face-sec-adviser-boundary-test-as-retail-forecasts-20260916-090333.html",
+    "timestamp": "20260916-090333",
+    "full_timestamp": "2026-09-16T09:03:33-07:00",
+    "summary": "Personalized AI stock forecasts would put consumer apps closer to questions about adviser status, Form ADV methods, marketing accuracy, and controls over predictive technology.",
+    "original_topic": "AI Stock Prediction & Market Analysis",
+    "search_query": "SEC AI stock picker investment adviser disclosure retail app 2026",
+    "source_count": 12,
+    "tags": "AI investing, SEC, retail trading",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
