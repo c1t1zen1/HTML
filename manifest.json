@@ -8592,5 +8592,18 @@
     "source_count": 12,
     "tags": "DORA, hedge funds, AI governance, operational resilience",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 652,
+    "topic": "AI Home Energy Assistants Face Demand-Response Consent Test as Utilities Expand Grid Programs",
+    "file": "html/article-0652-ai-home-energy-assistants-face-demand-response-consent-test-as-utilities-20260916-120323.html",
+    "timestamp": "20260916-120323",
+    "full_timestamp": "2026-09-16T12:03:23-07:00",
+    "summary": "As utilities expand flexibility programs, the available evidence points to a wider consent question: who authorizes automated energy decisions, how data is governed, and what happens when control fails?",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "2026 utility demand response AI thermostats consumer consent energy data",
+    "source_count": 2,
+    "tags": "smart homes, energy AI, demand response, privacy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
