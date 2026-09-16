@@ -13114,5 +13114,29 @@
     "canonical_query": "2026 mac local ai apps cloud fallback privacy disclosure apple",
     "searched_at": "2026-09-15T17:02:27-07:00",
     "topic": "Mac Local AI Apps Face Cloud-Fallback Disclosure Test as Privacy Claims Meet Hybrid Inference"
+  },
+  {
+    "query": "Apple Silicon GGUF Core ML safetensors conversion local inference compatibility September 2026",
+    "canonical_query": "apple silicon gguf core ml safetensors conversion local inference compatibility september 2026",
+    "searched_at": "2026-09-15T18:01:52-07:00",
+    "topic": "Mac Quantized LLMs Face Model-Format Interoperability Test as MLX, GGUF, and Core ML Diverge"
+  },
+  {
+    "query": "Mac Quantized LLMs Face Model-Format Interoperability Test as MLX, GGUF, and Core ML Diverge analysis developments",
+    "canonical_query": "mac quantized llms face model format interoperability test as mlx gguf and core ml diverge analysis developments",
+    "searched_at": "2026-09-15T18:01:53-07:00",
+    "topic": "Mac Quantized LLMs Face Model-Format Interoperability Test as MLX, GGUF, and Core ML Diverge"
+  },
+  {
+    "query": "2026 AI video model copyright training dataset licensing studios",
+    "canonical_query": "2026 ai video model copyright training dataset licensing studios",
+    "searched_at": "2026-09-15T18:02:42-07:00",
+    "topic": "AI Video Models Face Copyright-Training Test as Studios Revisit Dataset Licensing"
+  },
+  {
+    "query": "AI Video Models Face Copyright-Training Test as Studios Revisit Dataset Licensing analysis developments",
+    "canonical_query": "ai video models face copyright training test as studios revisit dataset licensing analysis developments",
+    "searched_at": "2026-09-15T18:02:43-07:00",
+    "topic": "AI Video Models Face Copyright-Training Test as Studios Revisit Dataset Licensing"
   }
 ]

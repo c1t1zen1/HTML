@@ -8371,5 +8371,18 @@
     "source_count": 12,
     "tags": "local AI, Mac privacy, cloud inference",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 635,
+    "topic": "AI Video Models Face Copyright-Training Test as Studios Revisit Dataset Licensing",
+    "file": "html/article-0635-ai-video-models-face-copyright-training-test-as-studios-revisit-dataset-20260915-180352.html",
+    "timestamp": "20260915-180352",
+    "full_timestamp": "2026-09-15T18:03:52-07:00",
+    "summary": "As AI video quality improves, studios and developers are moving copyright training disputes toward licensing frameworks, court scrutiny and commercial risk—without a settled legal answer.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "2026 AI video model copyright training dataset licensing studios",
+    "source_count": 8,
+    "tags": "copyright,training data,video models,media licensing",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
