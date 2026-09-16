@@ -8488,5 +8488,18 @@
     "source_count": 6,
     "tags": "AI search, election integrity, voter information",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 644,
+    "topic": "Apple Silicon LLM Servers Face Mac Studio Reliability Test as Local Inference Scales",
+    "file": "html/article-0644-apple-silicon-llm-servers-face-mac-studio-reliability-test-as-local-infe-20260916-030334.html",
+    "timestamp": "20260916-030334",
+    "full_timestamp": "2026-09-16T03:03:34-07:00",
+    "summary": "As Apple Silicon shifts from local experimentation toward always-on inference, Mac Studio’s real test is not model fit alone but sustained uptime, thermals, noise, and total cost.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "2026 Mac Studio Apple Silicon local AI server deployment power reliability",
+    "source_count": 12,
+    "tags": "Apple Silicon, local inference, Mac Studio, AI infrastructure",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
