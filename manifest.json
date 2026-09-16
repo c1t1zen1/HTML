@@ -8527,5 +8527,18 @@
     "source_count": 6,
     "tags": "autonomous agents, crypto exchanges, market surveillance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 647,
+    "topic": "AI-Generated Shorts Face YouTube Monetization Test as Inauthentic-Content Rules Tighten",
+    "file": "html/article-0647-ai-generated-shorts-face-youtube-monetization-test-as-inauthentic-conten-20260916-070318.html",
+    "timestamp": "20260916-070318",
+    "full_timestamp": "2026-09-16T07:03:18-07:00",
+    "summary": "YouTube’s supplied policy evidence points toward a quality-and-authenticity test: AI tools may remain eligible, while mass-produced, repetitive Shorts face channel-level scrutiny and monetization risk.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "YouTube Shorts AI-generated videos monetization inauthentic content policy 2026",
+    "source_count": 12,
+    "tags": "YouTube, Shorts, creator economy, AI policy",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
