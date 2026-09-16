@@ -8540,5 +8540,18 @@
     "source_count": 12,
     "tags": "YouTube, Shorts, creator economy, AI policy",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 648,
+    "topic": "Generative AI Financial Reporting Tools Face XBRL Accuracy Test as SEC Filings Automate",
+    "file": "html/article-0648-generative-ai-financial-reporting-tools-face-xbrl-accuracy-test-as-sec-f-20260916-080232.html",
+    "timestamp": "20260916-080232",
+    "full_timestamp": "2026-09-16T08:02:32-07:00",
+    "summary": "SEC-focused financial-data tooling is emerging, but the supplied evidence does not yet demonstrate regulator-ready XBRL tagging, disclosure accuracy, or complete audit trails.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "2026 generative AI XBRL tagging accuracy SEC financial reporting",
+    "source_count": 2,
+    "tags": "generative AI, XBRL, SEC, audit",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
