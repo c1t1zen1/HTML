@@ -8566,5 +8566,18 @@
     "source_count": 12,
     "tags": "AI investing, SEC, retail trading",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 650,
+    "topic": "AI Lobbying Faces Federal Preemption Test as Congress Weighs Overriding State Rules",
+    "file": "html/article-0650-ai-lobbying-faces-federal-preemption-test-as-congress-weighs-overriding-20260916-100603.html",
+    "timestamp": "20260916-100603",
+    "full_timestamp": "2026-09-16T10:06:03-07:00",
+    "summary": "Congress's AI debate is becoming a federalism fight: Washington may trade limits on state safeguards for online-safety priorities, while state lawmakers and free-speech groups resist.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "2026 Congress AI federal preemption state rules lobbying Washington",
+    "source_count": 10,
+    "tags": "AI policy, federalism, lobbying",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
