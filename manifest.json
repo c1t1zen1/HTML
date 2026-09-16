@@ -8449,5 +8449,18 @@
     "source_count": 12,
     "tags": "AI investing,brokerages,earnings forecasts,disclosure",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 641,
+    "topic": "GitHub Coding Agents Face Branch-Protection Test as Autonomous Pull Requests Enter Enterprise Repositories",
+    "file": "html/article-0641-github-coding-agents-face-branch-protection-test-as-autonomous-pull-requ-20260916-000308.html",
+    "timestamp": "20260916-000308",
+    "full_timestamp": "2026-09-16T00:03:08-07:00",
+    "summary": "Agent-generated pull requests are moving deeper into GitHub workflows, but supplied evidence leaves the decisive enterprise question unanswered: whether repository controls reliably constrain, test, and review them.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "GitHub Copilot coding agent branch protection enterprise repository September 2026",
+    "source_count": 12,
+    "tags": "coding agents, GitHub, repository security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
