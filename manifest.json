@@ -8761,5 +8761,18 @@
     "source_count": 12,
     "tags": "deepfakes, biometrics, banking fraud",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 665,
+    "topic": "AI Video Models Face Provenance Test as EU AI Act Transparency Rules Take Effect",
+    "file": "html/article-0665-ai-video-models-face-provenance-test-as-eu-ai-act-transparency-rules-tak-20260917-090322.html",
+    "timestamp": "20260917-090322",
+    "full_timestamp": "2026-09-17T09:03:22-07:00",
+    "summary": "By August 2026, AI video providers may face a dual provenance test: machine-readable marking plus human-facing disclosure, with standards, scope, and timing still unsettled.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "EU AI Act August 2026 AI-generated video labeling watermark platforms",
+    "source_count": 12,
+    "tags": "EU AI Act, synthetic media, C2PA, content provenance",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
