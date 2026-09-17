@@ -8709,5 +8709,18 @@
     "source_count": 12,
     "tags": "smart homes, AI agents, Matter, security",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 661,
+    "topic": "Hedge-Fund LLMs Face EU AI Act Documentation Test as High-Risk Rules Take Effect",
+    "file": "html/article-0661-hedge-fund-llms-face-eu-ai-act-documentation-test-as-high-risk-rules-tak-20260916-220219.html",
+    "timestamp": "20260916-220219",
+    "full_timestamp": "2026-09-16T22:02:19-07:00",
+    "summary": "Europe’s AI Act timetable is turning proprietary trading models into a governance test: firms may need auditable documentation, risk controls, and visible human oversight as enforcement advances.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "EU AI Act August 2026 high-risk AI obligations hedge funds trading models",
+    "source_count": 9,
+    "tags": "EU AI Act, model governance, hedge funds",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
