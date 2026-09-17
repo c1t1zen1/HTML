@@ -8657,5 +8657,18 @@
     "source_count": 12,
     "tags": "evidence law, deepfakes, courts",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 657,
+    "topic": "Legal AI Startups Face Unauthorized-Practice Test as Regulators Scrutinize Consumer-Facing Advice",
+    "file": "html/article-0657-legal-ai-startups-face-unauthorized-practice-test-as-regulators-scrutini-20260916-180533.html",
+    "timestamp": "20260916-180533",
+    "full_timestamp": "2026-09-16T18:05:33-07:00",
+    "summary": "Legal AI’s next compliance test may be individualized consumer guidance: supplied evidence points to broader state enforcement and rapid funding, but offers little verified detail on unauthorized-practice cases.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 legal AI startups unauthorized practice consumer legal advice state regulators",
+    "source_count": 5,
+    "tags": "legal AI, unauthorized practice, consumer protection, state regulation",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
