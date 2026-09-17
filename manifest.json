@@ -8735,5 +8735,18 @@
     "source_count": 12,
     "tags": "campaign technology, voter privacy, political data",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 663,
+    "topic": "AI Lobbying Faces Federal Grid-Cost Test as Lawmakers Scrutinize Data-Center Power Demand",
+    "file": "html/article-0663-ai-lobbying-faces-federal-grid-cost-test-as-lawmakers-scrutinize-data-ce-20260917-000242.html",
+    "timestamp": "20260917-000242",
+    "full_timestamp": "2026-09-17T00:02:42-07:00",
+    "summary": "Washington is testing whether AI data centers should absorb grid-upgrade and electricity costs instead of leaving households exposed to higher utility bills.",
+    "original_topic": "AI Lobbying & Policy in Washington",
+    "search_query": "Congress 2026 lawmakers scrutinize AI data center power demand grid costs lobbying",
+    "source_count": 12,
+    "tags": "AI policy, data centers, electricity, lobbying",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
