@@ -8683,5 +8683,18 @@
     "source_count": 12,
     "tags": "Xcode, agentic coding, Apple Silicon, App Store",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 659,
+    "topic": "Political Deepfake Disclosure Laws Face Enforcement Test as 2026 Campaigns Scale Synthetic Media",
+    "file": "html/article-0659-political-deepfake-disclosure-laws-face-enforcement-test-as-2026-campaig-20260916-200233.html",
+    "timestamp": "20260916-200233",
+    "full_timestamp": "2026-09-16T20:02:33-07:00",
+    "summary": "As states expand deepfake rules and campaign videos become harder to authenticate, the decisive 2026 question is whether disclosure requirements can operate quickly enough during active contests.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "Political deepfake disclosure laws enforcement 2026 campaigns synthetic media",
+    "source_count": 3,
+    "tags": "deepfakes, campaign regulation, election integrity",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
