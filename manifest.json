@@ -8722,5 +8722,18 @@
     "source_count": 9,
     "tags": "EU AI Act, model governance, hedge funds",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 662,
+    "topic": "AI Campaign Targeting Faces Sensitive-Data Test as 2026 States Tighten Voter-Privacy Rules",
+    "file": "html/article-0662-ai-campaign-targeting-faces-sensitive-data-test-as-2026-states-tighten-v-20260916-230245.html",
+    "timestamp": "20260916-230245",
+    "full_timestamp": "2026-09-16T23:02:45-07:00",
+    "summary": "Campaigns face growing scrutiny as states expand profiling rights, restrict sensitive-data uses, and debate who may collect, combine, and deploy voter information before 2026.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "2026 state voter privacy laws AI campaign targeting sensitive data",
+    "source_count": 12,
+    "tags": "campaign technology, voter privacy, political data",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
