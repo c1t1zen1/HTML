@@ -8748,5 +8748,18 @@
     "source_count": 12,
     "tags": "AI policy, data centers, electricity, lobbying",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 664,
+    "topic": "Bank Fraud Detectors Face Deepfake-Test as Voice-Cloned Customers Challenge Biometric Authentication",
+    "file": "html/article-0664-bank-fraud-detectors-face-deepfake-test-as-voice-cloned-customers-challe-20260917-010235.html",
+    "timestamp": "20260917-010235",
+    "full_timestamp": "2026-09-17T01:02:35-07:00",
+    "summary": "Voice-cloned callers and synthetic video attacks are pushing banks beyond one biometric check toward layered authentication across access and account recovery.",
+    "original_topic": "AI Fraud Detection in Banking & Finance",
+    "search_query": "2026 banks voice deepfake fraud detection biometric authentication customer accounts",
+    "source_count": 12,
+    "tags": "deepfakes, biometrics, banking fraud",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
