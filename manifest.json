@@ -8696,5 +8696,18 @@
     "source_count": 3,
     "tags": "deepfakes, campaign regulation, election integrity",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 660,
+    "topic": "AI Smart-Home Agents Face Permission-Security Test as Matter Devices Become Agent-Controllable",
+    "file": "html/article-0660-ai-smart-home-agents-face-permission-security-test-as-matter-devices-bec-20260916-210429.html",
+    "timestamp": "20260916-210429",
+    "full_timestamp": "2026-09-16T21:04:29-07:00",
+    "summary": "Google’s Home MCP expands agent access across Nest and Matter-connected devices, but the permission boundary, least-privilege model, and audit trail remain the central security questions.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "2026 Matter AI agents smart home device control security permissions",
+    "source_count": 12,
+    "tags": "smart homes, AI agents, Matter, security",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
