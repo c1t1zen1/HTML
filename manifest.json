@@ -8644,5 +8644,18 @@
     "source_count": 9,
     "tags": "Apple Intelligence, privacy, Foundation Models, macOS",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 656,
+    "topic": "Courts Face Synthetic-Evidence Authentication Test as Lawyers Bring AI Exhibits to Trial",
+    "file": "html/article-0656-courts-face-synthetic-evidence-authentication-test-as-lawyers-bring-ai-e-20260916-170257.html",
+    "timestamp": "20260916-170257",
+    "full_timestamp": "2026-09-16T17:02:57-07:00",
+    "summary": "Courts are testing how lawyers authenticate AI-generated exhibits, preserve provenance, and distinguish transparent assistance from undisclosed or manipulated evidence.",
+    "original_topic": "AI in Legal Systems & Law Practice",
+    "search_query": "2026 courts AI-generated evidence authentication rules lawyers deepfakes trial",
+    "source_count": 12,
+    "tags": "evidence law, deepfakes, courts",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
