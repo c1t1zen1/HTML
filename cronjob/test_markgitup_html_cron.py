@@ -348,6 +348,20 @@ class ModelCreditFooterTests(unittest.TestCase):
         self.assertIn(".filter(entry=>!entry.archived && Number(entry.source_count||0)>=2)", rendered)
         self.assertIn('<strong id="count">1</strong>', rendered)
 
+    def test_index_embeds_only_card_and_search_metadata(self):
+        rendered = MODULE.render_index([{
+            'article_number': 1, 'topic': 'Visible headline', 'summary': 'Visible summary',
+            'file': 'html/one.html', 'source_count': 2, 'tags': 'searchable-tag',
+            'original_topic': 'Searchable family', 'full_timestamp': '2026-01-01T00:00:00+00:00',
+            'search_query': 'publisher-only-query', 'search_queries': ['publisher-only-adjacent'],
+            'model_names': 'publisher-only-provenance', 'future_payload': 'publisher-only-payload',
+        }])
+        self.assertIn('Visible headline', rendered)
+        self.assertIn('Visible summary', rendered)
+        self.assertIn('searchable-tag', rendered)
+        self.assertIn('Searchable family', rendered)
+        self.assertNotIn('publisher-only-', rendered)
+
     def test_timeout_falls_back_without_starting_a_second_20_minute_wait(self):
         fallback_json = {"title": "Fallback angle", "search_query": "new AI signal 2026"}
         with patch.object(

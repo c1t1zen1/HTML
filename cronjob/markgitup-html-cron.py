@@ -1135,20 +1135,135 @@ def render_index(manifest: list[dict[str, Any]]) -> str:
         key=lambda item: item.get("full_timestamp", ""),
         reverse=True,
     )
-    serialized = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    # Keep full publisher history in manifest.json, not in the landing payload.
+    card_fields = (
+        "article_number", "topic", "file", "summary", "original_topic",
+        "full_timestamp", "source_count", "tags",
+    )
+    cards = [{key: item[key] for key in card_fields if key in item} for item in data]
+    serialized = json.dumps(cards, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     generated_at = now_local().strftime("%B %-d, %Y · %-I:%M %p %Z")
+    progressive_script = r"""
+const sentinel = document.querySelector('#scroll-sentinel');
+const loadMore = document.querySelector('#load-more');
+const loadStatus = document.querySelector('#load-status');
+let remaining = [], cursor = 0, frame = 0, observer = null, observerMargin = 0;
+
+function rowMetrics() {
+    const style = getComputedStyle(grid);
+    const columns = Math.max(1, style.gridTemplateColumns.split(' ').length);
+    const lastRow = Array.from(grid.children).slice(Math.floor((grid.children.length - 1) / columns) * columns);
+    const height = Math.max(1, ...lastRow.map(node => node.getBoundingClientRect().height));
+    return {columns, stride: height + (parseFloat(style.rowGap) || 0)};
+}
+
+function updateLoader() {
+    const more = cursor < remaining.length;
+    loadMore.hidden = !more;
+    sentinel.hidden = !more;
+    const featuredCount = featured.childElementCount;
+    loadStatus.textContent = `Showing ${cursor + featuredCount} of ${remaining.length + featuredCount}`;
+    if (!more && observer) {
+        observer.disconnect();
+        observer = null;
+    }
+}
+
+function appendRow() {
+    const {columns} = rowMetrics();
+    const end = Math.min(remaining.length, cursor + columns - (cursor % columns));
+    const fragment = document.createDocumentFragment();
+    while (cursor < end) fragment.append(card(remaining[cursor++]));
+    grid.append(fragment);
+    updateLoader();
+}
+
+function observeAhead(margin) {
+    if (!('IntersectionObserver' in window)) return;
+    if (observer && observerMargin === margin) return;
+    if (observer) observer.disconnect();
+    observerMargin = margin;
+    observer = new IntersectionObserver(records => {
+        if (records.some(record => record.isIntersecting)) scheduleFill();
+    }, {rootMargin: `0px 0px ${margin}px 0px`});
+    observer.observe(sentinel);
+}
+
+function fillViewport() {
+    frame = 0;
+    if (cursor >= remaining.length) return;
+    if (!cursor) appendRow();
+    if (cursor >= remaining.length) return;
+    const margin = Math.ceil(rowMetrics().stride * 2);
+    observeAhead(margin);
+    if (sentinel.getBoundingClientRect().top <= innerHeight + margin) {
+        appendRow();
+        // One row per animation frame keeps long/tall viewports responsive.
+        scheduleFill();
+    }
+}
+
+function scheduleFill() {
+    if (!frame) frame = requestAnimationFrame(fillViewport);
+}
+
+function render(query = '') {
+    if (frame) cancelAnimationFrame(frame);
+    frame = 0;
+    if (observer) observer.disconnect();
+    observer = null;
+    const q = query.toLowerCase().trim();
+    const filtered = entries.filter(e => [e.topic, e.summary, e.original_topic, e.tags].join(' ').toLowerCase().includes(q));
+    featured.replaceChildren();
+    grid.replaceChildren();
+    cursor = 0;
+    status.textContent = `${filtered.length} result${filtered.length === 1 ? '' : 's'}`;
+    if (!q && entries[0]) featured.append(card(entries[0], true));
+    remaining = q ? filtered : filtered.slice(1);
+    allHead.style.display = remaining.length ? 'flex' : 'none';
+    if (!remaining.length && !featured.children.length) {
+        const empty = document.createElement('div');
+        empty.className = 'empty';
+        empty.textContent = 'No dispatches match that filter yet.';
+        grid.append(empty);
+    }
+    updateLoader();
+    scheduleFill();
+}
+
+loadMore.addEventListener('click', event => {
+    const firstNew = cursor;
+    appendRow();
+    appendRow();
+    if (event.detail === 0 && grid.children[firstNew]) {
+        grid.children[firstNew].querySelector('a').focus({preventScroll: true});
+    }
+    scheduleFill();
+});
+// The passive scroll path also covers browsers without IntersectionObserver.
+window.addEventListener('scroll', scheduleFill, {passive: true});
+window.addEventListener('resize', scheduleFill);
+"""
     return f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Markgitup: an hourly AI-assisted research desk tracking emerging technology signals."><meta name="theme-color" content="#07101d"><link rel="icon" type="image/svg+xml" href="favicon.svg"><title>Markgitup · Research desk</title>
 <style>
 :root {{ --ink:#eef4ff;--muted:#a8b6cb;--dim:#71819a;--bg:#07101d;--surface:#0d1a2b;--surface2:#12243a;--line:#24405f;--cyan:#5ee7ed;--lime:#b8f36b;--orange:#ffb86c; }}
 [data-theme="light"] {{ --ink:#122238;--muted:#49627f;--dim:#71819a;--bg:#f3f7fb;--surface:#fff;--surface2:#e8f0f7;--line:#cad9e8;--cyan:#087d91;--lime:#4f7800;--orange:#a34c00; }}
 *{{box-sizing:border-box}}body{{margin:0;color:var(--ink);background:radial-gradient(circle at 80% -5%,#193455 0,transparent 34%),var(--bg);font:16px/1.65 Inter,ui-sans-serif,system-ui,sans-serif;transition:background .2s,color .2s}}a{{color:var(--cyan)}}.shell{{max-width:1220px;margin:auto;padding:22px 28px 76px}}.topbar{{display:flex;justify-content:space-between;align-items:center;gap:16px}}.brand{{color:var(--ink);font-weight:800;letter-spacing:.05em;text-decoration:none}}.brand span{{color:var(--cyan)}}button,.search{{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px}}button{{cursor:pointer;padding:9px 12px}}.hero{{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,.6fr);gap:30px;align-items:end;padding:84px 0 54px;border-bottom:1px solid var(--line)}}.eyebrow,.kicker{{color:var(--lime);font-size:.72rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}}h1{{font-size:clamp(3.2rem,8vw,7.8rem);line-height:.9;letter-spacing:-.075em;max-width:800px;margin:18px 0 26px}}.hero p{{color:var(--muted);max-width:690px;font-size:1.12rem}}.hero-note{{border-left:2px solid var(--cyan);padding:4px 0 4px 20px;color:var(--muted)}}.hero-note strong{{display:block;color:var(--ink);font-size:2.6rem;line-height:1}}.controls{{display:flex;gap:12px;align-items:center;margin:30px 0 20px;flex-wrap:wrap}}.search{{flex:1;min-width:240px;padding:12px 15px;outline:none}}.search:focus{{border-color:var(--cyan);box-shadow:0 0 0 3px rgba(94,231,237,.12)}}.latest{{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin:22px 0 34px}}.latest:has(> :only-child){{grid-template-columns:1fr}}.feature,.card{{background:linear-gradient(145deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:20px}}.feature{{padding:30px;position:relative;overflow:hidden}}.feature::before{{content:"";position:absolute;width:220px;height:220px;right:-70px;top:-80px;border-radius:50%;background:radial-gradient(circle,var(--cyan),transparent 67%);opacity:.22}}.feature>*{{position:relative}}.feature h2{{max-width:700px;font-size:clamp(1.7rem,3.4vw,3rem);line-height:1.05;letter-spacing:-.04em;margin:12px 0}}.feature a{{text-decoration:none}}.feature p,.card p{{color:var(--muted)}}.feature-meta,.card-meta{{color:var(--dim);font-size:.8rem}}.section-head{{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:42px 0 15px}}.section-head h2{{margin:0;font-size:1.6rem;letter-spacing:-.03em}}.grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:16px}}.card{{padding:22px;min-height:240px;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s,border-color .2s}}.card:hover{{transform:translateY(-5px);box-shadow:0 18px 45px rgba(0,0,0,.22);border-color:var(--cyan)}}.card h3{{margin:12px 0 10px;font-size:1.25rem;line-height:1.2;letter-spacing:-.025em}}.card h3 a{{color:var(--ink);text-decoration:none}}.card h3 a:hover{{color:var(--cyan)}}.card p{{font-size:.92rem;line-height:1.5;margin:0 0 18px}}.card-foot{{margin-top:auto;display:flex;justify-content:space-between;gap:10px;align-items:end;border-top:1px solid var(--line);padding-top:14px}}.tag{{color:var(--lime);font-size:.72rem}}.empty,.error{{padding:28px;border:1px dashed var(--line);border-radius:16px;color:var(--muted)}}footer{{border-top:1px solid var(--line);color:var(--dim);font-size:.8rem;padding-top:24px;margin-top:60px}}@media(max-width:780px){{.shell{{padding-left:18px;padding-right:18px}}.hero,.latest{{grid-template-columns:1fr}}.hero{{padding-top:55px}}h1{{font-size:clamp(3.3rem,19vw,6rem)}}}}
-</style></head><body><main class="shell"><div class="topbar"><a class="brand" href="index.html">MARK<span>GITUP</span></a><button id="theme" type="button" aria-label="Toggle theme">☼</button></div><header class="hero"><div><div class="eyebrow">The hourly research desk</div><h1>Signals worth following.</h1><p>Fresh angles on technology, policy, markets, and culture. Each edition starts with a broad idea, finds a sharper live signal, then maps the evidence, upside, risk, and what to watch next.</p></div><div class="hero-note"><strong id="count">{len(data)}</strong>articles in the new edition<br><span>Last build: {html.escape(generated_at)}</span></div></header><div class="controls"><input class="search" id="search" type="search" placeholder="Filter the desk by title, topic, or tag…" autocomplete="off"><span id="status" class="feature-meta"></span></div><section id="featured" class="latest" aria-label="Latest research"></section><div class="section-head"><h2>All dispatches</h2><span class="feature-meta">Newest first · open any card</span></div><section id="grid" class="grid" aria-live="polite"></section><footer>Markgitup · AI-assisted, source-linked research · Generated hourly from a local LLM and SearXNG</footer></main><script>
+</style></head><body><main class="shell"><div class="topbar"><a class="brand" href="index.html">MARK<span>GITUP</span></a><button id="theme" type="button" aria-label="Toggle theme">☼</button></div><header class="hero"><div><div class="eyebrow">The hourly research desk</div><h1>Signals worth following.</h1><p>Fresh angles on technology, policy, markets, and culture. Each edition starts with a broad idea, finds a sharper live signal, then maps the evidence, upside, risk, and what to watch next.</p></div><div class="hero-note"><strong id="count">{len(data)}</strong>articles in the new edition<br><span>Last build: {html.escape(generated_at)}</span></div></header><div class="controls"><input class="search" id="search" type="search" placeholder="Filter the desk by title, topic, or tag…" autocomplete="off"><span id="status" class="feature-meta"></span></div><section id="featured" class="latest" aria-label="Latest research"></section><div class="section-head"><h2>All dispatches</h2><span class="feature-meta">Newest first · open any card</span></div><section id="grid" class="grid" aria-label="Research dispatches"></section><div id="scroll-sentinel" aria-hidden="true" style="height:1px"></div><div class="controls"><button id="load-more" type="button" aria-controls="grid" hidden>Load more articles</button><span id="load-status" class="feature-meta" role="status" aria-live="polite"></span></div><footer>Markgitup · AI-assisted, source-linked research · Generated hourly from a local LLM and SearXNG</footer></main><script>
 const entries={serialized}.filter(entry=>!entry.archived && Number(entry.source_count||0)>={MINIMUM_SOURCES});const grid=document.querySelector('#grid'),featured=document.querySelector('#featured'),status=document.querySelector('#status'),count=document.querySelector('#count'),allHead=document.querySelector('.section-head');
 const formatDate=(v)=>new Date(v).toLocaleString();
 function card(entry,feature=false){{const a=document.createElement(feature?'article':'article');a.className=feature?'feature':'card';const kicker=document.createElement('div');kicker.className='kicker';kicker.textContent=`Article ${{String(entry.article_number||'').padStart(4,'0')}} · ${{entry.source_count||0}} sources`;a.append(kicker);const h=document.createElement('h2');if(!feature){{const h3=document.createElement('h3');const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h3.append(link);a.append(h3)}}else{{const link=document.createElement('a');link.href=entry.file;link.textContent=entry.topic||'Untitled research';h.append(link);a.append(h)}}const p=document.createElement('p');p.textContent=entry.summary||'Source-linked research synthesis.';a.append(p);const foot=document.createElement('div');foot.className=feature?'feature-meta':'card-foot';foot.textContent=`${{formatDate(entry.full_timestamp)}} · ${{entry.original_topic||'Research'}}`;a.append(foot);return a}}
-function render(query=''){{const q=query.toLowerCase().trim();const filtered=entries.filter(e=>[e.topic,e.summary,e.original_topic,e.tags].join(' ').toLowerCase().includes(q));featured.replaceChildren();grid.replaceChildren();status.textContent=`${{filtered.length}} result${{filtered.length===1?'':'s'}}`;if(!q&&entries[0])featured.append(card(entries[0],true));const rest=q?filtered:filtered.slice(1);allHead.style.display=rest.length?'flex':'none';if(!rest.length&&!featured.children.length){{const empty=document.createElement('div');empty.className='empty';empty.textContent='No dispatches match that filter yet.';grid.append(empty)}}else rest.forEach(e=>grid.append(card(e)))}}
-document.querySelector('#search').addEventListener('input',e=>render(e.target.value));document.querySelector('#theme').addEventListener('click',()=>{{const light=document.body.dataset.theme!=='light';document.body.dataset.theme=light?'light':'dark';localStorage.setItem('markgitup-theme',light?'light':'dark')}});document.body.dataset.theme=localStorage.getItem('markgitup-theme')||'dark';render();
+{progressive_script}
+document.querySelector('#search').addEventListener('input',e=>render(e.target.value));
+document.querySelector('#theme').addEventListener('click',()=>{{
+    const theme = document.body.dataset.theme === 'light' ? 'dark' : 'light';
+    document.body.dataset.theme = theme;
+    try {{ localStorage.setItem('markgitup-theme', theme); }} catch {{ /* Storage may be disabled. */ }}
+}});
+document.body.dataset.theme = 'dark';
+try {{ document.body.dataset.theme = localStorage.getItem('markgitup-theme') || 'dark'; }} catch {{ /* Rendering must not depend on storage. */ }}
+render();
 </script></body></html>'''
 
 

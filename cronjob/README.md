@@ -26,6 +26,23 @@ python3 -m unittest scripts.test_markgitup_html_cron -v
 python3 -m py_compile scripts/markgitup-html-cron.py scripts/test_markgitup_html_cron.py
 ```
 
+## Progressive index loading
+
+The generated index mounts the featured article and only enough grid cards to fill the viewport plus approximately two measured rows ahead. Scrolling appends rows without rebuilding existing cards. The full compact card/search metadata array remains embedded so search includes unmounted articles; article pages load only when opened. Already visited cards stay mounted. This is progressive DOM rendering, not network pagination or full virtualization.
+
+The responsive row size follows actual CSS columns and measured card heights. An IntersectionObserver sentinel, passive scroll fallback, manual **Load more articles** button, and live loaded-count status handle continued browsing and exhaustion. Keyboard loading focuses the first appended article. Storage-disabled browsers still render normally. Archived/under-sourced filtering, newest-first order, and card text escaping remain unchanged.
+
+`test_markgitup_index_browser.py` uses a synthetic 700-record fixture and real headless Chromium. It covers desktop/mobile/tall screens, scrolling, resize, search over unmounted records, no matches, archive exhaustion without duplicates, no-observer fallback, keyboard loading, and disabled theme storage. Browser tests require Chromium on PATH and Python with the `websockets` package; they never call search or inference APIs.
+
+Run archive tests from this directory using the existing Hermes Python environment:
+
+```bash
+/home/pi/.hermes/hermes-agent/venv/bin/python -m unittest \
+    test_markgitup_html_cron test_markgitup_index_browser -v
+```
+
+To regenerate only the index, import the canonical publisher and call `render_index()` with the existing manifest. Do not run the publisher's `main()` to refresh the index: that performs research and creates a new article. Wait for an in-flight cron run to finish, re-check remote ancestry and manifest stability, and stage only the intended portal files. Do not include unrelated runtime ledger changes.
+
 ## Restore
 
 Do not execute an archived script blindly. Inspect the archive, copy the desired version to the canonical development path, run the checks above, synchronize the archive, and let the scheduler use the launcher.
