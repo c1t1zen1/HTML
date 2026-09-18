@@ -8917,5 +8917,18 @@
     "source_count": 5,
     "tags": "Apple Silicon, LLM inference, M5 Max, benchmarks",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 677,
+    "topic": "AI Code Agents Face Security Test as Open-Source Plugins Gain Write Access",
+    "file": "html/article-0677-ai-code-agents-face-security-test-as-open-source-plugins-gain-write-acce-20260918-110150.html",
+    "timestamp": "20260918-110150",
+    "full_timestamp": "2026-09-18T11:01:50-07:00",
+    "summary": "Autonomous AI coding tools are increasingly exposed to security risks as third-party plugins gain filesystem and network write access, creating new attack surfaces.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "AI code agents plugin security vulnerabilities 2026",
+    "source_count": 12,
+    "tags": "AI, cybersecurity, software development, automation",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
