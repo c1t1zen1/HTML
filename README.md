@@ -4,34 +4,23 @@
 
 # Markgitup Research Desk
 
-**An autonomous, source-gated research portal that publishes itself — every hour, on the hour.**
+**An autonomous, source-gated research portal — published hourly, on the hour.**
 
-Twenty-four standing topic families. A local LLM picks a fresh angle, a self-hosted SearXNG
-instance finds the evidence, and nothing reaches the page until at least two independent
-sources back it up. The result is a zero-dependency static site on GitHub Pages.
+Twenty-four durable AI and technology topic families feed a local-first research pipeline. It finds a fresh angle, gathers source-linked evidence, rejects thin or repeated work, renders deterministic static HTML, and deploys to GitHub Pages.
 
-### [**→ Read the live desk at c1t1zen1.github.io/HTML**](https://c1t1zen1.github.io/HTML/)
-
-<br>
+### [→ Read the live desk](https://c1t1zen1.github.io/HTML/)
 
 [![Live site](https://img.shields.io/badge/live-c1t1zen1.github.io%2FHTML-5ee7ed?style=flat-square&logo=githubpages&logoColor=white&labelColor=07101d)](https://c1t1zen1.github.io/HTML/)
-[![Schedule](https://img.shields.io/badge/schedule-hourly-b8f36b?style=flat-square&logo=clockify&logoColor=white&labelColor=07101d)](#-how-a-dispatch-gets-made)
-[![Topic families](https://img.shields.io/badge/topic%20families-24-ffb86c?style=flat-square&labelColor=07101d)](#-the-24-topic-families)
-[![Source gate](https://img.shields.io/badge/source%20gate-%E2%89%A5%202%20independent-ffb86c?style=flat-square&labelColor=07101d)](#-integrity-model)
-
+[![Schedule](https://img.shields.io/badge/schedule-hourly-b8f36b?style=flat-square&logo=clockify&logoColor=white&labelColor=07101d)](#how-a-dispatch-gets-made)
+[![Topic families](https://img.shields.io/badge/topic%20families-24-ffb86c?style=flat-square&labelColor=07101d)](#topic-families)
+[![Source gate](https://img.shields.io/badge/source%20gate-%E2%89%A5%202%20independent-ffb86c?style=flat-square&labelColor=07101d)](#integrity-model)
 [![Last commit](https://img.shields.io/github/last-commit/c1t1zen1/HTML?style=flat-square&labelColor=07101d&color=5ee7ed)](https://github.com/c1t1zen1/HTML/commits/main)
-[![Commit activity](https://img.shields.io/github/commit-activity/w/c1t1zen1/HTML?style=flat-square&labelColor=07101d&color=5ee7ed&label=dispatches%2Fweek)](https://github.com/c1t1zen1/HTML/graphs/commit-activity)
-[![Repo size](https://img.shields.io/github/repo-size/c1t1zen1/HTML?style=flat-square&labelColor=07101d&color=5ee7ed)](https://github.com/c1t1zen1/HTML)
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776ab?style=flat-square&logo=python&logoColor=white&labelColor=07101d)](https://www.python.org/)
 [![Search](https://img.shields.io/badge/search-SearXNG-3050ff?style=flat-square&labelColor=07101d)](https://searxng.org/)
-[![Inference](https://img.shields.io/badge/inference-local%20first-b8f36b?style=flat-square&labelColor=07101d)](#-inference-chain)
-[![Dependencies](https://img.shields.io/badge/runtime%20deps-0-b8f36b?style=flat-square&labelColor=07101d)](#-why-its-built-this-way)
-[![Built by](https://img.shields.io/badge/built%20by-Hermes%20Agent-a855f7?style=flat-square&labelColor=07101d)](#-credits)
-
-<br>
+[![Inference](https://img.shields.io/badge/inference-local%20first-b8f36b?style=flat-square&labelColor=07101d)](#inference-chain)
 
 <a href="https://c1t1zen1.github.io/HTML/">
-  <img src="docs/portal-dark.png" width="900" alt="The Markgitup research desk: a dark, high-contrast portal headlined 'Signals worth following', with a live article count, a filter bar, a featured dispatch, and a grid of source-counted research cards.">
+  <img src="docs/portal-dark.png" width="900" alt="The Markgitup Research Desk in dark mode, with a weather-aware hero, live research count, filtering, featured dispatch, and source-counted research cards.">
 </a>
 
 <sub><i>The live desk — click through to read it. <a href="docs/portal-light.png">Light theme →</a></i></sub>
@@ -42,387 +31,257 @@ sources back it up. The result is a zero-dependency static site on GitHub Pages.
 
 ## Contents
 
-- [What this is](#-what-this-is)
-- [How a dispatch gets made](#-how-a-dispatch-gets-made)
-- [The 24 topic families](#-the-24-topic-families)
-- [Integrity model](#-integrity-model)
-- [Inference chain](#-inference-chain)
-- [What's in a dispatch](#-whats-in-a-dispatch)
-- [The portal](#-the-portal)
-- [Repository layout](#-repository-layout)
-- [Configuration](#-configuration)
-- [Running it](#-running-it)
-- [Tests](#-tests)
-- [By the numbers](#-by-the-numbers)
-- [Why it's built this way](#-why-its-built-this-way)
-- [Credits](#-credits)
+- [What this is](#what-this-is)
+- [How a dispatch gets made](#how-a-dispatch-gets-made)
+- [Topic families](#topic-families)
+- [Integrity model](#integrity-model)
+- [Inference chain](#inference-chain)
+- [The portal](#the-portal)
+- [Local weather hero and privacy](#local-weather-hero-and-privacy)
+- [Repository layout](#repository-layout)
+- [Configuration](#configuration)
+- [Running it](#running-it)
+- [Tests and verification](#tests-and-verification)
+- [Credits](#credits)
 
 ---
 
-## 🛰 What this is
+## What this is
 
-Markgitup is an **unattended research desk**. No one queues the stories, writes the headlines,
-or presses publish — a cron job on a Raspberry Pi does the whole loop once an hour and pushes
-the result straight to `main`, where GitHub Pages serves it.
+Markgitup is an unattended research desk. A scheduled publisher on a Raspberry Pi completes the loop once per hour:
 
-The interesting part isn't that an LLM writes prose. It's everything wrapped around the LLM to
-stop it from writing *nonsense*:
+1. Choose an unused family from a persistent 24-topic cycle.
+2. Ask a local model for a current angle and a primary plus adjacent search plan.
+3. Reject recent or semantically overlapping queries before retrieval.
+4. Search self-hosted SearXNG; use Bing News RSS direct-publisher links if SearXNG returns no results.
+5. Require at least two unique sources before any article synthesis begins.
+6. Generate validated JSON only, then deterministically escape and render the article HTML.
+7. Update `manifest.json`, regenerate the static portal, commit, and push `main` for GitHub Pages.
 
-| Guardrail | What it does |
-|---|---|
-| **Standing topic families** | The desk never free-associates. Every run starts from one of 24 durable subject areas and hunts for a *new* current angle inside it. |
-| **Rotating topic cycle** | A durable cycle in `data/topic-cycle.json` burns through all 24 families before any repeats, so coverage stays even instead of collapsing onto whatever is loudest. |
-| **Novelty ledger** | `data/search-history.json` remembers every query ever attempted. Near-duplicate angles inside a 3-day cooldown are rejected before a single search fires. |
-| **Source gate** | Fewer than 2 independent source URLs → the angle is thrown away and a different topic family is drawn. Up to 6 attempts, then the run aborts having written nothing. |
-| **Untrusted-evidence framing** | Search snippets are handed to the model explicitly labelled as untrusted material, with instructions inside them to be ignored. |
-| **No model-authored markup** | The LLM returns JSON only. Every byte of HTML is rendered deterministically by the publisher and escaped on the way out. |
-| **Fail closed** | If both inference paths die, the run exits *before* touching the manifest, the index, or git. A missing hour is the correct outcome; a fabricated hour is not. |
+The LLM does not author executable markup. If local and fallback inference both fail, or evidence remains insufficient across the topic cycle, the run exits without mutating the public portal.
 
-Reports that slipped through with zero usable sources are not deleted or quietly rewritten —
-they're quarantined in [`BAD/`](BAD/) with a note explaining why, and excluded from the public index.
-
----
-
-## ⚙ How a dispatch gets made
+## How a dispatch gets made
 
 ```mermaid
 flowchart TD
-    A["⏰ Cron fires — 0 * * * *"] --> B["Draw an unused topic family from the 24-family cycle"]
-    B --> C["Discover the local model — GET /v1/models"]
-    C --> D["LLM proposes a fresh angle — headline · framing · search query"]
-    D --> E{"Query seen in the last 3 days?"}
-    E -- "yes · re-angle" --> D
-    E -- "no" --> F["SearXNG deep search — 3 variants, deduped by URL, cap 12"]
-    F --> G{"At least 2 independent sources?"}
-    G -- "no · draw another family" --> B
-    G -- "yes" --> H["LLM synthesises structured JSON — overview · sections · risks · upside · watch-next"]
-    H --> I["Deterministic HTML render — escaped, zero model markup"]
-    I --> J["Append to manifest · regenerate the index"]
-    J --> K["✅ git commit + push → GitHub Pages"]
-
-    G -. "6 families exhausted" .-> X["🛑 Abort — nothing written"]
-    H -. "both inference paths fail" .-> X
-
-    style A fill:#12243a,stroke:#5ee7ed,color:#eef4ff
-    style K fill:#12243a,stroke:#b8f36b,color:#eef4ff
-    style X fill:#2a1520,stroke:#ff6b6b,color:#eef4ff
-    style E fill:#12243a,stroke:#ffb86c,color:#eef4ff
-    style G fill:#12243a,stroke:#ffb86c,color:#eef4ff
+    A["Cron fires — 0 * * * *"] --> B["Draw unused family from 24-topic cycle"]
+    B --> C["Discover local model — GET /v1/models"]
+    C --> D["Propose angle, headline, primary + adjacent queries"]
+    D --> E{"Recent / near-duplicate query?"}
+    E -- "yes" --> D
+    E -- "no" --> F["SearXNG deep search; Bing News RSS fallback"]
+    F --> G{"At least 2 unique source URLs?"}
+    G -- "no" --> B
+    G -- "yes" --> H["Synthesize structured JSON"]
+    H --> I["Deterministic escaped HTML render"]
+    I --> J["Update manifest + regenerate index"]
+    J --> K["Commit + push main → GitHub Pages"]
+    G -. "24 families exhausted" .-> X["Abort — public portal unchanged"]
+    H -. "local + fallback failure" .-> X
 ```
 
----
+### Freshness and coverage controls
 
-## 🗂 The 24 topic families
-
-Every run draws from this fixed set. They are deliberately broad — the model's job is to find
-what is *newly true* inside one of them this hour, not to invent a subject.
-
-<table>
-<tr><th align="left">🏛 Politics &amp; governance</th><th align="left">🍏 Apple Silicon &amp; local AI</th></tr>
-<tr valign="top"><td>
-
-- AI in US Elections &amp; Campaigns
-- AI Lobbying &amp; Policy in Washington
-- Deepfake Legislation &amp; Synthetic Media Laws
-- AI in US Intelligence &amp; Surveillance
-- AI Misinformation &amp; Election Integrity
-
-</td><td>
-
-- M-Series Apple Silicon LLM Inference
-- Local AI Tools &amp; Stacks for macOS
-- Quantized LLMs Running on Mac Hardware
-- Privacy-First Local AI on Mac
-- AI Development Tools for Apple Silicon
-
-</td></tr>
-<tr><th align="left">📈 Markets &amp; finance</th><th align="left">🎬 Video &amp; synthetic media</th></tr>
-<tr valign="top"><td>
-
-- AI Stock Prediction &amp; Market Analysis
-- LLMs in Hedge Funds &amp; Trading
-- AI Crypto Trading Bots &amp; Performance
-- AI Fraud Detection in Banking &amp; Finance
-- Generative AI for Financial Reporting
-
-</td><td>
-
-- AI Video Generation Models
-- AI-Generated Video for Filmmaking &amp; Content Creation
-- AI Short-Form Video &amp; Social Media
-- AI Video Avatars &amp; Virtual Presenters
-- AI-Powered Video Editing &amp; Post-Production
-
-</td></tr>
-<tr><th align="left" colspan="2">🧩 Society, law &amp; autonomy</th></tr>
-<tr valign="top"><td colspan="2">
-
-- AI in Mental Health &amp; Therapy &nbsp;·&nbsp; AI in Legal Systems &amp; Law Practice &nbsp;·&nbsp; AI-Powered Smart Homes &amp; Automation &nbsp;·&nbsp; Autonomous AI Code Agents
-
-</td></tr>
-</table>
-
-> Coverage stays even by construction: a family is marked used in `data/topic-cycle.json` the
-> moment it's drawn, and the cycle only resets once all 24 have had their turn.
-
----
-
-## 🛡 Integrity model
-
-This is the part worth reading if you're building something similar.
-
-**1 — The model never emits markup.**
-The synthesis prompt demands a single JSON object and forbids Markdown, HTML, JavaScript, PHP,
-and code fences. `render_article()` walks that structure and escapes every field. A prompt
-injection that convinces the model to emit a `<script>` tag produces the literal text
-`&lt;script&gt;` on the page.
-
-**2 — URLs are validated, not trusted.**
-`safe_url()` drops anything that isn't `http://` or `https://` to `#`. Source links come from
-SearXNG's response, never from model output — the model can only *cite by number*.
-
-**3 — Search results are labelled untrusted in-band.**
-Evidence is framed for the model as source material with an explicit instruction to ignore any
-commands or formatting requests inside the snippets.
-
-**4 — The source gate has teeth.**
-`MINIMUM_SOURCES` is floored at 2 and enforced twice: once after the deep search, and again
-inside `synthesize_article()`, which refuses to call the model at all on thin evidence. The
-portal index then filters a *third* time — `source_count >= 2` — so an under-sourced entry that
-somehow reached the manifest still never renders.
-
-**5 — Forecasts are marked as forecasts.**
-The prompt requires cautious language on thin evidence, explicit labelling of projections, and
-explicit acknowledgement when sources conflict.
-
-**6 — Failure is silence, not fabrication.**
-There is no "write something anyway" branch. Local inference dead *and* fallback dead ⇒
-`MarkgitupError` ⇒ exit 1 ⇒ no commit.
-
----
-
-## 🧠 Inference chain
-
-The desk is **local-first** and falls back only when it has to.
-
-```
-┌─ Local (preferred) ────────────────────────────────────────────────┐
-│  Model discovered dynamically at runtime: GET /v1/models           │
-│  DeepSeek V4 → native thinking-disabled streaming w/ heartbeat     │
-│  Everything else → legacy chat-completion payload                  │
-│  2 attempts · 20 min each · 60 min total budget per run            │
-│  Live progress written to a JSON status sidecar                    │
-└────────────────────────────────────────────────────────────────────┘
-                              │ exhausted / unreachable
-                              ▼
-┌─ Fallback ─────────────────────────────────────────────────────────┐
-│  GPT 5.6 Luna via the Hermes `openai-codex` provider               │
-└────────────────────────────────────────────────────────────────────┘
-                              │ also failed
-                              ▼
-                    ✋ abort — publish nothing
-```
-
-Whichever model actually produced a dispatch is recorded in `model_names` on its manifest entry
-and credited in the article footer. Long local runs are observable while they happen: a
-heartbeat writes token counts and elapsed time to the status sidecar every 30 seconds.
-
----
-
-## 📄 What's in a dispatch
-
-Each article is a standalone, self-contained HTML file under [`html/`](html/) with a fixed anatomy:
-
-| Section | Contents |
+| Control | Behavior |
 |---|---|
-| **Dek** | A 20–35 word summary — also the card blurb on the index |
-| **Overview** | 2–3 paragraphs on what matters and how the evidence was gathered |
-| **Sections** | 3–5 headed analytical sections, each with body copy, bullets, and numbered source citations |
-| **Upside** | 2–4 evidence-grounded positive possibilities |
-| **Risks** | 2–4 evidence-grounded risks and failure modes |
-| **Watch next** | 2–4 concrete signals a reader should monitor |
-| **Takeaways** | 5 specific takeaways tied to the supplied sources |
-| **Conclusion** | Synthesis that separates established fact from projection |
-| **Sources** | Every URL SearXNG returned, with domain and publication date |
+| Topic cycle | `data/topic-cycle.json` prevents repeats until every one of 24 families has been attempted. |
+| Query ledger | `data/search-history.json` records every attempted query, including failed retrievals. |
+| Novelty cooldown | Exact and semantic near-duplicates are rejected for the configured 3-day window. |
+| Search breadth | A primary query plus 3–5 adjacent lenses are attempted; retained evidence is URL-deduplicated and capped at 12 sources. |
+| Source gate | Fewer than two unique sources discards the angle and advances to another family. Default retry budget: the complete 24-family cycle. |
+| Failure behavior | No source-only fallback articles. Failed runs leave the previous live portal intact. |
 
-Its manifest entry looks like this:
+Reports discovered with zero usable sources are retained for audit in [`BAD/`](BAD/) and excluded from the active index.
 
-```json
-{
-  "article_number": 585,
-  "topic": "AI Crypto Bots Face Exchange Liquidity Test as CFTC Proposes Unified Market Rules",
-  "file": "html/article-0585-ai-crypto-bots-face-exchange-liquidity-test-....html",
-  "full_timestamp": "2026-09-12T23:01:38-07:00",
-  "summary": "CFTC and SEC joint initiatives aim to unify crypto oversight…",
-  "original_topic": "AI Crypto Trading Bots & Performance",
-  "search_query": "CFTC unified crypto market rules AI trading bots liquidity 2026",
-  "source_count": 12,
-  "tags": "AI Trading, Crypto Regulation, CFTC, Market Liquidity",
-  "model_names": "Qwen3.8-Flash-Next-UD-IQ4_XS"
-}
+## Topic families
+
+The fixed families keep coverage broad while allowing each run to pursue a genuinely current signal.
+
+| Politics and governance | Apple Silicon and local AI | Markets and finance | Video and synthetic media |
+|---|---|---|---|
+| AI elections and campaigns | M-series inference | AI market analysis | Video generation models |
+| AI lobbying and policy | Local macOS AI stacks | LLMs in hedge funds | AI filmmaking and content creation |
+| Deepfake law | Quantized local models | AI crypto trading | Short-form social video |
+| AI intelligence and surveillance | Privacy-first local AI | Financial fraud detection | Video avatars and virtual presenters |
+| Election misinformation | Apple Silicon development tools | Financial reporting | AI post-production |
+
+Additional cross-cutting families: AI mental health and therapy, AI legal practice, AI-powered smart homes, and autonomous AI code agents.
+
+## Integrity model
+
+1. **Model output is JSON, never page code.** Article data is rendered by the publisher; untrusted values are escaped before they reach HTML.
+2. **Evidence stays untrusted.** Search snippets are explicitly treated as untrusted material in synthesis prompts. The model cites supplied sources by number; it cannot inject its own URLs.
+3. **Source thresholds are enforced repeatedly.** The pipeline rejects insufficient evidence before synthesis; public index rendering independently filters records with fewer than two sources or an `archived` flag.
+4. **URLs are constrained.** Rendered source links must be `http://` or `https://`.
+5. **Forecasts are labelled as forecasts.** Editorial prompts require clear separation of established facts, uncertainty, and projections.
+6. **Failure is silence, not fabrication.** No retrieval or inference fallback generates a speculative article just to fill an hour.
+
+## Inference chain
+
+Markgitup is local-first.
+
+```text
+Local OpenAI-compatible server
+  ├─ discover model dynamically through /v1/models
+  ├─ two bounded local attempts
+  ├─ DeepSeek V4: thinking-disabled streaming controls
+  └─ legacy llama.cpp-compatible models: non-stream controls
+          │
+          └─ unavailable, timeout, or invalid JSON
+                    │
+                    ▼
+Fallback: GPT 5.6 Luna through Hermes openai-codex
+                    │
+                    └─ failure → abort before public writes
 ```
 
----
+The publisher captures the actual model attribution in each manifest entry and article footer. It accepts a local response only when it parses as the required JSON shape; reasoning-only output routes to fallback rather than being published.
 
-## 🖥 The portal
+## The portal
 
-[`index.html`](https://c1t1zen1.github.io/HTML/) is regenerated from the manifest on every run.
-One file, no build step, no framework, no network calls at runtime.
+[`index.html`](https://c1t1zen1.github.io/HTML/) is a static, framework-free landing page regenerated from `manifest.json`.
 
-- **Instant client-side filtering** across titles, summaries, topic families, and tags
-- **Dark / light themes** with the choice persisted in `localStorage`
-- **Featured lead** plus a responsive card grid, each card stamped with its source count
-- **Source-count and archive filtering** applied at render time, so quarantined or thin entries never surface
-- **Accessible by default** — semantic markup, real links, works with JavaScript-free reading of individual articles
+- **Progressive card mounting:** featured article plus only enough cards for the viewport and about two measured rows ahead.
+- **Full-archive search:** compact safe card metadata stays embedded, so filtering covers unmounted articles without loading article pages.
+- **Responsive loading:** `IntersectionObserver`, passive-scroll fallback, and an accessible **Load more articles** button append rows without replacing already visited cards.
+- **Accessible controls:** semantic links, live loaded-count status, keyboard focus on appended cards, and a manual day/night control.
+- **Defensive rendering:** entries remain newest-first; archived and under-sourced records never surface; manifest text uses DOM text nodes instead of untrusted `innerHTML`.
+- **No article fetch on scroll:** article HTML loads only after a reader opens a card.
 
-<div align="center">
-<img src="docs/portal-search.png" width="820" alt="The portal filter bar with the term 'deepfake' typed, narrowing 541 dispatches to 55 matching research cards in real time.">
-<br><sub><i>Type anything — 541 dispatches narrow to 55 without a round trip.</i></sub>
-</div>
+This is progressive DOM rendering, not network pagination or full virtualization.
 
----
+## Local weather hero and privacy
 
-## 📁 Repository layout
+The landing-page hero is a decorative, real-time local sky. It is deliberately independent of article generation and does not run on article pages.
 
-```
+### What the visitor sees
+
+- A day/night lighting palette and calculated Sun or Moon position.
+- Lunar phase, illumination, and a bundled NASA LRO albedo texture.
+- WMO-aware clear, cloud, fog, rain, snow, and storm treatments.
+- Bounded particles that respect `prefers-reduced-motion` and pause outside the viewport.
+- A visible, expandable privacy and attribution disclosure.
+
+### Per-visit browser flow
+
+1. Browser requests `https://get.geojs.io/v1/ip/geo.json` directly, without the Geolocation/GPS API.
+2. It keeps only latitude and longitude, rounds each to 0.1 degrees, and discards IP, city, organization, and other returned fields.
+3. Browser requests Open-Meteo current model-based weather with `credentials: omit`, `cache: no-store`, and `referrerPolicy: no-referrer`.
+4. Validated weather plus local Astronomy Engine calculations produce the scene. Stale, malformed, denied, or timed-out data gives a neutral usable fallback.
+
+Markgitup does not store visitor coordinates, weather, identifiers, cookies, or theme preference for this feature. GeoJS receives the visitor IP to estimate a region; Open-Meteo receives the rounded coordinates and visitor IP. VPNs, mobile networks, and IP geolocation can place the sky elsewhere. Open-Meteo's free endpoint has non-commercial rate and use limits; this is model-based regional weather, not an instrument reading.
+
+Attribution and licenses appear in the visible disclosure and the versioned `cronjob/markgitup-weather/` bundle:
+
+- [GeoJS](https://www.geojs.io/privacy/) / MaxMind GeoLite for approximate IP region
+- [Open-Meteo](https://open-meteo.com/en/terms) for weather
+- [NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/4720/) for lunar texture source
+- [Astronomy Engine](https://github.com/cosinekitty/astronomy) for astronomy calculations
+
+## Repository layout
+
+```text
 .
-├── index.html          # The portal — regenerated from the manifest every run
-├── manifest.json       # Append-only ledger of every published dispatch
-├── favicon.svg         # Shared mark, referenced by the index and every article
-├── html/               # 540+ published dispatches, one self-contained file each
-├── BAD/                # Quarantined zero-source reports + why they were pulled
+├── index.html                         # Generated static portal
+├── manifest.json                      # Published-dispatch ledger
+├── html/                              # Standalone source-linked articles
+├── BAD/                               # Quarantined zero-source reports
 ├── data/
-│   ├── topic-cycle.json      # Which of the 24 families have been used this cycle
-│   └── search-history.json   # Novelty ledger — every query ever attempted
-├── docs/               # README screenshots
-└── cronjob/            # Versioned archive of the publisher
-    ├── markgitup-html-cron.py           # The publisher (~1,200 lines, stdlib only)
-    ├── markgitup-html-cron-launcher.py  # Cron-safe launcher
-    ├── test_markgitup_html_cron.py      # 28 regression tests
-    └── README.md                        # Archive + restore procedure
+│   ├── topic-cycle.json               # Persistent 24-family cycle
+│   └── search-history.json            # Query novelty ledger
+├── docs/                              # README visual assets
+└── cronjob/                           # Versioned publisher archive; not scheduler runtime
+    ├── markgitup-html-cron.py         # Mirror of canonical publisher
+    ├── markgitup-html-cron-launcher.py
+    ├── markgitup-weather/             # Astronomy, weather, paint, CSS, licenses, Node tests
+    ├── test_markgitup_html_cron.py
+    ├── test_markgitup_index_browser.py
+    ├── test_markgitup_weather_browser.py
+    └── README.md                      # Sync, checks, and restore procedure
 ```
 
-> [!IMPORTANT]
-> `cronjob/` is a **versioned archive**, not the scheduler's live path. The canonical script
-> lives in the Hermes-Jetson repo; edit there, run the tests, then sync the archive. See
-> [`cronjob/README.md`](cronjob/README.md) for the exact procedure.
+> `cronjob/` is a versioned archive. Canonical source is `/home/pi/Documents/Hermes-Jetson/scripts/markgitup-html-cron.py`; edit and test it there, then synchronize this archive byte-for-byte. The scheduler launcher at `/home/pi/.hermes/scripts/markgitup-html-cron.py` executes the canonical source.
 
----
-
-## 🎛 Configuration
-
-Everything is environment-overridable, so the publisher can be pointed at a different search
-instance, model host, or portal checkout without touching code.
+## Configuration
 
 | Variable | Default | Purpose |
 |---|---|---|
-| `MARKGITUP_PORTAL_DIR` | `/home/pi/Documents/HTML-Portal` | Portal checkout to write and push |
-| `MARKGITUP_SEARXNG_URL` | `http://127.0.0.1:8888/search?q={}&format=json` | Self-hosted SearXNG endpoint |
-| `MARKGITUP_AI_API_URL` | `http://192.168.0.219:8080/v1/chat/completions` | OpenAI-compatible local inference host |
-| `MARKGITUP_MODEL` | `local-llm` | Fallback id when discovery can't reach `/v1/models` |
-| `MARKGITUP_CODEX_MODEL` | `gpt-5.6-luna` | Fallback model |
-| `MARKGITUP_CODEX_PROVIDER` | `openai-codex` | Hermes provider for the fallback |
-| `MARKGITUP_STATUS_PATH` | `~/.hermes/cron/markgitup-local-inference-status.json` | Live inference status sidecar |
-| `MARKGITUP_MINIMUM_SOURCES` | `2` | Source gate floor (hard-floored at 2) |
-| `MARKGITUP_SOURCE_RETRIES` | `6` | Topic families to try before aborting |
-| `MARKGITUP_ANGLE_RETRIES` | `3` | Angle proposals per family |
-| `MARKGITUP_COOLDOWN_DAYS` | `3` | Novelty window for near-duplicate queries |
+| `MARKGITUP_PORTAL_DIR` | `/home/pi/Documents/HTML-Portal` | Portal checkout to update and push |
+| `MARKGITUP_SEARXNG_URL` | `http://127.0.0.1:8888/search?q={}&format=json` | Primary metasearch endpoint |
+| `MARKGITUP_AI_API_URL` | `http://192.168.0.219:8080/v1/chat/completions` | Local OpenAI-compatible inference endpoint |
+| `MARKGITUP_MODEL` | `local-llm` | Degraded fallback selector if model discovery is unavailable |
+| `MARKGITUP_CODEX_MODEL` | `gpt-5.6-luna` | Hermes fallback model |
+| `MARKGITUP_CODEX_PROVIDER` | `openai-codex` | Hermes fallback provider |
+| `MARKGITUP_STATUS_PATH` | `~/.hermes/cron/markgitup-local-inference-status.json` | Credential-free local inference heartbeat |
+| `MARKGITUP_MINIMUM_SOURCES` | `2` | Source gate floor; cannot be reduced below 2 |
+| `MARKGITUP_SOURCE_RETRIES` | `24` | Topic families attempted before a no-write abort |
+| `MARKGITUP_ANGLE_RETRIES` | `3` | Fresh angle attempts for one family |
+| `MARKGITUP_COOLDOWN_DAYS` | `3` | Near-duplicate query cooldown |
 
----
+## Running it
 
-## 🚀 Running it
-
-**Requirements** — Python 3.11+ (standard library only), a reachable SearXNG instance with the
-JSON API enabled, and an OpenAI-compatible inference endpoint.
+Requirements: Python 3.11+, a reachable SearXNG JSON endpoint, a local OpenAI-compatible inference endpoint or configured Hermes fallback, Chromium, Node.js, and Python `websockets` for the browser suites.
 
 ```bash
-# Dry run: generate an article and regenerate the index, but don't commit or push
-python3 cronjob/markgitup-html-cron.py --no-push
+# Canonical publisher path. --no-push generates locally but does not publish.
+cd /home/pi/Documents/Hermes-Jetson
+python3 scripts/markgitup-html-cron.py --no-push
 
-# Point it somewhere else entirely
+# Override portal and services without editing source.
 MARKGITUP_PORTAL_DIR="$PWD" \
 MARKGITUP_SEARXNG_URL="http://localhost:8888/search?q={}&format=json" \
 MARKGITUP_AI_API_URL="http://localhost:8080/v1/chat/completions" \
-python3 cronjob/markgitup-html-cron.py --no-push
+python3 scripts/markgitup-html-cron.py --no-push
 
-# Preview the portal locally
-python3 -m http.server 8787   # → http://localhost:8787
+# Serve a static checkout locally.
+python3 -m http.server 8787
 ```
 
-**The schedule** that drives production:
+Production schedule:
 
 ```cron
 0 * * * * /usr/bin/python3 /home/pi/.hermes/scripts/markgitup-html-cron.py
 ```
 
----
+Never edit the root README from the hourly publisher. It is hand-maintained documentation.
 
-## ✅ Tests
+## Tests and verification
 
-28 regression tests cover the parts that are expensive to get wrong — the source gate, the
-inference fallback chain, streaming parsers, model-credit attribution, and index filtering.
+The weather and progressive-index changes are covered by real generated HTML in Chromium, not just string assertions.
 
 ```bash
-python3 -m unittest discover -s cronjob -p 'test_*.py' -v
-python3 -m py_compile cronjob/markgitup-html-cron.py cronjob/test_markgitup_html_cron.py
+cd /home/pi/Documents/Hermes-Jetson
+
+# Pure JavaScript astronomy, painting, and transport coverage.
+node --test scripts/markgitup-weather/test-*.cjs
+
+# Publisher, progressive index, and weather browser coverage.
+/home/pi/.hermes/hermes-agent/venv/bin/python -m unittest \
+  scripts.test_markgitup_html_cron \
+  scripts.test_markgitup_index_browser \
+  scripts.test_markgitup_weather_browser
+
+python3 -m py_compile \
+  scripts/markgitup-html-cron.py \
+  scripts/test_markgitup_html_cron.py \
+  scripts/test_markgitup_index_browser.py \
+  scripts/test_markgitup_weather_browser.py
+
+git diff --check
 ```
 
-Representative coverage:
+Current validated coverage:
 
-- `test_source_gate_requires_multiple_sources` — thin evidence never reaches the model
-- `test_source_gate_retries_with_a_new_topic_after_zero_results` — a dead family yields to the next
-- `test_source_gate_aborts_after_exhausting_topic_retries` — six strikes and the run writes nothing
-- `test_ai_chat_raises_only_when_local_and_codex_both_fail` — fallback fires exactly once, at the end
-- `test_timeout_falls_back_without_starting_a_second_local_attempt` — no double-spend on a hung host
-- `test_render_index_omits_archived_and_under_sourced_entries` — the portal filters independently
+- **16 Node tests:** astronomy rise/set boundaries, phase/illumination, lunar terminator shading, WMO classification, private browser fetch behavior, malformed/stale data, timeout/abort handling, and fresh-visit behavior.
+- **53 Python tests:** publisher contracts, inference fallback behavior, progressive loading/search/exhaustion, desktop/mobile browser layout, weather states, Moon movement, provider failure, no GPS/storage, BFCache refresh, reduced motion, and offscreen particle pause.
+- The exact archive mirror is also tested from `HTML-Portal/cronjob/` before deployment.
 
----
+For deployment, wait for an active publisher to finish; fetch and compare `HEAD...origin/main`; stage only intended files; push without force; then verify `HEAD == origin/main`, remote file bytes, the Pages source, and a cache-busted live URL. Preserve unrelated runtime changes such as `data/topic-cycle.json`.
 
-## 📊 By the numbers
+## Credits
 
-<sub>Snapshot as of 12 Sep 2026 — the <a href="https://c1t1zen1.github.io/HTML/">live desk</a> is always current.</sub>
+Built and operated by [@c1t1zen1](https://github.com/c1t1zen1), maintained with Hermes Agent, and published through GitHub Pages.
 
-| | |
-|---|---|
-| **583** dispatches published | since 8 Aug 2026 |
-| **6,379** source citations | **10.9** average per dispatch |
-| **24 / 24** topic families exercised | 18–32 dispatches each |
-| **~24** dispatches per day | one per hour, unattended |
-| **0** runtime dependencies | Python standard library only |
+Standing on [SearXNG](https://searxng.org/) for discovery, local OpenAI-compatible and llama.cpp-family inference stacks, [Open-Meteo](https://open-meteo.com/), [GeoJS](https://www.geojs.io/), [Astronomy Engine](https://github.com/cosinekitty/astronomy), NASA lunar imagery, and GitHub Pages.
 
-Coverage is close to flat across all 24 families — the cycle is doing its job.
-
----
-
-## 🧭 Why it's built this way
-
-- **Local-first inference.** The desk runs on hardware its operator owns. The cloud fallback
-  exists so a dead GPU doesn't mean a dead hour, not because it's the default.
-- **Zero dependencies.** No `requirements.txt`, no supply chain, no dependency that can break an
-  unattended 3 a.m. run. Just `urllib`, `json`, and `subprocess`.
-- **Static output.** No database, no server, no API keys in the browser. Every article is a file
-  you can read, diff, or archive on its own.
-- **Append-only history.** The manifest and the novelty ledger are never rewritten, so the
-  provenance of every dispatch — which model, which query, which sources — stays auditable.
-- **Fail closed, loudly.** A skipped hour is a diagnosable event. A hallucinated hour is a
-  reputational one.
-
----
-
-## 🙏 Credits
-
-Built and operated by [**@c1t1zen1**](https://github.com/c1t1zen1), written and maintained by
-**Hermes Agent**, and running on a Raspberry Pi against a self-hosted inference stack.
-
-Standing on: [SearXNG](https://searxng.org/) for evidence, `llama.cpp`-family runtimes for local
-inference, and [GitHub Pages](https://pages.github.com/) for delivery.
-
-<div align="center">
-<br>
-
-**[Read the desk →](https://c1t1zen1.github.io/HTML/)**
-
-<sub>Every dispatch on this site was assembled by an automated pipeline from cited sources.<br>
-It is research tooling, not journalism — verify anything that matters before you rely on it.</sub>
-
-</div>
+<sub>Markgitup is research tooling, not journalism or operational weather guidance. Verify material claims before relying on them.</sub>
