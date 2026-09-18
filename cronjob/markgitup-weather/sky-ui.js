@@ -95,7 +95,7 @@
             moon.style.opacity=String((daylight?.34:1)*(1-clouds*.88));
             if(['rain','snow','storm'].includes(weather.kind))particles();
             const clock=new Intl.DateTimeFormat(undefined,{hour:'2-digit',minute:'2-digit',timeZone:weather.timezone}).format(new Date(snapshot.at));
-            label.textContent=`${weather.label} · ${Math.round(weather.temperature)}°C · ${clock} local`;
+            label.textContent=`${weather.label} · ${Math.round(weather.temperature)}${weather.temperatureUnit} · ${clock} local`;
             detail.textContent=`${sky.moon.phaseName} · ${(sky.moon.illumination*100).toFixed(1)}% illuminated${sky.moon.visible?'':' · below horizon'}`;
             detail.title='Calculated for your approximate IP region at this visit. Reload later to see the sky advance.';
             scene.hidden=false;

@@ -165,8 +165,8 @@ The landing-page hero is a decorative, real-time local sky. It is deliberately i
 ### Per-visit browser flow
 
 1. Browser requests `https://get.geojs.io/v1/ip/geo.json` directly, without the Geolocation/GPS API.
-2. It keeps only latitude and longitude, rounds each to 0.1 degrees, and discards IP, city, organization, and other returned fields.
-3. Browser requests Open-Meteo current model-based weather with `credentials: omit`, `cache: no-store`, and `referrerPolicy: no-referrer`.
+2. It rounds latitude and longitude to 0.1 degrees, checks GeoJS `country_code` only to choose temperature units (`°F` for `US`, `°C` otherwise), then discards IP, city, organization, country code, and other returned fields.
+3. Browser requests Open-Meteo current model-based weather with the selected temperature unit plus `credentials: omit`, `cache: no-store`, and `referrerPolicy: no-referrer`.
 4. Validated weather plus local Astronomy Engine calculations produce the scene. Stale, malformed, denied, or timed-out data gives a neutral usable fallback.
 
 Markgitup does not store visitor coordinates, weather, identifiers, cookies, or theme preference for this feature. GeoJS receives the visitor IP to estimate a region; Open-Meteo receives the rounded coordinates and visitor IP. VPNs, mobile networks, and IP geolocation can place the sky elsewhere. Open-Meteo's free endpoint has non-commercial rate and use limits; this is model-based regional weather, not an instrument reading.

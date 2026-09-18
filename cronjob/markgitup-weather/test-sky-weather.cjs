@@ -51,6 +51,7 @@ test('visitor snapshot uses coarse coordinates, private fetch options, no return
     assert.equal(url.hostname,'api.open-meteo.com');
     assert.equal(url.searchParams.get('latitude'),'51.5');
     assert.equal(url.searchParams.get('longitude'),'-0.1');
+    assert.equal(url.searchParams.get('temperature_unit'),'celsius');
     for (const {options} of calls) {
         assert.equal(options.credentials,'omit'); assert.equal(options.cache,'no-store');
         assert.equal(options.referrerPolicy,'no-referrer'); assert.equal(options.mode,'cors');
@@ -60,4 +61,27 @@ test('visitor snapshot uses coarse coordinates, private fetch options, no return
     assert.ok(!JSON.stringify(result).includes('203.0.113.1'));
     assert.ok(!JSON.stringify(result).includes('DO NOT STORE'));
     assert.equal('latitude' in result,false);
+});
+
+test('US GeoIP snapshots request and retain Fahrenheit display units', async () => {
+    const W = require('./sky-weather.js');
+    const calls = [];
+    const fahrenheitForecast = {
+        timezone: 'America/Los_Angeles',
+        current_units: {temperature_2m: '°F'},
+        current: {time: now.getTime()/1000-300, temperature_2m: 53.6, weather_code: 0, cloud_cover: 0, precipitation: 0, is_day: 0},
+    };
+    const fetchImpl = async (url, options) => {
+        calls.push({url, options});
+        return {ok:true,json:async()=> calls.length === 1
+            ? {latitude:'37.7749', longitude:'-122.4194', country_code:'US'}
+            : fahrenheitForecast};
+    };
+
+    const result = await W.fetchSnapshot({fetchImpl, now});
+
+    assert.equal(new URL(calls[1].url).searchParams.get('temperature_unit'), 'fahrenheit');
+    assert.equal(result.weather.temperature, 53.6);
+    assert.equal(result.weather.temperatureUnit, '°F');
+    assert.ok(!JSON.stringify(result).includes('US'));
 });

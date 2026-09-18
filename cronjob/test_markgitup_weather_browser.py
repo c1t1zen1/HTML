@@ -10,7 +10,7 @@ except ImportError:
     from test_markgitup_index_browser import BrowserHarness
 
 
-def weather_setup(instant='2024-06-21T12:00:00Z', code=0, cloud=0, latitude='51.5', longitude='0', failure=False):
+def weather_setup(instant='2024-06-21T12:00:00Z', code=0, cloud=0, latitude='51.5', longitude='0', country_code='GB', temperature=18, temperature_unit='°C', failure=False):
     return f"""
 window.RealDate = Date;
 window.Date = class extends RealDate {{
@@ -25,9 +25,9 @@ window.fetch=async(url,options)=>{{
     skyRequests.push({{url,credentials:options.credentials,cache:options.cache,referrerPolicy:options.referrerPolicy}});
     if ({str(failure).lower()}) throw new Error('Provider offline');
     return {{ok:true,json:async()=>url.includes('geojs')
-        ? {{latitude:{json.dumps(latitude)},longitude:{json.dumps(longitude)},ip:'203.0.113.1',city:'NOT FOR DISPLAY'}}
-        : {{timezone:'Europe/London',current_units:{{temperature_2m:'°C'}},current:{{time:Date.now()/1000-300,
-            temperature_2m:18,weather_code:{code},cloud_cover:{cloud},precipitation:0,is_day:1}}}}}};
+        ? {{latitude:{json.dumps(latitude)},longitude:{json.dumps(longitude)},country_code:{json.dumps(country_code)},ip:'203.0.113.1',city:'NOT FOR DISPLAY'}}
+        : {{timezone:'Europe/London',current_units:{{temperature_2m:{json.dumps(temperature_unit)}}},current:{{time:Date.now()/1000-300,
+            temperature_2m:{json.dumps(temperature)},weather_code:{code},cloud_cover:{cloud},precipitation:0,is_day:1}}}}}};
 }};
 """
 
@@ -52,6 +52,20 @@ class WeatherBrowserTests(BrowserHarness):
         self.assertIn('Clear sky',self.evaluate("document.querySelector('#weather-label').textContent"))
         self.assertFalse(self.evaluate("document.body.innerText.includes('NOT FOR DISPLAY')"))
         self.assertLess(self.metrics()['count'],30)
+
+    def test_us_ip_region_displays_fahrenheit_temperature(self):
+        self.load(setup=weather_setup(
+            latitude='37.8', longitude='-122.4', country_code='US', temperature=54,
+            temperature_unit='°F',
+        ))
+        self.wait_sky()
+        self.assertEqual(
+            'fahrenheit',
+            self.evaluate("new URL(skyRequests[1].url).searchParams.get('temperature_unit')"),
+        )
+        self.assertIn('54°F',self.evaluate("document.querySelector('#weather-label').textContent"))
+        self.assertFalse(self.evaluate("document.body.innerText.includes('US')"))
+
     def test_night_moon_has_texture_correct_phase_and_real_hourly_travel(self):
         self.load(setup=weather_setup(instant='2024-04-23T22:00:00Z'))
         self.wait_sky()

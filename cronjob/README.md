@@ -35,7 +35,7 @@ python3 -m py_compile scripts/markgitup-html-cron.py \
 
 ## Local weather hero
 
-The landing-page hero resolves approximate IP-region coordinates in the visitor's browser through GeoJS, rounds them to 0.1 degrees, then requests Open-Meteo current conditions. It makes no GPS request and does not persist visitor location, weather, identifiers, cookies, or storage. Failed or stale provider data leaves a neutral, usable fallback.
+The landing-page hero resolves approximate IP-region coordinates in the visitor's browser through GeoJS, rounds them to 0.1 degrees, and uses GeoJS `country_code` only to select `°F` for `US` visitors or `°C` otherwise before discarding it. It then requests Open-Meteo current conditions. It makes no GPS request and does not persist visitor location, weather, identifiers, cookies, or storage. Failed or stale provider data leaves a neutral, usable fallback.
 
 The generated index bundles `cronjob/markgitup-weather/`: vendored Astronomy Engine, weather transport, deterministic sky painting, CSS, lunar texture, licenses, and Node regression tests. The model uses calculated Sun/Moon arcs, lunar illumination, WMO weather effects, bounded rain/snow particles, and reduced-motion/offscreen guards. The artwork is decorative rather than a compass-accurate sky projection. The visible privacy disclosure links GeoJS, Open-Meteo, NASA lunar-texture attribution, and Astronomy Engine.
 

@@ -8930,5 +8930,18 @@
     "source_count": 12,
     "tags": "AI, cybersecurity, software development, automation",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 678,
+    "topic": "AI Thermostats Face Privacy Test as Utility Data Sharing Expands",
+    "file": "html/article-0678-ai-thermostats-face-privacy-test-as-utility-data-sharing-expands-20260918-160209.html",
+    "timestamp": "20260918-160209",
+    "full_timestamp": "2026-09-18T16:02:09-07:00",
+    "summary": "AI thermostats collect granular comfort data to optimize heating and cooling, but expanding utility partnerships and demand-response programs are raising fresh questions about who owns that information and how it is used.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "AI thermostat utility data sharing privacy 2026",
+    "source_count": 12,
+    "tags": "smart home, AI, privacy, utilities",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
