@@ -8826,5 +8826,18 @@
     "source_count": 12,
     "tags": "generative AI, financial reporting, tone consistency, earnings calls",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 670,
+    "topic": "NSA AI-Driven Signals Processing Faces Congressional Oversight Test as Budget Grows",
+    "file": "html/article-0670-nsa-ai-driven-signals-processing-faces-congressional-oversight-test-as-b-20260918-040206.html",
+    "timestamp": "20260918-040206",
+    "full_timestamp": "2026-09-18T04:02:06-07:00",
+    "summary": "The NSA is retooling around AI-driven signals processing to handle data volume, a shift that raises oversight questions as the agency seeks broad access to commercial AI models.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "NSA AI signals intelligence budget oversight 2026",
+    "source_count": 4,
+    "tags": "NSA, AI, signals intelligence, oversight",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]

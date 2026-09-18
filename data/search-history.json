@@ -13504,5 +13504,23 @@
     "canonical_query": "ai earnings call transcript tone consistency 2026",
     "searched_at": "2026-09-18T03:01:09-07:00",
     "topic": "AI Financial Narratives Face Tone-Consistency Test as Analysts Compare Earnings Calls"
+  },
+  {
+    "query": "LLM trading agents backtesting overfitting prop firms 2026",
+    "canonical_query": "llm trading agents backtesting overfitting prop firms 2026",
+    "searched_at": "2026-09-18T04:01:05-07:00",
+    "topic": "LLM Trading Agents Face Backtesting Overfitting Test as Prop Firms Scale"
+  },
+  {
+    "query": "NSA AI signals intelligence budget oversight 2026",
+    "canonical_query": "nsa ai signals intelligence budget oversight 2026",
+    "searched_at": "2026-09-18T04:01:11-07:00",
+    "topic": "NSA AI-Driven Signals Processing Faces Congressional Oversight Test as Budget Grows"
+  },
+  {
+    "query": "NSA AI-Driven Signals Processing Faces Congressional Oversight Test as Budget Grows analysis developments",
+    "canonical_query": "nsa ai driven signals processing faces congressional oversight test as budget grows analysis developments",
+    "searched_at": "2026-09-18T04:01:13-07:00",
+    "topic": "NSA AI-Driven Signals Processing Faces Congressional Oversight Test as Budget Grows"
   }
 ]
