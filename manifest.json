@@ -8865,5 +8865,18 @@
     "source_count": 3,
     "tags": "AI-fact-checking, media-bias, election-integrity, newsroom-technology",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 673,
+    "topic": "Matter 1.4 Smart-Home Devices Face Interoperability Test as Major Brands Ship Updates",
+    "file": "html/article-0673-matter-1-4-smart-home-devices-face-interoperability-test-as-major-brands-20260918-070128.html",
+    "timestamp": "20260918-070128",
+    "full_timestamp": "2026-09-18T07:01:28-07:00",
+    "summary": "Matter 1.4 ships with major brands, but real-world interoperability testing reveals persistent Thread mesh failures, firmware update gaps, and commissioning issues that temper the standard's cross-ecosystem promise.",
+    "original_topic": "AI-Powered Smart Homes & Automation",
+    "search_query": "Matter 1.4 smart home device interoperability testing 2026",
+    "source_count": 12,
+    "tags": "smart homes, Matter, interoperability, IoT",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
