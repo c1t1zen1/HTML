@@ -13528,5 +13528,17 @@
     "canonical_query": "apple m5 chip memory bandwidth local ai inference 2026 latest",
     "searched_at": "2026-09-18T05:00:09-07:00",
     "topic": "Mac Local AI Faces Memory-Bandwidth Test as M5 Chips Ship"
+  },
+  {
+    "query": "AI fact-checking tool partisan bias newsroom deployment 2026",
+    "canonical_query": "ai fact checking tool partisan bias newsroom deployment 2026",
+    "searched_at": "2026-09-18T06:00:09-07:00",
+    "topic": "AI Fact-Checkers Face Bias Test as Partisan Newsrooms Deploy Custom Models"
+  },
+  {
+    "query": "AI Fact-Checkers Face Bias Test as Partisan Newsrooms Deploy Custom Models analysis developments",
+    "canonical_query": "ai fact checkers face bias test as partisan newsrooms deploy custom models analysis developments",
+    "searched_at": "2026-09-18T06:00:10-07:00",
+    "topic": "AI Fact-Checkers Face Bias Test as Partisan Newsrooms Deploy Custom Models"
   }
 ]

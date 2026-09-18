@@ -8852,5 +8852,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, local AI, hardware, memory bandwidth",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 672,
+    "topic": "AI Fact-Checkers Face Bias Test as Partisan Newsrooms Deploy Custom Models",
+    "file": "html/article-0672-ai-fact-checkers-face-bias-test-as-partisan-newsrooms-deploy-custom-mode-20260918-060100.html",
+    "timestamp": "20260918-060100",
+    "full_timestamp": "2026-09-18T06:01:00-07:00",
+    "summary": "As newsrooms deploy proprietary AI fact-checking models, the tension between accuracy and editorial bias is emerging as a critical test for the credibility of automated verification in elections.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "AI fact-checking tool partisan bias newsroom deployment 2026",
+    "source_count": 3,
+    "tags": "AI-fact-checking, media-bias, election-integrity, newsroom-technology",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
