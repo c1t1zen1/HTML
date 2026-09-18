@@ -8787,5 +8787,31 @@
     "source_count": 12,
     "tags": "Apple Silicon, MLX, quantization, local LLMs",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 667,
+    "topic": "AI Crypto Trading Bots Face Backtesting-Regulation Test as SEC Proposes Disclosure Rules",
+    "file": "html/article-0667-ai-crypto-trading-bots-face-backtesting-regulation-test-as-sec-proposes-20260918-012358.html",
+    "timestamp": "20260918-012358",
+    "full_timestamp": "2026-09-18T01:23:58-07:00",
+    "summary": "The SEC is scrutinizing AI trading bot disclosures under existing securities law, focusing on 'AI-washing' claims and materiality standards rather than new standalone rules.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "SEC AI crypto trading bot backtesting disclosure rules 2026",
+    "source_count": 12,
+    "tags": "AI, crypto trading, regulation, SEC",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 668,
+    "topic": "AI Video Editors Face Copyright Test as Training Data Suits Escalate",
+    "file": "html/article-0668-ai-video-editors-face-copyright-test-as-training-data-suits-escalate-20260918-020148.html",
+    "timestamp": "20260918-020148",
+    "full_timestamp": "2026-09-18T02:01:48-07:00",
+    "summary": "As AI video editing tools scale, developers face growing copyright exposure over training data, with new lawsuits and court rulings reshaping the legal landscape for generative video.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "AI video editing tools copyright lawsuit training data 2026",
+    "source_count": 3,
+    "tags": "AI video editing, copyright law, training data, litigation",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
