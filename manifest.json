@@ -8878,5 +8878,18 @@
     "source_count": 12,
     "tags": "smart homes, Matter, interoperability, IoT",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 674,
+    "topic": "Hedge-Fund LLMs Face Multi-Asset Orchestration Test as Cross-Market Trades Scale",
+    "file": "html/article-0674-hedge-fund-llms-face-multi-asset-orchestration-test-as-cross-market-trad-20260918-080107.html",
+    "timestamp": "20260918-080107",
+    "full_timestamp": "2026-09-18T08:01:07-07:00",
+    "summary": "As hedge funds scale LLM-driven trading across equities, Treasuries, and derivatives, the industry confronts a new operational hurdle: orchestrating coherent, low-latency decisions across multiple asset classes in real time.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge fund LLM multi-asset orchestration cross-market trades 2026",
+    "source_count": 3,
+    "tags": "hedge funds, LLMs, multi-asset trading, AI orchestration",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
