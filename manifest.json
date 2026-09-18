@@ -8774,5 +8774,18 @@
     "source_count": 12,
     "tags": "EU AI Act, synthetic media, C2PA, content provenance",
     "model_names": "GPT 5.6 Luna"
+  },
+  {
+    "article_number": 666,
+    "topic": "Mac Local LLMs Face Quantization-Compatibility Test as Mixture-of-Experts Models Target Apple Silicon",
+    "file": "html/article-0666-mac-local-llms-face-quantization-compatibility-test-as-mixture-of-expert-20260917-185431.html",
+    "timestamp": "20260917-185431",
+    "full_timestamp": "2026-09-17T18:54:31-07:00",
+    "summary": "Apple Silicon can host increasingly large local models, but usable scale depends on unified-memory headroom, quantization quality, MoE routing, and MLX format support.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "MLX MXFP4 quantized mixture of experts LLM Apple Silicon Mac 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, MLX, quantization, local LLMs",
+    "model_names": "GPT 5.6 Luna"
   }
 ]
