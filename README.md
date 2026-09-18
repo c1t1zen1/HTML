@@ -8,18 +8,18 @@
 
 Twenty-four durable AI and technology topic families feed a local-first research pipeline. It finds a fresh angle, gathers source-linked evidence, rejects thin or repeated work, renders deterministic static HTML, and deploys to GitHub Pages.
 
-### [→ Read the live desk](https://c1t1zen1.github.io/HTML/)
+### [→ Read the live desk](https://c1t1zen1.github.io/markgitup-research-desk/)
 
-[![Live site](https://img.shields.io/badge/live-c1t1zen1.github.io%2FHTML-5ee7ed?style=flat-square&logo=githubpages&logoColor=white&labelColor=07101d)](https://c1t1zen1.github.io/HTML/)
+[![Live site](https://img.shields.io/badge/live-c1t1zen1.github.io%2Fmarkgitup--research--desk-5ee7ed?style=flat-square&logo=githubpages&logoColor=white&labelColor=07101d)](https://c1t1zen1.github.io/markgitup-research-desk/)
 [![Schedule](https://img.shields.io/badge/schedule-hourly-b8f36b?style=flat-square&logo=clockify&logoColor=white&labelColor=07101d)](#how-a-dispatch-gets-made)
 [![Topic families](https://img.shields.io/badge/topic%20families-24-ffb86c?style=flat-square&labelColor=07101d)](#topic-families)
 [![Source gate](https://img.shields.io/badge/source%20gate-%E2%89%A5%202%20independent-ffb86c?style=flat-square&labelColor=07101d)](#integrity-model)
-[![Last commit](https://img.shields.io/github/last-commit/c1t1zen1/HTML?style=flat-square&labelColor=07101d&color=5ee7ed)](https://github.com/c1t1zen1/HTML/commits/main)
+[![Last commit](https://img.shields.io/github/last-commit/c1t1zen1/markgitup-research-desk?style=flat-square&labelColor=07101d&color=5ee7ed)](https://github.com/c1t1zen1/markgitup-research-desk/commits/main)
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776ab?style=flat-square&logo=python&logoColor=white&labelColor=07101d)](https://www.python.org/)
 [![Search](https://img.shields.io/badge/search-SearXNG-3050ff?style=flat-square&labelColor=07101d)](https://searxng.org/)
 [![Inference](https://img.shields.io/badge/inference-local%20first-b8f36b?style=flat-square&labelColor=07101d)](#inference-chain)
 
-<a href="https://c1t1zen1.github.io/HTML/">
+<a href="https://c1t1zen1.github.io/markgitup-research-desk/">
   <img src="docs/portal-dark.png" width="900" alt="The Markgitup Research Desk in dark mode, with a weather-aware hero, live research count, filtering, featured dispatch, and source-counted research cards.">
 </a>
 
@@ -139,7 +139,7 @@ The publisher captures the actual model attribution in each manifest entry and a
 
 ## The portal
 
-[`index.html`](https://c1t1zen1.github.io/HTML/) is a static, framework-free landing page regenerated from `manifest.json`.
+[`index.html`](https://c1t1zen1.github.io/markgitup-research-desk/) is a static, framework-free landing page regenerated from `manifest.json`.
 
 - **Progressive card mounting:** featured article plus only enough cards for the viewport and about two measured rows ahead.
 - **Full-archive search:** compact safe card metadata stays embedded, so filtering covers unmounted articles without loading article pages.
