@@ -8904,5 +8904,18 @@
     "source_count": 12,
     "tags": "AI video, live broadcast, synthetic media, real-time rendering",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 676,
+    "topic": "Apple M5 Max Faces Real-World LLM Workload Test as Developers Benchmark Large Models",
+    "file": "html/article-0676-apple-m5-max-faces-real-world-llm-workload-test-as-developers-benchmark-20260918-100129.html",
+    "timestamp": "20260918-100129",
+    "full_timestamp": "2026-09-18T10:01:29-07:00",
+    "summary": "Developers are stress-testing the M5 Max with real LLM workloads to see if local inference can actually replace paid API services in production environments.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M5 Max LLM inference benchmark real-world workload 2026 latest",
+    "source_count": 5,
+    "tags": "Apple Silicon, LLM inference, M5 Max, benchmarks",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
