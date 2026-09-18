@@ -35,7 +35,7 @@ def articles(size=700):
                  full_timestamp=(start + timedelta(minutes=i)).isoformat()) for i in range(size)]
 
 
-class PortalBrowserTests(unittest.TestCase):
+class BrowserHarness(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         executable = shutil.which("chromium") or shutil.which("chromium-browser")
@@ -71,9 +71,15 @@ class PortalBrowserTests(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        # Ask Chromium to flush and close its children before deleting the profile.
+        cls.sequence += 1
+        cls.socket.send(json.dumps({'id': cls.sequence, 'method': 'Browser.close'}))
+        try:
+            cls.browser.wait(timeout=15)
+        except subprocess.TimeoutExpired:
+            cls.browser.terminate()
+            cls.browser.wait(timeout=15)
         cls.socket.close()
-        cls.browser.terminate()
-        cls.browser.wait(timeout=15)
         cls.stderr.close()
         cls.temp.cleanup()
 
@@ -101,7 +107,7 @@ class PortalBrowserTests(unittest.TestCase):
     def load(self, width=1280, height=900, records=None, setup=""):
         records = articles() if records is None else records
         content = PUBLISHER.render_index(records)
-        content = content.replace("<script>", "<script>" + setup + ";window.testErrors=[];window.addEventListener('error', e => testErrors.push(e.message));", 1)
+        content = content.replace("<script>", "<script>window.fetch=async()=>{throw new Error('Offline browser test')};" + setup + ";window.testErrors=[];window.addEventListener('error', e => testErrors.push(e.message));", 1)
         page = self.root / f"page-{time.monotonic_ns()}.html"
         page.write_text(content, encoding="utf-8")
         self.cdp("Emulation.setDeviceMetricsOverride", width=width, height=height, deviceScaleFactor=1, mobile=False)
@@ -127,6 +133,12 @@ class PortalBrowserTests(unittest.TestCase):
                 links: cards.map(c => c.querySelector('a').getAttribute('href'))};
         })()""")
 
+    def search(self, query):
+        self.evaluate(f"(() => {{ const input = document.querySelector('#search'); input.value = {json.dumps(query)}; input.dispatchEvent(new Event('input', {{bubbles:true}})); }})()")
+        self.settle()
+
+
+class PortalBrowserTests(BrowserHarness):
     def test_initial_render_is_bounded_to_viewport_and_two_extra_rows(self):
         self.load()
         metrics = self.metrics()

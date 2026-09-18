@@ -1,0 +1,48 @@
+/* Landing-page sky only. No article-page selectors or external resources. */
+body {background:linear-gradient(180deg,var(--sky-top,#07101d) 0px,var(--sky-horizon,#09111d) 350px,var(--bg,#07101d) 850px);background-repeat:no-repeat;background-color:var(--bg);transition:background-color 1.2s,color .6s}
+body::before {content:"";position:absolute;inset:0 0 auto;height:850px;background:linear-gradient(180deg,var(--sky-top,#07101d),var(--sky-horizon,#09111d) 40%,var(--bg,#07101d));z-index:-1;pointer-events:none}
+.shell {position:relative;isolation:isolate}
+.topbar {position:relative;z-index:3}
+.hero {position:relative;isolation:isolate;padding-top:170px;padding-bottom:38px;border-bottom:0}
+.hero>div:not(.sky-scene) {z-index:2;position:relative}
+.hero h1 {text-wrap:balance;line-height:.96}
+.hero-note {border-left:0;padding-left:0;font-size:.85rem;max-width:310px}
+.hero-note strong {font-size:2.3rem}
+.hero-note span {text-wrap:balance}
+#theme {font-size:1.35rem;line-height:1}
+.search::placeholder {color:var(--muted);opacity:1}
+.sky-scene {position:absolute;inset:0 -28px 0;overflow:hidden;pointer-events:none;z-index:0;mask-image:linear-gradient(#000 0%,#000 52%,transparent 100%)}
+.sky-scene[hidden],[hidden] {display:none!important}
+.sky-orbit {position:absolute;inset:0 0 auto;height:190px}
+.sky-sun,.sky-moon {position:absolute;left:50%;top:30%;transform:translate(-50%,-50%);will-change:auto}
+.sky-sun {width:52px;height:52px;border-radius:50%;background:radial-gradient(circle at 44% 42%,#fffef4 0%,#fff8dc 50%,#fce7b5 75%,#f8dba2);box-shadow:0 0 30px 12px #fff5d770,0 0 100px 54px #fff0c83b}
+.sky-moon {width:78px;height:78px;filter:drop-shadow(0 0 13px #dce9ff35)}
+.sky-stars {position:absolute;inset:0 0 15%;opacity:var(--star-opacity,0)}
+.sky-stars svg {width:100%;height:100%;fill:#e4eaf4}
+.sky-clouds {position:absolute;inset:12px -10% auto;width:120%;height:260px;opacity:var(--cloud-opacity,0);mask-image:radial-gradient(ellipse at 50% 40%,#000 12%,#0009 45%,transparent 72%)}
+.sky-clouds .cloud-color {flood-color:var(--cloud-ink,#fff)}
+.sky-veil {position:absolute;inset:0;background:linear-gradient(180deg,transparent 5%,var(--sky-horizon) 95%);opacity:var(--veil-opacity,.15);mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)}
+.sky-particles {position:absolute;inset:0;opacity:.28;mask-image:linear-gradient(transparent,#000 20%,#000 65%,transparent)}
+.sky-particles i {position:absolute;top:var(--drop-top);left:var(--drop-left);opacity:var(--drop-opacity);display:none}
+[data-weather="rain"] .sky-particles i,[data-weather="storm"] .sky-particles i {display:block;width:1px;height:21px;background:linear-gradient(transparent,var(--rain-ink,#8297a8));transform:rotate(12deg);animation:sky-rain 2s linear infinite;animation-delay:var(--drop-delay)}
+[data-weather="snow"] .sky-particles i {display:block;width:3px;height:3px;border-radius:50%;background:var(--snow-ink,#fff);box-shadow:0 0 4px #ffffff50;animation:sky-snow 12s linear infinite;animation-delay:var(--drop-delay)}
+[data-weather="fog"] .sky-clouds {height:430px;filter:blur(9px)}
+[data-weather="fog"] .sky-veil {opacity:.55}
+.sky-scene[data-paused="true"] .sky-particles i {animation-play-state:paused}
+@keyframes sky-rain {from{translate:15px -70px}to{translate:-15px 110px}}
+@keyframes sky-snow {from{translate:-12px -30px}to{translate:24px 180px}}
+.weather-now {display:flex;align-items:center;gap:9px;font-size:.76rem;letter-spacing:.025em;color:var(--muted);margin:0 0 16px;min-height:22px;flex-wrap:wrap}
+.weather-now::before {content:"";width:5px;height:5px;flex:0 0 5px;background:var(--cyan);border-radius:50%;opacity:.65}
+.weather-detail {font-size:.76rem;line-height:1.6;margin-top:16px;color:var(--muted);max-width:31ch}
+.sky-info {position:relative;z-index:3;grid-column:1/-1;max-width:770px;margin-top:10px;color:var(--dim);font-size:.73rem;line-height:1.65}
+.sky-info summary {cursor:pointer;display:list-item;min-height:44px;padding:12px 0;width:fit-content;color:var(--muted)}
+.sky-info p {font-size:inherit;margin:0 0 12px;max-width:none;color:var(--muted)}
+.sky-info a {text-underline-offset:3px}
+.hero .sky-info {border-top:1px solid var(--line)}
+button:focus-visible,.sky-info summary:focus-visible,a:focus-visible {outline:2px solid var(--cyan);outline-offset:5px}
+button {min-width:44px;min-height:44px}
+.feature::before {opacity:.08}
+.controls {position:relative;z-index:2}
+@media(max-width:780px){.hero{padding-top:165px;gap:22px}.sky-scene{left:-18px;right:-18px}.sky-orbit{height:170px}.sky-moon{width:62px;height:62px}.sky-sun{width:44px;height:44px}.hero-note{max-width:none}.weather-detail{max-width:none}.sky-info{margin-top:0}}
+@media(prefers-reduced-motion:reduce){body,button,.card{transition:none!important}.sky-particles i{animation:none!important}}
+@media print{.sky-scene,.sky-info{display:none!important}body{background:#fff!important;color:#111!important}}

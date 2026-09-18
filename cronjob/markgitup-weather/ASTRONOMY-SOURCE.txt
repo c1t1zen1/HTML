@@ -1,0 +1,31 @@
+Astronomy Engine 2.1.19
+Upstream: https://github.com/cosinekitty/astronomy
+Release license: https://raw.githubusercontent.com/cosinekitty/astronomy/v2.1.19/LICENSE
+Package: https://registry.npmjs.org/astronomy-engine/-/astronomy-engine-2.1.19.tgz
+Package SRI: sha512-8yWKNf7UeNbH458h3sAJ6ZgAjE5jTXp/mNNRFoC20j2SHwZIjAQeEsBB2Q3uCFRaTCCJRv33K2XhkhZQMXoX6w==
+Vendored file: package/astronomy.browser.min.js, unchanged as astronomy.js
+SHA-256: f41139a87941ea017ab902b954c9389fa27ea72083d7fab4971756d7769d14e6
+MIT license retained in the bundle and ASTRONOMY-LICENSE.txt.
+
+Lunar texture: NASA's Scientific Visualization Studio, CGI Moon Kit (2019 color map).
+Source page: https://svs.gsfc.nasa.gov/4720/
+Source image: https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_poles_1k.jpg
+Source SHA-256: b246064f217f8d479df78c49c7c8595a8f5fbda008a72fd539978d2e121e0109
+Source preserved locally at assets/images/markgitup-moon-map.jpg in Hermes-Jetson.
+Derived moon-texture.txt: resized to 512x256, JPEG quality 76, base64 data URL.
+Credit: NASA's Scientific Visualization Studio / LRO / LROC / LOLA.
+The image is aesthetic surface albedo; this feature does not simulate lunar libration, terrain shadows, or eclipses.
+
+Independent lunar phase fixtures:
+https://aa.usno.navy.mil/api/moon/phases/date?date=2024-04-01&nump=8
+USNO: new moon 2024-04-08 18:21 UTC; first quarter 2024-04-15 19:13 UTC;
+full moon 2024-04-23 23:49 UTC.
+
+Runtime weather and region providers:
+https://www.geojs.io/docs/v1/endpoints/geo/
+https://www.geojs.io/privacy/
+https://open-meteo.com/en/docs
+https://open-meteo.com/en/terms
+Open-Meteo free endpoint is for non-commercial use only, subject to limits and CC BY 4.0 attribution.
+Both providers receive visitor IPs. Open-Meteo may retain technical logs including coordinates for 90 days.
+Markgitup rounds coordinates to 0.1 degrees, sends no cookies/referrer, and writes no visitor data to storage.
