@@ -8839,5 +8839,18 @@
     "source_count": 4,
     "tags": "NSA, AI, signals intelligence, oversight",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 671,
+    "topic": "Mac Local AI Faces Memory-Bandwidth Test as M5 Chips Ship",
+    "file": "html/article-0671-mac-local-ai-faces-memory-bandwidth-test-as-m5-chips-ship-20260918-050119.html",
+    "timestamp": "20260918-050119",
+    "full_timestamp": "2026-09-18T05:01:19-07:00",
+    "summary": "Memory bandwidth, not core count, will decide whether Apple's M5 silicon can run large local AI models efficiently as the chips reach market.",
+    "original_topic": "Privacy-First Local AI on Mac",
+    "search_query": "Apple M5 chip memory bandwidth local AI inference 2026 latest",
+    "source_count": 12,
+    "tags": "Apple Silicon, local AI, hardware, memory bandwidth",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
