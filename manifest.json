@@ -8891,5 +8891,18 @@
     "source_count": 3,
     "tags": "hedge funds, LLMs, multi-asset trading, AI orchestration",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 675,
+    "topic": "AI Video Tools Face Real-Time Rendering Test as Live Broadcasts Adopt Synthetic Talent",
+    "file": "html/article-0675-ai-video-tools-face-real-time-rendering-test-as-live-broadcasts-adopt-sy-20260918-090143.html",
+    "timestamp": "20260918-090143",
+    "full_timestamp": "2026-09-18T09:01:43-07:00",
+    "summary": "AI video generation is being pushed beyond pre-produced clips into live broadcasting, where synthetic anchors and real-time rendering must perform without the safety net of post-production editing.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI synthetic presenter live broadcast 2026",
+    "source_count": 12,
+    "tags": "AI video, live broadcast, synthetic media, real-time rendering",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
