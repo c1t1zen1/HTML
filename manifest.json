@@ -8813,5 +8813,18 @@
     "source_count": 3,
     "tags": "AI video editing, copyright law, training data, litigation",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 669,
+    "topic": "AI Financial Narratives Face Tone-Consistency Test as Analysts Compare Earnings Calls",
+    "file": "html/article-0669-ai-financial-narratives-face-tone-consistency-test-as-analysts-compare-e-20260918-030159.html",
+    "timestamp": "20260918-030159",
+    "full_timestamp": "2026-09-18T03:01:59-07:00",
+    "summary": "As generative AI drafts more earnings narratives, a new quality metric is emerging: whether tone stays consistent across calls, press releases, and investor letters.",
+    "original_topic": "Generative AI for Financial Reporting",
+    "search_query": "AI earnings call transcript tone consistency 2026",
+    "source_count": 12,
+    "tags": "generative AI, financial reporting, tone consistency, earnings calls",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
