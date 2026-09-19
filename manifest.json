@@ -9151,5 +9151,18 @@
     "source_count": 12,
     "tags": "AI video, real-time rendering, live events, technology",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 695,
+    "topic": "AI Trading Bots Face Regulator Scrutiny as Flash Crash Blamed on Model Drift",
+    "file": "html/article-0695-ai-trading-bots-face-regulator-scrutiny-as-flash-crash-blamed-on-model-d-20260919-090137.html",
+    "timestamp": "20260919-090137",
+    "full_timestamp": "2026-09-19T09:01:37-07:00",
+    "summary": "Regulators are examining whether AI trading bots contributed to a recent flash crash, raising new questions about model drift and automated market risk.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "AI trading bot flash crash model drift regulator 2026",
+    "source_count": 2,
+    "tags": "AI trading, model drift, regulation, flash crash",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
