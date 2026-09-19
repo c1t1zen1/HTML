@@ -9125,5 +9125,18 @@
     "source_count": 12,
     "tags": "AI, misinformation, fact-checking, elections",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 693,
+    "topic": "Apple Silicon AI Tools Face Power-Efficiency Test as Developers Benchmark Local LLMs",
+    "file": "html/article-0693-apple-silicon-ai-tools-face-power-efficiency-test-as-developers-benchmar-20260919-070133.html",
+    "timestamp": "20260919-070133",
+    "full_timestamp": "2026-09-19T07:01:33-07:00",
+    "summary": "Apple's new 2nm M6 and M5 Ultra chips promise better AI performance, but developers are testing whether the power-efficiency gains hold up under real-world local LLM workloads.",
+    "original_topic": "AI Development Tools for Apple Silicon",
+    "search_query": "Apple Silicon AI development tools power efficiency benchmark 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, AI development, power efficiency, local LLMs",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
