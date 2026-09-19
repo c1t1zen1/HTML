@@ -9138,5 +9138,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, AI development, power efficiency, local LLMs",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 694,
+    "topic": "AI Video Models Face Real-Time Rendering Test as Live Events Adopt Synthetic Overlays",
+    "file": "html/article-0694-ai-video-models-face-real-time-rendering-test-as-live-events-adopt-synth-20260919-080123.html",
+    "timestamp": "20260919-080123",
+    "full_timestamp": "2026-09-19T08:01:23-07:00",
+    "summary": "AI video generation is moving from post-production render queues to live broadcast pipelines, where sub-33-millisecond latency and real-time interactivity are becoming the new benchmarks.",
+    "original_topic": "AI Video Generation Models",
+    "search_query": "AI video generation real-time rendering live events 2026",
+    "source_count": 12,
+    "tags": "AI video, real-time rendering, live events, technology",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
