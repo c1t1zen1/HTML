@@ -8956,5 +8956,18 @@
     "source_count": 3,
     "tags": "AI video, sports broadcasting, temporal consistency, synthetic media",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 680,
+    "topic": "AI Color Grading Faces Cinematographer Acceptance Test as Major Studios Pilot Automated Pipelines",
+    "file": "html/article-0680-ai-color-grading-faces-cinematographer-acceptance-test-as-major-studios-20260918-180205.html",
+    "timestamp": "20260918-180205",
+    "full_timestamp": "2026-09-18T18:02:05-07:00",
+    "summary": "Studios are piloting AI color grading pipelines, but adoption hinges on whether cinematographers view the tools as creative partners or replacements.",
+    "original_topic": "AI-Powered Video Editing & Post-Production",
+    "search_query": "AI color grading cinematographer acceptance studios 2026",
+    "source_count": 12,
+    "tags": "AI video editing, color grading, film post-production, cinematography",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
