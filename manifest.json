@@ -9177,5 +9177,18 @@
     "source_count": 12,
     "tags": "LLMs, hedge funds, federated learning, trading",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 697,
+    "topic": "AI Chatbots Face Clinical Efficacy Test as Insurers Demand Outcome Data",
+    "file": "html/article-0697-ai-chatbots-face-clinical-efficacy-test-as-insurers-demand-outcome-data-20260919-110136.html",
+    "timestamp": "20260919-110136",
+    "full_timestamp": "2026-09-19T11:01:36-07:00",
+    "summary": "AI therapy chatbots face a new hurdle: proving clinical outcomes to secure insurance reimbursement, shifting the industry's focus from user adoption to measurable efficacy.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "AI therapy chatbot clinical efficacy insurance coverage 2026",
+    "source_count": 2,
+    "tags": "AI, mental health, insurance, clinical trials",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
