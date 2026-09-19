@@ -9047,5 +9047,18 @@
     "source_count": 12,
     "tags": "AI, elections, regulation, FTC",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 687,
+    "topic": "Local AI Models Face Privacy Test as macOS 26 Adds On-Device Inference APIs",
+    "file": "html/article-0687-local-ai-models-face-privacy-test-as-macos-26-adds-on-device-inference-a-20260919-010117.html",
+    "timestamp": "20260919-010117",
+    "full_timestamp": "2026-09-19T01:01:17-07:00",
+    "summary": "Apple's new macOS 26 on-device AI APIs and M5 Ultra hardware aim to make local inference mainstream, raising fresh privacy questions as models run entirely on user hardware.",
+    "original_topic": "Local AI Tools & Stacks for macOS",
+    "search_query": "macOS 26 local AI inference APIs privacy 2026 latest",
+    "source_count": 12,
+    "tags": "macOS, local AI, privacy, Apple",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]

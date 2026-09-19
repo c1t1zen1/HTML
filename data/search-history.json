@@ -13654,5 +13654,23 @@
     "canonical_query": "ftc ai political micro targeting enforcement 2026",
     "searched_at": "2026-09-19T00:01:04-07:00",
     "topic": "AI Micro-Targeting Faces New FTC Scrutiny as 2026 Midterms Approach"
+  },
+  {
+    "query": "AI audit materiality thresholds SEC disclosure rules 2026",
+    "canonical_query": "ai audit materiality thresholds sec disclosure rules 2026",
+    "searched_at": "2026-09-19T01:00:18-07:00",
+    "topic": "AI Auditors Face Materiality-Threshold Test as SEC Expands Disclosure Rules"
+  },
+  {
+    "query": "AI Auditors Face Materiality-Threshold Test as SEC Expands Disclosure Rules analysis developments",
+    "canonical_query": "ai auditors face materiality threshold test as sec expands disclosure rules analysis developments",
+    "searched_at": "2026-09-19T01:00:20-07:00",
+    "topic": "AI Auditors Face Materiality-Threshold Test as SEC Expands Disclosure Rules"
+  },
+  {
+    "query": "macOS 26 local AI inference APIs privacy 2026 latest",
+    "canonical_query": "macos 26 local ai inference apis privacy 2026 latest",
+    "searched_at": "2026-09-19T01:00:25-07:00",
+    "topic": "Local AI Models Face Privacy Test as macOS 26 Adds On-Device Inference APIs"
   }
 ]
