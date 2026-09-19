@@ -13678,5 +13678,17 @@
     "canonical_query": "core ml int4 int8 quantization llm 2026",
     "searched_at": "2026-09-19T02:00:13-07:00",
     "topic": "Apple Expands Core ML Quantization Options for Local LLMs"
+  },
+  {
+    "query": "Apple M5 Ultra 100 billion parameter LLM local inference 2026",
+    "canonical_query": "apple m5 ultra 100 billion parameter llm local inference 2026",
+    "searched_at": "2026-09-19T03:00:11-07:00",
+    "topic": "Apple M5 Ultra Faces Memory Wall Test as 100B-Parameter Models Go Local"
+  },
+  {
+    "query": "Apple M5 Ultra Faces Memory Wall Test as 100B-Parameter Models Go Local analysis developments",
+    "canonical_query": "apple m5 ultra faces memory wall test as 100b parameter models go local analysis developments",
+    "searched_at": "2026-09-19T03:00:13-07:00",
+    "topic": "Apple M5 Ultra Faces Memory Wall Test as 100B-Parameter Models Go Local"
   }
 ]

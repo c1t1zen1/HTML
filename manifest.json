@@ -9073,5 +9073,18 @@
     "source_count": 12,
     "tags": "Core ML, quantization, LLMs, Apple",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 689,
+    "topic": "Apple M5 Ultra Faces Memory Wall Test as 100B-Parameter Models Go Local",
+    "file": "html/article-0689-apple-m5-ultra-faces-memory-wall-test-as-100b-parameter-models-go-local-20260919-030136.html",
+    "timestamp": "20260919-030136",
+    "full_timestamp": "2026-09-19T03:01:36-07:00",
+    "summary": "Apple's M5 Ultra with 512GB unified memory targets 100B-parameter local LLMs, testing whether on-device inference can match cloud performance without offloading.",
+    "original_topic": "M Series Apple Silicon LLM Inference",
+    "search_query": "Apple M5 Ultra 100 billion parameter LLM local inference 2026",
+    "source_count": 12,
+    "tags": "Apple Silicon, LLM Inference, M5 Ultra, Local AI",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
