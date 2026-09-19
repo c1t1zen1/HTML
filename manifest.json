@@ -9099,5 +9099,18 @@
     "source_count": 12,
     "tags": "deepfake,EU AI Act,regulation,media law",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 691,
+    "topic": "AI Crypto Bots Face Latency Test as Exchange Colocation Fees Surge",
+    "file": "html/article-0691-ai-crypto-bots-face-latency-test-as-exchange-colocation-fees-surge-20260919-050120.html",
+    "timestamp": "20260919-050120",
+    "full_timestamp": "2026-09-19T05:01:20-07:00",
+    "summary": "Speed is a critical asset for AI crypto trading bots, but the infrastructure costs to achieve it are rising as exchanges optimize for latency.",
+    "original_topic": "AI Crypto Trading Bots & Performance",
+    "search_query": "crypto exchange colocation fees AI trading bot latency 2026",
+    "source_count": 3,
+    "tags": "AI trading, crypto infrastructure, latency, colocation",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
