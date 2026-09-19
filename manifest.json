@@ -9034,5 +9034,18 @@
     "source_count": 7,
     "tags": "AI, mental health, FDA, regulation",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 686,
+    "topic": "AI Micro-Targeting Faces New FTC Scrutiny as 2026 Midterms Approach",
+    "file": "html/article-0686-ai-micro-targeting-faces-new-ftc-scrutiny-as-2026-midterms-approach-20260919-000218.html",
+    "timestamp": "20260919-000218",
+    "full_timestamp": "2026-09-19T00:02:18-07:00",
+    "summary": "The FTC is proposing a new policy statement to apply its anti-deception authority to AI systems that suppress accuracy or steer outputs, a move that could reshape how political campaigns use micro-targeting ahead of the 2026 midterms.",
+    "original_topic": "AI in US Elections & Campaigns",
+    "search_query": "FTC AI political micro-targeting enforcement 2026",
+    "source_count": 12,
+    "tags": "AI, elections, regulation, FTC",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
