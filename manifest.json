@@ -8943,5 +8943,18 @@
     "source_count": 12,
     "tags": "smart home, AI, privacy, utilities",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 679,
+    "topic": "AI Video Faces Frame-Accuracy Test as Sports Broadcasts Adopt Synthetic Replays",
+    "file": "html/article-0679-ai-video-faces-frame-accuracy-test-as-sports-broadcasts-adopt-synthetic-20260918-170148.html",
+    "timestamp": "20260918-170148",
+    "full_timestamp": "2026-09-18T17:01:48-07:00",
+    "summary": "As synthetic video tools mature, sports broadcasters face a new test: can AI-generated replays maintain the frame-perfect accuracy required for officiating and fan trust?",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI synthetic video sports replays frame accuracy 2026",
+    "source_count": 3,
+    "tags": "AI video, sports broadcasting, temporal consistency, synthetic media",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
