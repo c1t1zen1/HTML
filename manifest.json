@@ -9112,5 +9112,18 @@
     "source_count": 3,
     "tags": "AI trading, crypto infrastructure, latency, colocation",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 692,
+    "topic": "AI Fact-Checkers Face Speed Test as News Cycles Accelerate",
+    "file": "html/article-0692-ai-fact-checkers-face-speed-test-as-news-cycles-accelerate-20260919-060150.html",
+    "timestamp": "20260919-060150",
+    "full_timestamp": "2026-09-19T06:01:50-07:00",
+    "summary": "AI-powered fact-checkers are racing to keep pace with AI-generated misinformation, with tools like Full Fact AI and Caltech's pre-bunking systems emerging as key defenses in the 2026 election cycle.",
+    "original_topic": "AI Misinformation & Election Integrity",
+    "search_query": "AI fact-checking tools election misinformation 2026",
+    "source_count": 12,
+    "tags": "AI, misinformation, fact-checking, elections",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
