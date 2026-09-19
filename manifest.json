@@ -9164,5 +9164,18 @@
     "source_count": 2,
     "tags": "AI trading, model drift, regulation, flash crash",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 696,
+    "topic": "Hedge Funds Pilot Federated LLMs to Share Alpha Without Exposing Positions",
+    "file": "html/article-0696-hedge-funds-pilot-federated-llms-to-share-alpha-without-exposing-positio-20260919-100142.html",
+    "timestamp": "20260919-100142",
+    "full_timestamp": "2026-09-19T10:01:42-07:00",
+    "summary": "Hedge funds are piloting federated LLM architectures to collaboratively train trading models while keeping proprietary position data private, potentially unlocking new sources of alpha without competitive disclosure.",
+    "original_topic": "LLMs in Hedge Funds & Trading",
+    "search_query": "hedge funds federated learning LLMs alpha sharing 2026",
+    "source_count": 12,
+    "tags": "LLMs, hedge funds, federated learning, trading",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
