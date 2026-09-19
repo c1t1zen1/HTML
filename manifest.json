@@ -9086,5 +9086,18 @@
     "source_count": 12,
     "tags": "Apple Silicon, LLM Inference, M5 Ultra, Local AI",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 690,
+    "topic": "EU's AI Act Deepfake Rules Take Effect as First Fines Loom",
+    "file": "html/article-0690-eu-s-ai-act-deepfake-rules-take-effect-as-first-fines-loom-20260919-040136.html",
+    "timestamp": "20260919-040136",
+    "full_timestamp": "2026-09-19T04:01:36-07:00",
+    "summary": "The EU's AI Act deepfake transparency rules become enforceable on 2 August 2026, with regulators prepared to impose fines up to €15 million or 3% of global turnover for non-compliance.",
+    "original_topic": "Deepfake Legislation & Synthetic Media Laws",
+    "search_query": "EU AI Act deepfake disclosure rules enforcement fines 2026",
+    "source_count": 12,
+    "tags": "deepfake,EU AI Act,regulation,media law",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
