@@ -9021,5 +9021,18 @@
     "source_count": 12,
     "tags": "AI, stock prediction, volatility, stress test",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 685,
+    "topic": "AI Therapy Apps Face FDA Software-Device Test as Clinical Trials Expand",
+    "file": "html/article-0685-ai-therapy-apps-face-fda-software-device-test-as-clinical-trials-expand-20260918-230157.html",
+    "timestamp": "20260918-230157",
+    "full_timestamp": "2026-09-18T23:01:57-07:00",
+    "summary": "AI therapy apps are shifting from wellness tools to regulated medical devices, facing new FDA scrutiny as clinical trials expand and real-world outcome data becomes essential.",
+    "original_topic": "AI in Mental Health & Therapy",
+    "search_query": "FDA AI therapy app clinical trial 2026",
+    "source_count": 7,
+    "tags": "AI, mental health, FDA, regulation",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
