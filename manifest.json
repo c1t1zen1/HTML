@@ -8982,5 +8982,18 @@
     "source_count": 12,
     "tags": "AI coding, multi-agent systems, software development, collaboration",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 682,
+    "topic": "AI-Powered Spyware Faces Court Challenge as Warrantless Surveillance Expands",
+    "file": "html/article-0682-ai-powered-spyware-faces-court-challenge-as-warrantless-surveillance-exp-20260918-200158.html",
+    "timestamp": "20260918-200158",
+    "full_timestamp": "2026-09-18T20:01:58-07:00",
+    "summary": "As AI-driven surveillance tools expand, courts face mounting pressure to clarify Fourth Amendment protections against warrantless data collection and automated pattern recognition.",
+    "original_topic": "AI in US Intelligence & Surveillance",
+    "search_query": "AI spyware court ruling warrantless surveillance 2026",
+    "source_count": 12,
+    "tags": "AI surveillance, legal challenges, Fourth Amendment, spyware",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
