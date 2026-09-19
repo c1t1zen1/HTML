@@ -9060,5 +9060,18 @@
     "source_count": 12,
     "tags": "macOS, local AI, privacy, Apple",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 688,
+    "topic": "Apple Expands Core ML Quantization Options for Local LLMs",
+    "file": "html/article-0688-apple-expands-core-ml-quantization-options-for-local-llms-20260919-020124.html",
+    "timestamp": "20260919-020124",
+    "full_timestamp": "2026-09-19T02:01:24-07:00",
+    "summary": "Apple's expanded Core ML quantization support could make running compressed LLMs on Mac hardware a mainstream developer workflow, potentially enabling 70B models on consumer machines.",
+    "original_topic": "Quantized LLMs Running on Mac Hardware",
+    "search_query": "Core ML int4 int8 quantization LLM 2026",
+    "source_count": 12,
+    "tags": "Core ML, quantization, LLMs, Apple",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]

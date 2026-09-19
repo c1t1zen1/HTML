@@ -13672,5 +13672,11 @@
     "canonical_query": "macos 26 local ai inference apis privacy 2026 latest",
     "searched_at": "2026-09-19T01:00:25-07:00",
     "topic": "Local AI Models Face Privacy Test as macOS 26 Adds On-Device Inference APIs"
+  },
+  {
+    "query": "Core ML int4 int8 quantization LLM 2026",
+    "canonical_query": "core ml int4 int8 quantization llm 2026",
+    "searched_at": "2026-09-19T02:00:13-07:00",
+    "topic": "Apple Expands Core ML Quantization Options for Local LLMs"
   }
 ]
