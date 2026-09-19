@@ -9190,5 +9190,18 @@
     "source_count": 2,
     "tags": "AI, mental health, insurance, clinical trials",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 698,
+    "topic": "AI Video Editing Agents Face Deadline Test as Post-House Workflows Shift",
+    "file": "html/article-0698-ai-video-editing-agents-face-deadline-test-as-post-house-workflows-shift-20260919-120139.html",
+    "timestamp": "20260919-120139",
+    "full_timestamp": "2026-09-19T12:01:39-07:00",
+    "summary": "AI agents are moving beyond clip generation to orchestrate entire post-production timelines, automating sorting, cutting, and finishing tasks across distributed editorial teams.",
+    "original_topic": "AI-Generated Video for Filmmaking & Content Creation",
+    "search_query": "AI video editing agents post-production workflow 2026",
+    "source_count": 12,
+    "tags": "AI, video editing, post-production, workflow automation",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
