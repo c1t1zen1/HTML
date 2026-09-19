@@ -8995,5 +8995,18 @@
     "source_count": 12,
     "tags": "AI surveillance, legal challenges, Fourth Amendment, spyware",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 683,
+    "topic": "AI-Generated Short Videos Face Deepfake Detection Test as Platforms Mandate Labels",
+    "file": "html/article-0683-ai-generated-short-videos-face-deepfake-detection-test-as-platforms-mand-20260918-210203.html",
+    "timestamp": "20260918-210203",
+    "full_timestamp": "2026-09-18T21:02:03-07:00",
+    "summary": "Platforms are shifting from voluntary AI disclosure to automatic detection and labeling, but detection accuracy is declining as AI video generators improve, creating a compliance race.",
+    "original_topic": "AI Short Form Video & Social Media",
+    "search_query": "AI short video deepfake detection platform label mandate 2026",
+    "source_count": 12,
+    "tags": "AI video, deepfake detection, social media, regulation",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
