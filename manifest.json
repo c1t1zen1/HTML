@@ -8969,5 +8969,18 @@
     "source_count": 12,
     "tags": "AI video editing, color grading, film post-production, cinematography",
     "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
+  },
+  {
+    "article_number": 681,
+    "topic": "AI Code Agents Face Cross-Repo Collaboration Test as Multi-Agent Systems Emerge",
+    "file": "html/article-0681-ai-code-agents-face-cross-repo-collaboration-test-as-multi-agent-systems-20260918-190156.html",
+    "timestamp": "20260918-190156",
+    "full_timestamp": "2026-09-18T19:01:56-07:00",
+    "summary": "AI coding agents are evolving from solo assistants to coordinated teams, with early multi-agent systems showing improved performance on complex enterprise tasks.",
+    "original_topic": "Autonomous AI Code Agents",
+    "search_query": "multi-agent AI coding systems collaboration 2026",
+    "source_count": 12,
+    "tags": "AI coding, multi-agent systems, software development, collaboration",
+    "model_names": "/Users/c1t1zen/models/gguf/qwen3.8-27b-turbo-fcf-735-882/Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-"
   }
 ]
